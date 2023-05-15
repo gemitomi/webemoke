@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProfilePic from "../image/bekes_emoke.png"
 import ConsAlone from "../image/egyenikonzultacio.png"
 import FamilyTerapy from "../image/csaladterapia.png"
@@ -22,7 +23,7 @@ export default function LandingPage() {
                     <h1>Békés Emőke<br/><span>dúla, képzésben lévő családterapeuta</span></h1>
                     <p>Három gyermekes édesanya, nő, szerető társ, a Békés Dúlakör szakmai vezetője vagyok.
                     Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő, családkísérő dúla  vagyok.</p>
-                    <a href="./pages/about.html" class="btn"><span>Bővebben</span></a>
+                    <Link to="/about" class="btn"><span>Bővebben</span></Link>
                 </div>
             </section>
 
