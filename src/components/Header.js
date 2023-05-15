@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
+    const location = useLocation()
     return (
         <header>
             <section class="header">
@@ -9,8 +10,8 @@ export default function Header() {
 
             <nav class="navbar">
                 <div id="marker"></div>
-                <Link to="#">Főoldal</Link>
-                <Link to="/about">Rólam</Link>
+                <Link to="/">Főoldal</Link>
+                <Link to="/about" className={location.pathname === "/about"? "active":""}>Rólam</Link>
                 <Link to="/services">Szolgáltatások</Link>
                 <Link to="/dulakor">Békés Dúlakör</Link>
                 <Link to="/blog">Olvasnivaló</Link>

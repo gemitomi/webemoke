@@ -11,6 +11,8 @@ import DulaTraining from "../image/dulatrening.png"
 import DulaWorkshop from "../image/dulamuhely.png" 
 import EventConsulting from "../image/estmegbeszelo.png" 
 
+
+
 export default function LandingPage() {
     return (
         <div>
@@ -40,7 +42,7 @@ export default function LandingPage() {
                         </div>
                         <div class="content">
                             <h3>Egyéni konzultáció</h3>
-                            <a href="./pages/egyeni_konzultacio.html" class="btn"><span>Bővebben</span></a>
+                            <Link to="/egyenikonzultacio" class="btn"><span>Bővebben</span></Link>
                         </div>
                     </div>
 
@@ -50,7 +52,7 @@ export default function LandingPage() {
                         </div>
                         <div class="content">
                             <h3>Családterápia</h3>
-                            <a href="./pages/csaladterapia.html" class="btn"><span>Bővebben</span></a>
+                            <Link to="/csaladterapia" class="btn"><span>Bővebben</span></Link>
                         </div>
                     </div>
 
@@ -60,7 +62,7 @@ export default function LandingPage() {
                         </div>
                         <div class="content">
                             <h3>Anyává válni anyanyelven</h3>
-                            <a href="./pages/anyavavalas.html" class="btn"><span>Bővebben</span></a>
+                            <Link to="/anyavallalas" class="btn"><span>Bővebben</span></Link>
                         </div>
                     </div>
 
@@ -70,7 +72,7 @@ export default function LandingPage() {
                         </div>
                         <div class="content">
                             <h3>Nevelési tanácsadás</h3>
-                            <a href="./pages/nevelesitanacsadas.html" class="btn"><span>Bővebben</span></a>
+                            <Link to="/nevelesitanacsadas" class="btn"><span>Bővebben</span></Link>
                         </div>
                     </div>
 
@@ -80,7 +82,7 @@ export default function LandingPage() {
                         </div>
                         <div class="content">
                             <h3>Szülésfelkészítés</h3>
-                            <a href="./pages/szulesfelkeszites.html" class="btn"><span>Bővebben</span></a>
+                            <Link to="/szulesfelkeszites" class="btn"><span>Bővebben</span></Link>
                         </div>
                     </div>
 
@@ -90,7 +92,7 @@ export default function LandingPage() {
                         </div>
                         <div class="content">
                             <h3>Szülésélmény feldolgozás</h3>
-                            <a href="./pages/szuleselmenyfeldolgozas.html" class="btn"><span>Bővebben</span></a>
+                            <Link to="/szuleselmenyfeldolg" class="btn"><span>Bővebben</span></Link>
                         </div>
                     </div>
 
@@ -115,7 +117,7 @@ export default function LandingPage() {
                         <div class="face face2">
                             <div class="content">
                                 <p>2004 óta folyamatosan szervezek dúla alap- és továbbképzéseket. A több, mint 40 csoport és az alaptréninget végzett kb. 400 résztvevő száma alapján elmondhatom, hogy Magyarországon jelenleg én rendelkezem a legnagyobb múlttal a kórházi szülések kísérésére (is) felkészítő tréningek szervezésében és vezetésében. </p>
-                                <a href="./pages/bekes_dulatrening.html" class="btn"><span>Bővebben</span></a>
+                                <Link to="/dulatrening" class="btn"><span>Bővebben</span></Link>
                             </div>
                         </div>
                     </div>
@@ -129,7 +131,7 @@ export default function LandingPage() {
                         <div class="face face2">
                             <div class="content">
                                 <p>A műhely 2009 tavaszán alakult. A csoport tagjai a 15 alkalmas továbbképzés után sikeres írásbeli és szóbeli záróvizsgát tettek és ezzel Békés szülésfelkészítő és szüléskísérő dúlává váltak, valamint tajaivá válhatnak a Békés Dúlakörnek. </p>
-                                <a href="./pages/bekes_dulamuhely.html" class="btn"><span>Bővebben</span></a>
+                                <Link to="/dulamuhely" class="btn"><span>Bővebben</span></Link>
                             </div>
                         </div>
                     </div>
@@ -146,7 +148,7 @@ export default function LandingPage() {
                                     Megérint, kérdéseket ébreszt benned egy-egy történet, amelynek szereplője vagy a munkád során?<br/>
                                     Szükségét érzed, hogy mint segítő, te is segítséget kaphass a dúlatársaidtól?<br/>
                                     Jólesne tapasztalatokat cserélni más szülés körüli segítőkkel?</p>
-                                <a href="./pages/esetmegbeszelo.html" class="btn"><span>Bővebben</span></a>
+                                <Link to="/esetmegbeszelo" class="btn"><span>Bővebben</span></Link>
                             </div>
                         </div>
                     </div>

@@ -13,6 +13,16 @@ import Blog from "./components/pages/Blog";
 import Feedback from "./components/pages/Feedback";
 import Contact from "./components/pages/Contact";
 
+import Anyavallalas from "./components/pages/Anyavallalas";
+import Csaladterapia from "./components/pages/Csaladterapia";
+import Dulamuhely from "./components/pages/Dulamuhely";
+import Dulatrening from "./components/pages/Dulatrening";
+import EgyeniKonzultacio from "./components/pages/EgyeniKonzultacio";
+import Esetmegbeszelo from "./components/pages/Esetmegbeszelo";
+import NevelesiTanacsadas from "./components/pages/NevelesiTanacsadas";
+import SzulesElmenyFeldolg from "./components/pages/SzulesElmenyFeldolg";
+import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
+
 function App() {
   return (
     <BrowserRouter>
@@ -28,6 +38,17 @@ function App() {
             <Route path="/feedback" element={<Feedback/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/" element={<LandingPage/>}/>
+          </Routes>
+          <Routes>
+            <Route path="/anyavallalas" element={<Anyavallalas/>}/>
+            <Route path="/csaladterapia" element={<Csaladterapia/>}/>
+            <Route path="/dulamuhely" element={<Dulamuhely/>}/>
+            <Route path="/dulatrening" element={<Dulatrening/>}/>
+            <Route path="/egyenikonzultacio" element={<EgyeniKonzultacio/>}/>
+            <Route path="/esetmegbeszelo" element={<Esetmegbeszelo/>}/>
+            <Route path="/nevelesitanacsadas" element={<NevelesiTanacsadas/>}/>
+            <Route path="/szuleselmenyfeldolg" element={<SzulesElmenyFeldolg/>}/>
+            <Route path="/szulesfelkeszites" element={<SzulesFelkeszites/>}/>
           </Routes>
           
         </div>
