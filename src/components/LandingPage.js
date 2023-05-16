@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import ProfilePic from "../image/bekes_emoke.png"
 import ConsAlone from "../image/egyenikonzultacio.png"
 import FamilyTerapy from "../image/csaladterapia.png"
@@ -10,6 +11,10 @@ import Event from "../image/szuleselmenyfeldolgozas.png"
 import DulaTraining from "../image/dulatrening.png" 
 import DulaWorkshop from "../image/dulamuhely.png" 
 import EventConsulting from "../image/estmegbeszelo.png" 
+
+import Location1 from "../image/location_1.png"
+import Mail1 from "../image/mail_1.png"
+import Call1 from "../image/call_1.png"
 
 
 
@@ -163,16 +168,16 @@ export default function LandingPage() {
                             <h2>Kapcsolat</h2>
                             <ul class="info">
                                 <li>
-                                    <span><img src="./image/location_1.png"/></span>
+                                    <span><img src={Location1}/></span>
                                     <span>2040 Budaörs<br/>
                                         Napsugár sétány 4. II/13</span>
                                 </li>
                                 <li>
-                                    <span><img src="./image/mail_1.png"/></span>
+                                    <span><img src={Mail1}/></span>
                                     <span>bekes.emoke@gmail.com</span>
                                 </li>
                                 <li>
-                                    <span><img src="./image/call_1.png"/></span>
+                                    <span><img src={Call1}/></span>
                                     <span>+36-70-948-5481</span>
                                 </li>
                             </ul>
