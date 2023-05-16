@@ -92,6 +92,48 @@ section{
     display: none;
 }
 
+/* legördülő menü */
+
+ul {
+    list-style: none;
+    margin: 0 20px;
+}
+
+ul li {
+    display: inline-block;
+    /*position: relative;*/
+}
+
+ul li a {
+    display: block;
+    padding: 2px 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    position:absolute;
+    z-index: 999;
+    display: none;
+    background: #f8f4f1;
+    padding-right: 30px;
+    list-style: none;
+    
+}
+
+ul li a:hover {
+    /*background: #112c66;*/
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    
+}
+
 /* fejlec vége*/
 
 /*Rólam kezdete*/
@@ -309,7 +351,7 @@ section{
 
 .dula-education .education{
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .dula-education .education h3{
@@ -320,9 +362,9 @@ section{
 .dula-education .container{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+   /* flex-wrap: wrap;*/
     justify-content: space-between;
-    margin-top: 40px
+    margin-top: 10px
 }
 
 .dula-education .container .card{
@@ -418,10 +460,11 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100px;
     background: #a7638b;
 }
 
-.contact:before{
+.contact::before{
     content: '';
     position: absolute;
     top: 0;
@@ -436,7 +479,7 @@ section{
     min-width: 1100px;
     min-height: 550px;
     display: flex;
-    /*z-index: 1000;*/
+    z-index: 1000;
 }
 
 .contact .container .contactinfo{
@@ -448,9 +491,10 @@ section{
     z-index: 1;
     padding: 40px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     justify-content:space-between;
-    box-shadow: 0 20px 20px rgba(0,0,0,.2);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
 }
 
 .contact .container .contactinfo h2{
@@ -459,12 +503,12 @@ section{
     font-size: 3rem;
 }
 
-.contact .container .contactinfo .info{
+.contact .container .contactinfo ul.info{
     position: relative;
     margin: 10px 0;
 }
 
-.contact .container .contactinfo .info li{
+.contact .container .contactinfo ul.info li{
     position: relative;
     list-style: none;
     display: flex;
@@ -510,7 +554,7 @@ section{
 
 .contact .container .contactForm h2{
     color: #a7638b;
-    font-size: 2rem;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -569,7 +613,7 @@ section{
 .contact .container .contactForm .formBox .inputBox textarea:valid ~ span
 {
     transform: translateY(-20px);
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #a7638b;
@@ -591,11 +635,71 @@ section{
     background: #a7638b;
 }
 
+/* responsive */
+
+@media(max-width: 1201px)
+{
+    .contact .container
+    {
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    }
+
+    .contact .container .contactinfo 
+    {
+        top: 0;
+        height: 500px;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .contact .container .contactForm
+    {
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+}
+
+@media(max-width: 990px)
+{
+    .contact
+    {
+        background: #a7638b;
+    }
+    
+    .contact::before
+    {
+        display: none;
+    }
+
+    .contact .container
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact .container .contactinfo 
+    {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .contact .container .contactForm
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* Kapcsolatfelvétel vége */
-
-
-
-
 
 /*Footer starts*/
 
@@ -655,7 +759,10 @@ section{
         padding: 3rem 5%;
     }
 
+    
 }
+
+
 
 @media (max-width:991px){
 
@@ -667,6 +774,13 @@ section{
         padding: 3rem 2rem;
     }
 
+}
+
+@media (max-width:1000px){
+
+    .dula-education .container{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:868px){

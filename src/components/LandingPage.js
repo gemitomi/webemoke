@@ -182,23 +182,23 @@ export default function LandingPage() {
                         <h2>Kapcsolatfelvétel</h2>
                         <div class="formBox">
                             <div class="inputBox w50">
-                                <input type="text" name=""required/>
+                                <input type="text" required/>
                                 <span>Vezetéknév</span>
                             </div>
                             <div class="inputBox w50">
-                                <input type="text" name=""required/>
+                                <input type="text" required/>
                                 <span>Keresztnév</span>
                             </div>
                             <div class="inputBox w50">
-                                <input type="text" name=""required/>
+                                <input type="text" required/>
                                 <span>e-mail cím</span>
                             </div>
                             <div class="inputBox w50">
-                                <input type="text" name=""required/>
+                                <input type="text" required/>
                                 <span>Mobilszám</span>
                             </div>
                             <div class="inputBox w100">
-                                <textarea name="" required></textarea>
+                                <textarea  required></textarea>
                                 <span>Kérem küldjön nekem üzenetet itt...</span>
                             </div>
                             <div class="inputBox w50">
