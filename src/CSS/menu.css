@@ -2,7 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 section{
-    padding: 5rem 10%;
+    padding: 2rem 10%;
 }
 .header{
     position: sticky;
@@ -27,7 +27,7 @@ section{
 .header .navbar a{
     font-size: 1.5rem;
     font-weight: 500;
-    margin-left: 2rem;
+    margin-left: 0.7rem;
     text-decoration: none;
     color: #a7638b;
     transition: 0.3s ease;
@@ -108,7 +108,7 @@ ul li:hover ul.dropdown {
     
 }
 
-@media (max-width:900px){
+@media (max-width:1090px){
 
     .menu-btn{
         display: block;
