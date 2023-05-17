@@ -184,7 +184,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div class="contactForm">
-                        <h2>Kapcsolatfelvétel</h2>
+                        <h2 >Kapcsolatfelvétel</h2>
                         <div class="formBox">
                             <div class="inputBox w50">
                                 <input type="text" required/>

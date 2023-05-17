@@ -13,11 +13,14 @@ function MenuItems() {
         </li>
       
         <li>  
-        <div><Link to="/services">Szolgáltatások</Link>
+        <div><Link to="#">Szolgáltatások</Link>
           <ul className="dropdown">
-            <li><a href="#">Alkat 1.1</a></li>
-            <li><a href="#">Alkat 1.2</a></li>
-            <li><a href="#">Alkat 1.3</a></li>
+            <li><a href="#">Egyéni konzultáció</a></li>
+            <li><a href="#">Családterápia</a></li>
+            <li><a href="#">Anyává válás</a></li>
+            <li><a href="#">Nevelési tanácsadás</a></li>
+            <li><a href="#">Szülés felkészítés</a></li>
+            <li><a href="#">Szülésélmény feldolgozás</a></li>
           </ul></div>
         </li>    
         <li>     

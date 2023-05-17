@@ -35,8 +35,9 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background-color: #fff9;
 }
-/* fejlec kezdete */
 
+/* fejlec kezdete*/
+/*
 section{
     padding: 5rem 10%;
 }
@@ -67,8 +68,9 @@ section{
     text-decoration: none;
     color: #a7638b;
     transition: 0.3s ease;
-}
+}*/
 /*a menüsor aláhúzása*/
+/*
 .header .navbar #marker
 {
     position: absolute;
@@ -101,10 +103,10 @@ section{
     background-color:#f8f4f1;
     flex-direction: column;
     justify-content: center;
-}
+}*/
 
 /* legördülő menü */
-
+/*
 ul {
     list-style: none;
     margin: 0 20px;
@@ -112,8 +114,7 @@ ul {
 
 ul li {
     display: inline-block;
-    /*position: relative;*/
-}
+    
 
 ul li a {
     display: block;
@@ -128,7 +129,7 @@ ul li ul.dropdown li {
 
 ul li ul.dropdown {
     position:absolute;
-    z-index: 999;
+    z-index: 1001;
     display: none;
     background: #f8f4f1;
     padding-right: 30px;
@@ -140,8 +141,8 @@ ul li:hover ul.dropdown {
     display: block;
     
 }
-
-/* fejlec vége*/
+*/
+/*fejlec vége*/
 
 /*Rólam kezdete*/
 
@@ -486,7 +487,7 @@ ul li:hover ul.dropdown {
     min-width: 1100px;
     min-height: 550px;
     display: flex;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .contact .container .contactinfo{
@@ -785,16 +786,19 @@ ul li:hover ul.dropdown {
         flex-wrap: wrap;
     }
 }
-
+/*
 @media (max-width:900px){
 
     .menu-btn{
         display: block;
-        /*transition: .2s linear;*/
-        /*transform: rotate(180deg);*/
     }
 
     .mobile-menu{
+        display: flex;
+        font-size: 2.5rem;
+    }
+
+    .mobile-menu hoover{
         display: flex;
         font-size: 2.5rem;
     }
@@ -823,12 +827,9 @@ ul li:hover ul.dropdown {
 
     ul li {
         display: block;
-        /*position: relative;*/
     }
 
-    ul li ul.dropdown li {
-        display: none;
-    }
+    
 
     .mobile-menu .close-menu{
         width: 100%;
@@ -838,7 +839,7 @@ ul li:hover ul.dropdown {
     }
 
 }
-
+*/
 @media (max-width:450px){
 
     html{

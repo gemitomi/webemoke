@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
+
 import {
   BrowserRouter,
   Routes,
@@ -13,7 +14,7 @@ import Blog from "./components/pages/Blog";
 import Feedback from "./components/pages/Feedback";
 import Contact from "./components/pages/Contact";
 
-import Anyavallalas from "./components/pages/Anyavallalas";
+import Anyavavalas from "./components/pages/Anyavavalas";
 import Csaladterapia from "./components/pages/Csaladterapia";
 import Dulamuhely from "./components/pages/Dulamuhely";
 import Dulatrening from "./components/pages/Dulatrening";
@@ -40,7 +41,7 @@ function App() {
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
           <Routes>
-            <Route path="/anyavallalas" element={<Anyavallalas/>}/>
+            <Route path="/anyavallalas" element={<Anyavavalas/>}/>
             <Route path="/csaladterapia" element={<Csaladterapia/>}/>
             <Route path="/dulamuhely" element={<Dulamuhely/>}/>
             <Route path="/dulatrening" element={<Dulatrening/>}/>
