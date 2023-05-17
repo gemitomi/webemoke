@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React, {Fragment, useState} from "react";
 import { Link } from "react-router-dom";
 
 function MenuItems() {
@@ -36,12 +36,13 @@ function MenuItems() {
     </Fragment>
   )
 }
-
+//6.1  2.55
 export default function Header() {
+  const [mobile_menu, set_mobil_menu] = useState(false)
     return (
         <header>
             <section class="header">
-                <Link to="/" class="logo">Békés Emőke</Link>
+                <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}>Békés Emőke</Link>
 
             <nav class="navbar">
               <div id="marker"></div>
@@ -49,12 +50,18 @@ export default function Header() {
             </nav>
 
             <div className="menu-btn">
-              <i className="fa fa-bars" aria-hidden="true"/>
+              <i className="fa fa-bars" aria-hidden="true" onClick={e => set_mobil_menu(!mobile_menu)}/>
             </div>
 
-            <div className="mobile-menu">
-              <MenuItems/> 
-            </div>
+            {
+              mobile_menu&&
+              <div className="mobile-menu" onClick={e => set_mobil_menu(!mobile_menu)}>
+                <MenuItems/> 
+                <div className="close-menu" onClick={e => set_mobil_menu(!mobile_menu)}/>
+              </div>
+            }
+            
+            
 
             </section>
             
