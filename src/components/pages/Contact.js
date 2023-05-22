@@ -1,10 +1,18 @@
-import React from "react";
+import React, {useRef} from 'react'
+
+
 
 import Location1 from "../../image/location_1.png"
 import Mail1 from "../../image/mail_1.png"
 import Call1 from "../../image/call_1.png"
 
 export default function Contact() {
+  const form = useRef()
+
+  const sendEmail = () => {
+    
+  };
+   
   return (
     <div>
     <section class="contact">
@@ -31,31 +39,38 @@ export default function Contact() {
         </div>
             <div class="contactForm">
               <h2 >Kapcsolatfelvétel</h2>
-              <div class="formBox">
-                <div class="inputBox w50">
-                    <input type="text" required/>
+              <form ref={form} onSubmit={sendEmail}>
+                <div class="formBox">
+                  <div class="inputBox w50">
+                    <input type="text" id="surname" required/>
                     <span>Vezetéknév</span>
+                  </div>
+
+                  <div class="inputBox w50">
+                      <input type="text" id="firstname" required/>
+                      <span>Keresztnév</span>
+                  </div>
+
+                  <div class="inputBox w50">
+                      <input type="text" id="email" required/>
+                      <span>e-mail cím</span>
+                  </div>
+
+                  <div class="inputBox w50">
+                      <input type="text" id="phone" required/>
+                      <span>Mobilszám</span>
+                  </div>
+
+                  <div class="inputBox w100">
+                      <textarea id="message" required></textarea>
+                      <span>Kérem küldjön nekem üzenetet itt...</span>
+                  </div>
+
+                  <div class="inputBox w50">
+                      <input type="submit" value="Küldés" />
+                  </div>
                 </div>
-                <div class="inputBox w50">
-                    <input type="text" required/>
-                    <span>Keresztnév</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="text" required/>
-                    <span>e-mail cím</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="text" required/>
-                    <span>Mobilszám</span>
-                </div>
-                <div class="inputBox w100">
-                    <textarea  required></textarea>
-                    <span>Kérem küldjön nekem üzenetet itt...</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="submit" value="Küldés"/>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
   </section>

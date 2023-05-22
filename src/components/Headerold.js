@@ -1,7 +1,7 @@
 import React, {Fragment, useState} from "react";
 import { Link } from "react-router-dom";
 
-import Logo from "../image/logo-icon.png"
+import NavbarMob from "./NavbarMob";
 
 function MenuItems() {
   return (
@@ -15,26 +15,16 @@ function MenuItems() {
         </li>
       
         <li>  
-        <div><Link to="/services">Szolgáltatások</Link>
+        <div><Link to="#">Szolgáltatások</Link>
           <ul className="dropdown">
             <li><a href="#">Egyéni konzultáció</a></li>
             <li><a href="#">Családterápia</a></li>
-            <li><a href="#">Anyává válni anyanyelven</a></li>
+            <li><a href="#">Anyává válás</a></li>
             <li><a href="#">Nevelési tanácsadás</a></li>
             <li><a href="#">Szülés felkészítés</a></li>
             <li><a href="#">Szülésélmény feldolgozás</a></li>
           </ul></div>
-        </li> 
-        <li>     
-          <div><Link to="#">Dúlatréning</Link>
-          <ul className="dropdown">
-            <li><a href="#">Békés Dúlatréning - alapképzés</a></li>
-            <li><a href="#">Békés Dúlaműhely - továbbképzés</a></li>
-            <li><a href="#">Esetmegbeszélő csoport</a></li>
-            <li><a href="#">Gyakori kérdések a képzésekről</a></li>
-          </ul>
-          </div>
-        </li>   
+        </li>    
         <li>     
           <div><Link to="/dulakor">Békés Dúlakör</Link></div>
         </li>
@@ -51,27 +41,26 @@ function MenuItems() {
     </Fragment>
   )
 }
-//6.1  2.55
-export default function Header() {
+
+export default function Headerold() {
   const [mobile_menu, set_mobil_menu] = useState(false)
     return (
-        <header>
+       
             <section class="header">
-                <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
+                <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}>Békés Emőke</Link>
 
             <nav class="navbar">
               <div id="marker"></div>
               <MenuItems/>
             </nav>
 
-            <div className="menu-btn">
-              <i className="fa fa-bars" aria-hidden="true" onClick={e => set_mobil_menu(!mobile_menu)}/>
-            </div>
+            <nav className=""></nav>
 
+           
             {
               mobile_menu&&
-              <div className="mobile-menu" onClick={e => set_mobil_menu(!mobile_menu)}>
-                <MenuItems/> 
+              <div>
+                <NavbarMob/>
                 <div className="close-menu" onClick={e => set_mobil_menu(!mobile_menu)}/>
               </div>
             }
@@ -79,7 +68,11 @@ export default function Header() {
             
 
             </section>
-            
-        </header>
-    )
+       
+      )
 }
+
+/*<div className="menu-btn">
+              
+<i className="fa fa-bars" aria-hidden="true" onClick={e => set_mobil_menu(!mobile_menu)}/>
+</div>*/
