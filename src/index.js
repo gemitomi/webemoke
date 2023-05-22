@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import "./CSS/main.css";
 import "./CSS/about.css";
 import "./CSS/menu.css"; 
+import "./CSS/contact.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

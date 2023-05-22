@@ -9,6 +9,7 @@ import {
 } from "react-router-dom"
 import About from "./components/pages/About";
 import Services from "./components/pages/Services";
+import Dulatrening from "./components/pages/Dulatrening";
 import Dulakor from "./components/pages/Dulakor";
 import Blog from "./components/pages/Blog";
 import Feedback from "./components/pages/Feedback";
@@ -16,13 +17,14 @@ import Contact from "./components/pages/Contact";
 
 import Anyavavalas from "./components/pages/Anyavavalas";
 import Csaladterapia from "./components/pages/Csaladterapia";
-import Dulamuhely from "./components/pages/Dulamuhely";
-import Dulatrening from "./components/pages/Dulatrening";
+import Bekesdulamuhely from "./components/pages/Bekesdulamuhely";
+import Bekesdulatrening from "./components/pages/Bekesdulatrening";
 import EgyeniKonzultacio from "./components/pages/EgyeniKonzultacio";
 import Esetmegbeszelo from "./components/pages/Esetmegbeszelo";
 import NevelesiTanacsadas from "./components/pages/NevelesiTanacsadas";
 import SzulesElmenyFeldolg from "./components/pages/SzulesElmenyFeldolg";
 import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
+import Gyik from "./components/pages/Gyik"
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
           <Routes>
             <Route path="/about" element={<About/>}/>
             <Route path="/services" element={<Services/>}/>
+            <Route path="/dulatrening" element={<Dulatrening/>}/>
             <Route path="/dulakor" element={<Dulakor/>}/>
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/feedback" element={<Feedback/>}/>
@@ -41,15 +44,16 @@ function App() {
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
           <Routes>
-            <Route path="/anyavallalas" element={<Anyavavalas/>}/>
+            <Route path="/anyavavalas" element={<Anyavavalas/>}/>
             <Route path="/csaladterapia" element={<Csaladterapia/>}/>
-            <Route path="/dulamuhely" element={<Dulamuhely/>}/>
-            <Route path="/dulatrening" element={<Dulatrening/>}/>
+            <Route path="/bekesdulamuhely" element={<Bekesdulamuhely/>}/>
+            <Route path="/bekesdulatrening" element={<Bekesdulatrening/>}/>
             <Route path="/egyenikonzultacio" element={<EgyeniKonzultacio/>}/>
             <Route path="/esetmegbeszelo" element={<Esetmegbeszelo/>}/>
             <Route path="/nevelesitanacsadas" element={<NevelesiTanacsadas/>}/>
             <Route path="/szuleselmenyfeldolg" element={<SzulesElmenyFeldolg/>}/>
             <Route path="/szulesfelkeszites" element={<SzulesFelkeszites/>}/>
+            <Route path="/gyik" element={<Gyik/>}/>
           </Routes>
           
         </div>

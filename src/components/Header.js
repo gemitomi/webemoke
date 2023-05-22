@@ -17,21 +17,21 @@ function MenuItems() {
         <li>  
         <div><Link to="/services">Szolgáltatások</Link>
           <ul className="dropdown">
-            <li><a href="#">Egyéni konzultáció</a></li>
-            <li><a href="#">Családterápia</a></li>
-            <li><a href="#">Anyává válni anyanyelven</a></li>
-            <li><a href="#">Nevelési tanácsadás</a></li>
-            <li><a href="#">Szülés felkészítés</a></li>
-            <li><a href="#">Szülésélmény feldolgozás</a></li>
+            <li><a href="/egyenikonzultacio">Egyéni konzultáció</a></li>
+            <li><a href="/csaladterapia">Családterápia</a></li>
+            <li><a href="/anyavavalas">Anyává válni anyanyelven</a></li>
+            <li><a href="/nevelesitanacsadas">Nevelési tanácsadás</a></li>
+            <li><a href="/szulesfelkeszites">Szülés felkészítés</a></li>
+            <li><a href="/szuleselmenyfeldolg">Szülésélmény feldolgozás</a></li>
           </ul></div>
         </li> 
         <li>     
-          <div><Link to="#">Dúlatréning</Link>
+          <div><Link to="/dulatrening">Dúlatréning</Link>
           <ul className="dropdown">
-            <li><a href="#">Békés Dúlatréning - alapképzés</a></li>
-            <li><a href="#">Békés Dúlaműhely - továbbképzés</a></li>
-            <li><a href="#">Esetmegbeszélő csoport</a></li>
-            <li><a href="#">Gyakori kérdések a képzésekről</a></li>
+            <li><a href="/bekesdulatrening">Békés Dúlatréning - alapképzés</a></li>
+            <li><a href="/bekesdulamuhely">Békés Dúlaműhely - továbbképzés</a></li>
+            <li><a href="/esetmegbeszelo">Esetmegbeszélő csoport</a></li>
+            <li><a href="/gyik">Gyakori kérdések a képzésekről</a></li>
           </ul>
           </div>
         </li>   
