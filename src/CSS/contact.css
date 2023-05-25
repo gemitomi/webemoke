@@ -143,7 +143,7 @@
 .contact .container .contactForm .formBox .inputBox textarea{
     min-height: 120px;
 }
-
+/*itt*/
 .contact .container .contactForm .formBox .inputBox span{
     position: absolute;
     left: 0;
@@ -167,7 +167,7 @@
     color: #a7638b;
 }
 
-.contact .container .contactForm .formBox .inputBox input[type="submit"]
+.contact .container .contactForm .formBox .inputBox Button[type="submit"]
 {
     position: relative;
     cursor: pointer;
@@ -179,7 +179,7 @@
 
 }
 
-.contact .container .contactForm .formBox .inputBox input[type="submit"]:hover{
+.contact .container .contactForm .formBox .inputBox Button[type="submit"]:hover{
     background: #a7638b;
 }
 
@@ -244,5 +244,48 @@
     {
         width: 100%;
         height: auto;
+    }
+}
+
+@media(max-width: 435px)
+{
+    .contact .container .contactinfo h2{
+        
+        font-size: 1.5rem;
+    }
+
+    .contact .container .contactinfo ul.info{
+        position: relative;
+        margin: 0 0;
+    }
+
+    .contact .container .contactForm .formBox .inputBox input:focus ~ span,
+    .contact .container .contactForm .formBox .inputBox textarea:focus ~ span,
+    .contact .container .contactForm .formBox .inputBox input:valid ~ span,
+    .contact .container .contactForm .formBox .inputBox textarea:valid ~ span
+    {
+        font-size: 8px;
+    }
+
+    .contact .container .contactinfo .info li span:nth-child(2){
+        font-size: 1rem;
+    }
+
+    .contact .container .contactinfo .info li span:nth-child(1) img{
+        max-width: 70%;
+    }
+
+    .contact .container .contactForm .formBox .inputBox input,
+    .contact .container .contactForm .formBox .inputBox textarea{
+        font-size: 12px;
+    }
+
+    .contact .container .contactForm .formBox .inputBox span{
+        font-size: 10px;
+    }
+
+    .contact .container .contactForm h2{
+        font-size: 18px;
+        font-weight: 400;
     }
 }
