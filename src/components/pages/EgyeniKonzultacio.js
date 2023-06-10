@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Egyeni from "../../image/egyeni_1.png";
 
 export default function EgyeniKonzultacio() {
@@ -34,7 +35,7 @@ export default function EgyeniKonzultacio() {
         </div>
           <p>örömmel segítek, akár online is, ha számodra úgy kedvezőbb.</p>
       </div>
-      <div>
+      <div className='consultation-bottom'>
         <div>
           <p>A várandósság hónapjaiban a találkozóink alkalmával beszélgetünk a várandósság testi és lelki változásairól, a vajúdás és a szülés élettani és lélektani folyamatairól, a gyermekágyas időszakról, az újszülöttről és bármi másról, ami téged vagy a párodat foglalkoztat. Segítelek elképzeléseid megfogalmazásában, tájékoztatlak a szülésre való felkészülés lehetőségeiről és legjobb tudásom szerint igyekszem megválaszolni a benned felmerült kérdéseket.</p>
         </div>
@@ -43,7 +44,9 @@ export default function EgyeniKonzultacio() {
           <p>A találkozások gyakorisága és időtartama a Te igényeid szerint alakul, számomra az a fontos, hogy annyi időt tudjak biztosítani a számodra, amennyi szükségesnek érzel ahhoz, hogy mire elérkezik a szülésed ideje, ne maradjanak megválaszolatlan kérdéseid.</p>
         </div>
       </div>
-      
+      <div className="consultation-btn-box" >
+        <Link to="/contact" class="consultation-btn"><span>Neked is segíthetek? Várom a jelentkezésedet!</span></Link>
+      </div>
     </div>
   ) 
 }
