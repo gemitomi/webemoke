@@ -5,34 +5,35 @@ import ProfilePic from "../../image/bekes_emoke.png"
 export default function About() {
   return (
     <div>
-      <section class="about">
-        <div class="content">
-            <h1 class="title">Rólam</h1>
-            <blockquote>
-                <p>“A mély elkötelezettség egy álom iránt nem jelent korlátokat és kényszert: felszabadít.<br/> Még egy kanyargós ösvény is elvezethet a célodhoz, ha egészen a végéig elmész.”</p>
-            </blockquote>
-        </div>
+        <section class="about">
+            <div class="content">
+                <h1 class="title">Rólam</h1>
+                <blockquote>
+                    <p>“A mély elkötelezettség egy álom iránt nem jelent korlátokat és kényszert: felszabadít.<br/> Még egy kanyargós ösvény is elvezethet a célodhoz, ha egészen a végéig elmész.”</p>
+                </blockquote>
+            </div>
         </section>
 
         <section class="about1">
-        <div class="image">
-            <div class="imgBx">
-                <img src={ProfilePic} alt=""/>
+            <div class="image">
+                <div class="colum col-left">    
+                    <div class="imgBx">
+                        <img src={ProfilePic} alt=""/>
+                    </div>
+                </div>
+                <div class="colum col-right">
+                    <h2 class="titleText">Békés Emőke vagyok</h2>
+                    <p class="text">három gyermekes anya, nő, szerető társ, a
+                        <Link to="http://www.bekesdulakor.hu"> Békés Dúlakör</Link> szakmai vezetője
+                        <br/>Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúla vagyok.<br/>
+                        <br/>Otthoni szülések körül segítő asszonyok tudása volt az első forrásom, amely csak megerősített abban, hogy a kórházban zajló szülések kísérése felé induljak el. 
+                        Úgy gondolom, ott van igazán szükség mindarra a tudásra, tapasztalatra, szemléletre, fizikai, érzelmi és informatív támogatásra, amivel rendelkezem. 
+                        Az, amit én – és ma már az általam képzett dúlák is – képviselnek, az egészségügyi ellátórendszerben újszerű, de hiánypótló és rendkívül fontos.
+                        Épp ezért nem csak a babák minél szebb világra érkezéséért, hanem egy új szakma megszületéséért is teszek nap mint nap.<br/>
+                        <br/>Egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
+                    </p>
+                </div>
             </div>
-        </div>
-
-        <div class="contentBx">
-            <h2 class="titleText">Békés Emőke vagyok</h2>
-            <p class="text">három gyermekes anya, nő, szerető társ, a
-                <Link to="http://www.bekesdulakor.hu"> Békés Dúlakör</Link> szakmai vezetője
-                <br/>Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúla vagyok.<br/>
-                <br/>Otthoni szülések körül segítő asszonyok tudása volt az első forrásom, amely csak megerősített abban, hogy a kórházban zajló szülések kísérése felé induljak el. 
-                Úgy gondolom, ott van igazán szükség mindarra a tudásra, tapasztalatra, szemléletre, fizikai, érzelmi és informatív támogatásra, amivel rendelkezem. 
-                Az, amit én – és ma már az általam képzett dúlák is – képviselnek, az egészségügyi ellátórendszerben újszerű, de hiánypótló és rendkívül fontos.
-                Épp ezért nem csak a babák minél szebb világra érkezéséért, hanem egy új szakma megszületéséért is teszek nap mint nap.<br/>
-                    <br/>Egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
-            </p>
-        </div>
         </section>
 
         <section class="experience">

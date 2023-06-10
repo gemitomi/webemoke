@@ -1,0 +1,72 @@
+.consultaion-container{
+    display: flex;
+    width: 100%;
+    grid-template-columns:max-content;
+    /*grid-gap: 20px;*/
+    /*max-width: 1000px;*/
+    /*padding-left: 80px;*/
+    background: #e8dee4;
+    padding: 35px 15px 15px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultaion-container img{
+    align-items: center;
+    /*width: 30%;*/
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+.consultaion-container .text-container{
+    width: 100%;
+   /* padding-left: 1px;*/
+} 
+
+.consultaion-container h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #a7638b;
+}
+
+.consultaion-container p{
+    padding: 2em;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: justify;
+    color: #a7638b;
+}
+
+.consultation-listbox{
+    width: 100%;
+    /*padding: 35px 15px 15px 15px;*/
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h4{
+    padding: 1em;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.consultation-listbox .lista ul{
+    padding: 10px 10px 20px 50px;
+    /*margin-left: 20px;*/
+    font-weight: 300;
+    list-style-type: disc;
+}
+
+.consultation-listbox .lista li{
+    /*padding: 10px 10px 20px 50px;*/
+    /*margin-left: 20px;*/
+    display: list-item;
+    font-weight: 300;
+    list-style-type: disc;
+    
+}
+

@@ -15,6 +15,9 @@ export default function Contact() {
     e.preventDefault();
     
     emailjs.sendForm('service_nclcu9j', 'template_f8fh6j8', e.target, 'dvGDZxVnl8xRc5665');
+    alert('Kérdését továbbítottuk!');
+    document.getElementById("sendbox").reset();
+
   }
    
   return (
@@ -43,7 +46,7 @@ export default function Contact() {
         </div>
             <div class="contactForm">
               <h2 >Kapcsolatfelvétel</h2>
-              <form onSubmit={sendEmail}>
+              <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
                 <div class="formBox">
                   
                   <div class="inputBox w50">
@@ -72,7 +75,7 @@ export default function Contact() {
                   </div>
 
                   <div class="inputBox w50">
-                      <Button type="submit" >Küldés</Button>
+                      <Button type="submit">Küldés</Button>
                   </div>
                 </div>
               </form>
