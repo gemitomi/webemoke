@@ -16,21 +16,18 @@ export default function About() {
 
         <section class="about1">
             <div class="image">
-                <div class="colum col-left">    
+                <div class="col-left">    
                     <div class="imgBx">
                         <img src={ProfilePic} alt=""/>
                     </div>
                 </div>
-                <div class="colum col-right">
+                <div class="col-right">
                     <h2 class="titleText">Békés Emőke vagyok</h2>
                     <p class="text">három gyermekes anya, nő, szerető társ, a
                         <Link to="http://www.bekesdulakor.hu"> Békés Dúlakör</Link> szakmai vezetője
                         <br/>Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúla vagyok.<br/>
                         <br/>Otthoni szülések körül segítő asszonyok tudása volt az első forrásom, amely csak megerősített abban, hogy a kórházban zajló szülések kísérése felé induljak el. 
                         Úgy gondolom, ott van igazán szükség mindarra a tudásra, tapasztalatra, szemléletre, fizikai, érzelmi és informatív támogatásra, amivel rendelkezem. 
-                        Az, amit én – és ma már az általam képzett dúlák is – képviselnek, az egészségügyi ellátórendszerben újszerű, de hiánypótló és rendkívül fontos.
-                        Épp ezért nem csak a babák minél szebb világra érkezéséért, hanem egy új szakma megszületéséért is teszek nap mint nap.<br/>
-                        <br/>Egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
                     </p>
                 </div>
             </div>
@@ -38,7 +35,10 @@ export default function About() {
 
         <section class="experience">
         <div class="content1">
-            <p class="text">Az évek alatt összegyűlt tapasztalataim és a folyamatosan bővülő ismereteim alapján alakultak ki mára hivatásom legfontosabb alapelvei.
+            <p class="text"> 
+                Az, amit én – és ma már az általam képzett dúlák is – képviselnek, az egészségügyi ellátórendszerben újszerű, de hiánypótló és rendkívül fontos.
+                Épp ezért nem csak a babák minél szebb világra érkezéséért, hanem egy új szakma megszületéséért is teszek nap mint nap.<br/>
+                <br/>Egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.<br/>Az évek alatt összegyűlt tapasztalataim és a folyamatosan bővülő ismereteim alapján alakultak ki mára hivatásom legfontosabb alapelvei.
                 Ezek mentén minden esetben igyekszem nem csak az anya nyugalmát és biztonságérzetét megteremteni, hanem a megszülető család minden tagjára egyaránt figyelni,
                 hiszen rendkívül fontosnak tartom azt, hogy az apa is biztonságban érezze magát és az újszülött is az őt megillető tiszteletben és bánásmódban részesüljön.<br/>
                 <br/>Hivatásom gyakorlása során arra törekszem, hogy a várandós nőknek és párjaiknak a számukra legmegfelelőbb érzelmi, 

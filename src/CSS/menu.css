@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+/*.menu-nav{
+    position: sticky;
+}*/
 
 section{
     padding: 2rem 10%;
 }
-.header{
+.header-menu{
     position: sticky;
     top: 0;
     left: 0;
@@ -20,19 +23,19 @@ section{
     justify-content: left;
 }
 
-.header .logo{
+.header-menu .logo{
     color: #a7638b;
     text-decoration: none;
     justify-content: left;
 }
 
-.header .logo img{
+.header-menu .logo img{
     width: 50px;
     height: 50px;
     
 }
 
-.header .navbar a{
+.header-menu .navbar a{
     font-size: 15px;
     font-weight: 500;
     margin-left: 0.7rem;
@@ -53,7 +56,7 @@ section{
     border-radius: 4px;
 }
 */
-.header .navbar a:hover{
+.header-menu .navbar a:hover{
     color: #39232f;
 }
 
@@ -120,7 +123,7 @@ ul li:hover ul.dropdown {
 }
 
 @media (max-width:1121px){
-    .header .navbar a{
+    .header-menu .navbar a{
         font-size: 12px;
     }
 }
@@ -140,11 +143,11 @@ ul li:hover ul.dropdown {
         
     }
 
-    .header{
+    .header-menu{
         justify-content: space-between;
     }
 
-    .header .navbar{
+    .header-menu .navbar{
         position: absolute;
         top: 99%; 
         left: 0; 

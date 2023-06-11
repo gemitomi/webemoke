@@ -5,7 +5,7 @@ import Logo from "../image/logo-icon.png"
 
 function MenuItems() {
   return (
-    <Fragment>
+    <Fragment className="menu-nav">
       <ul>
         <li>
           <div><Link to="/">Főoldal</Link></div>
@@ -56,7 +56,7 @@ export default function Header() {
   const [mobile_menu, set_mobil_menu] = useState(false)
     return (
         <header>
-            <section class="header">
+            <section class="header-menu">
                 <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
 
             <nav class="navbar">
