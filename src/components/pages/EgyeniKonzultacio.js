@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../CSS/egyenikonzultacio.css"
 import Egyeni from "../../image/egyeni_1.png";
 
 export default function EgyeniKonzultacio() {

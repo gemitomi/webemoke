@@ -55,12 +55,12 @@ function MenuItems() {
 export default function Header() {
   const [mobile_menu, set_mobil_menu] = useState(false)
     return (
-        <header>
+      <div className="head">
+        <header >
             <section class="header-menu">
                 <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
 
             <nav class="navbar">
-              <div id="marker"></div>
               <MenuItems/>
             </nav>
 
@@ -81,5 +81,6 @@ export default function Header() {
             </section>
             
         </header>
+        </div>
     )
 }

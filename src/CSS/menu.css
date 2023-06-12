@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/*.menu-nav{
-    position: sticky;
-}*/
 
 section{
     padding: 2rem 10%;
 }
-.header-menu{
+
+.head{
     position: sticky;
+}
+.header-menu{
     top: 0;
     left: 0;
     right: 0;

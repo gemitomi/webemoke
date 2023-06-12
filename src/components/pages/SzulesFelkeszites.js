@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../CSS/szulesfelkeszites.css"
 import SzulesFelk from "../../image/szulesfelkeszites_2.png";
 import SzulfelLista from "../../image/szulesfelkeszites_1.png"
 

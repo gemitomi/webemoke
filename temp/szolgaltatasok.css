@@ -11,7 +11,7 @@
 }
 
 
-.services-card {
+.card {
     box-shadow: 0 2px 2px hsla(0, 0%, 22%, 0.08);
     display: flex;
     transition: 0.25s ease;
@@ -23,7 +23,7 @@
     box-shadow: 3px 3px 0 hsl(0, 0%, 22%);
   }
   
-  .services-card,
+  .card,
   .card-media { border: 2px solid hsl(0, 0%, 22%); }
   
   .card-lg { padding: 25px; }
@@ -71,7 +71,7 @@
     margin-block-end: 10px;
 }
 
-.services-card .body-sm{
+.card .body-sm{
     color: #39232f;
 }
 
@@ -114,6 +114,10 @@
     list-style: none;
 }
 
+
+
+
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
@@ -128,7 +132,7 @@
   
   }
   
-  .services-btn {
+  .btn {
     background: transparent;
     font-size: 1.4rem;
     font-weight: 600;
@@ -146,7 +150,7 @@
     
   }
   
-  .services-btn:is(:hover, :focus-visible) {
+  .btn:is(:hover, :focus-visible) {
     background-color: #39232f, hsl(0, 0%, 22%) ;
     box-shadow: 5px 5px 0 -2px var(--hover-shadow-color);
   }
@@ -181,3 +185,30 @@
     .card-sm { padding: 15px; }
   
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+

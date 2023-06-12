@@ -39,6 +39,9 @@ html::-webkit-scrollbar-thumb{
     background-color: #fff9;
 }
 
+.header{
+    position: sticky;
+}
 /*Rólam kezdete*/
 
 .home-about{
@@ -117,6 +120,7 @@ html::-webkit-scrollbar-thumb{
     letter-spacing: 0.05rem;
     color: #a7638b;
     text-transform: uppercase;
+    padding-left: 25px;
 }
 
 .home-about .btn svg{

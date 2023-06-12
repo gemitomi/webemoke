@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import emailjs from '@emailjs/browser';
 import { Button } from '@mui/material';
+import "../../CSS/contact.css"
 
 
 

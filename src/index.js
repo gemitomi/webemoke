@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "./CSS/main.css";
-import "./CSS/about.css";
 import "./CSS/menu.css"; 
-import "./CSS/contact.css"
-import "./CSS/egyenikonzultacio.css"
-import "./CSS/anyavavalas.css"
-import "./CSS/szulesfelkeszites.css"
+
+
+
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

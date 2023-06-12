@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../CSS/about.css";
 import ProfilePic from "../../image/bekes_emoke.png"
 
 export default function About() {

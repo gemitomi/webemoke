@@ -1,17 +1,26 @@
-import React from "react";
-import "../../CSS/services.css"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szolgáltatások</title>
 
-import EgyeniKonz from "../../image/egyenikonzultacio.png"
-import CsaladTer from "../../image/csaladterapia.png"
-import AnyavaVal from "../../image/anyavavalas.png"
-import NevTan from "../../image/nevelesitanacsadas.png"
-import SzulFel from "../../image/szulesfelkeszites.png"
-import SzulEsemeny from "../../image/szuleselmenyfeldolgozas.png"
+    <link rel="stylesheet" href="../CSS/szolgaltatasok.css">
 
-export default function Services() {
-  return (
-    <div>      
-      <section class="section service has-bg-image" aria-labelledby="service-label">
+    <!-- font awesome file link  ez az ikonokat hozza be-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!-- 
+    - iconicon link
+  -->
+  <!--<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>-->
+</head>
+<body>
+    
+    <section class="section service has-bg-image" aria-labelledby="service-label">
         <div class="container-services">
 
             <h2 class="section-title headline-md text-center" id="service-label">Szolgáltatások</h2>
@@ -19,10 +28,10 @@ export default function Services() {
             <ul class="service-list">
 
                 <li class="card-container">
-                    <div class="services-card card-md">
+                    <div class="card card-md" style="background-color: hsl(324, 18%, 89% )">
 
                         <div class="card-media">
-                            <img src={EgyeniKonz}/>
+                            <img src="../image/egyenikonzultacio.png">
                         </div>
 
                         <div>
@@ -32,17 +41,17 @@ export default function Services() {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua.
                             </p>
-                            <a href="#" class="services-btn btn-primary">Bővebben</a>
+                            <a href="#" class="btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
                 <li class="card-container">
-                    <div class="services-card card-md">
+                    <div class="card card-md" style="background-color: hsl(194, 18%, 84%)">
 
                         <div class="card-media">
-                            <img src={CsaladTer}/>
+                            <img src="../image/csaladterapia.png">
                         </div>
 
                         <div>
@@ -52,17 +61,17 @@ export default function Services() {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua.
                             </p>
-                            <a href="#" class="services-btn btn-primary">Bővebben</a>
+                            <a href="#" class="btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
                 <li class="card-container">
-                    <div class="services-card card-md">
+                    <div class="card card-md" style="background-color: hsl(194, 30%, 69%)">
 
                         <div class="card-media">
-                            <img src={AnyavaVal}/>
+                            <img src="../image/anyavavalas.png">
                         </div>
 
                         <div>
@@ -72,17 +81,17 @@ export default function Services() {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua.
                             </p>
-                            <a href="#" class="services-btn btn-primary">Bővebben</a>
+                            <a href="#" class="btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
                 <li class="card-container">
-                    <div class="services-card card-md">
+                    <div class="card card-md" style="background-color: hsl(328, 25%, 78%)">
 
                         <div class="card-media">
-                            <img src={NevTan}/>
+                            <img src="../image/nevelesitanacsadas.png">
                         </div>
 
                         <div>
@@ -92,17 +101,17 @@ export default function Services() {
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
-                            <a href="#" class="services-btn btn-primary">Bővebben</a>
+                            <a href="#" class="btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
                 <li class="card-container">
-                    <div class="services-card card-md">
+                    <div class="card card-md" style="background-color: hsl(325, 28%, 52%)">
 
                         <div class="card-media">
-                            <img src={SzulFel}/>
+                            <img src="../image/szulesfelkeszites.png">
                         </div>
 
                         <div>
@@ -112,17 +121,17 @@ export default function Services() {
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
-                            <a href="#" class="services-btn btn-primary">Bővebben</a>
+                            <a href="#" class="btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
                 <li class="card-container">
-                    <div class="services-card card-md">
+                    <div class="card card-md" style="background-color: hsl(170, 17%, 86%)">
 
                         <div class="card-media">
-                            <img src={SzulEsemeny}/>
+                            <img src="../image/szuleselmenyfeldolgozas.png">
                         </div>
 
                         <div>
@@ -132,7 +141,7 @@ export default function Services() {
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
-                            <a href="#" class="services-btn btn-primary">Bővebben</a>
+                            <a href="#" class="btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
@@ -143,6 +152,6 @@ export default function Services() {
         </div>
     </section>
 
-    </div>
-  )
-}
+
+</body>
+</html>
