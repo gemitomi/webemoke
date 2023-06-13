@@ -2,46 +2,46 @@
 
 
 
-.anya-card-container { 
+.card-container { 
     list-style: none;
 }
 
 
 
-.anya-card {
+.card {
     box-shadow: 0 0 0  #a7638b;
     display: flex;
     transition: 0.25s ease;
   }
   
-  .anya-card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0  #a7638b; }
+  .card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0  #a7638b; }
   
-  :is(.anya-card-lg, .anya-card-sm):is(:hover, :focus-within) {
+  :is(.card-lg, .card-sm):is(:hover, :focus-within) {
     box-shadow: 3px 3px 0  #a7638b;
   }
   
-  .anya-card,
-  .anya-card-media { border: 2px solid  #a7638b; }
+  .card,
+  .card-media { border: 2px solid  #a7638b; }
   
-  .anya-card-lg { 
+  .card-lg { 
     padding: 10px; 
 }
   
   
-  .anya-card-lg {
+  .card-lg {
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
   }
   
-  .anya-card-lg .anya-card-media {
+  .card-lg .card-media {
     width: 100px;
     height: 100px;
   }
   
 
   
-  .anya-card-media {
+  .card-media {
     background-color: #fff;
     color:  hsl(0, 0%, 22%);
     display: grid;
@@ -49,7 +49,7 @@
     flex-shrink: 0;
   }
   
-  .anya-card .anya-body-sm{
+  .card .body-sm{
     color: #39232f;
     font-size: 1.3rem;
 }
@@ -57,7 +57,7 @@
 
 
 
-.anya-slider {
+.slider {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -66,7 +66,7 @@
 
 }
   
-.anya-slider-item { scroll-snap-align: start; }
+.slider-item { scroll-snap-align: start; }
 
 
 
@@ -74,23 +74,24 @@
   #TESTIMONIALS
 \*-----------------------------------*/
 
-.anya-testi .anya-slider-item {
+.testi .slider-item {
   min-width: 100%;
   scroll-margin-inline-start: 16px;
 }
 
-.anya-testi .anya-card {
+.testi .card {
   position: relative;
   z-index: 1;
 }
 
-.anya-testi .anya-card::after {
+.testi .card::after {
   content: url("../image/quote-left.svg");
+  position: relative;
   bottom: 10px;
   right: 20px;
 }
 
-.anya-testi .anya-client-name {
+.testi .client-name {
   margin-block-start: 15px;
   color:  #a7638b;
   font-weight: 600;
@@ -99,40 +100,34 @@
 
 
 
-.anya-testi .anya-slider {
+.testi .slider {
   margin-inline: -16px;
   padding-inline: 16px;
-  padding-block-end: 35px; 
+  padding-block-end: 35px;
 }
 
-.anya-testi .anya-slider::-webkit-scrollbar { 
-    height: 22px;
+.testi .slider::-webkit-scrollbar { 
+    height: 12px;
     width: 10px;
 }
 
-.anya-testi .anya-slider::-webkit-scrollbar-track {
+.testi .slider::-webkit-scrollbar-track {
   border: 1px solid  hsl(0, 0%, 98%);
   border-radius: 100px;
-  box-shadow: inset 0 0 5px #a7638b;
 }
 
-.anya-testi .anya-slider::-webkit-scrollbar-thumb {
+.testi .slider::-webkit-scrollbar-thumb {
   background-color:  hsl(0, 0%, 70%);
   border-radius: 100px;
 }
 
-.anya-testi .anya-slider::-webkit-scrollbar-button { 
-  width: calc(25% - 30px); 
-}
+.testi .slider::-webkit-scrollbar-button { width: calc(25% - 20px); }
 
 
-.anya-section { 
-  padding-block: 50px;
-  margin-top: 100px;
-}
+.section { padding-block: 100px;}
 
 /* A fősor */
-.anya-headline-md { 
+.headline-md { 
     font-size: 3rem;
     color: #a7638b;
     font-weight: 800;
@@ -140,13 +135,13 @@
 
 }
 
-.anya-section-title {
+.section-title {
     margin-block-end: 30px;
 }
   
-.anya-text-center { text-align: center; }
+.text-center { text-align: center; }
 
-.anya-client-title{
+.client-title{
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 1.5;
@@ -156,7 +151,7 @@
 
 
 /*A nagy dobozban a kép*/
-.anya-img-cover {
+.img-cover {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -164,7 +159,7 @@
 
 
 /* A gomb értékei*/
-.anya-btn {
+.btn {
     background: #a7638b;
     font-size: 1rem;
     font-weight: 600;
@@ -182,12 +177,12 @@
     
 }
   
-.anya-btn:is(:hover, :focus-visible) {
+.btn:is(:hover, :focus-visible) {
     background-color: #39232f, hsl(0, 0%, 50%) ;
     box-shadow: 5px 5px 0 -2px var(--hover-shadow-color);
 }
   
-  .anya-btn-primary { color: #f8f4f1; }
+  .btn-primary { color: #f8f4f1; }
 
 
 
@@ -196,11 +191,11 @@
    * RESPONSIVE CONTAINER QUERY
    */
   
-  .anya-card-container { container-type: inline-size; }
+  .card-container { container-type: inline-size; }
   
-  @container (min-width: 600px) {
-    .anya-card-lg,
-    .anya-card-md { flex-direction: row; }
+  @container (min-width: 500px) {
+    .card-lg,
+    .card-md { flex-direction: row; }
   }
   
   
@@ -211,41 +206,18 @@
   
   @media (min-width: 768px) {
   
-    .anya-card-lg { padding: 35px; }
+    .card-lg { padding: 35px; }
   
-    .anya-card-md { padding: 40px; }
+    .card-md { padding: 40px; }
   
-    .anya-card-sm { padding: 15px; }
-
-    
+    .card-sm { padding: 15px; }
   
   }
+
+  
 
 @media (min-width: 768px) {
-    .anya-testi .anya-slider-item { min-width: calc(50% - 15px); }
+    .testi .slider-item { min-width: calc(50% - 15px); }
 
 }
 
-@media (max-width: 768px) {
-  .anya-testi .anya-slider::-webkit-scrollbar { 
-    display: none;
-  }
-  .anya-client-title{
-    margin: 10px;
-  }
-  .anya-slider {
-    display: flex;
-    flex-direction: column;
-  }
-  
-}
-
-@media (max-width: 450px) {
-  .anya-section { 
-    padding-block: 50px;
-    margin-top: 50px;
-  }
-  .anya-headline-md { 
-    font-size: 3.5rem;
-  }
-}

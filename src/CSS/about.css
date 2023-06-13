@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     background: #e8dee4;
+    margin-top: 70px;
 }
 
 
@@ -21,7 +22,7 @@
     font-size: 3.5em;
     color: #a7638b;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -201,13 +202,13 @@
     video {
         width: 100%;
         height: auto;
-        padding: 25px;
+        padding: 0px;
       }
     
     .video .embed-responsive{
         width: 100%;
         height: auto;
-        padding: 25px;
+        padding: 0px;
         
     
     }
@@ -215,20 +216,13 @@
     .video .embed-responsive-16by9{
         width: 100%;
         height: auto;
-        padding: 25px;
+        padding: 0px;
     }
-   /* margin-inline:auto;
-        */ 
-    
 
-    /*.about1 .image .col-left{
-        position: absolute;
-        width: 40%;
+    @media (max-width:600px){
+        .video{
+            display: none;
+        }
     }
-    
-    .about1 .image .col-right{
-        position: absolute;
-        width: 55%;
-    }*/
 
 }

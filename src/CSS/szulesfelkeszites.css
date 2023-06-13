@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     background: #e8dee4; 
-    position: relative; 
+    position: relative;
+    margin-top: 90px; 
 }
 
 .szulfel-container{

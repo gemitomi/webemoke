@@ -5,10 +5,9 @@ section{
     padding: 2rem 10%;
 }
 
-.head{
-    position: sticky;
-}
+
 .header-menu{
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -27,11 +26,14 @@ section{
     color: #a7638b;
     text-decoration: none;
     justify-content: left;
+    margin-right: 80px;
+    
 }
 
 .header-menu .logo img{
     width: 50px;
     height: 50px;
+    
     
 }
 
@@ -61,7 +63,7 @@ section{
 }
 
 .menu-btn{
-    font-size: 2.5rem;
+    font-size: 5rem;
     cursor: pointer;
     color: #a7638b;
     display: none;
@@ -70,7 +72,7 @@ section{
 .mobile-menu{
     display: none;
     position: fixed;
-    top: 65px;
+    top: 75px;
     left:0;
     width: 100%;
     background-color:#f3f1f8;
@@ -83,7 +85,7 @@ section{
 
 ul {
     list-style: none;
-    margin: 0 20px;
+    margin: 0px -10px;
     
 }
 
@@ -122,6 +124,15 @@ ul li:hover ul.dropdown {
     
 }
 
+@media (min-width:1350px){
+    .header-menu .navbar a{
+        font-size: 18px;
+    }
+    .header-menu .logo{
+        margin-right: 100px;
+    }
+}
+
 @media (max-width:1121px){
     .header-menu .navbar a{
         font-size: 12px;
@@ -139,12 +150,15 @@ ul li:hover ul.dropdown {
     .mobile-menu{
         display: flex;
         font-size: 2.5rem;
-        margin-top: 15px;
+        margin-top: 5px;
+
         
     }
 
     .header-menu{
         justify-content: space-between;
+        position: fixed;
+        
     }
 
     .header-menu .navbar{
@@ -188,7 +202,23 @@ ul li:hover ul.dropdown {
         width: 100%;
         height: 100vh;
         position: absolute;
-        top:300px;
+        top:200px;
     }
+
+}
+
+@media (max-width:450px){
+    .header-menu{
+        justify-content: space-between;
+        position: fixed;
+    }
+    .mobile-menu{
+        top: 65px;
+    }
+    ul {
+        margin: 0px 10px;
+    }
+    
+   
 
 }

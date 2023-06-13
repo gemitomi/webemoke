@@ -1,20 +1,30 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "../../CSS/anyavavalas.css"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anyává válni anyanyelven</title>
 
-import Frankfurt from "../../image/frankfurt_a.png"
-import Ciprus from "../../image/ciprusi-anyuka.jpg"
-import Sardinia from "../../image/szardinia-szandra.jpg"
+    <link rel="stylesheet" href="../CSS/anyavavalas.css">
+
+    <!-- font awesome file link  ez az ikonokat hozza be-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-export default function Anyavavalas() {
-  return (
-    <div>
-      <section class="anya-section anya-testi" aria-labelledby="anya-testi-label">
-        <div class="anya-container">
 
-          <h2 class="anya-headline-md anya-section-title anya-text-center" id="anya-testi-label">Anyává válni anyanyelven</h2>
-          <p class="anya-client-title">Az elmúlt években és napjainkban is nagyon sok fiatal költözik külföldre. 
+</head>
+<body>
+    
+     <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi" aria-labelledby="testi-label">
+        <div class="container">
+
+          <h2 class="headline-md section-title text-center" id="testi-label">Anyává válni anyanyelven</h2>
+          <p class="client-title">Az elmúlt években és napjainkban is nagyon sok fiatal költözik külföldre. 
             Közelebbi vagy a hazájuktól távolabbi országokban élnek, tanulnak, dolgoznak és egyre többen ott alapítanak családot is.<br/>
             <br/>A várandósság minden nő életében egy olyan érzékeny időszak, amikor nagyon sok érzés, gondolat, kérdés fogalmazódik meg a szüléssel,
             szülővé válással kapcsolatban.<br/>
@@ -30,21 +40,21 @@ export default function Anyavavalas() {
             De mindannyian egyetértenek abban, hogy az anyává válás időszakában nagy segítség volt számukra, hogy az anyanyelvükön tudtak beszélni az érzéseikről
             és kaptak információkat a pl. a várandósságról, szülésről, szoptatásról.</p>
 
-          <ul class="anya-slider">
+          <ul class="slider">
 
-            <li class="anya-slider-item anya-card-container">
-                <div class="anya-card anya-card-lg" style={{"background-color": "#e8dee4"}}>
+            <li class="slider-item card-container">
+                <div class="card card-lg" style="background-color: hsl(324, 18%, 89% )">
 
-                    <figure class="anya-card-media">
-                    <img src={Frankfurt} width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                        class="anya-img-cover"/>
+                    <figure class="card-media">
+                    <img src="../image/frankfurt_a.png" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                        class="img-cover">
                     </figure>
 
-                    <div class="anya-card-content">
+                    <div class="card-content">
 
-                    <h1 class="anya-client-name">"Oly távol vagy tőlem mégis közel..."</h1>
+                    <h1 class="client-name">"Oly távol vagy tőlem mégis közel..."</h1>
                     
-                    <blockquote class="anya-body-sm">
+                    <blockquote class="body-sm">
                         „Kisbabátok lesz? De jó! És van már dúlád?“ – kérdezte egy nap a kolléganőm. 
                         „Mi az a dúla?“- kérdeztem vissza én. Valahogy így kezdődött az egész. 
                         Mindez Németországban, Frankfurtban, a cég kávézójában történt, olyan 12 hetes lehettem… 
@@ -54,21 +64,22 @@ export default function Anyavavalas() {
                     <a href="#" class="anya-btn anya-btn-primary">Bővebben</a>
 
                     </div>
+
                 </div>
             </li>
 
-            <li class="anya-slider-item anya-card-container">
-              <div class="anya-card anya-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <li class="slider-item card-container">
+              <div class="card card-lg" style="background-color: hsl(324, 18%, 89% )">
 
-                <figure class="anya-card-media">
-                  <img src={Sardinia} width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="anya-img-cover"/>
+                <figure class="card-media">
+                  <img src="../image/szardinia-szandra.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                    class="img-cover">
                 </figure>
 
-                <div class="anya-card-content">
+                <div class="card-content">
                   
-                  <h1 class="anya-client-name">Szülni a szülőföldön - a szardiniai élménybeszámoló</h1>
-                  <blockquote class="anya-body-sm">
+                  <h1 class="client-name">Szülni a szülőföldön - a szardiniai élménybeszámoló</h1>
+                  <blockquote class="body-sm">
                     A férjem osztrák állampolgár, és van egy panziónk Szardínián. 
                     Első látásra beleszerettünk a szigetbe, és elhatároztuk, hogy ott fogunk letelepedni, családot alapítani.
                     Mikor kiderült, hogy babát várok, gyors fejszámolás után rájöttünk, hogy a pici pont a „főszezonba” érkezik,
@@ -78,40 +89,46 @@ export default function Anyavavalas() {
                   <a href="#" class="anya-btn anya-btn-primary">Bővebben</a>
 
                 </div>
+
               </div>
             </li>
 
-            <li class="anya-slider-item anya-card-container">
-              <div class="anya-card anya-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <li class="slider-item card-container">
+              <div class="card card-lg" style="background-color: hsl(324, 18%, 89% )">
 
-                <figure class="anya-card-media">
-                  <img src={Ciprus} width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="anya-img-cover"/>
+                <figure class="card-media">
+                  <img src="../image/ciprusi-anyuka.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
+                    class="img-cover">
                 </figure>
 
-                <div class="anya-card-content">
+                <div class="card-content">
 
-                  <h1 class="anya-client-name">Anyává válni Cipruson</h1>
+                  <h1 class="client-name">Anyává válni Cipruson</h1>
 
-                  <blockquote class="anya-body-sm">
+                  <blockquote class="body-sm">
                     Mása a nevem. Cipruson élek a kislányommal, és a férjemmel.
                     Mikor arról kezdtünk el beszélgetni a férjemmel, hogy most már idehívnánk magunkhoz a kisbabánkat, 
                     én már akkor tudtam, hogy a férjemen kívül szeretném, ha lenne dúlánk, aki végigkísér ezen az úton minket.
                     Így elkezdtem olvasgatni az interneten, ki is az a dúla és mit csinál. Rátaláltam a Békés Dúlakörre,...
                   </blockquote>
+
+                  
                   <a href="#" class="anya-btn anya-btn-primary">Bővebben</a>
+
                 </div>
+
               </div>
             </li>
+
+            
+
           </ul>
+
         </div>
       </section>
-      <section className="consultation4">
-        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
-        <div className="consultation-btn-box" >
-          <Link to="/contact" class="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
-        </div>
-      </section>
-    </div>
-  ) 
-}
+
+                
+
+
+</body>
+</html>

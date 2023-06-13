@@ -39,9 +39,7 @@ html::-webkit-scrollbar-thumb{
     background-color: #fff9;
 }
 
-.header{
-    position: sticky;
-}
+
 /*Rólam kezdete*/
 
 .home-about{
@@ -50,6 +48,7 @@ html::-webkit-scrollbar-thumb{
     flex-wrap: wrap;
     padding: 0;
     background-color: #f8f4f1;
+    margin-top: 90px;
     
 }
 
@@ -488,7 +487,7 @@ html::-webkit-scrollbar-thumb{
     }
 }
 
-@media (max-width: 640px){
+@media (max-width: 639px){
     .dula-section{
         flex-direction: column;
     }
@@ -501,6 +500,15 @@ html::-webkit-scrollbar-thumb{
     .dula-section .image .container-right .card{
         position: relative;
         width: 400px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 540px){
+    .dula-section .image .container-right .card{
+        position: relative;
+        width:200px;
         height: 250px;
     }
 }
@@ -739,7 +747,7 @@ backdrop-filter: blur( .5rem);
     letter-spacing: 2px;
   }
   
-  .section-title { 
+  .lp-section-title { 
     margin-block-end: 45px;
     color: #f8f4f1;
     font-size: 4.5rem;

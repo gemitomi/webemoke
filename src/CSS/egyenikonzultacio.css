@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background: #e8dee4;
+    margin-top: 70px;
 }
 
 .consultation1{
@@ -299,4 +300,39 @@
     font-size: 1.8rem;
     font-weight: 800;
     margin: auto;
+}
+
+@media (max-width:700px){
+    .consultation-citateBx{
+        padding: 20px 20px 20px 25px;
+    }
+    .consultation-bottom .consultation-dula1-box{
+        padding-inline: 10px;
+    }
+    .consultation-bottom .consultation-dula2-box{
+        padding-inline: 10px;
+    }
+    .consultation-btn{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:650px){
+
+    .consultaion-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .consultation-btn{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:450px){
+
+    .consultation-btn{
+        font-size: 3.5rem;
+    }
+    
+        
+
 }

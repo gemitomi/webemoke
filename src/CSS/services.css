@@ -1,30 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-.service{
+/*.service{
     pading-block-start: calc(60px + 60px);
-
-}
+}*/
 
 .service-list{
     display: grid;
     gap: 25px;
 }
 
-
 .services-card {
-    box-shadow: 0 2px 2px hsla(0, 0%, 22%, 0.08);
+    box-shadow: 0 2px 2px #a7638b;
     display: flex;
     transition: 0.25s ease;
   }
   
-  .card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 hsl(0, 0%, 22%); }
+  .card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 #a7638b; }
   
   :is(.card-lg, .card-sm):is(:hover, :focus-within) {
-    box-shadow: 3px 3px 0 hsl(0, 0%, 22%);
+    box-shadow: 3px 3px 0 #a7638b;
   }
   
   .services-card,
-  .card-media { border: 2px solid hsl(0, 0%, 22%); }
+  .card-media { border: 2px solid #a7638b; }
   
   .card-lg { padding: 25px; }
   
@@ -74,9 +72,6 @@
 .services-card .body-sm{
     color: #39232f;
 }
-
-
-
 /* ez a Szolgáltatások felirat*/
 
 .section-title{
@@ -90,14 +85,25 @@
     color: #a7638b;
 }
 
+.container-services{
+  margin-top: 80px;
+}
+
+.container-services h1{
+  color: #a7638b;
+  font-weight: 800;
+  text-align: center;
+  padding: 30px;
+  font-size: 4rem;
+}
 
 .container{
     padding-inline: 16px;
     max-width: 1240px;
     width: 100%;
     margin-inline: auto;
+    
 }
-
 
 .title-sm{
     font-size: 2.2rem;

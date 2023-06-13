@@ -1,6 +1,7 @@
 import React, {Fragment, useState} from "react";
 import { Link } from "react-router-dom";
 
+
 import Logo from "../image/logo-icon.png"
 
 function MenuItems() {
@@ -51,22 +52,23 @@ function MenuItems() {
     </Fragment>
   )
 }
-//6.1  2.55
+
 export default function Header() {
   const [mobile_menu, set_mobil_menu] = useState(false)
     return (
-      <div className="head">
-        <header >
-            <section class="header-menu">
-                <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
+      
+        <header>
+          <section class="header-menu">
+              <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
 
-            <nav class="navbar">
-              <MenuItems/>
-            </nav>
+          <nav class="navbar">
+          <div id="marker"></div>
+            <MenuItems/>
+          </nav>
 
-            <div className="menu-btn">
-              <i className="fa fa-bars" aria-hidden="true" onClick={e => set_mobil_menu(!mobile_menu)}/>
-            </div>
+          <div className="menu-btn">
+            <i className="fa fa-bars" aria-hidden="true" onClick={e => set_mobil_menu(!mobile_menu)}/>
+          </div>
 
             {
               mobile_menu&&
@@ -75,12 +77,8 @@ export default function Header() {
                 <div className="close-menu" onClick={e => set_mobil_menu(!mobile_menu)}/>
               </div>
             }
-            
-            
-
-            </section>
-            
+          </section> 
         </header>
-        </div>
+        
     )
 }

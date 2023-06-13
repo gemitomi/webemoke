@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 import ProfilePic from "../image/bekes_emoke_1.png"
 import ConsAlone from "../image/egyenikonzultacio.png"
 import FamilyTerapy from "../image/csaladterapia.png"
@@ -207,7 +208,7 @@ export default function LandingPage() {
                             Olvasnivaló
                         </p>
 
-                        <h2 class="h2 section-title" id="service-label">Blog & Történetek</h2>
+                        <h2 class="h2 lp-section-title" id="service-label">Blog & Történetek</h2>
                         </div>
 
                         <p class="section-text">
@@ -367,93 +368,6 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </div>            
-            </section>
-
-            <section class="velemeny">
-
-                <div class="slide-container">
-                    <div class="slide-content">
-                        <div class="card-wrapper">
-                            <div class="card">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src={SzuloVissza} alt="#" class="card-img"/>
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">"Anyává válásom során ő volt a biztos pont...</h2>
-                                    <p class="description">Lorem ipsum dolor sit,
-                                    amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat consequuntur sed deserunt sequi dicta porro, 
-                                    impedit ad beatae architecto perspiciatis repudiandae, ratione odit laboriosam ut non fugit possimus animi repellendus.</p>
-                                    <h3 class="author">D.F. anya</h3>
-                                    <button class="button">Bővebben</button>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src={PartnerVissza} alt="#" class="card-img"/>
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">"Anyává válásom során ő volt a biztos pont...</h2>
-                                    <p class="description">Lorem ipsum dolor sit,
-                                    amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat consequuntur sed deserunt sequi dicta porro, 
-                                    impedit ad beatae architecto perspiciatis repudiandae, ratione odit laboriosam ut non fugit possimus animi repellendus.</p>
-                                    <h3 class="author">D.F. anya</h3>
-                                    <button class="button">Bővebben</button>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src={TrainigVissza} alt="#" class="card-img"/>
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">"Anyává válásom során ő volt a biztos pont...</h2>
-                                    <p class="description">Lorem ipsum dolor sit,
-                                    amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat consequuntur sed deserunt sequi dicta porro, 
-                                    impedit ad beatae architecto perspiciatis repudiandae, ratione odit laboriosam ut non fugit possimus animi repellendus.</p>
-                                    <h3 class="author">D.F. anya</h3>
-                                    <button class="button">Bővebben</button>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src={MuhelyVissza} alt="#" class="card-img"/>
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">"Anyává válásom során ő volt a biztos pont...</h2>
-                                    <p class="description">Lorem ipsum dolor sit,
-                                    amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat consequuntur sed deserunt sequi dicta porro, 
-                                    impedit ad beatae architecto perspiciatis repudiandae, ratione odit laboriosam ut non fugit possimus animi repellendus.</p>
-                                    <h3 class="author">D.F. anya</h3>
-                                    <button class="button">Bővebben</button>
-                                </div>
-                            </div>
-                        </div>
-       
-                    </div>
-                </div>
-
             </section>
         </div>
     )
