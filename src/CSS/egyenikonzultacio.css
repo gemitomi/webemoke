@@ -219,7 +219,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(../image/water.png);
+    background-image: linear-gradient (rgba(248, 244,241, 0.5), rgba(0, 0, 0, 0.3)), url(../image/water.png);
     /*height: 50vh;*/
     display: flex;
     align-items: center;

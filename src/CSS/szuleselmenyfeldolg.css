@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+.experience-consultation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8dee4;
+    margin-top: 70px;
+}
+
+.experience-consultation1{
+    width: 100%;
+}
+
+.experience-consultation2{
+    width: 100%;
+    overflow: hidden;
+    background-color: #d4b8c7;
+}
+
+.experience-consultation3{
+    width: 100%;
+    overflow: hidden;
+    background-color: #d4b8c7;
+}
+
+.experience-consultaion-container{
+    display: flex;
+    width: 100%;
+    /*grid-template-columns:max-content;*/
+    /*grid-gap: 20px;*/
+    /*max-width: 1500px;*/
+    /*padding-left: 80px;*/
+    background: #e8dee4;
+    /*padding: 35px 15px 15px 0px;*/
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.experience-consultation-image{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.experience-consultaion-container img{
+    align-items: center;
+    /*width: 30%;*/
+    border-radius: 50px;
+}
+
+.experience-consultaion-container .experience-text-container{
+    width: 100%;
+    padding-bottom: 10px;
+} 
+
+.experience-consultaion-container .experience-text-container span{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #a7638b;
+} 
+
+.experience-consultaion-container hr{
+    width: 25%;
+    margin-top: 15px;
+    border: 1px solid #a7638b; 
+    z-index: 1;  
+}
+
+.experience-consultaion-container h1{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #a7638b;
+}
+
+.experience-consultaion-container p{  
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #a7638b;
+    line-height: 1.5;
+}
+
+.experience-szulfel-container .szulfel-text-container span{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #a7638b;
+} 
+
+.experience-szulfel-container-bottom{
+    background: #e8dee4;
+}
+
+.experience-szulfel-container-bottom p{
+    color: #a7638b;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.experience-consultation-listbox{
+    width: 100%;
+    /*padding: 35px 15px 15px 15px;*/
+}
+
+.experience-consultation-h4 {
+    text-align: center;
+    justify-content: center;
+    /*position: relative;*/
+    display:flex;
+    margin-top: 20px;
+}
+
+.experience-consultation-h4 h4{
+    padding: 1em;
+    font-size: 3em;
+    font-weight: 600;
+    color: #a7638b;
+}
+
+.experience-separator-box{
+    display: flex;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 0px;    
+}
+
+.experience-separator-box .experience-separator{
+ 
+    border-style: solid;
+    border-color:#a7638b;
+    border-width: 1px;
+    width: 100%;
+}
+
+.experience-consultation-listbox .experience-lista ul{
+    padding: 30px 0px 20px 0px;
+    /*margin-left: 20px;*/  
+}
+
+.experience-consultation-listbox .experience-lista li{
+    /*padding: 10px 10px 20px 50px;*/
+    /*margin-left: 20px;*/
+    display: list-item;
+    font-weight: 400;
+    list-style-type: none;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #39232f;
+}
+
+.experience-consultation-listbox p{
+    padding: 1em;
+    padding-left: 1.75em;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: #a7638b;
+    padding-bottom: 60px;
+}
+
+.experience-consultation-dula-title{
+    background: #d4b8c7;
+    
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    color: #a7638b;
+}
+
+.experience-consultation-dula-title-bottom{
+    background: #d4b8c7;
+    justify-content: center;
+    text-align: center;
+    /*padding: 30px;*/
+    color: #a7638b;
+    padding-bottom: 80px;
+}
+.experience-consultation-dula-title h2{
+    font-size: 4rem;
+}
+
+.experience-consultation-bottom{
+    background: #d4b8c7;
+    color: #a7638b;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+}
+
+.experience-consultation-bottom .experience-consultation-dula1-box{
+    padding-inline: 5em;
+    background-color: #d4b8c7;
+}
+
+.experience-consultation-bottom .experience-consultation-dula1-box .experience-consultation-dula-text{
+    font-size: 1.8rem;
+    max-width: max-content;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.experience-consultation-bottom .experience-consultation-dula2-box{
+    padding-inline: 5em;
+    background-color: #d4b8c7;  
+}
+
+.experience-consultation-bottom .experience-consultation-dula2-box .experience-consultation-dula-text{
+    font-size: 1.8rem;
+    max-width: max-content;
+    margin-block-end: 0.25em;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.experience-consultation-dula-title-bottom .experience-consultation-dula-title-text{
+    font-size: 1.8rem;
+    max-width: max-content;
+    margin-block-end: 0.25em;
+    line-height: 3rem;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+
+.experience-consultation-citateBx{
+    position: sticky;
+    text-align: justify;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../image/circle1.png);
+    /*height: 50vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 200px 20px 200px;
+    overflow: hidden;
+}
+
+.experience-consultation-citateBx .experience-consultation-citate-text{
+    font-size: 1.8rem;
+    color: #f8f4f1;
+    line-height: 3rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.experience-consultation-citateBx .experience-consultation-citate-text h6{
+    color: #f8f4f1;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: end;
+   
+}
+
+.experience-consultation4{
+    background:#f8f4f1;
+}
+
+.experience-consultation-btn-h2{
+    background: #f8f4f1;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    
+}
+
+.experience-consultation-btn-h2 h2{
+    font-size: 3rem;
+    color: #39232f;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.experience-consultation-btn-h2 h2 span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #a7638b;
+    
+}
+
+.experience-consultation-btn-box{
+    display: flex;
+    position: relative;
+    background: #f8f4f1;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.experience-consultation-btn{
+    position: relative;
+    top: 10;
+    left: 10;
+    display: block;
+    border-radius: 50px;
+    background: #a7638b;
+    width: 300px;
+    height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #f8f4f1;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: auto;
+}
+
+@media (max-width:700px){
+    .experience-consultation-citateBx{
+        padding: 20px 20px 20px 25px;
+    }
+    .experience-consultation-bottom .experience-consultation-dula1-box{
+        padding-inline: 10px;
+    }
+    .experience-consultation-bottom .experience-consultation-dula2-box{
+        padding-inline: 10px;
+    }
+    .experience-consultation-btn{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:650px){
+
+    .experience-consultaion-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .experience-consultation-btn{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:450px){
+
+    .experience-consultation-btn{
+        font-size: 3.5rem;
+    }
+    
+        
+
+}

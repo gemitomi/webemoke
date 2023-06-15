@@ -144,6 +144,12 @@ export default function Services() {
 
         </div>
     </section>
+    <section className="consultation4">
+        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
+        <div className="consultation-btn-box" >
+          <Link to="/contact" class="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+        </div>
+    </section>
 
     </div>
   )

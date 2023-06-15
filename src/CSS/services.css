@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/*.service{
-    pading-block-start: calc(60px + 60px);
-}*/
+.service{
+  background: #e8dee4;
+}
 
 .service-list{
     display: grid;
@@ -10,19 +10,19 @@
 }
 
 .services-card {
-    box-shadow: 0 2px 2px #a7638b;
+    box-shadow: 0 2px 2px #39232f;
     display: flex;
     transition: 0.25s ease;
   }
   
-  .card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 #a7638b; }
+  .card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 #39232f; }
   
   :is(.card-lg, .card-sm):is(:hover, :focus-within) {
-    box-shadow: 3px 3px 0 #a7638b;
+    box-shadow: 3px 3px 0 #39232f;
   }
   
   .services-card,
-  .card-media { border: 2px solid #a7638b; }
+  .card-media { border: 2px solid #39232f; }
   
   .card-lg { padding: 25px; }
   
@@ -141,7 +141,7 @@
     max-width: max-content;
     letter-spacing: 2px;
     padding: 10px 10px;
-    box-shadow: 6px 6px 0 -1px hsl(0, 0%, 22%);
+    box-shadow: 6px 6px 0 -1px #39232f;
     transition: 0.25s ease;
     text-decoration: none;
     color: inherit;
