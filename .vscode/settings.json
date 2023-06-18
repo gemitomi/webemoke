@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.fontSize": 16,
+    "editor.codeLensFontSize": 0,
+    "window.zoomLevel": -1,
+    "editor.mouseWheelZoom": false
 }

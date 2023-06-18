@@ -6,32 +6,25 @@
     position: relative;
     display: flex;
     padding-inline: 15px;
-    margin-top: 50px;;
  }
 
 .faq-section{ padding-block: 80px; };
 
-.faq-btn-container{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
 
-.faq-card-left{
-  max-width: 500px;
-}
+
+
+
 
 .faq-btn {
   font-weight: 600;
   padding: 12px 24px;
   border-radius: 5px;
-  align-items: center;
+  max-width: max-content;
   transition: 0.25s esea;
-  height: 50px;
 }
 
-.faq-btn-primary {
-    font-size: 1.8rem;
+.btn-primary {
+    font-size: 1.4rem;
     font-weight: 600;
     max-width: max-content;
     letter-spacing: 2px;
@@ -45,11 +38,9 @@
     display: block;
     background-color: #a7638b;
     color: #f8f4f1;
-    align-items: center;
-    justify-content: center;
 }
 
-.faq-btn-primary:is(:hover, :focus-visible) {
+.btn-primary:is(:hover, :focus-visible) {
     background-color: #39232f, hsl(0, 0%, 22%) ;
     box-shadow: 5px 5px 0 -2px var(--hover-shadow-color);
 }
@@ -58,12 +49,25 @@
 
 
 
-.faq-grid-list {
-  /*display: grid;*/
+.grid-list {
+  display: grid;
   gap: 20px;
   list-style: none;
 }
 
+
+
+.img-holder {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    align-items: center;
+}
+
+.img-cover {
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+  }
 
 
 
@@ -120,7 +124,7 @@
   
   .faq-card .card-title {
     color: var(--color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: 0.25s ease;
   }
   
@@ -145,27 +149,7 @@
     transition: 0.5s ease;
   }
   
-  .faq-card .card-content p { 
-    margin-block: 15px;
-    font-size: 1.5rem;
-    color: #960d5f;
-  }
+  .faq-card .card-content p { margin-block: 15px; }
   
   .faq-card .card-action.active + .card-content { max-height: 500px; }
-
-  @media (max-width:700px){
-
-    .faq-section {
-      margin-top: 50px;
-    }
-
-    .faq .faq-container {
-      display: contents;
-    }
-
-    .faq-btn-primary{
-      margin-bottom: 50px;
-      align-items: center;
-    }
-  }
   

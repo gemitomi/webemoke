@@ -1,30 +1,14 @@
 import React from "react";
+import "../../CSS/dulakor.css"
+import DulaKorCircle from "../../image/circle4.jpg";
 
 export default function Dulakor() {
-  return <div>Dulakor</div>;
+  return (
+    <div>
+      <section>
+       
+    </section>
+    </div>
+  )
 }
-/*<div class="inputBox w50">
-                    <input type="text"  id="surname" required/>
-                    <span>Vezetéknév</span>
-                  </div>
 
-                  <div class="inputBox w50">
-                      <input type="text" id="firstname" required/>
-                      <span>Keresztnév</span>
-                  </div>
-                  
-                  
-                  ide a mail
-                  
-                  
-                <div class="inputBox w50">
-                      <input type="text" id="phone" required/>
-                      <span>Mobilszám</span>
-                  </div>  
-                  
-                  
-                  
-                  
-                  
-                  
-                  */

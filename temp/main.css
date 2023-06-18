@@ -843,44 +843,6 @@ backdrop-filter: blur( .5rem);
   
   .service-card {
     position: relative;
-    background-color: #d76610;
-    height: 100%;
-    padding: 10px 40px 40px;
-    transition: 0.5s ease;
-  }
-  
-  
-
-  .service-card .card-icon img {
-    object-fit: cover;
-    height: auto;
-    width: 100%;
-   
-  }
-  
-  .service-card .card-title {
-    color: #39232f;
-    margin-block: 20px;
-    font-size: 2rem;
-    line-height: 1.5;
-    font-weight: 700;
-
-  }
-  
-  .service-card .card-text { 
-    font-size: 1.5rem;
-    color: #39232f;
-}
-  
-  
-  .service-card:is(:hover, :focus-within) {
-    background-color: #d4b8c7;
-    --content-color: #d4b8c7;
-  }
-  
-  
-  .service-card {
-    position: relative;
     background-color: #d5e1df;
     height: 100%;
     padding: 10px 40px 40px;
