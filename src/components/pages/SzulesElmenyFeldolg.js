@@ -7,7 +7,7 @@ export default function SzulesElmenyFeldolg() {
   return (
     
     <div>
-      <section class="experience-consultation">
+      <section className="experience-consultation">
         <div className='experience-consultaion-container'>
           
           <div className='experience-text-container'>
@@ -56,7 +56,7 @@ export default function SzulesElmenyFeldolg() {
       <section className="experience-consultation4">
         <div className="experience-consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="experience-consultation-btn-box" >
-          <Link to="/contact" class="experience-consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="experience-consultation-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
       </section>
       

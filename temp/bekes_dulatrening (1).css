@@ -1,11 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
-.education{
-    padding-block: 1rem;
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+html{
+    font-size: 62.5%;
 }
 
 
+.education{
+    padding-block: 12rem;
+}
+
+
+
+a,
+img,
+button { display: block;}
 
 a{
     color: inherit;
@@ -16,7 +35,7 @@ li{
     list-style: none;
 }
 
-.dulatrening-container{
+.container{
     padding-inline: 16px;
 }
 
@@ -40,14 +59,6 @@ li{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
 }
-
-@media (max-width:877px){
-
-   .grid-list{
-        display: block;
-    } 
-}
-
 
 
 
@@ -86,7 +97,7 @@ li{
     margin-inline: auto;
     margin-block-start: 24px;
     background: #a7638b;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
     max-width: max-content;
     letter-spacing: 2px;
@@ -106,23 +117,25 @@ li{
     box-shadow: 5px 5px 0 -2px var(--hover-shadow-color);
 }
 
+/*gyakori kérdések a képzésről gomb*/
+
 .dula-education{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #fff;
 }
 
 .dula-education .education-faq{
     text-align: center;
-    margin: 3rem;
+    margin: 5rem;
     padding: 0;
-    background: #fff;
 }
 
 .dula-education .education-btn{
     background: #a7638b;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     max-width: max-content;
     letter-spacing: 2px;
@@ -143,15 +156,7 @@ li{
   
 .dula-education .education-btn.btn-prim { color: #f8f4f1; }
 
-@media (max-width: 1122px) { 
-    .collection-card .collection-btn {
-        font-size: 3rem;
-    }
 
-    .dula-education .education-btn{
-        font-size: 2rem;
-    }
-}
 
 
 

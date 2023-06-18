@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../CSS/egyenikonzultacio.css"
+
 import Egyeni from "../../image/egyeni_1.png";
 
 export default function EgyeniKonzultacio() {
   return (
     
     <div>
-      <section class="consultation">
+      <section className="consultation">
         <div className='consultaion-container'>
           
           <div className='text-container'>
@@ -84,7 +84,7 @@ export default function EgyeniKonzultacio() {
       <section className="consultation4">
         <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
-          <Link to="/contact" class="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
       </section>
       

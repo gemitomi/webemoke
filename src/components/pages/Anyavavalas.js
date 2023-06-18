@@ -10,11 +10,11 @@ import Sardinia from "../../image/szardinia-szandra.jpg"
 export default function Anyavavalas() {
   return (
     <div>
-      <section class="anya-section anya-testi" aria-labelledby="anya-testi-label">
-        <div class="anya-container">
+      <section className="anya-section anya-testi" aria-labelledby="anya-testi-label">
+        <div className="anya-container">
 
-          <h2 class="anya-headline-md anya-section-title anya-text-center" id="anya-testi-label">Anyává válni anyanyelven</h2>
-          <p class="anya-client-title">Az elmúlt években és napjainkban is nagyon sok fiatal költözik külföldre. 
+          <h2 className="anya-headline-md anya-section-title anya-text-center" id="anya-testi-label">Anyává válni anyanyelven</h2>
+          <p className="anya-client-title">Az elmúlt években és napjainkban is nagyon sok fiatal költözik külföldre. 
             Közelebbi vagy a hazájuktól távolabbi országokban élnek, tanulnak, dolgoznak és egyre többen ott alapítanak családot is.<br/>
             <br/>A várandósság minden nő életében egy olyan érzékeny időszak, amikor nagyon sok érzés, gondolat, kérdés fogalmazódik meg a szüléssel,
             szülővé válással kapcsolatban.<br/>
@@ -30,76 +30,76 @@ export default function Anyavavalas() {
             De mindannyian egyetértenek abban, hogy az anyává válás időszakában nagy segítség volt számukra, hogy az anyanyelvükön tudtak beszélni az érzéseikről
             és kaptak információkat a pl. a várandósságról, szülésről, szoptatásról.</p>
 
-          <ul class="anya-slider">
+          <ul className="anya-slider">
 
-            <li class="anya-slider-item anya-card-container">
-                <div class="anya-card anya-card-lg" style={{"background-color": "#e8dee4"}}>
+            <li className="anya-slider-item anya-card-container">
+                <div className="anya-card anya-card-lg" style={{"background-color": "#e8dee4"}}>
 
-                    <figure class="anya-card-media">
+                    <figure className="anya-card-media">
                     <img src={Frankfurt} width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                        class="anya-img-cover"/>
+                        className="anya-img-cover"/>
                     </figure>
 
-                    <div class="anya-card-content">
+                    <div className="anya-card-content">
 
-                    <h1 class="anya-client-name">"Oly távol vagy tőlem mégis közel..."</h1>
+                    <h1 className="anya-client-name">"Oly távol vagy tőlem mégis közel..."</h1>
                     
-                    <blockquote class="anya-body-sm">
+                    <blockquote className="anya-body-sm">
                         „Kisbabátok lesz? De jó! És van már dúlád?“ – kérdezte egy nap a kolléganőm. 
                         „Mi az a dúla?“- kérdeztem vissza én. Valahogy így kezdődött az egész. 
                         Mindez Németországban, Frankfurtban, a cég kávézójában történt, olyan 12 hetes lehettem… 
                         Ezután kolléganőm elmesélte, hogy ők Emőkével szülték meg első gyermeküket és a másodiknál – mikor ők is már kint […]
                     </blockquote>
 
-                    <a href="#" class="anya-btn anya-btn-primary">Bővebben</a>
+                    <a href="#" className="anya-btn anya-btn-primary">Bővebben</a>
 
                     </div>
                 </div>
             </li>
 
-            <li class="anya-slider-item anya-card-container">
-              <div class="anya-card anya-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <li className="anya-slider-item anya-card-container">
+              <div className="anya-card anya-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
 
-                <figure class="anya-card-media">
+                <figure className="anya-card-media">
                   <img src={Sardinia} width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="anya-img-cover"/>
+                    className="anya-img-cover"/>
                 </figure>
 
-                <div class="anya-card-content">
+                <div className="anya-card-content">
                   
-                  <h1 class="anya-client-name">Szülni a szülőföldön - a szardiniai élménybeszámoló</h1>
-                  <blockquote class="anya-body-sm">
+                  <h1 className="anya-client-name">Szülni a szülőföldön - a szardiniai élménybeszámoló</h1>
+                  <blockquote className="anya-body-sm">
                     A férjem osztrák állampolgár, és van egy panziónk Szardínián. 
                     Első látásra beleszerettünk a szigetbe, és elhatároztuk, hogy ott fogunk letelepedni, családot alapítani.
                     Mikor kiderült, hogy babát várok, gyors fejszámolás után rájöttünk, hogy a pici pont a „főszezonba” érkezik,
                     és mivel a férjem mindenképpen velem akart lenni a nagy napon, szóba se jöhetett, hogy hazajövök szülni.
                   </blockquote>
 
-                  <a href="#" class="anya-btn anya-btn-primary">Bővebben</a>
+                  <a href="#" className="anya-btn anya-btn-primary">Bővebben</a>
 
                 </div>
               </div>
             </li>
 
-            <li class="anya-slider-item anya-card-container">
-              <div class="anya-card anya-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <li className="anya-slider-item anya-card-container">
+              <div className="anya-card anya-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
 
-                <figure class="anya-card-media">
+                <figure className="anya-card-media">
                   <img src={Ciprus} width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="anya-img-cover"/>
+                    className="anya-img-cover"/>
                 </figure>
 
-                <div class="anya-card-content">
+                <div className="anya-card-content">
 
-                  <h1 class="anya-client-name">Anyává válni Cipruson</h1>
+                  <h1 className="anya-client-name">Anyává válni Cipruson</h1>
 
-                  <blockquote class="anya-body-sm">
+                  <blockquote className="anya-body-sm">
                     Mása a nevem. Cipruson élek a kislányommal, és a férjemmel.
                     Mikor arról kezdtünk el beszélgetni a férjemmel, hogy most már idehívnánk magunkhoz a kisbabánkat, 
                     én már akkor tudtam, hogy a férjemen kívül szeretném, ha lenne dúlánk, aki végigkísér ezen az úton minket.
                     Így elkezdtem olvasgatni az interneten, ki is az a dúla és mit csinál. Rátaláltam a Békés Dúlakörre,...
                   </blockquote>
-                  <a href="#" class="anya-btn anya-btn-primary">Bővebben</a>
+                  <a href="#" className="anya-btn anya-btn-primary">Bővebben</a>
                 </div>
               </div>
             </li>
@@ -109,7 +109,7 @@ export default function Anyavavalas() {
       <section className="consultation4">
         <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
-          <Link to="/contact" class="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
       </section>
     </div>

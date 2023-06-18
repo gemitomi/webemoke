@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+/*velemenyek kezdete*/
+
+.feedback{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e1df;
+}
+
+.feedback-hero{
+    position: relative;
+    display: felx;
+}
+.feedback-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #a7638b;
+    letter-spacing: 1px;
+}
+
+
+.feedback-slide-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #d5e1df;
+    padding: 40px 0;
+}
+
+.feedback-slide-content{
+    margin: 0 40px;
+    
+}
+
+.feedback-card-wrapper{
+    display: flex;
+    margin: 10px;
+
+}
+
+.feedback-card{
+    position: relative;
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin: 40px;
+    
+}
+
+
+.feedback-image-content,
+.feedback-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.feedback-image-content{
+    position: relative;
+    row-gap: 15px;
+    padding: 25px 0;
+}
+
+.feedback-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #a7638b;
+    border-radius: 25px 25px 0 25px;
+}
+
+.feedback-overlay::before,
+.feedback-overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #a7638b;
+}
+
+.feedback-overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+
+.feedback-card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+.feedback-card-image .feedback-card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #a7638b;
+}
+
+
+
+.feedback-tags{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.feedback-tags a{
+    display: inline-block;
+    padding: 0.5rem;
+    color: #a7638b;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+
+}
+
+.feedback-name{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #39232f;
+}
+
+.feedback-description{
+    font-size: 1.5rem;
+    color: #39232f;
+    text-align: center;
+}
+
+.feedback-author{
+    font-size: 1.2rem;
+    color: #a7638b;
+}
+
+.feedback-button{
+    border: 1px solid #97bcc7;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: max-content;
+    letter-spacing: 1px;
+    color: #39232f;
+    padding: 10px 10px;
+    background-color: #97bcc7;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    border-radius: 5px ;
+
+}
+
+.feedback-button:hover{
+    background-color: #cfdade;
+    color: #a7638b;
+    border: 1px transparent;
+    
+}
+
+
+.feedback-button-btn{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedback-button-btn .feedback-button-btn1{
+    background: #97bcc7;
+    color: #39232f;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.feedback-button-btn .feedback-button-btn1:hover{
+    background: #cfdade;
+    color: #a7638b;
+    box-shadow: 6px 6px 0 -1px #868485;
+}

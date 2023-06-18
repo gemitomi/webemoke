@@ -23,12 +23,12 @@ export default function Contact() {
    
   return (
     <div>
-    <section class="contact">
-      <div class="container">
-        <div class="contactinfo">
+    <section className="contact">
+      <div className="container">
+        <div className="contactinfo">
           <div>
               <h2>Kapcsolat</h2>
-              <ul class="info">
+              <ul className="info">
                   <li>
                       <span><img src={Location1}/></span>
                       <span>2040 Budaörs<br/>
@@ -45,37 +45,37 @@ export default function Contact() {
               </ul>
           </div>
         </div>
-            <div class="contactForm">
+            <div className="contactForm">
               <h2 >Kapcsolatfelvétel</h2>
               <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
-                <div class="formBox">
+                <div className="formBox">
                   
-                  <div class="inputBox w50">
+                  <div className="inputBox w50">
                     <input type="text" name="surname"  id="surname" required/>
                     <span>Vezetéknév</span>
                   </div>
 
-                  <div class="inputBox w50">
+                  <div className="inputBox w50">
                       <input type="text" name="firstname" id="firstname" required/>
                       <span>Keresztnév</span>
                   </div>
                   
-                  <div class="inputBox w50">
+                  <div className="inputBox w50">
                       <input type="text" name="email_from" id="emailFrom" required/>
                       <span>e-mail cím</span>
                   </div>
 
-                  <div class="inputBox w50">
+                  <div className="inputBox w50">
                       <input type="text" name="phone" id="phone" required/>
                       <span>Mobilszám</span>
                   </div>
 
-                  <div class="inputBox w100">
+                  <div className="inputBox w100">
                       <textarea name="message" id="message" required></textarea>
                       <label htmlFor='message'>Kérem küldjön nekem üzenetet itt...</label>
                   </div>
 
-                  <div class="inputBox w50">
+                  <div className="inputBox w50">
                       <Button type="submit">Küldés</Button>
                   </div>
                 </div>

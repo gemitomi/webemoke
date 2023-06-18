@@ -13,128 +13,128 @@ import SzulEsemeny from "../../image/szuleselmenyfeldolgozas.png"
 export default function Services() {
   return (
     <div>      
-      <section class="section service has-bg-image" aria-labelledby="service-label">
-        <div class="container-services">
+      <section className="section service has-bg-image" aria-labelledby="service-label">
+        <div className="container-services">
 
             <h1>Szolgáltatások</h1>
 
-            <ul class="service-list">
+            <ul className="service-list">
 
-                <li class="card-container">
-                    <div class="services-card card-md" style={{'background': "#e8dee4"}}>
+                <li className="card-container">
+                    <div className="services-card card-md" style={{'background': "#e8dee4"}}>
 
-                        <div class="card-media">
+                        <div className="card-media">
                             <img src={EgyeniKonz}/>
                         </div>
 
                         <div>
-                            <h3 class="card-title title-sm">Egyéni konzultáció</h3>
+                            <h3 className="card-title title-sm">Egyéni konzultáció</h3>
 
-                            <p class="body-sm">
+                            <p className="body-sm">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua.
                             </p>
-                            <a href="/egyenikonzultacio" class="services-btn btn-primary">Bővebben</a>
+                            <a href="/egyenikonzultacio" className="services-btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
-                <li class="card-container">
-                    <div class="services-card card-md" style={{'background': "#cfdade"}}>
+                <li className="card-container">
+                    <div className="services-card card-md" style={{'background': "#cfdade"}}>
 
-                        <div class="card-media">
+                        <div className="card-media">
                             <img src={CsaladTer}/>
                         </div>
 
                         <div>
-                            <h3 class="card-title title-sm">Családterápia</h3>
+                            <h3 className="card-title title-sm">Családterápia</h3>
 
-                            <p class="body-sm">
+                            <p className="body-sm">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua.
                             </p>
-                            <a href="/csaladterapia" class="services-btn btn-primary">Bővebben</a>
+                            <a href="/csaladterapia" className="services-btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
-                <li class="card-container">
-                    <div class="services-card card-md" style={{'background': "#97bcc7"}}>
+                <li className="card-container">
+                    <div className="services-card card-md" style={{'background': "#97bcc7"}}>
 
-                        <div class="card-media">
+                        <div className="card-media">
                             <img src={AnyavaVal}/>
                         </div>
 
                         <div>
-                            <h3 class="card-title title-sm">Anyává válni anyanyelven</h3>
+                            <h3 className="card-title title-sm">Anyává válni anyanyelven</h3>
 
-                            <p class="body-sm">
+                            <p className="body-sm">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua.
                             </p>
-                            <a href="/anyavavalas" class="services-btn btn-primary">Bővebben</a>
+                            <a href="/anyavavalas" className="services-btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
-                <li class="card-container">
-                    <div class="services-card card-md" style={{'background': "#d4b8c7"}}>
+                <li className="card-container">
+                    <div className="services-card card-md" style={{'background': "#d4b8c7"}}>
 
-                        <div class="card-media">
+                        <div className="card-media">
                             <img src={NevTan}/>
                         </div>
 
                         <div>
-                            <h3 class="card-title title-sm">Nevelési tanácsadás</h3>
+                            <h3 className="card-title title-sm">Nevelési tanácsadás</h3>
 
-                            <p class="body-sm">
+                            <p className="body-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
-                            <a href="/nevelesitanacsadas" class="services-btn btn-primary">Bővebben</a>
+                            <a href="/nevelesitanacsadas" className="services-btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
-                <li class="card-container">
-                    <div class="services-card card-md" style={{'background': "#a7638b"}}>
+                <li className="card-container">
+                    <div className="services-card card-md" style={{'background': "#a7638b"}}>
 
-                        <div class="card-media">
+                        <div className="card-media">
                             <img src={SzulFel}/>
                         </div>
 
                         <div>
-                            <h3 class="card-title title-sm">Szülésfelkészítés</h3>
+                            <h3 className="card-title title-sm">Szülésfelkészítés</h3>
 
-                            <p class="body-sm">
+                            <p className="body-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
-                            <a href="/szulesfelkeszites" class="services-btn btn-primary">Bővebben</a>
+                            <a href="/szulesfelkeszites" className="services-btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
                 </li>
 
-                <li class="card-container">
-                    <div class="services-card card-md" style={{'background': "#d5e1df"}}>
+                <li className="card-container">
+                    <div className="services-card card-md" style={{'background': "#d5e1df"}}>
 
-                        <div class="card-media">
+                        <div className="card-media">
                             <img src={SzulEsemeny}/>
                         </div>
 
                         <div>
-                            <h3 class="card-title title-sm">Szülésélmény feldolgozás</h3>
+                            <h3 className="card-title title-sm">Szülésélmény feldolgozás</h3>
 
-                            <p class="body-sm">
+                            <p className="body-sm">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                 et dolore magna aliqua.
                             </p>
-                            <a href="/szuleselmenyfeldolg" class="services-btn btn-primary">Bővebben</a>
+                            <a href="/szuleselmenyfeldolg" className="services-btn btn-primary">Bővebben</a>
                         </div>
 
                     </div>
@@ -147,7 +147,7 @@ export default function Services() {
     <section className="consultation4">
         <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
-          <Link to="/contact" class="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
     </section>
 

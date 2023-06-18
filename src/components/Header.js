@@ -58,10 +58,10 @@ export default function Header() {
     return (
       
         <header>
-          <section class="header-menu">
-              <Link to="/" class="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
+          <section className="header-menu">
+              <Link to="/" className="logo" onClick={e => set_mobil_menu(false)}><img src={Logo} alt="" /></Link>
 
-          <nav class="navbar">
+          <nav className="navbar">
           <div id="marker"></div>
             <MenuItems/>
           </nav>
