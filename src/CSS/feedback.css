@@ -1,0 +1,28 @@
+.feedback-section{
+    margin-top: 90px;
+    background-color: #d5e1df;
+}
+
+.feedback-button-btn-p a{
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background: #97bcc7;
+    color: #a7638b;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.feedback-button-btn-p a:hover{
+    background: #cfdade;
+    color: #39232f;
+    text-decoration: underline;
+}
+
+@media (max-width: 975px) { 
+    .feedback-section{
+        margin-top: 70px;
+    }
+}
+

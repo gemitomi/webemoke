@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
+
 .feedback{
     min-height: 100vh;
     display: flex;
@@ -111,28 +112,10 @@
 }
 
 
-
-.feedback-tags{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-
-
-.feedback-tags a{
-    display: inline-block;
-    padding: 0.5rem;
-    color: #a7638b;
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    margin: 0 0.5rem;
-
-}
-
 .feedback-name{
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
     color: #39232f;
 }
 
@@ -165,7 +148,7 @@
 
 }
 
-.feedback-button:hover{ 
+.feedback-button:hover{
     background-color: #cfdade;
     color: #a7638b;
     border: 1px transparent;
@@ -194,4 +177,3 @@
     color: #39232f;
     text-decoration: underline;
 }
-

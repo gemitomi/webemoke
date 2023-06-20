@@ -518,95 +518,95 @@ export default function LandingPage() {
                 </div>            
             </section>
 
-            <section class="feedback">
+            <section className="feedback">
     
-                <div class="feedback-slide-container">
-                    <div class="feedback-hero">
-                        <h1 class="feedback-title">Visszajelzések</h1>
+                <div className="feedback-slide-container">
+                    <div className="feedback-hero">
+                        <h1 className="feedback-title">Visszajelzések</h1>
                     </div>
-                    <div class="feedback-slide-content">
-                        <div class="feedback-card-wrapper">
-                            <div class="feedback-card">
-                                <div class="feedback-image-content">
-                                    <span class="feedback-overlay"></span>
+                    <div className="feedback-slide-content">
+                        <div className="feedback-card-wrapper">
+                            <div className="feedback-card">
+                                <div className="feedback-image-content">
+                                    <span className="feedback-overlay"></span>
 
-                                    <div class="feedback-card-image">
-                                        <img src={Szulo1} alt="#" class="feedback-card-img"/>
+                                    <div className="feedback-card-image">
+                                        <img src={Szulo1} alt="#" className="feedback-card-img"/>
                                     </div>
                                 </div>
 
-                                <div class="feedback-tags">
+                                <div className="feedback-tags">
                                     <img src={SzuloVissza} width="50" height="50" loading="lazy" alt="Visszajelzés szülőktől"
-                                    class="img-feed-cover"/>
-                                    <Link to="/feedback">Visszajelzés szülőktől</Link>
+                                    className="img-feed-cover"/>
+                                    <Link to="/feedbackparents1">Visszajelzés szülőktől</Link>
                                 </div>
 
-                                <div class="feedback-card-content">
-                                    <h2 class="feedback-name">Anyává válásom során ő volt a biztos pont</h2>
-                                    <p class="feedback-description">Első terhességem során Emőkét egy ismerősöm
+                                <div className="feedback-card-content">
+                                    <h2 className="feedback-name">Anyává válásom során ő volt a biztos pont</h2>
+                                    <p className="feedback-description">Első terhességem során Emőkét egy ismerősöm
                                         ajánlására azért kerestem meg, hogy dúlaként segítsen majd – bár 
                                         kórházi körülmények között [...]</p>
-                                    <h3 class="feedback-author">D.F. anya</h3>
-                                    <button class="feedback-button">Bővebben</button>
+                                    <h3 className="feedback-author">D.F. anya</h3>
+                                    <button className="feedback-button">Bővebben</button>
                                 </div>
                             </div>
 
-                            <div class="feedback-card">
-                                <div class="feedback-image-content">
-                                    <span class="feedback-overlay"></span>
+                            <div className="feedback-card">
+                                <div className="feedback-image-content">
+                                    <span className="feedback-overlay"></span>
 
-                                    <div class="feedback-card-image">
-                                        <img src={Szulo2} alt="#" class="feedback-card-img"/>
+                                    <div className="feedback-card-image">
+                                        <img src={Szulo2} alt="#" className="feedback-card-img"/>
                                     </div>
                                 </div>
 
-                                <div class="feedback-tags">
+                                <div className="feedback-tags">
                                     <img src={SzuloVissza} width="50" height="50" loading="lazy" alt="Visszajelzés szülőktől"
-                                    class="img-feed-cover"/>
-                                    <Link to="/feedback">Visszajelzés szülőktől</Link>
+                                    className="img-feed-cover"/>
+                                    <Link to="/feedbackparents1">Visszajelzés szülőktől</Link>
                                 </div>
 
-                                <div class="feedback-card-content">
-                                    <h2 class="feedback-name">Egészségesen megszületett a kislányom</h2>
-                                    <p class="feedback-description">Mielőtt a kislányom megszületett volna, 
+                                <div className="feedback-card-content">
+                                    <h2 className="feedback-name">Egészségesen megszületett a kislányom</h2>
+                                    <p className="feedback-description">Mielőtt a kislányom megszületett volna, 
                                         azt állította egy nőgyógyász, hogy a hormonjaim rendetlenkednek, 
                                         így nehezebben foganhat meg. Egy másik orvos [...]</p>
-                                    <h3 class="feedback-author">F.T. anya</h3>
-                                    <button class="feedback-button">Bővebben</button>
+                                    <h3 className="feedback-author">F.T. anya</h3>
+                                    <button className="feedback-button">Bővebben</button>
                                 </div>
                             </div>
 
-                            <div class="feedback-card">
-                                <div class="feedback-image-content">
-                                    <span class="feedback-overlay"></span>
+                            <div className="feedback-card">
+                                <div className="feedback-image-content">
+                                    <span className="feedback-overlay"></span>
 
-                                    <div class="feedback-card-image">
-                                        <img src={Partner2} alt="#" class="feedback-card-img"/>
+                                    <div className="feedback-card-image">
+                                        <img src={Partner2} alt="#" className="feedback-card-img"/>
                                     </div>
                                 </div>
 
-                                <div class="feedback-tags">
+                                <div className="feedback-tags">
                                     <img src={PartnerVissza} width="50" height="50" loading="lazy" alt="Visszajelzés szülőktől"
-                                    class="img-feed-cover"/>
-                                    <Link to="/feedback">Visszajelzés szakmai partnertől</Link>
+                                    className="img-feed-cover"/>
+                                    <Link to="/feedbackpartners">Visszajelzés szakmai partnertől</Link>
                                 </div>
 
-                                <div class="feedback-card-content">
-                                    <h2 class="feedback-name">Kezdetektől fogva</h2>
-                                    <p class="feedback-description">Mindig öröm olyan 
+                                <div className="feedback-card-content">
+                                    <h2 className="feedback-name">Kezdetektől fogva</h2>
+                                    <p className="feedback-description">Mindig öröm olyan 
                                         nőkkel találkozni, akik elhívást éreznek arra, 
                                         hogy asszonytársaiknak segítséget nyújtsanak, 
                                         főleg a női létnek egy olyan kiemelten fontos időszakában, 
                                         mint a várandósság, [...] </p>
-                                    <h3 class="feedback-author">Hoplár Bori - testtudat oktató</h3>
-                                    <button class="feedback-button">Bővebben</button>
+                                    <h3 className="feedback-author">Hoplár Bori - testtudat oktató</h3>
+                                    <button className="feedback-button">Bővebben</button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="feedback-button-btn">
-                        <Link to="/feedback" class="feedback-button-btn1">További visszajelzések</Link>
+                    <div className="feedback-button-btn">
+                        <Link to="/feedback" className="feedback-button-btn1">További visszajelzések</Link>
                     </div>
                             
                 </div>

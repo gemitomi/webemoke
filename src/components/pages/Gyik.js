@@ -42,7 +42,7 @@ return (
             <li>
               <div className="faq-card">
 
-                <button className="card-action active" data-accordion-action>
+                <button className="card-action" data-accordion-action>
                   <h3 className="h3 card-title">
                     01. Ha dúlává szeretnék válni, ehhez kell-e valamilyen egészségügyi végzettség?
                   </h3>
@@ -69,7 +69,7 @@ return (
             <li>
               <div className="faq-card">
 
-                <button className="card-action active" data-accordion-action>
+                <button className="card-action" data-accordion-action>
                   <h3 className="h3 card-title">
                     02. Feltétele a dúlává válásnak a saját szülési tapasztalat?
                   </h3>
@@ -79,10 +79,7 @@ return (
 
                 <div className="card-content">
                   <p>
-                    Nem.
-                  </p>
-
-                  <p>Természetesen a saját szülésélmény nagyon fontos alapja ennek a segítői szakmának, 
+                    Nem. Természetesen a saját szülésélmény nagyon fontos alapja ennek a segítői szakmának, 
                     de nem kizárólagos feltétele. Lehet, hogy valaki még nem szült, de kiváló empatikus készséggel, 
                     remek dúlai attitűddel és alapos önismerettel bír, ezáltal jobb segítő lehet annál, aki ugyan szült már, 
                     de a fentiekkel nem, vagy csak kevéssé rendelkezik.</p>

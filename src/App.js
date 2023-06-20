@@ -13,6 +13,12 @@ import Dulatrening from "./components/pages/Dulatrening";
 import Dulakor from "./components/pages/Dulakor";
 import Blog from "./components/pages/Blog";
 import Feedback from "./components/pages/Feedback";
+import FeedbackParents1 from "./components/pages/FeedbackParents1";
+import FeedbackParents2 from "./components/pages/FeedbackParents2";
+import FeedbackPartners from "./components/pages/FeedbackPartners";
+import FeedbackDulatrening from "./components/pages/FeedbackDulatrening";
+import FeedbackDulamuhely from "./components/pages/FeedbackDulamuhely";
+
 import Contact from "./components/pages/Contact";
 
 import Anyavavalas from "./components/pages/Anyavavalas";
@@ -40,6 +46,11 @@ function App() {
             <Route path="/dulakor" element={<Dulakor/>}/>
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/feedback" element={<Feedback/>}/>
+            <Route path="/feedbackparents1" element={<FeedbackParents1/>}/>
+            <Route path="/feedbackparents2" element={<FeedbackParents2/>}/>
+            <Route path="/feedbackpartners" element={<FeedbackPartners/>}/>
+            <Route path="/feedbackDulatrening" element={<FeedbackDulatrening/>}/>
+            <Route path="/feedbackDulamuhely" element={<FeedbackDulamuhely/>}/>
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/" element={<LandingPage/>}/>
           </Routes>

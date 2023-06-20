@@ -652,7 +652,7 @@ html::-webkit-scrollbar-thumb{
     flex-direction: column;
     width: 100%;
     background-color: #d5e1df;
-    padding: 40px 0;
+    padding: 10px 0;
 }
 
 .feedback-slide-content{
@@ -661,12 +661,12 @@ html::-webkit-scrollbar-thumb{
 
 .feedback-card-wrapper{
     display: flex;
-    margin: 10px;
+    margin: 1px;
 }
 
 .feedback-card{
     position: relative;
-    width: 320px;
+    width: 350px;
     border-radius: 25px;
     background-color: #fff;
     margin: 40px;
@@ -683,7 +683,7 @@ html::-webkit-scrollbar-thumb{
 .feedback-image-content{
     position: relative;
     row-gap: 15px;
-    padding: 25px 0;
+    padding: 0px 0;
 }
 
 .feedback-overlay{
@@ -739,14 +739,16 @@ html::-webkit-scrollbar-thumb{
     display: inline-block;
     padding: 0.5rem;
     color: #a7638b;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
     margin: 0 0.5rem;
+    font-weight: 600;
 }
 
 .feedback-name{
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
     color: #39232f;
 }
 
