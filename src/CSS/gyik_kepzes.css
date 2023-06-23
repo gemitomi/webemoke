@@ -59,7 +59,7 @@
 
 
 .faq-grid-list {
-  /*display: grid;*/
+  display: grid;
   gap: 20px;
   list-style: none;
 }
@@ -131,11 +131,12 @@
     --ionicon-stroke-width: 60px;
   }
   
-  .faq-card .card-action.active .open,
+  .faq-card .card-action.active .open { display: block; }
   .faq-card .card-action .close { display: none; }
   
-  .faq-card .card-action .open,
-  .faq-card .card-action.active .close { display: block; }
+  .faq-card .card-action .open { display: block; }
+
+  .faq-card .card-action.active .close { display: none; }
   
   .faq-card .card-content {
     font-size: 1rem;
@@ -143,15 +144,20 @@
     max-height: 0;
     overflow: hidden;
     transition: 0.5s ease;
+    display: none;
   }
   
   .faq-card .card-content p { 
-    margin-block: 15px;
+    margin-block: 5px;
     font-size: 1.5rem;
     color: #960d5f;
   }
   
-  .faq-card .card-action.active + .card-content { max-height: 500px; }
+  .faq-card .card-action.active + .card-content {         
+    max-height: 500px;
+    display: block;
+  
+  }
 
   @media (max-width:700px){
 

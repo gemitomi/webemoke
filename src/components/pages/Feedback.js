@@ -5,7 +5,7 @@ import "../../CSS/feedback.css"
 import SzuloVissza from "../../image/szuloi vissza.png"
 import PartnerVissza from "../../image/partner_vissza.png"
 
-import TrainigVissza from "../../image/trening_vissza.png"
+import TrainingVissza from "../../image/trening_vissza.png"
 import MuhelyVissza from "../../image/muhely_vissza.png"
 
 export default function Feedback() {
@@ -61,7 +61,7 @@ export default function Feedback() {
                     <span className="feedback-overlay"></span>
 
                     <div className="feedback-card-image">
-                        <img src={TrainigVissza} alt="#" className="feedback-card-img"/>
+                        <img src={TrainingVissza} alt="#" className="feedback-card-img"/>
                     </div>
                   </div>
 

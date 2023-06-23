@@ -32,6 +32,19 @@ import SzulesElmenyFeldolg from "./components/pages/SzulesElmenyFeldolg";
 import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
 import Gyik from "./components/pages/Gyik"
 
+import FeedBack1DF from "./components/pages/subfeedback/FeedBack1DF";
+import FeedBack5BB from "./components/pages/subfeedback/FeedBack5BB";
+import FeedBack6DV from "./components/pages/subfeedback/FeedBack6DV";
+import FeedBack2FT from "./components/pages/subfeedback/FeedBack2FT";
+import FeedBack3NZS from "./components/pages/subfeedback/FeedBack3NZS";
+import FeedBack4SGY from "./components/pages/subfeedback/FeedBack4SGY";
+import FeedBack7CST from "./components/pages/subfeedback/FeedBack7CST";
+import FeedBack8TP from "./components/pages/subfeedback/FeedBack8TP";
+import FeedBack9MG from "./components/pages/subfeedback/FeedBack9MG";
+import FeedBack90KK from "./components/pages/subfeedback/FeedBack90KK";
+import FeedBack91OH from "./components/pages/subfeedback/FeedBack91OH";
+import FeedBack92HE from "./components/pages/subfeedback/FeedBack92HE";
+
 function App() {
   return (
     <BrowserRouter>
@@ -65,6 +78,20 @@ function App() {
             <Route path="/szuleselmenyfeldolg" element={<SzulesElmenyFeldolg/>}/>
             <Route path="/szulesfelkeszites" element={<SzulesFelkeszites/>}/>
             <Route path="/gyik" element={<Gyik/>}/>
+          </Routes>
+          <Routes>
+            <Route path="/feedback1df" element={<FeedBack1DF/>}/>
+            <Route path="/feedback2ft" element={<FeedBack2FT/>}/>
+            <Route path="/feedback3nzs" element={<FeedBack3NZS/>}/>
+            <Route path="/feedback4sgy" element={<FeedBack4SGY/>}/>
+            <Route path="/feedback5bb" element={<FeedBack5BB/>}/>
+            <Route path="/feedback6dv" element={<FeedBack6DV/>}/>
+            <Route path="/feedback7cst" element={<FeedBack7CST/>}/>
+            <Route path="/feedback8tp" element={<FeedBack8TP/>}/>
+            <Route path="/feedback9mg" element={<FeedBack9MG/>}/>
+            <Route path="/feedback90kk" element={<FeedBack90KK/>}/>
+            <Route path="/feedback91oh" element={<FeedBack91OH/>}/>
+            <Route path="/feedback92he" element={<FeedBack92HE/>}/>
           </Routes>
           
         </div>
