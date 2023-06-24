@@ -6,7 +6,7 @@ import Egyeni from "../../image/egyeni_1.png";
 export default function EgyeniKonzultacio() {
   return (
     
-    <div>
+    <div >
       <section className="consultation">
         <div className='consultaion-container'>
           

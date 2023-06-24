@@ -115,6 +115,11 @@
 .content1 .text a{
     padding: 2em;
     margin-bottom: 20px;
+    
+}
+.content1 a{
+    text-transform: none;
+    color: #a7638b;    
 }
 
 .video{
@@ -154,6 +159,19 @@
 
     section{
         padding: 3rem 2rem;
+    }
+
+    .about p{
+        font-size: 3em;
+    }
+
+    .about1 .image .col-right .text{
+        font-size: 3em;
+    }
+
+    .content1 {
+        font-size: 3em;
+        margin-bottom: 20px;
     }
 
 }

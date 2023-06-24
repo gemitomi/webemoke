@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-/*
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -17,19 +17,16 @@ html{
 
 a{
     text-transform: none;
+    color: #a7638b;
+    
 }
 
-li{
-    list-style: none;
-}
-
-*/
-.esetmegbeszelo{
+.bekesdulamuhely{
     background: #f8f4f1;
 }
 
 
-.esetmegbeszelo-container{
+.bekesdulamuhely-container{
     padding-top: 5rem;
     padding-inline: 26px;
     max-width: 1240px;
@@ -37,31 +34,39 @@ li{
     margin-inline: auto;
 }
 
-.esetmegbeszelo-head{
+.bekesdulamuhely-head{
     text-align: center;
     line-height: 1.5;
 }
 
-.esetmegbeszelo-head h1{
+.bekesdulamuhely-head h1{
     font-size: 5rem;
     font-weight: 700;
     color: #a7638b;
     letter-spacing: 1px;
     position: relative;
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 
-.esetmegbeszelo-container .esetmegbeszelo-column{
+.bekesdulamuhely-head h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #39232f;
+    padding: 2rem 0;
+}
+
+.bekesdulamuhely-container .bekesdulamuhely-column{
     display: flex;
     padding: 2em;   
 }
 
-.esetmegbeszelo-img-container{
+.bekesdulamuhely-img-container{
     width: 50%;
     align-self: center;
 }
 
-.esetmegbeszelo-img-container img{
+.bekesdulamuhely-img-container img{
     width: 30rem;
     height: 30rem;
     object-fit: cover;
@@ -71,42 +76,37 @@ li{
 
 }
 
-.esetmegbeszelo-text{
+.bekesdulamuhely-text{
     width: 80%;
     padding: 2rem;
 }
 
+.bekesdulamuhely-container p{
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #39232f;
+    margin: 1rem 0;
+}
 
-
-
-
-.esetmegbeszelo-container h4{
-    font-size: 3rem;
-    font-weight: 700;
+.bekesdulamuhely-container h4{
+    font-size: 2rem;
+    font-weight: 600;
     color: #a7638b;
-    text-align: center;
     margin: 2rem 0;
     padding: 2rem 0;
 }
 
-.esetmegbeszelo-container p{
-    line-height: 2;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #39232f;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.esetmegbeszelo-text .esetmegbeszelo-list{
-    margin: 1rem 1rem;
+.bekesdulamuhely-details .bekesdulamuhely-list{
+    margin: 3rem 1rem;
     display: grid;
     grid-template-columns: 1fr;
     list-style: none;
-    color: #39232f;
+    
 }
 
-.esetmegbeszelo-list .esetmegbeszelo-has-before{
+
+.bekesdulamuhely-list .bekesdulamuhely-has-before{
     position: relative;
     font-size: 1.8rem;
     font-weight: 400;
@@ -114,9 +114,9 @@ li{
     line-height: 1.5;
 }
 
-.esetmegbeszelo-list .esetmegbeszelo-has-before:not(:last-child) {margin-block-end: 15px;}
+.bekesdulamuhely-list .bekesdulamuhely-has-before:not(:last-child) {margin-block-end: 15px;}
 
-.esetmegbeszelo-list .esetmegbeszelo-has-before::before{
+.bekesdulamuhely-list .bekesdulamuhely-has-before::before{
     content: '';
     position: absolute;
     top: 10px;

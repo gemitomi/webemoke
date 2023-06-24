@@ -1,20 +1,31 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import '../../CSS/esetmegbeszelo.css'; 
-import EsetMeg from "../../image/eset_csop.png"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esetmegbeszélő csoport</title>
 
-export default function Esetmegbeszelo() {
-  return (
-    <div>
-      <section class="esetmegbeszelo">
+    <link rel="stylesheet" href="../CSS/esetmegbeszelo.css">
+
+    <!-- font awesome file link  ez az ikonokat hozza be-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    
+
+
+    <section class="esetmegbeszelo">
 
         <div class="esetmegbeszelo-container">
             <div class="esetmegbeszelo-head">
-                <h1>Esetmegbeszélő csoport</h1>    
+                <h1>Esetmegbeszélő csoport</h1>
+                
             </div>
             <div class="esetmegbeszelo-column">
                 <div class="esetmegbeszelo-img-container">
-                    <img src={EsetMeg} alt=""/>
+                    <img src="../image/eset_csop.png" alt="">
                 </div>
                 <div class="esetmegbeszelo-text">
                     
@@ -33,10 +44,9 @@ export default function Esetmegbeszelo() {
 
             <p>Mindegy, hogy hol, dúlaként vagy más szakma képviselőjeként segítesz a várandós anyáknak, beszéljünk egymással a tapasztalatainkról!</p>
         </div>
-        <div className="consultation-btn-box" >
-          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
-        </div>
-      </section>
-    </div>
-  ) 
-}
+    </section>
+                        
+                        
+                    
+</body>
+</html>

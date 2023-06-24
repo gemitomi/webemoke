@@ -1,0 +1,134 @@
+
+
+.bekesdulamuhely{
+    background: #f8f4f1;
+    margin-top: 40px;
+}
+
+.bekesdulamuhely-container{
+    padding-top: 5rem;
+    padding-inline: 26px;
+    max-width: 1240px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.bekesdulamuhely-head{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.bekesdulamuhely-head h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #a7638b;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 2rem 0;
+}
+
+.bekesdulamuhely-head h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #39232f;
+    padding: 2rem 0;
+}
+
+.bekesdulamuhely-container .bekesdulamuhely-column{
+    display: flex;
+    padding: 2em;   
+}
+
+.bekesdulamuhely-img-container{
+    width: 50%;
+    align-self: center;
+}
+
+.bekesdulamuhely-img-container img{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    border: 2rem solid #fff;
+    /*transform: rotate(-15deg);*/
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.bekesdulamuhely-text{
+   /* width: 80%;*/
+    padding: 2rem;
+}
+
+.bekesdulamuhely-container p{
+    line-height: 1.5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #39232f;
+    margin: 1rem 0;
+}
+
+.bekesdulamuhely-container a{
+    text-transform: none;
+    color: #a7638b;
+}
+
+.bekesdulamuhely-container h4{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #a7638b;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+
+.bekesdulamuhely-details .bekesdulamuhely-list{
+    margin: 3rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    
+}
+
+
+.bekesdulamuhely-list .bekesdulamuhely-has-before{
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-inline-start: 10px;
+    line-height: 1.5;
+}
+
+.bekesdulamuhely-list .bekesdulamuhely-has-before:not(:last-child) {margin-block-end: 15px;}
+
+.bekesdulamuhely-list .bekesdulamuhely-has-before::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left:-10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #a7638b
+}
+
+@media(max-width: 850px)
+{
+    .bekesdulamuhely-container .bekesdulamuhely-column{
+        display:grid; 
+    }
+
+    .bekesdulamuhely-container{
+        align-items: center;
+        justify-content: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-inline: 2px;
+        
+    }
+
+    .bekesdulamuhely-img-container{
+        justify-content:center;
+        align-items: center;
+    }
+    
+}

@@ -25,6 +25,8 @@ import Partner2 from "../image/feedback_partner_2.png"
 import SzuloVissza from "../image/szuloi vissza.png"
 import PartnerVissza from "../image/partner_vissza.png"
 
+import DlkrLogo from "../image/dulakor_logo.jpg"
+
 import TrainigVissza from "../image/trening_vissza.png"
 import MuhelyVissza from "../image/muhely_vissza.png"
 
@@ -342,6 +344,44 @@ export default function LandingPage() {
                 <div className="dula-education">
                     <div className="education-faq">
                     <Link to="/gyik" className="education-btn btn-prim">Gyakori kérdések a képzésekről</Link>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dula-circle">
+                <div class="dula-kor-container">
+                    <div class="dula-kor-content">
+                        <div class="dula-kor-left">
+                            <h1> Békés Dúlakör</h1>
+                            <p>
+                                Az elmúlt közel másfél évtizedben több száz nőt kísérhettem abban a folyamatban, 
+                                amely során közelebb kerülhettek a dúlai hivatáshoz és önmagukhoz.
+                            </p>
+                            <p>
+                                A dúlatréningek célja eleinte főként a „szakmai” információk átadása volt. 
+                                Emellett nagy hangsúlyt kaptak önismereti, motivációkat feltáró elemek is, 
+                                mivel a csoportokkal végzett munkám illetve a hivatásom gyakorlása során 
+                                összegyűlt tapasztalataim alapján egyre inkább azt éreztem, hogy a segítői 
+                                foglalkozás nélkülözhetetlenné teszi a folyamatos önismereti munkát 
+                                és a saját élményeink feldolgozását.
+                            </p>
+                            <a href="#" class="dula-kor-btn">Bővebben</a>
+                        </div>
+
+                        <div class="dula-kor-right">
+                            <div class="dula-kor-imageBx">
+                                <img src={DlkrLogo} alt="#"/>
+
+                                <svg height="800" width="800">
+                                    <circle stroke-width="1"
+                                            stroke="#999"
+                                            fill="transparent"
+                                            r="160"
+                                            cx="520"
+                                            cy="520"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
