@@ -348,10 +348,10 @@ export default function LandingPage() {
                 </div>
             </section>
 
-            <section class="dula-circle">
-                <div class="dula-kor-container">
-                    <div class="dula-kor-content">
-                        <div class="dula-kor-left">
+            <section className="dula-circle">
+                <div className="dula-kor-container">
+                    <div className="dula-kor-content">
+                        <div className="dula-kor-left">
                             <h1> Békés Dúlakör</h1>
                             <p>
                                 Az elmúlt közel másfél évtizedben több száz nőt kísérhettem abban a folyamatban, 
@@ -365,11 +365,11 @@ export default function LandingPage() {
                                 foglalkozás nélkülözhetetlenné teszi a folyamatos önismereti munkát 
                                 és a saját élményeink feldolgozását.
                             </p>
-                            <a href="#" class="dula-kor-btn">Bővebben</a>
+                            <Link to="/dulakor"className="dula-kor-btn">Bővebben</Link>
                         </div>
 
-                        <div class="dula-kor-right">
-                            <div class="dula-kor-imageBx">
+                        <div className="dula-kor-right">
+                            <div className="dula-kor-imageBx">
                                 <img src={DlkrLogo} alt="#"/>
 
                                 <svg height="800" width="800">
@@ -587,7 +587,7 @@ export default function LandingPage() {
                                         ajánlására azért kerestem meg, hogy dúlaként segítsen majd – bár 
                                         kórházi körülmények között [...]</p>
                                     <h3 className="feedback-author">D.F. anya</h3>
-                                    <button className="feedback-button">Bővebben</button>
+                                    <button className="feedback-button"><Link to="/feedback1df">Bővebben</Link></button>
                                 </div>
                             </div>
 
@@ -612,7 +612,7 @@ export default function LandingPage() {
                                         azt állította egy nőgyógyász, hogy a hormonjaim rendetlenkednek, 
                                         így nehezebben foganhat meg. Egy másik orvos [...]</p>
                                     <h3 className="feedback-author">F.T. anya</h3>
-                                    <button className="feedback-button">Bővebben</button>
+                                    <button className="feedback-button"><Link to="/feedback2ft">Bővebben</Link></button>
                                 </div>
                             </div>
 
@@ -639,7 +639,7 @@ export default function LandingPage() {
                                         főleg a női létnek egy olyan kiemelten fontos időszakában, 
                                         mint a várandósság, [...] </p>
                                     <h3 className="feedback-author">Hoplár Bori - testtudat oktató</h3>
-                                    <button className="feedback-button">Bővebben</button>
+                                    <button className="feedback-button"><Link to="/feedback1df">Bővebben</Link></button>
                                 </div>
                             </div>
                         </div>

@@ -5,18 +5,18 @@ import DulaKorCircle from "../../image/dulakor_logo.jpg";
 export default function Dulakor() {
   return (
     <div>
-      <section class="bekesdulakor-other">
+      <section className="bekesdulakor-other">
 
-      <div class="bekesdulakor-other-container">
-          <div class="bekesdulakor-other-head">
+      <div className="bekesdulakor-other-container">
+          <div className="bekesdulakor-other-head">
               <h1>Békés Dúlakör</h1>
               <h2>A Békés Dúlakör megalakulásának rövid története</h2>
           </div>
-          <div class="bekesdulakor-other-column">
-              <div class="bekesdulakor-other-img-container">
+          <div className="bekesdulakor-other-column">
+              <div className="bekesdulakor-other-img-container">
                   <img src={DulaKorCircle} alt=""/>
               </div>
-              <div class="bekesdulakor-other-text">
+              <div className="bekesdulakor-other-text">
                   <p>
                       Az elmúlt közel másfél évtizedben több száz nőt kísérhettem abban a folyamatban,
                       amely során közelebb kerülhettek a dúlai hivatáshoz és önmagukhoz.
@@ -78,34 +78,34 @@ export default function Dulakor() {
               Küldetésünknek tekintjük, hogy önbizalmukat és hitüket erősítsük abban, hogy érezzék valódi erejüket. Akár már a fogantatás előttől, a szülésfelkészítésen és szüléskísérésen át a gyermekágyas időszakon túl is számíthatnak értő figyelmünkre, valamint lelki és fizikai támogatásunkra.
           </p>
 
-          <div class="bekesdulakor-other-details">
-              <div class="bekesdulakor-otherBx">
+          <div className="bekesdulakor-other-details">
+              <div className="bekesdulakor-otherBx">
                   <h4>Értékeink</h4>
-                  <ul class="bekesdulakor-other-list">
-                      <li class="bekesdulakor-has-before">képzettség</li>
-                      <li class="bekesdulakor-has-before">közösség</li>
-                      <li class="bekesdulakor-has-before">szervezettség</li>
-                      <li class="bekesdulakor-has-before">aktivitás</li>
-                      <li class="bekesdulakor-has-before">sokszínűség</li>
-                      <li class="bekesdulakor-has-before">egységes értékrenden alapuló szemlélet</li>
-                      <li class="bekesdulakor-has-before">nyitott, rugalmas hozzáállás</li>
-                      <li class="bekesdulakor-has-before">szeretet</li>
+                  <ul className="bekesdulakor-other-list">
+                      <li className="bekesdulakor-has-before">képzettség</li>
+                      <li className="bekesdulakor-has-before">közösség</li>
+                      <li className="bekesdulakor-has-before">szervezettség</li>
+                      <li className="bekesdulakor-has-before">aktivitás</li>
+                      <li className="bekesdulakor-has-before">sokszínűség</li>
+                      <li className="bekesdulakor-has-before">egységes értékrenden alapuló szemlélet</li>
+                      <li className="bekesdulakor-has-before">nyitott, rugalmas hozzáállás</li>
+                      <li className="bekesdulakor-has-before">szeretet</li>
                   </ul>
               </div>
           
 
-              <div class="bekesdulakor-other-face">
+              <div className="bekesdulakor-other-face">
                   <h4>Képzettségünk</h4>
                   <p>Komplex szemléletű képzettségünk és naprakész tudásunk lehetőséget biztosít személyre szabott lelki, fizikai és informatív támogatásra, melyek kiegészítik és tiszteletben tartják az egészségügyi személyzet munkáját.
                   <br/>Ismerjük:
                   </p>
-                  <ul class="bekesdulakor-other-list">
-                      <li class="bekesdulakor-has-before"> a várandósság, a vajúdás és szülés, valamint a gyermekágyas időszak testi és lelki változásait,</li>
-                      <li class="bekesdulakor-has-before"> az élettani szülés fizikai és lelki folyamatait,</li>
-                      <li class="bekesdulakor-has-before">a korszerű szoptatási irányelveket,</li>
-                      <li class="bekesdulakor-has-before">a nem gyógyszeres fájdalomcsillapítás eszköztárát,</li>
-                      <li class="bekesdulakor-has-before">a különböző vajúdástámogatási módszereket (pl. masszázstechnikák, vajúdási pozíciók ajánlása,aromaterápia)</li>
-                      <li class="bekesdulakor-has-before">és azokat a szuggesztív kommunikációs technikákat, amelyek a szülés folyamatát támogatják.</li>
+                  <ul className="bekesdulakor-other-list">
+                      <li className="bekesdulakor-has-before"> a várandósság, a vajúdás és szülés, valamint a gyermekágyas időszak testi és lelki változásait,</li>
+                      <li className="bekesdulakor-has-before"> az élettani szülés fizikai és lelki folyamatait,</li>
+                      <li className="bekesdulakor-has-before">a korszerű szoptatási irányelveket,</li>
+                      <li className="bekesdulakor-has-before">a nem gyógyszeres fájdalomcsillapítás eszköztárát,</li>
+                      <li className="bekesdulakor-has-before">a különböző vajúdástámogatási módszereket (pl. masszázstechnikák, vajúdási pozíciók ajánlása,aromaterápia)</li>
+                      <li className="bekesdulakor-has-before">és azokat a szuggesztív kommunikációs technikákat, amelyek a szülés folyamatát támogatják.</li>
                       
                   </ul>
               </div>
@@ -130,14 +130,14 @@ export default function Dulakor() {
 
           <h4>A Békés Dúlakör elérhetőségei:</h4>
 
-          <div class="bekesdulakor-elerheto">
-              <a href="https://bekesdulakor.hu" class="bekesdulakor-oldal">www.bekesdulakor.hu</a>
+          <div className="bekesdulakor-elerheto">
+              <a href="https://bekesdulakor.hu" className="bekesdulakor-oldal">www.bekesdulakor.hu</a>
               <p>Facebook: Békés Dúlakör<br/>e-mail:</p>
-              <a href="mailto:gyermekaldas@bekesemoke.hu" class="bekesdulakor-oldal">gyermekaldas@bekesemoke.hu</a>
+              <a href="mailto:gyermekaldas@bekesemoke.hu" className="bekesdulakor-oldal">gyermekaldas@bekesemoke.hu</a>
               <br/>
-              <a href="mailto:elnokseg@bekesdulakor.hu" class="bekesdulakor-oldal">elnokseg@bekesdulakor.hu</a>
+              <a href="mailto:elnokseg@bekesdulakor.hu" className="bekesdulakor-oldal">elnokseg@bekesdulakor.hu</a>
               <br/>
-              <a href="mailto:titkarsag@bekesdulakor.hu" class="bekesdulakor-oldal">titkarsag@bekesdulakor.hu</a>
+              <a href="mailto:titkarsag@bekesdulakor.hu" className="bekesdulakor-oldal">titkarsag@bekesdulakor.hu</a>
               <p>telefon: +36 70 948-5481</p>
 
           </div>

@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
-.dula-subpage-portfolio-list { list-style: none; }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .dula-subpage-portfolio-list { list-style: none; }
   
 
   
@@ -14,10 +22,9 @@
   .subpagetitle-md { 
     font-size: 2.6rem;
     color: #39232f;
-    font-weight: 600;
  }
   .subpagelabel-md { 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #a7638b;
  }
   
@@ -26,7 +33,7 @@
     
     font-size: 3.8rem;
     color: #a7638b;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.2;
   }
   
@@ -38,7 +45,6 @@
     max-width: 1240px;
     width: 100%;
     margin-inline: auto;
-    margin-top: 90px;
   }
   
   
@@ -146,7 +152,7 @@
 
   .dula-subpage-btn {
     background-color: #d4b8c7;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     max-width: max-content;
     letter-spacing: 2px;
@@ -198,6 +204,8 @@
       margin-inline: auto;
     }
   
+    .dula-subpage-portfolio-card .card-text { margin-block-start: 20px; }
+  
   }
 
 
@@ -209,23 +217,51 @@
   #MEDIA QUEREIS
 \*-----------------------------------*/
 
+/**
+ * responsive for large than 575px screen
+ */
+
+@media (min-width: 575px) {
+
+    .title-lg { --fs-27: 3.5rem; }
+  
+  }
+  
+  
+  
+  
+  
   /**
    * responsive for large than 768px screen
    */
   
   @media (min-width: 768px) {
   
-    .subpageheadline-md { font-size:  5.5rem; }
+    /**
+     * TYPOGRAPHY
+     */
   
-    .subpagetitle-md { font-size:  5.2rem; }
+    .headline-lg { --fs-45: 6rem; }
+  
+    .headline-md { --fs-38: 4.5rem; }
+  
+    .title-md { --fs-26: 3.2rem; }
   
   
-    .dulasubpage { --section-padding: 100px; }
   
-    .subpagesection-title { margin-block-end: 40px; }
-
+    /**
+     * REUSED STYLE
+     */
+  
+    .section { --section-padding: 100px; }
+  
+    .section-title { margin-block-end: 40px; }
+  
+  
   }
-
+  
+  
+  
   
   
   /**
@@ -234,13 +270,30 @@
   
   @media (min-width: 992px) {
     
-
-    .subpageheadline-md { font-size: 5rem; }
-
-    .subpagesection-title { margin-block-end: 60px; }
+    /**
+     * TYPOGRAPHY
+     */
+  
+    .headline-md { --fs-38: 5rem; }
+  
+    .title-lg { --fs-27: 4rem; }
+  
+    .title-sm { --fs-22: 2.4rem; }
+  
+  
+  
+    /**
+     * REUSED STYLE
+     */
+  
+    .section-title { margin-block-end: 60px; }
+  
   
   
   }
+  
+  
+  
   
   
   /**
@@ -249,7 +302,15 @@
   
   @media (min-width: 1200px) {
   
-    .dula-subpage-container {
+   
+  
+    
+  
+    /**
+     * REUSED STYLE
+     */
+  
+    .container {
       max-width: 1240px;
       width: 100%;
       margin-inline: auto;

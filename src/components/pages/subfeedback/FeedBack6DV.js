@@ -7,18 +7,18 @@ import FszSzulo6 from "../../../image/feedback_szulo_6.png";
 export default function FeedBack6DV() {
     return (
         <div>
-              <section class="feedback-parent">
+              <section className="feedback-parent">
 
-<div class="feedback-parent-container">
-    <div class="feedback-parent-head">
+<div className="feedback-parent-container">
+    <div className="feedback-parent-head">
         <h1>D. V. - anya</h1>
         <h2>Visszajelzés szülőktől</h2>
     </div>
-    <div class="feedback-parent-column">
-        <div class="feedback-parent-img-container">
+    <div className="feedback-parent-column">
+        <div className="feedback-parent-img-container">
             <img src={FszSzulo6} alt=""/>
         </div>
-        <div class="feedback-parent-text">
+        <div className="feedback-parent-text">
             <p>
                 A dúla, azaz Te, számomra azt a fajta lelki támogatást nyújtottad, amire az első gyermekét váró tudatlan kismamának szüksége van az első hónapoktól egészen a szülésig. Rengeteg kérdés felmerül ilyenkor a kismamákban, rengeteg félelem és aggodalom is a folyamattal (terhesség) és a szüléssel kapcsolatban, ami teljesen elbizonytalanítja az egyébként magabiztos nőket is. Sajnos dúla hiányában az internet az, amire leginkább támaszkodnak a kismamák, mert ugye minden kérdéssel a nőgyógyászt és a szülésznőt sem lehet terhelni, mert rajtunk kívül még rengeteg más dolguk is van. Az internet viszont nagyon sok mindenben nem segít, nem ad választ mindenre, nem úgy adja a választ, hogy az személyre szabott legyen, sokszor nagyon bonyolult szövegekkel írja le, amit a személyes találkozók alkalmával mi meg tudtunk könnyedén beszélni.
             </p>
@@ -66,20 +66,20 @@ export default function FeedBack6DV() {
     
 
 
-    <div class="feedback-parent-tags">
+    <div className="feedback-parent-tags">
         <p>Címkék:</p>
-        <i class="far fa-calendar"> 2016.09.18.</i>
+        <i className="far fa-calendar"> 2016.09.18.</i>
         <Link to="/feedback">Visszajelzések</Link> 
         <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
     </div>
 
-    <div class="feedback-parent-title">
-        <h4 class="feedback-parent-title h4">További bejegyzések</h4>
+    <div className="feedback-parent-title">
+        <h4 className="feedback-parent-title h4">További bejegyzések</h4>
     </div>
 
-    <div class="feedback-parent-pag">
-        <Link to="/feedback5bb" class="feedback-parent-pag1">Előző</Link>
-        <Link to="/feedback7cst" class="feedback-parent-pag2">Következő</Link>
+    <div className="feedback-parent-pag">
+        <Link to="/feedback5bb" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/feedback7cst" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

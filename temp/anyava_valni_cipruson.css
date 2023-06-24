@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none; border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{text-decoration: none;}
+
+.section-anyavalas{
+    background: #f8f4f1;
+}
+
+.anyavalas-container{
+    padding-inline: 26px;
+    max-width: 1240px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.hero{
+    max-width: 100%;
+    height: 45rem;
+    background: url(../image/ciprus_hero.png)no-repeat
+     center center / cover;
+    /*margin: 2rem auto;*/
+    overflow: hidden;
+}
+
+.anyavalas-face{
+    width: 100%;
+    max-width: 120rem;
+    background-color: #f8f4f1;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.anyavalas-title{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #a7638b;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.anyavalas-face .profile-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.anyavalas-face .profile-container .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anyavalas-face .profile-container .profile .img-container{
+    width: 6rem;
+    height: 6rem;
+    background: url(../image/bekes_emoke.png)no-repeat
+    center center /cover;
+    border-radius: 50%;
+}
+
+.anyavalas-face .profile-container .profile .anya-text{
+    margin: 0 1rem;
+    color: #39232f;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.profile .anya-text h3{
+    text-transform: uppercase;
+}
+
+.anyavalas-btn{
+    display: inline-block;
+    text-transform: none;
+    font-size: 1.5rem;
+    padding: 0.3rem 1.5rem;
+    background-color: #a7638b;
+    border-radius: 0.3rem;
+    color: #f8f4f1;
+}
+
+.anyavalas-btn:hover{
+    background: #d4b8c7;
+    color: #39232f;
+     
+}
+
+.anyavalas-face .anyavalas-content p{
+    color:#39232f;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.anyavalas-face .anyavalas-content h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #a7638b;
+    margin: 2rem 0;
+}
+
+.anyavalas-face .anyavalas-content .anyavalas-img-container{
+    width: 50%;
+    height: 50rem;
+    background: url(../image/ciprusi-anyuka.jpg)no-repeat
+    center center /cover;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+
+
+.anyavalas-face .anyavalas-content .anyavalas-img-container1{
+    width: 50%;
+    height: 50rem;
+    background: url(../image/ciprus_kep2_576x1024.jpg)no-repeat
+    center center /cover;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+
+
+
+.anyavalas-face .anyavalas-content .anyavalas-img-container2{
+    width: 70%;
+    height: 50rem;
+    background: url(../image/ciprus_3-kep_1024x576.jpg)no-repeat
+    center center /cover;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+
+.anyavalas-face .anyavalas-content .anyavalas-img-container3{
+    width: 50%;
+    height: 70rem;
+    background: url(../image/ciprus_4_kep_576x1024.jpg)no-repeat
+    center center /cover;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+
+
+.anyavalas-content blockquote{
+    font-size: 1.8rem;
+    padding: 3rem 2.8rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+}
+
+.tags p{
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.tags a{
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+    background: #cfdade;
+    color: #a7638b;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+
+}
+
+
+/*Az alsó szekció*/
+
+
+.anyavalas-articles{
+    width: 100%;
+    background-color: #f5f5f5;
+    /*margin: 5rem 0;*/
+    padding: 5rem 0;
+}
+
+.anyavalas-articles .anyavalas-articles-heading{
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.anyavalas-articles-heading h5{
+    font-size: 7rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: rgba(223, 223, 223, 0.350);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.anyavalas-articles-heading h6{
+    font-size: 4rem;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#39232f
+}
+
+.anyavalas-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto;
+    gap: 3rem;
+}
+
+
+.anyavalas-cards .card-container{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    background: #cfdade;
+    padding: 1rem;
+    margin: 2rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.anyavalas-cards .card-container .img-holder{
+    width: 100%;
+    height: 27rem;
+    background: url(../image/szardínia_hero.png)no-repeat
+    center center /cover;
+    position: relative;
+    
+}
+
+.anyavalas-cards .card-container.two .img-holder{
+    background: url(../image/frankfurt_hero.png)no-repeat
+    center center /cover;
+    
+}
+
+.anyavalas-cards .card-container.three .img-holder{
+    background: url(../image/szules_story_1.png)no-repeat
+    center center /cover;
+  
+}
+
+.anyavalas-cards .card-container .img-holder a{
+    text-transform: none;
+    font-size: 1.5rem;
+    padding: 0.3rem 1.5rem;
+    display: inline-block;
+    color: #97bcc7;
+    background: #f8f4f1;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    transition: all 0.4s ease;
+}
+
+.anyavalas-cards .card-container:hover{
+    transform: translateY(-1em);
+}
+
+.anyavalas-cards .card-container:hover a{
+    background-color: #97bcc7;
+    color: #39232f;
+}
+
+.anyavalas-cards .card-container .card-text{
+    background-color: #f8f4f1;
+    padding: 2rem;
+    /*box-shadow: 0 0 0.3rem gray;*/
+}
+
+.anyavalas-cards .card-container .card-text h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.anyavalas-cards .card-container .card-text p{
+    font-size: 1.5rem;
+}
+
+.anyavalas-cards .card-container .card-text i{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #39232f;
+    font-size: 1.2rem;
+    text-transform: none;
+    
+}
+
+.anyavalas-articles .anyavalas-button{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.anyavalas-articles .anyavalas-btn{
+    background: #97bcc7;
+    color: #39232f;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 0.5rem 3rem;
+    border-radius:5px;
+}
+
+.anyavalas-articles .anyavalas-btn:hover{
+    background: #cfdade;
+    color: #a7638b;
+    box-shadow: 6px 6px 0 -1px #868485;
+}

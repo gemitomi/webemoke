@@ -7,17 +7,17 @@ import FszSzulo1 from "../../../image/feedback_szulo_1.png";
 export default function FeedBack1DF() {
   return (
     <div>
-      <section class="feedback-parent">
-        <div class="feedback-parent-container">
-            <div class="feedback-parent-head">
+      <section className="feedback-parent">
+        <div className="feedback-parent-container">
+            <div className="feedback-parent-head">
                 <h1>D. F. - anya</h1>
                 <h2>Visszajelzés szülőktől</h2>
             </div>
-            <div class="feedback-parent-column">
-                <div class="feedback-parent-img-container">
+            <div className="feedback-parent-column">
+                <div className="feedback-parent-img-container">
                     <img src={FszSzulo1} alt=""/>
                 </div>
-                <div class="feedback-parent-text">
+                <div className="feedback-parent-text">
                     <p>
                         Első terhességem során Emőkét egy ismerősöm ajánlására 
                         azért kerestem meg, hogy dúlaként segítsen majd – bár 
@@ -47,19 +47,19 @@ export default function FeedBack1DF() {
                 vagy éppenséggel egy új nézőpontra világítanak rá, mindenesetre több mint 
                 2 év távlatában maximálisan beigazolódni látszanak.<br/><b>Köszönöm, Emőke!</b></p>
 
-            <div class="feedback-parent-tags">
+            <div className="feedback-parent-tags">
                 <p>Címkék:</p>
-                <i class="far fa-calendar"> 2017.01.11.</i>
+                <i className="far fa-calendar"> 2017.01.11.</i>
                 <Link to="/feedback">Visszajelzések</Link> 
                 <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
             </div>
 
-            <div class="feedback-parent-title">
-                <h4 class="feedback-parent-title h4">További bejegyzések</h4>
+            <div className="feedback-parent-title">
+                <h4 className="feedback-parent-title h4">További bejegyzések</h4>
             </div>
 
-            <div class="feedback-parent-pag">
-                <Link to="/feedback2ft" class="feedback-parent-pag2">Következő</Link>
+            <div className="feedback-parent-pag">
+                <Link to="/feedback2ft" className="feedback-parent-pag2">Következő</Link>
             </div>
             
         </div>

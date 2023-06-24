@@ -44,6 +44,11 @@ import FeedBack9MG from "./components/pages/subfeedback/FeedBack9MG";
 import FeedBack90KK from "./components/pages/subfeedback/FeedBack90KK";
 import FeedBack91OH from "./components/pages/subfeedback/FeedBack91OH";
 import FeedBack92HE from "./components/pages/subfeedback/FeedBack92HE";
+import PfeedBack1rzs from "./components/pages/subfeedback/PfeedBack1rzs";
+import PfeedBack2hb from "./components/pages/subfeedback/PfeedBack2hb";
+import PfeedBack3aa from "./components/pages/subfeedback/PfeedBack3aa";
+import PfeedBack4kg from "./components/pages/subfeedback/PfeedBack4kg";
+import PfeedBack5kr from "./components/pages/subfeedback/PfeedBack5kr";
 
 function App() {
   return (
@@ -92,6 +97,11 @@ function App() {
             <Route path="/feedback90kk" element={<FeedBack90KK/>}/>
             <Route path="/feedback91oh" element={<FeedBack91OH/>}/>
             <Route path="/feedback92he" element={<FeedBack92HE/>}/>
+            <Route path="/pfeedback1rzs" element={<PfeedBack1rzs/>}/>
+            <Route path="/pfeedback2hb" element={<PfeedBack2hb/>}/>
+            <Route path="/pfeedback3aa" element={<PfeedBack3aa/>}/>
+            <Route path="/pfeedback4kg" element={<PfeedBack4kg/>}/>
+            <Route path="/pfeedback5kr" element={<PfeedBack5kr/>}/>
           </Routes>
           
         </div>

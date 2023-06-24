@@ -7,18 +7,18 @@ import FszSzulo10 from "../../../image/feedback_szulo_10.png";
 export default function FeedBack90KK() {
     return (
         <div>
-               <section class="feedback-parent">
+               <section className="feedback-parent">
 
-<div class="feedback-parent-container">
-    <div class="feedback-parent-head">
+<div className="feedback-parent-container">
+    <div className="feedback-parent-head">
         <h1>K. K. - anya</h1>
         <h2>Visszajelzés szülőktől</h2>
     </div>
-    <div class="feedback-parent-column">
-        <div class="feedback-parent-img-container">
+    <div className="feedback-parent-column">
+        <div className="feedback-parent-img-container">
             <img src={FszSzulo10} alt=""/>
         </div>
-        <div class="feedback-parent-text">
+        <div className="feedback-parent-text">
             <p>
                 A dúlám már a terhesség legelejétől segít, és olyan kérdéseket is fel lehetett tenni neki, amivel egy szülésznőt nem illik zavarni. Őt emailben is meg lehetett kérdezni, naponta többször is felhívhattam – olyan, mint egy barátnő, csak hozzáértő. Ért a terhességhez, ért a szüléshez, ért a csecsemőgondozáshoz és ért a lélekhez.
                 
@@ -27,20 +27,20 @@ export default function FeedBack90KK() {
     </div>
     <p></p>
 
-    <div class="feedback-parent-tags">
+    <div className="feedback-parent-tags">
         <p>Címkék:</p>
-        <i class="far fa-calendar"> 2016.09.18.</i>
+        <i className="far fa-calendar"> 2016.09.18.</i>
         <Link to="/feedback">Visszajelzések</Link> 
         <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
     </div>
 
-    <div class="feedback-parent-title">
-        <h4 class="feedback-parent-title h4">További bejegyzések</h4>
+    <div className="feedback-parent-title">
+        <h4 className="feedback-parent-title h4">További bejegyzések</h4>
     </div>
 
-    <div class="feedback-parent-pag">
-        <Link to="/feedback9mg" class="feedback-parent-pag1">Előző</Link>
-        <Link to="/feedback91oh" class="feedback-parent-pag2">Következő</Link>
+    <div className="feedback-parent-pag">
+        <Link to="/feedback9mg" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/feedback91oh" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

@@ -7,18 +7,18 @@ import FszSzulo9 from "../../../image/feedback_szulo_9.png";
 export default function FeedBack9MG() {
     return (
         <div>
-            <section class="feedback-parent">
+            <section className="feedback-parent">
 
-<div class="feedback-parent-container">
-    <div class="feedback-parent-head">
+<div className="feedback-parent-container">
+    <div className="feedback-parent-head">
         <h1>M. G. - anya</h1>
         <h2>Visszajelzés szülőktől</h2>
     </div>
-    <div class="feedback-parent-column">
-        <div class="feedback-parent-img-container">
+    <div className="feedback-parent-column">
+        <div className="feedback-parent-img-container">
             <img src={FszSzulo9} alt=""/>
         </div>
-        <div class="feedback-parent-text">
+        <div className="feedback-parent-text">
             <p>
                 Első szülésemnél nem fogadtam szülésznőt, szerintem ez is nagyban 
                 befolyásolhatta a szülés kimenetelét. Semmilyen figyelmet nem éreztem a részéről, részükről, ráadásul váltották egymást, nekem is “váltanom” kellett, ráhangolódnom a következőre. Szerintem nagyon furcsa egy olyan csodálatos “eseménynél”, mint a szülés az embernek kifelé is figyelni, szimpatizálni, “kiharcolni” esetlegesen a szimpátiát, hogy minden simán menjen…. Nem elég a környezetet megszokni, figyelni kell a szülésznő és orvos utasításaira, jobb esetben jószándékú irányítására. Ha megfelelős az ember, sajnos túlságosan is hajlamos inkább a külvilágra figyelni, mintsem a saját “érdekeire”.
@@ -52,20 +52,20 @@ export default function FeedBack9MG() {
 
     </p>
 
-    <div class="feedback-parent-tags">
+    <div className="feedback-parent-tags">
         <p>Címkék:</p>
-        <i class="far fa-calendar"> 2016.09.18.</i>
+        <i className="far fa-calendar"> 2016.09.18.</i>
         <Link to="/feedback">Visszajelzések</Link> 
         <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
     </div>
 
-    <div class="feedback-parent-title">
-        <h4 class="feedback-parent-title h4">További bejegyzések</h4>
+    <div className="feedback-parent-title">
+        <h4 className="feedback-parent-title h4">További bejegyzések</h4>
     </div>
 
-    <div class="feedback-parent-pag">
-        <Link to="/feedback8tp" class="feedback-parent-pag1">Előző</Link>
-        <Link to="/feedback90kk" class="feedback-parent-pag2">Következő</Link>
+    <div className="feedback-parent-pag">
+        <Link to="/feedback8tp" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/feedback90kk" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>
