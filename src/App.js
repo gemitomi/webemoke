@@ -11,6 +11,7 @@ import About from "./components/pages/About";
 import Services from "./components/pages/Services";
 import Dulatrening from "./components/pages/Dulatrening";
 import Dulakor from "./components/pages/Dulakor";
+import Olvasnivalok from "./components/pages/Olvasnivalok";
 import Blog from "./components/pages/Blog";
 import Feedback from "./components/pages/Feedback";
 import FeedbackParents1 from "./components/pages/FeedbackParents1";
@@ -49,6 +50,9 @@ import PfeedBack2hb from "./components/pages/subfeedback/PfeedBack2hb";
 import PfeedBack3aa from "./components/pages/subfeedback/PfeedBack3aa";
 import PfeedBack4kg from "./components/pages/subfeedback/PfeedBack4kg";
 import PfeedBack5kr from "./components/pages/subfeedback/PfeedBack5kr";
+import StoryMother1 from "./components/pages/subfeedback/StoryMother1";
+import StoryMother2 from "./components/pages/subfeedback/StoryMother2";
+import StoryMother3 from "./components/pages/subfeedback/StoryMother3";
 
 function App() {
   return (
@@ -62,6 +66,7 @@ function App() {
             <Route path="/services" element={<Services/>}/>
             <Route path="/dulatrening" element={<Dulatrening/>}/>
             <Route path="/dulakor" element={<Dulakor/>}/>
+            <Route path="/olvasnivalok" element={<Olvasnivalok/>}/>
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/feedback" element={<Feedback/>}/>
             <Route path="/feedbackparents1" element={<FeedbackParents1/>}/>
@@ -102,6 +107,9 @@ function App() {
             <Route path="/pfeedback3aa" element={<PfeedBack3aa/>}/>
             <Route path="/pfeedback4kg" element={<PfeedBack4kg/>}/>
             <Route path="/pfeedback5kr" element={<PfeedBack5kr/>}/>
+            <Route path="/storymother1" element={<StoryMother1/>}/>
+            <Route path="/storymother2" element={<StoryMother2/>}/>
+            <Route path="/storymother3" element={<StoryMother3/>}/>
           </Routes>
           
         </div>

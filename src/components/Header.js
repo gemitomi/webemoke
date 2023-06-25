@@ -40,7 +40,7 @@ function MenuItems() {
           <div><Link to="/dulakor">Békés Dúlakör</Link></div>
         </li>
         <li>
-          <div><Link to="/blog">Olvasnivaló</Link></div>
+          <div><Link to="/olvasnivalok">Olvasnivalók</Link></div>
         </li>
         <li>
         <div><Link to="/feedback">Visszajelzések</Link></div>

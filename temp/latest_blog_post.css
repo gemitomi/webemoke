@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.latest-blog-portfolio-list { list-style: none; }
+
+
+
+ion-icon { 
+  display: block;
+  pointer-events: none;
+}
+
+
+
+.latestblogtitle-md { 
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #39232f;
+}
+.latestbloglabel-md { 
+  font-size: 1.2rem;
+  color: #a7638b;
+}
+
+
+.latestblogheadline-md{
+  
+  font-size: 3.8rem;
+  color: #a7638b;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
+
+.latest-blog-container { padding-inline: 16px; }
+
+.latest-blog-container {
+  max-width: 1240px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+
+
+
+
+.latestblogsection-title {
+  margin-block-end: 60px;
+  letter-spacing: 3px;
+}
+
+.latesttext-center { text-align: center; }
+
+.latest-blog-img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+.latest-blog-img-holder {
+  aspect-ratio: var(--width) / var(--height);
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------*\
+#PORTFOLIO
+\*-----------------------------------*/
+
+.latestblog {
+  background-color: #f8f4f1;
+  padding-block-start: calc 60px + 60px;
+}
+
+.latest-blog-portfolio-list,
+.latest-blog-portfolio-card { display: grid; }
+
+.latest-blog-portfolio-list { gap: 50px; }
+
+.latest-blog-portfolio-card { gap: 25px; }
+
+.latest-blog-portfolio-card .card-banner {
+  position: relative;
+  border: 2px solid #97bcc9;
+  box-shadow: 0 0 0 #97bcc9;
+  transition: 0.25s ease;
+}
+
+.latest-blog-portfolio-card .card-banner:is(:hover, :focus-within) {
+  box-shadow: 3px 3px 0 #868485;
+}
+
+.latest-blog-portfolio-card .latest-blog-btn-icon {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  background-color: #f8f4f1;
+  color: #39232f;
+  font-size: 2rem;
+  padding: 8px;
+  border: 2px solid #39232f;
+  opacity: 0;
+  transition: 0.25s ease;
+  will-change: transform;
+
+}
+
+.latest-blog-portfolio-card .card-banner:is(:hover, :focus-within) .latest-blog-btn-icon {
+  transform: translateX(15px);
+  opacity: 1;
+}
+
+.latest-blog-portfolio-card .latestblog-chip {
+  background-color: #cfdade;
+  max-width: max-content;
+  color: #a7638b;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 6px 20px;
+  border-radius: 100px;
+  margin-block-end: 18px;
+  display: block;
+}
+
+
+
+
+
+
+/*-----------------------------------*\
+#btn.css
+\*-----------------------------------*/
+
+
+.latest-blog-btn {
+  background-color: #d4b8c7;
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: max-content;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  margin-top:10px;
+  transition: 0.25s ease;
+  color:#39232f;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.latest-blog-btn:is(:hover, :focus-visible) {
+  background: #cfdade;
+  color: #a7638b;
+  box-shadow: 6px 6px 0 -1px #868485;
+  outline-offset: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 768px screen
+ */
+
+@media (min-width: 768px) {
+
+  .latest-blog-portfolio-card {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .latest-blog-portfolio-list > li:nth-child(2n) .card-banner { order: 1; }
+
+  .latest-blog-portfolio-card > * {
+    width: 80%;
+    margin-inline: auto;
+  }
+
+}
+
+
+
+
+
+
+/*-----------------------------------*\
+#MEDIA QUEREIS
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 768px screen
+ */
+
+@media (min-width: 768px) {
+
+  .latesblogheadline-md { font-size:  4.5rem; }
+
+  .latestblogtitle-md { font-size:  3.2rem; }
+
+
+  .latestblog { --section-padding: 100px; }
+
+  .latestblogsection-title { margin-block-end: 40px; }
+
+}
+
+
+
+/**
+ * responsive for large than 992px screen
+ */
+
+@media (min-width: 992px) {
+  
+
+  .latestblogheadline-md { font-size: 5rem; }
+
+  .latestblogsection-title { margin-block-end: 60px; }
+
+
+}
+
+
+/**
+ * responsive for large than 1200px screen
+ */
+
+@media (min-width: 1200px) {
+
+  .latest-blog-container {
+    max-width: 1240px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+}

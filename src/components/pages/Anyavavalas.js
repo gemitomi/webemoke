@@ -51,7 +51,7 @@ export default function Anyavavalas() {
                         Ezután kolléganőm elmesélte, hogy ők Emőkével szülték meg első gyermeküket és a másodiknál – mikor ők is már kint […]
                     </blockquote>
 
-                    <a href="#" className="anya-btn anya-btn-primary">Bővebben</a>
+                    <Link to="/storymother1" className="anya-btn anya-btn-primary">Bővebben</Link>
 
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Anyavavalas() {
                     és mivel a férjem mindenképpen velem akart lenni a nagy napon, szóba se jöhetett, hogy hazajövök szülni.
                   </blockquote>
 
-                  <a href="#" className="anya-btn anya-btn-primary">Bővebben</a>
+                  <Link to="/storymother2" className="anya-btn anya-btn-primary">Bővebben</Link>
 
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function Anyavavalas() {
                     én már akkor tudtam, hogy a férjemen kívül szeretném, ha lenne dúlánk, aki végigkísér ezen az úton minket.
                     Így elkezdtem olvasgatni az interneten, ki is az a dúla és mit csinál. Rátaláltam a Békés Dúlakörre,...
                   </blockquote>
-                  <a href="#" className="anya-btn anya-btn-primary">Bővebben</a>
+                  <Link to="/storymother3" className="anya-btn anya-btn-primary">Bővebben</Link>
                 </div>
               </div>
             </li>

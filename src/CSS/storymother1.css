@@ -2,19 +2,6 @@
 
 
 
-*{
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    outline: none; border: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    text-transform: none;
-}
-
-html{
-    font-size: 62.5%;
-}
 
 a{text-decoration: none;}
 
@@ -22,23 +9,23 @@ a{text-decoration: none;}
     background: #f8f4f1;
 }
 
-.anyavalas-container{
+.frankfurt-anyavalas-container{
     padding-inline: 26px;
     max-width: 1240px;
     width: 100%;
     margin-inline: auto;
 }
 
-.hero{
+.frankfurt-hero{
     max-width: 100%;
     height: 45rem;
-    background: url(../image/szardínia_hero.png)no-repeat
+    background: url(../image/frankfurt_hero.png)no-repeat
      center center / cover;
     /*margin: 2rem auto;*/
     overflow: hidden;
 }
 
-.anyavalas-face{
+.frankfurt-anyavalas-face{
     width: 100%;
     max-width: 120rem;
     background-color: #f8f4f1;
@@ -46,7 +33,7 @@ a{text-decoration: none;}
     padding: 3rem;
 }
 
-.anyavalas-title{
+.frankfurt-anyavalas-title{
     font-size: 3rem;
     font-weight: 600;
     color: #a7638b;
@@ -54,20 +41,20 @@ a{text-decoration: none;}
     letter-spacing: 2px;
 }
 
-.anyavalas-face .profile-container{
+.frankfurt-anyavalas-face .profile-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 3rem 0;
 }
 
-.anyavalas-face .profile-container .profile{
+.frankfurt-anyavalas-face .profile-container .profile{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.anyavalas-face .profile-container .profile .img-container{
+.frankfurt-anyavalas-face .profile-container .profile .img-container{
     width: 6rem;
     height: 6rem;
     background: url(../image/bekes_emoke.png)no-repeat
@@ -75,7 +62,7 @@ a{text-decoration: none;}
     border-radius: 50%;
 }
 
-.anyavalas-face .profile-container .profile .anya-text{
+.frankfurt-anyavalas-face .profile-container .profile .anya-text{
     margin: 0 1rem;
     color: #39232f;
     font-size: 1.2rem;
@@ -87,7 +74,7 @@ a{text-decoration: none;}
     text-transform: uppercase;
 }
 
-.anyavalas-btn{
+.frankfurt-anyavalas-btn{
     display: inline-block;
     text-transform: none;
     font-size: 1.5rem;
@@ -97,13 +84,13 @@ a{text-decoration: none;}
     color: #f8f4f1;
 }
 
-.anyavalas-btn:hover{
+.frankfurt-anyavalas-btn:hover{
     background: #d4b8c7;
     color: #39232f;
      
 }
 
-.anyavalas-face .anyavalas-content p{
+.frankfurt-anyavalas-face .frankfurt-anyavalas-content p{
     color:#39232f;
     margin: 1rem 0;
     font-size: 1.8rem;
@@ -111,33 +98,33 @@ a{text-decoration: none;}
     line-height: 1.5;
 }
 
-.anyavalas-face .anyavalas-content h4{
+.frankfurt-anyavalas-face .frankfurt-anyavalas-content h4{
     font-size: 1.5rem;
     font-weight: 700;
     color: #a7638b;
     margin: 2rem 0;
 }
 
-.anyavalas-face .anyavalas-content .anyavalas-img-container{
-    width: 50%;
+.frankfurt-anyavalas-face .frankfurt-anyavalas-content .frankfurt-anyavalas-img-container{
+    width: 100%;
     height: 50rem;
-    background: url(../image/szardinia-szandra.jpg)no-repeat
+    background: url(../image/frankfurt_skyp.png)no-repeat
     center center /cover;
     margin: 3rem auto;
     overflow: hidden;
 }
 
-/*.anyavalas-face .anyavalas-content .anyavalas-img-container1{
+.frankfurt-anyavalas-face .frankfurt-anyavalas-content .frankfurt-anyavalas-img-container1{
     width: 100%;
     height: 50rem;
     background: url(../image/frankfurt_viber.png)no-repeat
     center center /cover;
     margin: 3rem auto;
     overflow: hidden;
-}*/
+}
 
 
-.anyavalas-content blockquote{
+.frankfurt-anyavalas-content blockquote{
     font-size: 1.8rem;
     padding: 3rem 2.8rem;
     line-height: 1.5;
@@ -169,21 +156,21 @@ a{text-decoration: none;}
 /*Az alsó szekció*/
 
 
-.anyavalas-articles{
-    width: 100%;
+.frankfurt-anyavalas-articles{
+    
     background-color: #f5f5f5;
     /*margin: 5rem 0;*/
     padding: 5rem 0;
 }
 
-.anyavalas-articles .anyavalas-articles-heading{
+.frankfurt-anyavalas-articles .frankfurt-anyavalas-articles-heading{
     text-transform: uppercase;
     text-align: center;
     width: 100%;
     position: relative;
 }
 
-.anyavalas-articles-heading h5{
+.frankfurt-anyavalas-articles-heading h5{
     font-size: 7rem;
     font-weight: 800;
     letter-spacing: 2px;
@@ -192,7 +179,7 @@ a{text-decoration: none;}
     position: relative;
 }
 
-.anyavalas-articles-heading h6{
+.frankfurt-anyavalas-articles-heading h6{
     font-size: 4rem;
     font-weight: 200;
     position: absolute;
@@ -202,7 +189,7 @@ a{text-decoration: none;}
     color:#39232f
 }
 
-.anyavalas-cards{
+.frankfurt-anyavalas-cards{
     display: flex;
     justify-content: space-between;
     margin: 4rem auto;
@@ -210,7 +197,7 @@ a{text-decoration: none;}
 }
 
 
-.anyavalas-cards .card-container{
+.frankfurt-anyavalas-cards .fankfurt-card-container{
     width: 600px;
     height: 400px;
     overflow: hidden;
@@ -224,28 +211,28 @@ a{text-decoration: none;}
     
 }
 
-.anyavalas-cards .card-container .img-holder{
+.frankfurt-anyavalas-cards .fankfurt-card-container .img-holder{
     width: 100%;
     height: 27rem;
-    background: url(../image/frankfurt_hero.png)no-repeat
+    background: url(../image/szardínia_hero.png)no-repeat
     center center /cover;
-    position: relative;
+    
     
 }
 
-.anyavalas-cards .card-container.two .img-holder{
+.frankfurt-anyavalas-cards .fankfurt-card-container.two .img-holder{
     background: url(../image/ciprus_hero.png)no-repeat
     center center /cover;
     
 }
 
-.anyavalas-cards .card-container.three .img-holder{
-    background: url(../image/szules_story_2.png)no-repeat
+.frankfurt-anyavalas-cards .fankfurt-card-container.three .img-holder{
+    background: url(../image/szules_story_1.png)no-repeat
     center center /cover;
   
 }
 
-.anyavalas-cards .card-container .img-holder a{
+.frankfurt-anyavalas-cards .fankfurt-card-container .img-holder a{
     text-transform: none;
     font-size: 1.5rem;
     padding: 0.3rem 1.5rem;
@@ -253,38 +240,38 @@ a{text-decoration: none;}
     color: #97bcc7;
     background: #f8f4f1;
     font-weight: 500;
-    position: absolute;
+    
     bottom: 5%;
     right: 5%;
     transition: all 0.4s ease;
 }
 
-.anyavalas-cards .card-container:hover{
+.frankfurt-anyavalas-cards .fankfurt-card-container:hover{
     transform: translateY(-1em);
 }
 
-.anyavalas-cards .card-container:hover a{
+.frankfurt-anyavalas-cards .fankfurt-card-container:hover a{
     background-color: #97bcc7;
     color: #39232f;
 }
 
-.anyavalas-cards .card-container .card-text{
+.frankfurt-anyavalas-cards .fankfurt-card-container .card-text{
     background-color: #f8f4f1;
     padding: 2rem;
     /*box-shadow: 0 0 0.3rem gray;*/
 }
 
-.anyavalas-cards .card-container .card-text h4{
+.frankfurt-anyavalas-cards .fankfurt-card-container .card-text h4{
     font-size: 1.5rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
-.anyavalas-cards .card-container .card-text p{
+.frankfurt-anyavalas-cards .fankfurt-card-container .card-text p{
     font-size: 1.5rem;
 }
 
-.anyavalas-cards .card-container .card-text i{
+.frankfurt-anyavalas-cards .fankfurt-card-container .card-text i{
     display: inline-block;
     padding: 0.5rem 1rem;
     color: #39232f;
@@ -293,12 +280,12 @@ a{text-decoration: none;}
     
 }
 
-.anyavalas-articles .anyavalas-button{
+.frankfurt-anyavalas-articles .frankfurt-anyavalas-button{
     margin: 0 auto;
     text-align: center;
 }
 
-.anyavalas-articles .anyavalas-btn{
+.frankfurt-anyavalas-articles .frankfurt-anyavalas-btn{
     background: #97bcc7;
     color: #39232f;
     font-size: 1.7rem;
@@ -308,8 +295,29 @@ a{text-decoration: none;}
   
 }
 
-.anyavalas-articles .anyavalas-btn:hover{
+.frankfurt-anyavalas-articles .frankfurt-anyavalas-btn:hover{
     background: #97bcc7;
     color: #39232f;
     box-shadow: 6px 6px 0 -1px #868485;
 }
+
+@media (max-width: 985px) {
+  
+    .frankfurt-anyavalas-cards {
+        display: grid;
+    }
+
+    .frankfurt-anyavalas-cards .fankfurt-card-container{
+       
+        width:100%;
+        height:100%;
+        
+    }
+
+    .frankfurt-anyavalas-articles .frankfurt-anyavalas-articles-heading h5{
+        display: none;
+    }
+  
+  }
+
+
