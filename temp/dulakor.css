@@ -241,6 +241,165 @@ svg circle{
 
 /*dulakör vége*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
+/*dulakör kezdet
+
+.dula-circle{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(248, 244, 241, 0.5), rgba(0, 0, 0, 0.3)), url(../image/circle1.png);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-sec{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.dula-circle img{
+    height: 30rem;
+    border-radius: .35rem;
+    position: absolute;
+    box-shadow: 0 1rem 3rem #000;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.dula-circle img:nth-child(1){
+    transform: rotate(-4deg);
+    top: 15%;
+    left: 20%;
+}
+
+.dula-circle img:nth-child(2){
+    transform: rotate(4deg);
+    top: 45%;
+    left: 30%;
+}
+
+.descp-sec{
+width: 40%;
+padding: 2rem;
+color: #f8f4f1;
+box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+border-radius: .5rem;
+font-size: 2rem;
+backdrop-filter: blur( .5rem);
+}
+
+.descp-sec h2{
+    font-size: 4rem;
+    color: #39232f;
+    text-align: center;
+
+}
+
+.descp-sec p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.descp-sec .btn{
+    transition: all .2s ease;
+    position: relative;
+    padding-top: 20px;
+}
+
+.descp-sec .btn span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    color: #f8f4f1;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.dula-circle img:hover{
+    z-index: 1;
+}
+
+.dula-circle img:nth-child(1):hover, .circle img:nth-child(2):hover{
+    transform: scale(1.1);
+}
+
+.dulatrening{
+    margin-top: 200px;
+}
+
+.dulatrening h2{
+    margin-top: 100px;
+}
+
+@media (min-width: 640px) and (max-width:940px){
+    .dula-circle{
+        flex-direction: column;
+    }
+
+    .img-sec{
+        width: 100%;
+    }
+
+    .dula-circle img{
+        height: 25rem;
+    }
+    .dula-circle img:nth-child(1){
+        
+        top: 10%;
+        left: 25%;
+    }
+    
+    .dula-circle img:nth-child(2){
+        
+        top: 40%;
+        left: 40%;
+    }
+    .descp-sec{
+        width: 80%;
+        margin-bottom: 5.rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 640px){
+    .dula-circle{
+        flex-direction: column;
+    }
+
+    .img-sec{
+        width: 100%;
+    }
+    .dula-circle img{
+        height: 20rem;
+    }
+    .dula-circle img:nth-child(1){
+        
+        left: 15%;
+    }
+    
+    .dula-circle img:nth-child(2){
+        
+        left: 35%;
+    }
+    .descp-sec{
+        width: 80%;
+        margin-bottom: 5.rem;
+        font-size: 1.6rem;
+    }
+    .descp-sec h2{
+        font-size: 3rem;
+    }
+}
+
+dulakör vége*/
 
 

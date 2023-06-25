@@ -639,7 +639,7 @@ export default function LandingPage() {
                                         főleg a női létnek egy olyan kiemelten fontos időszakában, 
                                         mint a várandósság, [...] </p>
                                     <h3 className="feedback-author">Hoplár Bori - testtudat oktató</h3>
-                                    <button className="feedback-button"><Link to="/feedback1df">Bővebben</Link></button>
+                                    <button className="feedback-button"><Link to="/pfeedback2hb">Bővebben</Link></button>
                                 </div>
                             </div>
                         </div>

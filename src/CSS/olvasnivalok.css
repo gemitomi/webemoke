@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
- 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .latest-blog-portfolio-list { list-style: none; }
 
@@ -19,11 +13,11 @@ ion-icon {
 
 .latestblogtitle-md { 
   font-size: 2.6rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #39232f;
 }
 .latestbloglabel-md { 
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #a7638b;
 }
 
@@ -44,6 +38,7 @@ ion-icon {
   max-width: 1240px;
   width: 100%;
   margin-inline: auto;
+  margin-top: 90px;
 }
 
 
@@ -151,7 +146,7 @@ ion-icon {
 
 .latest-blog-btn {
   background-color: #d4b8c7;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   max-width: max-content;
   letter-spacing: 2px;
@@ -220,9 +215,9 @@ ion-icon {
 
 @media (min-width: 768px) {
 
-  .latesblogheadline-md { font-size:  4.5rem; }
+  .latesblogheadline-md { font-size:  5.5rem; }
 
-  .latestblogtitle-md { font-size:  3.2rem; }
+  .latestblogtitle-md { font-size: 5.2rem; }
 
 
   .latestblog { --section-padding: 100px; }
