@@ -53,6 +53,7 @@ import PfeedBack5kr from "./components/pages/subfeedback/PfeedBack5kr";
 import StoryMother1 from "./components/pages/subfeedback/StoryMother1";
 import StoryMother2 from "./components/pages/subfeedback/StoryMother2";
 import StoryMother3 from "./components/pages/subfeedback/StoryMother3";
+import Gallery from "./components/pages/Gallery";
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
             <Route path="/feedbackDulatrening" element={<FeedbackDulatrening/>}/>
             <Route path="/feedbackDulamuhely" element={<FeedbackDulamuhely/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/gallery" element={<Gallery/>}/>
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
           <Routes>
