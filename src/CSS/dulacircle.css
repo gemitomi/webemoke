@@ -5,6 +5,7 @@
 
 .bekesdulakor-other{
     background: #f8f4f1;
+    margin-top: 50px;
 }
 
 
@@ -124,6 +125,10 @@
     width: 50%;
 }
 
+.bekesdulakor-otherBx-resp{
+    display:none;
+}
+
 .bekesdulakor-other-details .bekesdulakor-other-face{
     width: 70%;
 }
@@ -171,4 +176,62 @@
     color: #a7638b;
     font-weight: 400;
     line-height: 1.5;
+}
+
+@media (max-width:870px){
+    .bekesdulakor-other-container .bekesdulakor-other-column{
+        display:contents;
+        padding: 2em;   
+    }
+
+    .bekesdulakor-other-img-container img{
+        width: 50rem;
+        height: 50rem;
+        margin-top: 20px;
+    }
+
+    .bekesdulakor-other-img-container{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .bekesdulakor-other-container{
+         padding-inline: 1px;
+    }
+
+    .bekesdulakor-other-container p{
+        font-size: 3rem;
+        font-weight: 500;
+       
+    }
+
+    .bekesdulakor-other-text{
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .bekesdulakor-other-details .bekesdulakor-otherBx{
+        display: none;
+    }
+    
+    .bekesdulakor-other-details .bekesdulakor-other-face{
+        width: 100%;
+    }
+    
+    .bekesdulakor-other-face .bekesdulakor-other-list li{
+       
+        font-size: 3rem;
+        
+    }
+
+    .bekesdulakor-otherBx-resp{
+        display:grid;
+    }
+    
+    .bekesdulakor-otherBx-resp .bekesdulakor-other-list li{
+        font-size: 3rem;
+    }
+    
 }

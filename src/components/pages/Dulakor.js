@@ -78,6 +78,22 @@ export default function Dulakor() {
               Küldetésünknek tekintjük, hogy önbizalmukat és hitüket erősítsük abban, hogy érezzék valódi erejüket. Akár már a fogantatás előttől, a szülésfelkészítésen és szüléskísérésen át a gyermekágyas időszakon túl is számíthatnak értő figyelmünkre, valamint lelki és fizikai támogatásunkra.
           </p>
 
+          <div className="bekesdulakor-otherBx-resp">
+
+          <h4>Értékeink</h4>
+                  <ul className="bekesdulakor-other-list">
+                      <li className="bekesdulakor-has-before">képzettség</li>
+                      <li className="bekesdulakor-has-before">közösség</li>
+                      <li className="bekesdulakor-has-before">szervezettség</li>
+                      <li className="bekesdulakor-has-before">aktivitás</li>
+                      <li className="bekesdulakor-has-before">sokszínűség</li>
+                      <li className="bekesdulakor-has-before">egységes értékrenden alapuló szemlélet</li>
+                      <li className="bekesdulakor-has-before">nyitott, rugalmas hozzáállás</li>
+                      <li className="bekesdulakor-has-before">szeretet</li>
+                  </ul>
+
+          </div>
+
           <div className="bekesdulakor-other-details">
               <div className="bekesdulakor-otherBx">
                   <h4>Értékeink</h4>

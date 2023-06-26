@@ -24,9 +24,9 @@ export default function Olvasnivalok() {
                     <img src={Olvas1} width="800" height="540" loading="lazy"
                       alt="Blog" class="latest-blog-img-cover"/>
   
-                    <a href="#" class="latest-blog-btn-icon">
+                      <Link to="/blog" class="latest-blog-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
-                    </a>
+                    </Link>
                   </div>
   
                   <div >
@@ -35,7 +35,7 @@ export default function Olvasnivalok() {
   
                     <h3 class="latestblogtitle-md">Blog</h3>                    
   
-                    <a href="#" class="latest-blog-btn ">Tovább</a>
+                    <Link to="/blog" class="latest-blog-btn ">Tovább</Link>
   
                   </div>
   
@@ -49,9 +49,9 @@ export default function Olvasnivalok() {
                     <img src={Olvas2} width="800" height="540" loading="lazy"
                       alt="Szulestortenetek" class="latest-blog-img-cover"/>
   
-                    <a href="#" class="latest-blog-btn-icon">
+                      <Link to="/stories" class="latest-blog-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
-                    </a>
+                    </Link>
                   </div>
   
                   <div >
@@ -60,7 +60,7 @@ export default function Olvasnivalok() {
   
                     <h3 class="latestblogtitle-md">Szüléstörténetek</h3>
   
-                    <a href="#" class="latest-blog-btn">Tovább</a>
+                    <Link to="/stories" class="latest-blog-btn">Tovább</Link>
   
                   </div>
   
@@ -74,9 +74,9 @@ export default function Olvasnivalok() {
                     <img src={Olvas3} width="800" height="540" loading="lazy"
                       alt="Publikacio" class="latest-blog-img-cover"/>
   
-                    <a href="#" class="latest-blog-btn-icon">
+                      <Link to="/publications" class="latest-blog-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
-                    </a>
+                    </Link>
                   </div>
   
                   <div>
@@ -85,7 +85,7 @@ export default function Olvasnivalok() {
   
                     <h3 class="latestblogtitle-md">Publikációk</h3>
    
-                    <a href="#" class="latest-blog-btn">Tovább</a>
+                    <Link to="/publications" class="latest-blog-btn">Tovább</Link>
   
                   </div>
   

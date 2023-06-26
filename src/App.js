@@ -32,6 +32,8 @@ import NevelesiTanacsadas from "./components/pages/NevelesiTanacsadas";
 import SzulesElmenyFeldolg from "./components/pages/SzulesElmenyFeldolg";
 import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
 import Gyik from "./components/pages/Gyik"
+import Stories from "./components/pages/Stories";
+import Publications from "./components/pages/Publications";
 
 import FeedBack1DF from "./components/pages/subfeedback/FeedBack1DF";
 import FeedBack5BB from "./components/pages/subfeedback/FeedBack5BB";
@@ -55,6 +57,9 @@ import StoryMother2 from "./components/pages/subfeedback/StoryMother2";
 import StoryMother3 from "./components/pages/subfeedback/StoryMother3";
 import Gallery from "./components/pages/Gallery";
 
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -76,7 +81,9 @@ function App() {
             <Route path="/feedbackDulatrening" element={<FeedbackDulatrening/>}/>
             <Route path="/feedbackDulamuhely" element={<FeedbackDulamuhely/>}/>
             <Route path="/contact" element={<Contact/>}/>
-            <Route path="/gallery" element={<Gallery/>}/>
+            <Route path="/blog" element={<Blog/>}/>
+            <Route path="/stories" element={<Stories/>}/>
+            <Route path="/publications" element={<Publications/>}/>
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
           <Routes>
