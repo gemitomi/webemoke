@@ -10,32 +10,32 @@ import Olvas3 from "../../image/publik_01.png";
 export default function Olvasnivalok() {
   return (
     <div>
-      <section class="latestblog">
-          <div class="latest-blog-container">
+      <section className="latestblog">
+          <div className="latest-blog-container">
   
-            <h2 class="latestblogsection-title latestblogheadline-md latesttext-center" id="portfolio-label">Olvasnivalók</h2>
+            <h2 className="latestblogsection-title latestblogheadline-md latesttext-center" id="portfolio-label">Olvasnivalók</h2>
   
-            <ul class="latest-blog-portfolio-list">
+            <ul className="latest-blog-portfolio-list">
   
               <li>
-                <div class="latest-blog-portfolio-card">
+                <div className="latest-blog-portfolio-card">
   
-                  <div class="card-banner latest-blog-img-holder" style={{"--width": "800", "--height": "540"}}>
+                  <div className="card-banner latest-blog-img-holder" style={{"--width": "800", "--height": "540"}}>
                     <img src={Olvas1} width="800" height="540" loading="lazy"
-                      alt="Blog" class="latest-blog-img-cover"/>
+                      alt="Blog" className="latest-blog-img-cover"/>
   
-                      <Link to="/blog" class="latest-blog-btn-icon">
+                      <Link to="/blog" className="latest-blog-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
                     </Link>
                   </div>
   
                   <div >
   
-                    <span class="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
+                    <span className="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
   
-                    <h3 class="latestblogtitle-md">Blog</h3>                    
+                    <h3 className="latestblogtitle-md">Blog</h3>                    
   
-                    <Link to="/blog" class="latest-blog-btn ">Tovább</Link>
+                    <Link to="/blog" className="latest-blog-btn ">Tovább</Link>
   
                   </div>
   
@@ -43,24 +43,24 @@ export default function Olvasnivalok() {
               </li>
   
               <li>
-                <div class="latest-blog-portfolio-card">
+                <div className="latest-blog-portfolio-card">
   
-                  <div class="card-banner latest-blog-img-holder" style={{"--width": "800", "--height": "540"}}>
+                  <div className="card-banner latest-blog-img-holder" style={{"--width": "800", "--height": "540"}}>
                     <img src={Olvas2} width="800" height="540" loading="lazy"
-                      alt="Szulestortenetek" class="latest-blog-img-cover"/>
+                      alt="Szulestortenetek" className="latest-blog-img-cover"/>
   
-                      <Link to="/stories" class="latest-blog-btn-icon">
+                      <Link to="/stories" className="latest-blog-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
                     </Link>
                   </div>
   
                   <div >
   
-                    <span class="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
+                    <span className="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
   
-                    <h3 class="latestblogtitle-md">Szüléstörténetek</h3>
+                    <h3 className="latestblogtitle-md">Szüléstörténetek</h3>
   
-                    <Link to="/stories" class="latest-blog-btn">Tovább</Link>
+                    <Link to="/stories" className="latest-blog-btn">Tovább</Link>
   
                   </div>
   
@@ -68,24 +68,24 @@ export default function Olvasnivalok() {
               </li>
   
               <li>
-                <div class="latest-blog-portfolio-card">
+                <div className="latest-blog-portfolio-card">
   
-                  <div class="card-banner latest-blog-img-holder" style={{"--width": "800", "--height": "540"}}>
+                  <div className="card-banner latest-blog-img-holder" style={{"--width": "800", "--height": "540"}}>
                     <img src={Olvas3} width="800" height="540" loading="lazy"
-                      alt="Publikacio" class="latest-blog-img-cover"/>
+                      alt="Publikacio" className="latest-blog-img-cover"/>
   
-                      <Link to="/publications" class="latest-blog-btn-icon">
+                      <Link to="/publications" className="latest-blog-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
                     </Link>
                   </div>
   
                   <div>
   
-                    <span class="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
+                    <span className="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
   
-                    <h3 class="latestblogtitle-md">Publikációk</h3>
+                    <h3 className="latestblogtitle-md">Publikációk</h3>
    
-                    <Link to="/publications" class="latest-blog-btn">Tovább</Link>
+                    <Link to="/publications" className="latest-blog-btn">Tovább</Link>
   
                   </div>
   

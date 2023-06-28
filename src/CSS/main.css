@@ -250,9 +250,176 @@ html::-webkit-scrollbar-thumb{
 
 /*dulatréning kezdete*/
 
+
+.dula-education-section{
+    padding-block: 3rem;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    
+    
+    
+}
+
+.dula-education-section.dula-education-container{
+    padding-inline: 16px;
+    
+    
+}
+
+.dula-education-section .dula-section-title{
+    padding-bottom: 50px;
+    margin-block: 20px 60px;
+    color: #a7638b;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.dula-education-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    
+    
+}
+.dula-education-section .dula-education-card{
+    
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 9px #868485;
+    transition: .5s;
+}
+
+.dula-education-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2px 2px 120px 0px;
+    transition: .5s;
+    filter:opacity(1)
+    
+}
+
+.dula-education-card:hover img{
+    filter: opacity(0.5);
+}
+
+.dula-education-card:hover{
+    transform: translateY(-10px);
+}
+
+.dula-education-txt-box{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.dula-education-txt-box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #39232f;
+    text-align: center;
+}
+
+
+.dula-education-txt-box .dula-education-btn{
+  background-color: #d4b8c7;
+  font-size: 1.2rem;
+  font-weight: 600;
+  max-width: max-content;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  margin-top:10px;
+  transition: 0.25s ease;
+  color:#39232f;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  
+  
+
+}
+
+.dula-education-txt-box .dula-education-btn:is(:hover, :focus-visible) {
+  background: #cfdade;
+  color: #a7638b;
+  box-shadow: 6px 6px 0 -1px #868485;
+  outline-offset: 4px;
+}
+
+
+
+
+/*gyakori kérdések a képzésről gomb*/
+
 .dula-education{
-    /*min-height: 80vh;
-    background: #97bcc7;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.dula-education .education-faq{
+    text-align: center;
+    margin: 5rem;
+    padding: 0;
+}
+
+.dula-education .education-btn{
+    background: #d4b8c7;
+    font-size: 1.8rem;
+    font-weight: 700;
+    max-width: max-content;
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    box-shadow: 6px 6px 0 -1px hsl(327, 24%, 18%);
+    transition: 0.25s ease;
+    text-decoration: none;
+    color: #39232f;
+    border: 1px solid #39232f;
+    cursor: pointer;
+    display: block;
+}
+
+.dula-education .education-btn:is(:hover, :focus-visible) {
+    background: #cfdade;
+    color: #a7638b;
+    box-shadow: 6px 6px 0 -1px #868485;
+}
+
+@media (max-width:1375px){
+    .dula-education-box{
+        gap: 5rem;
+    }
+}
+
+@media (max-width:1251px){
+    .dula-education-box{
+        gap: 1rem;
+
+    }
+}
+
+@media (max-width:1150px){
+    .dula-education-box{
+        display:block;
+    }
+
+    .dula-education-section .dula-education-card{
+        margin-bottom: 40px;     
+    }
+}
+
+
+/*.dula-education{
+    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -269,7 +436,9 @@ html::-webkit-scrollbar-thumb{
     font-size: 5rem;
     letter-spacing: 2px;
     color: #a7638b;
-}
+}*/
+
+/*
 
 .dula-section{
     background: #f8f4f1;
@@ -384,7 +553,8 @@ html::-webkit-scrollbar-thumb{
     text-transform: uppercase;
     margin: 10px;
 }
-
+*/
+/*
 @media (max-width:877px){
     .image-content,
     .card-content{
@@ -425,6 +595,7 @@ html::-webkit-scrollbar-thumb{
         height: 250px;
     }
 }
+*/
 
 /* dulaképzés vége*/
 
@@ -444,7 +615,8 @@ html::-webkit-scrollbar-thumb{
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 
 .dula-kor-left{
@@ -456,7 +628,7 @@ html::-webkit-scrollbar-thumb{
 .dula-kor-left h1{
     font-size: 4rem;
     color: #39232f;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.5;
     animation: up 1s ease forwards;
     animation-delay: 2s;
@@ -739,12 +911,12 @@ svg circle{
     overflow: hidden;
     padding-block: 100px;
     width: 100%;
-    background-color: #868485;
+    background-color: #d4d1d2;
 }
 
 .blog-container {
      padding-inline: 12px;
-     background-color: #868485;
+     background-color: #d4d1d2;
 }
   
   .btn {
@@ -769,8 +941,8 @@ svg circle{
   
   .lp-section-title { 
     margin-block-end: 45px;
-    color: #f8f4f1;
-    font-size: 4.5rem;
+    color: #868485;
+    font-size: 4rem;
     line-height: 1;
     font-weight: 700;
  }
@@ -897,7 +1069,7 @@ svg circle{
   /* Feedback */
 
 .feedback{
-    min-height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -907,9 +1079,10 @@ svg circle{
 .feedback-hero{
     position: relative;
     display: felx;
+    margin-bottom: 60px;
 }
 .feedback-title{
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #a7638b;
     letter-spacing: 1px;
@@ -926,7 +1099,7 @@ svg circle{
 }
 
 .feedback-slide-content{
-    margin: 0 40px;
+    margin: 0 4px;
 }
 
 .feedback-card-wrapper{
@@ -1082,6 +1255,13 @@ svg circle{
     .feedback-card-wrapper{
         display: block;
     }
+    
+}
+
+@media (max-width:950px){
+    .feedback-title{
+        font-size: 5.5rem;
+    }
 }
 
   /* Feedback end */
@@ -1136,7 +1316,7 @@ svg circle{
   
     .title-wrapper .section-text { margin-block-start: 40px; }
   
-   
+    
   }
   
   
@@ -1171,6 +1351,8 @@ svg circle{
     .title-wrapper { gap: 15%; }
   
     .slider { --slider-items: 3; }
+
+  
   
   }
   
@@ -1249,6 +1431,7 @@ svg circle{
     html{
         font-size: 50%;
     }
+   
 
 }
 

@@ -5,30 +5,30 @@ import "../../../CSS/storymother2.css"
 export default function StoryMother2() {
     return (
         <div>
-        <section class="section-anyavalas">
-            <div class="szardinia-anyavalas-container">
-                <div class="szardinia-hero">
+        <section className="section-anyavalas">
+            <div className="szardinia-anyavalas-container">
+                <div className="szardinia-hero">
 
                 </div>
 
-                <div class="szardinia-anyavalas-face">
-                    <h2 class="szardinia-anyavalas-title">Szülni a szülőföldön - a szardíniai élménybeszámoló</h2>
-                    <div class="profile-container">
-                        <div class="profile">
-                            <div class="img-container">
+                <div className="szardinia-anyavalas-face">
+                    <h2 className="szardinia-anyavalas-title">Szülni a szülőföldön - a szardíniai élménybeszámoló</h2>
+                    <div className="profile-container">
+                        <div className="profile">
+                            <div className="img-container">
 
                             </div>
-                            <div class="anya-text">
+                            <div className="anya-text">
                                 <h3>Békés Emőke</h3>
                                 <p>2017. október 13.</p>
                             </div>
                         </div>
-                        <div class="szardinia-anyavalas-button">
-                            <a href="#" class="szardinia-anyavalas-btn">Szüléstörténetek</a>
+                        <div className="szardinia-anyavalas-button">
+                            <a href="#" className="szardinia-anyavalas-btn">Szüléstörténetek</a>
                         </div>
                     </div>
                     
-                    <div class="szardinia-anyavalas-content">
+                    <div className="szardinia-anyavalas-content">
                         
 
                         <p>A férjem osztrák állampolgár, és van egy panziónk Szardínián. 
@@ -48,7 +48,7 @@ export default function StoryMother2() {
                         hogy felkészíts a szülésre engem és a páromat?”- kérdeztem tőle.
                         </p>
 
-                        <div class="szardinia-anyavalas-img-container">
+                        <div className="szardinia-anyavalas-img-container">
 
                         </div>
 
@@ -81,7 +81,7 @@ export default function StoryMother2() {
                         <p><i>Szandra S. - Szardínia</i></p>
                     </div>
                     
-                    <div class="tags">
+                    <div className="tags">
                         <p>Címkék:</p>
                         <Link to="/olvasnivalok">Olvasnivalók</Link>
                         <a href="#">Szüléstörténetek</a>
@@ -90,46 +90,46 @@ export default function StoryMother2() {
             
             </div>
 
-            <div class="szardinia-anyavalas-articles">
-                <div class="szardinia-anyavalas-articles-heading">
+            <div className="szardinia-anyavalas-articles">
+                <div className="szardinia-anyavalas-articles-heading">
                     <h5>Olvasnivalók</h5>
                     <h6>Blog & Történetek</h6>
                 </div>
 
-                <div class="szardinia-anyavalas-cards container">
-                    <div class="szardinia-card-container one">
-                        <div class="szardinia-img-holder">
+                <div className="szardinia-anyavalas-cards container">
+                    <div className="szardinia-card-container one">
+                        <div className="szardinia-img-holder">
                             <a href="#">Szüléstörténetek</a>
                         </div>
-                        <div class="card-text">
+                        <div className="card-text">
                             <h4>"Oly távol vagy tőlem és mégis közel..."</h4>
-                            <i class="far fa-calendar"> 2017. 09. 06</i>
+                            <i className="far fa-calendar"> 2017. 09. 06</i>
                             <p></p>
                         </div>
                     </div>
-                    <div class="szardinia-card-container two">
-                        <div class="szardinia-img-holder">
+                    <div className="szardinia-card-container two">
+                        <div className="szardinia-img-holder">
                             <a href="#">Szüléstörténetek</a>
                         </div>
-                        <div class="card-text">
+                        <div className="card-text">
                             <h4>Anyává válni Cipruson</h4>
-                            <i class="far fa-calendar"> 2016.10.13.</i>
+                            <i className="far fa-calendar"> 2016.10.13.</i>
                             <p></p>
                         </div>
                     </div>
-                    <div class="szardinia-card-container three">
-                        <div class="szardinia-img-holder">
+                    <div className="szardinia-card-container three">
+                        <div className="szardinia-img-holder">
                             <a href="#">Szüléstörténetek</a>
                         </div>
-                        <div class="card-text">
+                        <div className="card-text">
                             <h4>Csodák márpedig vannak!</h4>
-                            <i class="far fa-calendar"> 2018. 01. 16.</i>
+                            <i className="far fa-calendar"> 2018. 01. 16.</i>
                             <p></p>
                         </div>
                     </div>
                 </div>
-                <div class="szardinia-anyavalas-button">
-                <Link to="/olvasnivalok" class="szardinia-anyavalas-btn">További bejegyzések</Link>
+                <div className="szardinia-anyavalas-button">
+                <Link to="/olvasnivalok" className="szardinia-anyavalas-btn">További bejegyzések</Link>
                 </div>
             </div>
         </section>

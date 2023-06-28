@@ -24,7 +24,7 @@
   
   .subpageheadline-md{
     
-    font-size: 3.8rem;
+    font-size: 4rem;
     color: #a7638b;
     font-weight: 700;
     line-height: 1.2;
@@ -215,9 +215,9 @@
   
   @media (min-width: 768px) {
   
-    .subpageheadline-md { font-size:  5.5rem; }
+    .subpageheadline-md { font-size:  4rem; }
   
-    .subpagetitle-md { font-size:  5.2rem; }
+    .subpagetitle-md { font-size:  4rem; }
   
   
     .dulasubpage { --section-padding: 100px; }
@@ -235,7 +235,7 @@
   @media (min-width: 992px) {
     
 
-    .subpageheadline-md { font-size: 5rem; }
+    .subpageheadline-md { font-size: 4rem; }
 
     .subpagesection-title { margin-block-end: 60px; }
   

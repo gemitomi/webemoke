@@ -12,12 +12,12 @@ import DulaTraining from "../image/dula_treningek.png"
 import DulaWorkshop from "../image/dula_muhely.png" 
 import EventConsulting from "../image/eset_csop.png" 
 
-import Post1 from "../image/post1.png"
-import Post2 from "../image/post2.png"
-import Post3 from "../image/post3.png"
-import Post4 from "../image/post4.png"
-import Post5 from "../image/post5.png"
-import Post6 from "../image/post6.png"
+import Post1 from "../image/blog/blog_01_hero_ki a dula.png"
+import Post2 from "../image/blog/blog_02_hero_dulahatas.png"
+import Post3 from "../image/blog/blog_03_hero_dulatrening.png"
+import Post4 from "../image/blog/blog_04_hero_lany_.png"
+import Post5 from "../image/blog/blog_05_hero_nyilt_hetvege.png"
+import Post6 from "../image/blog/blog_06_hero_szuletes_napja.png"
 
 import Szulo1 from "../image/feedback_szulo_1.png"
 import Szulo2 from "../image/feedback_szulo_2.png"
@@ -27,8 +27,9 @@ import PartnerVissza from "../image/partner_vissza.png"
 
 import DlkrLogo from "../image/dulakor_logo.jpg"
 
-import TrainigVissza from "../image/trening_vissza.png"
-import MuhelyVissza from "../image/muhely_vissza.png"
+import DulaTrainig from "../image/dula_trening_subpage.png"
+import DulaMuhely from "../image/dula_muhely_subpage.png"
+import EsetBesz from "../image/dula_esetmegbeszelo_subpage.png"
 
 import Location1 from "../image/location_1.png"
 import Mail1 from "../image/mail_1.png"
@@ -38,73 +39,72 @@ import Call1 from "../image/call_1.png"
 
 export default function LandingPage() {
     
-    const sliders = document.querySelectorAll("[data-slider]");
-
-    const initSlider = function (currentSlider) {
+    const SliderComponent = () => {
+        useEffect(() => {
+          const initSlider = function (currentSlider) {
+            const sliderContainer = currentSlider.querySelector("[data-slider-container]");
+            const sliderPrevBtn = currentSlider.querySelector("[data-slider-prev]");
+            const sliderNextBtn = currentSlider.querySelector("[data-slider-next]");
     
-      const sliderContainer = currentSlider.querySelector("[data-slider-container]");
-      const sliderPrevBtn = currentSlider.querySelector("[data-slider-prev]");
-      const sliderNextBtn = currentSlider.querySelector("[data-slider-next]");
+            let totalSliderVisibleItems = Number(getComputedStyle(currentSlider).getPropertyValue("--slider-items"));
+            let totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
+            let currentSlidePos = 0;
     
-      let totalSliderVisibleItems = Number(getComputedStyle(currentSlider).getPropertyValue("--slider-items"));
-      let totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
+            const moveSliderItem = function () {
+              sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
+            };
     
-      let currentSlidePos = 0;
+            const slideNext = function () {
+                const slideEnd = currentSlidePos >= totalSlidableItems;
+              
+                if (slideEnd) {
+                  currentSlidePos = 0;
+                } else {
+                  currentSlidePos++;
+                }
+              
+                moveSliderItem();
+              };
+              
+              const slidePrev = function () {
+                if (currentSlidePos <= 0) {
+                  currentSlidePos = totalSlidableItems;
+                } else {
+                  currentSlidePos--;
+                }
+              
+                moveSliderItem();
+              };
+              
     
-      const moveSliderItem = function () {
-        sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
-      }
-      
-      
-      const slideNext = function () {
-        const slideEnd = currentSlidePos >= totalSlidableItems;
+            sliderPrevBtn.addEventListener("click", slidePrev);
+            sliderNextBtn.addEventListener("click", slideNext);
     
-        if (slideEnd) {
-          currentSlidePos = 0;
-        } else {
-          currentSlidePos++;
-        }
+            const dontHaveExtraItem = totalSlidableItems <= 0;
+            if (dontHaveExtraItem) {
+              sliderNextBtn.style.display = "none";
+              sliderPrevBtn.style.display = "none";
+            }
     
-        moveSliderItem();
-      }
+            currentSlider.addEventListener("wheel", function (event) {
+              if (event.shiftKey && event.deltaY > 0) slideNext();
+              if (event.shiftKey && event.deltaY < 0) slidePrev();
+            });
     
-      sliderNextBtn.addEventListener("click", slideNext);
-
-
-      const slidePrev = function () {
-        if (currentSlidePos <= 0) {
-          currentSlidePos = totalSlidableItems;
-        } else {
-          currentSlidePos--;
-        }
+            window.addEventListener("resize", function () {
+              totalSliderVisibleItems = Number(getComputedStyle(currentSlider).getPropertyValue("--slider-items"));
+              totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
     
-        moveSliderItem();
-        }
+              moveSliderItem();
+            });
+          };
     
-      sliderPrevBtn.addEventListener("click", slidePrev);
+          const sliders = document.querySelectorAll("[data-slider]");
+          for (let i = 0, len = sliders.length; i < len; i++) {
+            initSlider(sliders[i]);
+          }
+        }, []);
     
-      const dontHaveExtraItem = totalSlidableItems <= 0;
-      if (dontHaveExtraItem) {
-        sliderNextBtn.style.display = 'none';
-        sliderPrevBtn.style.display = 'none';
-      }
-    
-      currentSlider.addEventListener("wheel", function (event) {
-        if (event.shiftKey && event.deltaY > 0) slideNext();
-        if (event.shiftKey && event.deltaY < 0) slidePrev();
-      });
-    
-     
-    
-      window.addEventListener("resize", function () {
-        totalSliderVisibleItems = Number(getComputedStyle(currentSlider).getPropertyValue("--slider-items"));
-        totalSlidableItems = sliderContainer.childElementCount - totalSliderVisibleItems;
-    
-        moveSliderItem();
-      });
-    }
-    
-    for (let i = 0, len = sliders.length; i < len; i++) { initSlider(sliders[i]); }
     
     
     return (
@@ -258,94 +258,52 @@ export default function LandingPage() {
                 <div className="consultation-btn-h2">
                     <h2>Segíthetek?</h2></div>
                 <div className="consultation-btn-box" >
-                    <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+                    <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
                 </div>
             </section> 
 
             <section className="dulatreningek">
-                <div className="dula-education collection text-center" aria-labelledby="collection-label">
-                    <div className="dula-container">
+                <div className="dula-education-section">
+                    <div className="dula-education-container">
 
-                    <h2 className="h2 section-title" id="collection-label">
+                        <h2 className="dula-section-title">
                             Dúlatréning
-                    </h2>
-
-                    <ul className="grid-list">
-
-                        <li>
-                            <div className="collection-card">
-
-                                <figure className="card-banner img-holder" style={{"width": "400", "height": "400"}}>
-                                    <img src={DulaTraining} width="300" height="300" loading="lazy"
-                                    alt="Dúlatréning" className="img-cover"/>
-                                </figure>
-
-                                <div className="card-content">
-
-                                    <h3 className="h3 card-title">Békés Dúlatréning<br/><span>alapképzés</span></h3>
-
-                                    <Link to="/bekesdulatrening" className="collection-btn">
-                                        <span className="span">Bővebben</span>
-                                    </Link>
-
-                                </div>
-
+                        </h2>
+                    
+                
+                        <div className="dula-education-box">
+                            <div className="dula-education-card">
+                                <img src={DulaTrainig} alt="Bekes Dulatrening"/>
+                                    <div className="dula-education-txt-box">
+                                        <h2 className="dula-education-title">Békés Dúlatréning<br/><span>alapképzés</span></h2>
+                                        <a href="#" className="dula-education-btn">Bővebben</a>
+                                    </div>
                             </div>
-                        </li>
 
-                        <li>
-                        <div className="collection-card">
-
-                                <figure className="card-banner img-holder" style={{"width": "400", "height": "400"}}>
-                                    <img src={DulaWorkshop} width="300" height="300" loading="lazy"
-                                    alt="Dúlaműhely" className="img-cover"/>
-                                </figure>
-
-                                <div className="card-content">
-
-                                    <h3 className="h3 card-title">Békés Dúlaműhely<br/><span>továbbképzés</span></h3>
-
-                                    <Link to="/bekesdulamuhely" className="collection-btn">
-                                        <span className="span">Bővebben</span>
-                                    </Link>
-
-                                </div>
-
+                            <div className="dula-education-card">
+                                <img src={DulaMuhely} alt="Bekes Dulamuhely"/>
+                                    <div className="dula-education-txt-box">
+                                        <h2 className="dula-education-title">Békés Dúlaműhely<br/><span>továbbképzés</span></h2>
+                                        <a href="#" className="dula-education-btn">Bővebben</a>
+                                    </div>
                             </div>
-                        </li>
 
-                        <li>
-                            <div className="collection-card">
-
-                                <figure className="card-banner img-holder" style={{"width": "400", "height": "400"}}>
-                                    <img src={EventConsulting} width="300" height="300" loading="lazy"
-                                    alt="Esetmegbeszélő csoport" className="img-cover"/>
-                                </figure>
-
-                                <div className="card-content">
-
-                                <h3 className="h3 card-title">Esetmegbeszélő<br/><span>csoport</span></h3>
-
-                                <Link to="/esetmegbeszelo" className="collection-btn">
-                                    <span className="span">Bővebben</span>
-
-                                </Link>
-
-                                </div>
-
+                            <div className="dula-education-card">
+                                <img src={EsetBesz} alt="Esetmegbeszelo csoport"/>
+                                    <div className="dula-education-txt-box">
+                                        <h2 className="dula-education-title">Esetmegbeszélő<br/> csoport<br/><span></span></h2>
+                                        <a href="#" className="dula-education-btn">Bővebben</a>
+                                    </div>
                             </div>
-                        </li>
-
-                    </ul>
-
-                    </div>
+                        </div>
+                    </div>       
                 </div>
-
                 <div className="dula-education">
                     <div className="education-faq">
-                    <Link to="/gyik" className="education-btn btn-prim">Gyakori kérdések a képzésekről</Link>
+                        <a href="#" className="education-btn">Gyakori kérdések a képzésekről</a>
                     </div>
                 </div>
+
             </section>
 
             <section className="dula-circle">
@@ -400,9 +358,7 @@ export default function LandingPage() {
                         </div>
 
                         <p className="section-text">
-                        Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
-                        velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
-                        ornare.
+                        Szülési történeteink velünk maradnak - gyakran egy életen át. A blogbejegyzések segítségével képet kaphatsz munkámról és az általam képviselt értékekről.  
                         </p>
 
                     </div>
@@ -420,14 +376,14 @@ export default function LandingPage() {
                                     <h3 className="h3 card-title">Ki a dúla és miben segít?</h3>
 
                                     <p className="card-text">
-                                        Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                                    A szülés a modern időket megelőző korokban a legtöbb kultúrában szigorúan asszonyi fennhatóság alá tartozott...
                                     </p>
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <a href="#" className="btn">Bővebben</a>
+                                    <Link to="/ki-a-dula-es-miben-segit" className="btn">Bővebben</Link>
 
-                                    <a href="#" className="layer-link" aria-label="More about"></a>
+                                   
 
                                 </div>
                             </li>
@@ -441,14 +397,14 @@ export default function LandingPage() {
                                     <h3 className="h3 card-title">Dúlahatás - kutatások, eredmények</h3>
 
                                     <p className="card-text">
-                                        Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                                    Az elmúlt évtized során jelentősen nőtt a bizonyítékok száma a dúla által támogatott szülések előnyeivel kapcsolatban...
                                     </p>
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <a href="#" className="btn">Bővebben</a>
+                                    <Link to="/dulahatas" className="btn">Bővebben</Link>
 
-                                    <a href="#" className="layer-link" aria-label="More about"></a>
+                                    
 
                                 </div>
                             </li>
@@ -463,14 +419,14 @@ export default function LandingPage() {
                                     <h3 className="h3 card-title">Dúlatréningre menni jó</h3>
 
                                     <p className="card-text">
-                                        Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                                    Készülődöm. Holnapután dúlatréningre megyek. Körülbelül harminchatodszorra...
                                     </p>
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <a href="#" className="btn">Bővebben</a>
+                                    <Link to="/dulatreningre-menni-jo" className="btn">Bővebben</Link>
 
-                                    <a href="#" className="layer-link" aria-label="More about my eCommerce service"></a>
+                                   
 
                                 </div>
                             </li>
@@ -485,14 +441,14 @@ export default function LandingPage() {
                                     <h3 className="h3 card-title">A Lány és a Kisfiú</h3>
 
                                     <p className="card-text">
-                                        Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                                    A Lány alig több mint 20 éves. Megkérdőjelezhetetlenül, a kezdetektől tudta...
                                     </p>
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <a href="#" className="btn">Bővebben</a>
+                                    <Link to="/a-lany-es-a-kisfiu" className="btn">Bővebben</Link>
 
-                                    <a href="#" className="layer-link" aria-label="More about"></a>
+                                   
 
                                 </div>
                             </li>
@@ -507,15 +463,14 @@ export default function LandingPage() {
                                     <h3 className="h3 card-title">Nyílt hétvége a Békés Dúlakörrel</h3>
 
                                     <p className="card-text">
-                                        Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                                    Ha várandós vagy, és úgy érzed, kevés az az idő, amit a szakemberek rád szánnak… 
                                     </p>
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <a href="#" className="btn">Bővebben</a>
+                                    <Link to="/nyilt-hetvege" className="btn">Bővebben</Link>
 
-                                    <a href="#" className="layer-link" aria-label="More about my Digital Marketing service"></a>
-
+                                    
                                 </div>
                             </li>
 
@@ -529,14 +484,12 @@ export default function LandingPage() {
                                     <h3 className="h3 card-title">Szülés és születés napjai a Békés Dúlakörrel</h3>
 
                                     <p className="card-text">
-                                        Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                                    Amiről máshol nem hallunk eleget – interaktív előadások és workshopok...
                                     </p>
 
                                     <span className="text-lg author">Békés Emőke</span>
 
                                     <a href="#" className="btn">Bővebben</a>
-
-                                    <a href="#" className="layer-link" aria-label="More about my Social Media service"></a>
 
                                 </div>
                             </li>
@@ -558,7 +511,7 @@ export default function LandingPage() {
                 </div>            
             </section>
 
-            <section className="feedback">
+            <section className="feedback" >
     
                 <div className="feedback-slide-container">
                     <div className="feedback-hero">
@@ -652,6 +605,18 @@ export default function LandingPage() {
                 </div>
                     
             </section>
+
+            <section className="consultation4">
+                <div className="consultation-btn-h2">
+                    <h2>Segíthetek?</h2></div>
+                <div className="consultation-btn-box" >
+                    <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
+                </div>
+            </section> 
         </div>
     )
+};
+
+return <SliderComponent />;
 }
+

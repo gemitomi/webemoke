@@ -5,30 +5,30 @@ import "../../../CSS/storymother3.css"
 export default function StoryMother3() {
     return (
         <div>
-            <section class="section-anyavalas">
-                <div class="ciprus-anyavalas-container">
-                    <div class="ciprus-hero">
+            <section className="section-anyavalas">
+                <div className="ciprus-anyavalas-container">
+                    <div className="ciprus-hero">
 
                     </div>
 
-                    <div class="ciprus-anyavalas-face">
-                        <h2 class="ciprus-anyavalas-title">Anyává válni Cipruson</h2>
-                        <div class="profile-container">
-                            <div class="profile">
-                                <div class="img-container">
+                    <div className="ciprus-anyavalas-face">
+                        <h2 className="ciprus-anyavalas-title">Anyává válni Cipruson</h2>
+                        <div className="profile-container">
+                            <div className="profile">
+                                <div className="img-container">
 
                                 </div>
-                                <div class="anya-text">
+                                <div className="anya-text">
                                     <h3>Békés Emőke</h3>
                                     <p>2016. október 13.</p>
                                 </div>
                             </div>
-                            <div class="ciprus-anyavalas-button">
-                                <a href="#" class="ciprus-anyavalas-btn">Szüléstörténetek</a>
+                            <div className="ciprus-anyavalas-button">
+                                <a href="#" className="ciprus-anyavalas-btn">Szüléstörténetek</a>
                             </div>
                         </div>
                         
-                        <div class="ciprus-anyavalas-content">
+                        <div className="ciprus-anyavalas-content">
                             <blockquote>
                                 <i>"Békés Emőke ... Már a neve megfogott... Tudtam, ő lesz az!"</i> 
                             </blockquote>
@@ -55,7 +55,7 @@ export default function StoryMother3() {
                             <h4>2014. december 6-án megfogant a mi kis Csodánk!</h4>
 
 
-                            <div class="ciprus-anyavalas-img-container"></div>
+                            <div className="ciprus-anyavalas-img-container"></div>
 
                             <h4>A MÁSODIK TALÁLKOZÁS</h4>
                             
@@ -130,7 +130,7 @@ export default function StoryMother3() {
                             De amikor a babám kibújt és rám tették őt, csak annyit tudtam mondani magyarul, hogy „Szia, Kincsecském! Te vagy a legügyesebb, nagyon szeretlek!”
                             <br/><b>Magyarul váltam anyává!</b></p>
 
-                            <div class="ciprus-anyavalas-img-container1"></div>
+                            <div className="ciprus-anyavalas-img-container1"></div>
 
                             <p>Hamarosan beszélgettünk is Emőkével skypeon, aki a gyermekágy alatt is rengeteget segített távban,
                             roppant szükségem volt rá ismét!
@@ -144,7 +144,7 @@ export default function StoryMother3() {
                             de megszervezzük, bárhol is legyen az! Előttünk nincs akadály!
                             </p>
 
-                            <div class="ciprus-anyavalas-img-container2"></div>
+                            <div className="ciprus-anyavalas-img-container2"></div>
 
                             <p>Hálával tartozom Emőkének, amiért annyit adott nekem és a kis családomnak önzetlenül és annyi szeretettel, 
                             hogy ezért örökké hálás leszek neki, és a szívemben lesz mindig! Nagyon értékes és csodás lény ő!
@@ -152,13 +152,13 @@ export default function StoryMother3() {
 
                             <h4>Köszönöm szépen, hogy vagy nekünk!</h4>
 
-                            <div class="ciprus-anyavalas-img-container3"></div>
+                            <div className="ciprus-anyavalas-img-container3"></div>
 
 
 
                         </div>
                         
-                        <div class="tags">
+                        <div className="tags">
                             <p>Címkék:</p>
                             <Link to="/olvasnivalok">Olvasnivalók</Link>
                             <a href="#">Szüléstörténetek</a>
@@ -166,46 +166,46 @@ export default function StoryMother3() {
                     </div>
                 
                 </div>
-                <div class="ciprus-anyavalas-articles">
-                    <div class="ciprus-anyavalas-articles-heading">
+                <div className="ciprus-anyavalas-articles">
+                    <div className="ciprus-anyavalas-articles-heading">
                         <h5>Olvasnivalók</h5>
                         <h6>Blog & Történetek</h6>
                     </div>
 
-                    <div class="ciprus-anyavalas-cards container">
-                        <div class="ciprus-card-container one">
-                            <div class="img-holder">
+                    <div className="ciprus-anyavalas-cards container">
+                        <div className="ciprus-card-container one">
+                            <div className="img-holder">
                                 <a href="#">Szüléstörténetek</a>
                             </div>
-                            <div class="card-text">
+                            <div className="card-text">
                                 <h4>Szülni a szülőföldön - a szardíniai élménybeszámoló</h4>
-                                <i class="far fa-calendar"> 2016.10.13.</i>
+                                <i className="far fa-calendar"> 2016.10.13.</i>
                                 <p></p>
                             </div>
                         </div>
-                        <div class="ciprus-card-container two">
-                            <div class="img-holder">
+                        <div className="ciprus-card-container two">
+                            <div className="img-holder">
                                 <a href="#">Szüléstörténetek</a>
                             </div>
-                            <div class="card-text">
+                            <div className="card-text">
                                 <h4>"Oly távol vagy tőlem mégis közel..."</h4>
-                                <i class="far fa-calendar"> 2017.09.06.</i>
+                                <i className="far fa-calendar"> 2017.09.06.</i>
                                 <p></p>
                             </div>
                         </div>
-                        <div class="ciprus-card-container three">
-                            <div class="img-holder">
+                        <div className="ciprus-card-container three">
+                            <div className="img-holder">
                                 <a href="#">Szüléstörténetek</a>
                             </div>
-                            <div class="card-text">
+                            <div className="card-text">
                                 <h4>Kortárs köntösbe bújt javasasszony</h4>
-                                <i class="far fa-calendar"> 2020.04.19.</i>
+                                <i className="far fa-calendar"> 2020.04.19.</i>
                                 <p></p>
                             </div>
                         </div>
                     </div>
-                    <div class="ciprus-anyavalas-button">
-                    <Link to="/olvasnivalok" class="ciprus-anyavalas-btn">További bejegyzések</Link>
+                    <div className="ciprus-anyavalas-button">
+                    <Link to="/olvasnivalok" className="ciprus-anyavalas-btn">További bejegyzések</Link>
                     </div>
                 </div>
 

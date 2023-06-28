@@ -50,7 +50,7 @@ export default function NevelesiTanacsadas() {
       <section className="consultation4">
         <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
-          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
       </section>
     </div>

@@ -91,9 +91,10 @@
 
 .container-services h1{
   color: #a7638b;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
+  padding-bottom: 60px;
   font-size: 4rem;
 }
 

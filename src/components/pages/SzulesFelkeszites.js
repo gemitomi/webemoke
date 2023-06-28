@@ -86,7 +86,7 @@ export default function SzulesFelkeszites() {
         <div className="szulfel-btn-box">
           <h2>Az egyéni szülésfelkészítés érdekel?<br/><span>Hívj vagy írj nekem!</span></h2></div>
           <div className="szulfel-btn-btn">
-          <Link to="/contact" class="szulfel-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
       </section>
     </div>

@@ -98,7 +98,7 @@ export default function Anyavavalas() {
                     Mikor arról kezdtünk el beszélgetni a férjemmel, hogy most már idehívnánk magunkhoz a kisbabánkat, 
                     én már akkor tudtam, hogy a férjemen kívül szeretném, ha lenne dúlánk, aki végigkísér ezen az úton minket.
                     Így elkezdtem olvasgatni az interneten, ki is az a dúla és mit csinál. Rátaláltam a Békés Dúlakörre,...
-                  </blockquote>
+                  </blockquote><br/><br/>
                   <Link to="/storymother3" className="anya-btn anya-btn-primary">Bővebben</Link>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function Anyavavalas() {
       <section className="consultation4">
         <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
-          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+          <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
       </section>
     </div>

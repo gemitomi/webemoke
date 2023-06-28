@@ -55,7 +55,17 @@ import PfeedBack5kr from "./components/pages/subfeedback/PfeedBack5kr";
 import StoryMother1 from "./components/pages/subfeedback/StoryMother1";
 import StoryMother2 from "./components/pages/subfeedback/StoryMother2";
 import StoryMother3 from "./components/pages/subfeedback/StoryMother3";
+
 import Gallery from "./components/pages/Gallery";
+import SubBlog01 from "./components/pages/blogs/SubBlog01";
+import SubBlog02 from "./components/pages/blogs/SubBlog02";
+import SubBlog03 from "./components/pages/blogs/SubBlog03";
+import SubBlog04 from "./components/pages/blogs/SubBlog04";
+import SubBlog05 from "./components/pages/blogs/SubBlog05";
+
+
+
+
 
 
 
@@ -84,6 +94,9 @@ function App() {
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/stories" element={<Stories/>}/>
             <Route path="/publications" element={<Publications/>}/>
+            <Route path="/gallery" element={<Gallery/>}/>
+                  
+
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
           <Routes>
@@ -119,6 +132,14 @@ function App() {
             <Route path="/storymother1" element={<StoryMother1/>}/>
             <Route path="/storymother2" element={<StoryMother2/>}/>
             <Route path="/storymother3" element={<StoryMother3/>}/>
+            
+          </Routes>
+          <Routes>
+            <Route path="/ki-a-dula-es-miben-segit" element={<SubBlog01/>}/>
+            <Route path="/dulahatas" element={<SubBlog02/>}/>
+            <Route path="/dulatreningre-menni-jo" element={<SubBlog03/>}/>
+            <Route path="/a-lany-es-a-kisfiu" element={<SubBlog04/>}/>
+            <Route path="/nyilt-hetvege" element={<SubBlog05/>}/>
           </Routes>
           
         </div>

@@ -11,7 +11,7 @@ import MuhelyVissza from "../../image/muhely_vissza.png"
 export default function Feedback() {
   return (
     <div className="feedback-section">
-      <section className="feedback">
+      <section className="feedback-sub">
         <div className="feedback-slide-container">
           <div className="feedback-hero">
               <h1 className="feedback-title">Visszajelzések</h1>

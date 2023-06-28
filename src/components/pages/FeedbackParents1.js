@@ -102,7 +102,7 @@ export default function FeedbackParents1() {
           </div>      
         </section>
 
-        <section className="feedback">
+        <section >
             <div className="feedback-slide-container">
                 <div className="feedback-slide-content">
                     <div className="feedback-card-wrapper">
