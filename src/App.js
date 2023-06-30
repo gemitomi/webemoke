@@ -62,13 +62,17 @@ import SubBlog02 from "./components/pages/blogs/SubBlog02";
 import SubBlog03 from "./components/pages/blogs/SubBlog03";
 import SubBlog04 from "./components/pages/blogs/SubBlog04";
 import SubBlog05 from "./components/pages/blogs/SubBlog05";
-
-
-
-
-
-
-
+import SubBlog06 from "./components/pages/blogs/SubBlog06";
+import SubBlog07 from "./components/pages/blogs/SubBlog07";
+import SubBlog08 from "./components/pages/blogs/SubBlog08";
+import SubBlog09 from "./components/pages/blogs/SubBlog09";
+import SubBlog10 from "./components/pages/blogs/SubBlog10";
+import SubBlog11 from "./components/pages/blogs/SubBlog11";
+import SubBlog12 from "./components/pages/blogs/SubBlog12";
+import SubBlog13 from "./components/pages/blogs/SubBlog13";
+import SubBlog14 from "./components/pages/blogs/SubBlog14";
+import SubBlog15 from "./components/pages/blogs/SubBlog15";
+import SubBlog16 from "./components/pages/blogs/SubBlog16";
 
 function App() {
   return (
@@ -140,6 +144,18 @@ function App() {
             <Route path="/dulatreningre-menni-jo" element={<SubBlog03/>}/>
             <Route path="/a-lany-es-a-kisfiu" element={<SubBlog04/>}/>
             <Route path="/nyilt-hetvege" element={<SubBlog05/>}/>
+            <Route path="/szuletes-napja" element={<SubBlog06/>}/>
+            <Route path="/a-csend-fia" element={<SubBlog07/>}/>
+            <Route path="/ki-fel" element={<SubBlog08/>}/>
+            <Route path="/apak-konnyei" element={<SubBlog09/>}/>
+            <Route path="/ujjaszuletes" element={<SubBlog10/>}/>
+            <Route path="/oly-tavol" element={<SubBlog11/>}/>
+            <Route path="/dulatabor" element={<SubBlog12/>}/>
+            <Route path="/szoptatasrol" element={<SubBlog13/>}/>
+            <Route path="/dulatrening-ujra" element={<SubBlog14/>}/>
+            <Route path="/pozitiv-uzenet-1" element={<SubBlog15/>}/>
+            <Route path="/pozitiv-uzenet-2" element={<SubBlog16/>}/>
+
           </Routes>
           
         </div>
