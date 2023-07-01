@@ -43,7 +43,7 @@ export default function FeedbackParents1() {
                                 kórházi körülmények között [...]</p>
                             <h3 className="feedback-author">D. F. - anya</h3>
                             <button className="feedback-button">
-                            <Link to="/feedback1df">Bővebben</Link>  
+                            <Link to="/anyava-valasom-soran-volt-a-biztos-pont">Bővebben</Link>  
                             </button>
                           </div>
                       </div>
@@ -68,7 +68,7 @@ export default function FeedbackParents1() {
                                   azt állította egy nőgyógyász, hogy a hormonjaim rendetlenkednek, 
                                   így nehezebben foganhat meg. Egy másik orvos [...]</p>
                               <h3 className="feedback-author">F. T. - anya</h3>
-                              <button className="feedback-button"><Link to="/feedback2ft">Bővebben</Link></button>
+                              <button className="feedback-button"><Link to="/egeszsegesenmegszuletett-a-kislanyom">Bővebben</Link></button>
                           </div>
                       </div>
 
@@ -94,7 +94,7 @@ export default function FeedbackParents1() {
                                   hanem dúlát is. Fontos volt számomra hogy ismerjem azt az orvost és szülésznő[...]
                               </p>
                               <h3 className="feedback-author">N. Zs.- anya</h3>
-                              <button className="feedback-button"><Link to="/feedback3nzs">Bővebben</Link></button>
+                              <button className="feedback-button"><Link to="/nem-volt-kerdes-a-dulavalasztas">Bővebben</Link></button>
                           </div>
                       </div>
                   </div>
@@ -127,7 +127,7 @@ export default function FeedbackParents1() {
                                     indultam utánanézni, milyen is lesz az a kilenc hónap, és maga 
                                     a szülés. Szépen fokozatosan [...]</p>
                                 <h3 className="feedback-author">S. Gy. - anya</h3>
-                                <button className="feedback-button"><Link to="/feedback4sgy">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/egyszerre-nem-felvaltva">Bővebben</Link></button>
                             </div>
                         </div>
 
@@ -152,7 +152,7 @@ export default function FeedbackParents1() {
                                     mert csak a felkészülésben kértük a segítségedet, 
                                     mégis szorosan összekapcsolódsz a szívemben [...]</p>
                                 <h3 className="feedback-author">B. B. - anya</h3>
-                                <button className="feedback-button"><Link to="/feedback5bb">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/orvos-vagyok-megis-sokat-jelentetel">Bővebben</Link></button>
                             </div>
                         </div>
 
@@ -179,15 +179,15 @@ export default function FeedbackParents1() {
                                     van az első hónapoktól egészen a szülésig. 
                                     Rengeteg kérdés felmerül [...]</p>
                                 <h3 className="feedback-author">D. V. - anya</h3>
-                                <button className="feedback-button"><Link to="/feedback6dv">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/ha-nem-lettel-volna">Bővebben</Link></button>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="feedback-button-btn-p">
-                  <Link to="/feedbackparents1">1</Link>
-                  <Link to="/feedbackparents2">2</Link>
+                  <Link to="/szuloi-visszajelzesek-1">1</Link>
+                  <Link to="/szuloi-visszajelzesek-2">2</Link>
                 </div>
             </div>
         </section>

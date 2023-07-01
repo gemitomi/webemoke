@@ -45,7 +45,7 @@ export default function PfeedBack1rzs() {
         <p>Címkék:</p>
         <i className="far fa-calendar"> 2016. 11. 09.</i>
         <Link to="/feedback">Visszajelzések</Link> 
-        <Link to="/feedbackpartners">Visszajelzések szakmai partnerektől</Link>
+        <Link to="/partneri-visszajelzesek">Visszajelzések szakmai partnerektől</Link>
     </div>
 
     <div className="feedback-partner-title">
@@ -53,7 +53,7 @@ export default function PfeedBack1rzs() {
     </div>
 
     <div className="feedback-partner-pag">
-        <Link to="/pfeedback2hb" className="feedback-parent-pag2">Következő</Link>
+        <Link to="/kezdetektol-fogva" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

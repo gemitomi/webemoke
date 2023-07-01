@@ -80,7 +80,7 @@ export default function FeedBack2FT() {
                 <p>Címkék:</p>
                 <i className="far fa-calendar"> 2016.09.18.</i>
                 <Link to="/feedback">Visszajelzések</Link> 
-                <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
+                <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
             </div>
 
     <div className="feedback-parent-title">
@@ -88,8 +88,8 @@ export default function FeedBack2FT() {
     </div>
 
     <div className="feedback-parent-pag">
-        <Link to="/feedback1df" className="feedback-parent-pag1">Előző</Link>
-        <Link to="/feedback3nzs" className="feedback-parent-pag2">Következő</Link>
+        <Link to="/anyava-valasom-soran-volt-a-biztos-pont" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/nem-volt-kerdes-a-dulavalasztas" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

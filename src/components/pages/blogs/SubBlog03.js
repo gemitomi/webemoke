@@ -79,7 +79,7 @@ export default function SubBlog03() {
 
             <div className="blog-global-tags">
             <p>Címkék:</p>
-            <Link to="/olvasnivalok">Olvasnivaló</Link> 
+            <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/blog">Blog</Link>
         </div>
 

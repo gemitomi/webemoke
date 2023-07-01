@@ -44,7 +44,7 @@ export default function FeedbackPartners() {
                                 Alázat alatt szakmai alázatot értek. 
                                 Azt, amire minden segítő foglalkozású [...]</p>
                               <h3 className="feedback-author">Rózsa Ibolya - IBCLC szoptatási tanácsadó</h3>
-                              <button className="feedback-button"><Link to="/pfeedback1rzs">Bővebben</Link></button>
+                              <button className="feedback-button"><Link to="/nyitott-fulekre-es-szivekre-talalok">Bővebben</Link></button>
                             </div>
                           </div>
 
@@ -70,7 +70,7 @@ export default function FeedbackPartners() {
                                       főleg a női létnek egy olyan kiemelten fontos időszakában, 
                                       mint a várandósság [...]</p>
                                   <h3 className="feedback-author">Hoppál Bori - testtudat oktató</h3>
-                                  <button className="feedback-button"><Link to="/pfeedback2hb">Bővebben</Link></button>
+                                  <button className="feedback-button"><Link to="/kezdetektol-fogva">Bővebben</Link></button>
                               </div>
                           </div>
 
@@ -97,7 +97,7 @@ export default function FeedbackPartners() {
                                     párnak van elengedhetetlen szüksége a szülés előtti [...]
                                 </p>
                                 <h3 className="feedback-author">Andrek Andrea - pszichológus</h3>
-                                <button className="feedback-button"><Link to="/pfeedback3aa">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/egyutt-gondolkodni">Bővebben</Link></button>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ export default function FeedbackPartners() {
                              – még ha természetszerűen nem is ugyanolyanok – tudom, 
                              hogy magas szinten képzettek, motiváltak, önismeretben dolgozók [...]</p>
                         <h3 className="feedback-author">Rákócziné Krämer Ágnes - szülésznő</h3>
-                        <button className="feedback-button"><Link to="/pfeedback4kg">Bővebben</Link></button>
+                        <button className="feedback-button"><Link to="/aki-tudja-szakmáját-tudja-kompetenciait">Bővebben</Link></button>
                     </div>
                 </div>
 
@@ -158,7 +158,7 @@ export default function FeedbackPartners() {
                             könnyebb volt egy dúlával  és egy jó szülésznővel, 
                             mintha egyedül kísértem volna a szülést. Én sem voltam [...]</p>
                         <h3 className="feedback-author">Dr. Kosztin Árpád szülész-nőgyógyász</h3>
-                        <button className="feedback-button"><Link to="/pfeedback5kr">Bővebben</Link></button>
+                        <button className="feedback-button"><Link to="/a-szulesnel-teljes-legyen-a-tamogatoi-kor">Bővebben</Link></button>
                     </div>
                 </div>
 

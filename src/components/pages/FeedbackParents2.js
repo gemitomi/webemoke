@@ -44,7 +44,7 @@ export default function FeedbackParents2() {
                                   fordult meg a fejemben, hogy dúlát fogadjunk, de amikor láttam, 
                                   hogy a páromban mennyi kérdés [...]</p>
                               <h3 className="feedback-author"> Cs. T. - anya</h3>
-                              <button className="feedback-button"><Link to="/feedback7cst">Bővebben</Link></button>
+                              <button className="feedback-button"><Link to="/milyen-jo-hogy-igy-alakult">Bővebben</Link></button>
                           </div>
                       </div>
 
@@ -70,7 +70,7 @@ export default function FeedbackParents2() {
                                   a jelenlétet mindvégig, az informálást, a támogatást, 
                                   a bizalmat, a jó szavakat [...]</p>
                               <h3 className="feedback-author"> T. P. - anya</h3>
-                              <button className="feedback-button"><Link to="/feedback8tp">Bővebben</Link></button>
+                              <button className="feedback-button"><Link to="/a-dula-nem-veszi-el-a-szuleszno-munkajat">Bővebben</Link></button>
                           </div>
                       </div>
 
@@ -96,7 +96,7 @@ export default function FeedbackParents2() {
                                   Semmilyen figyelmet nem éreztem a részéről, részükről, ráadásul 
                                   váltották egymást [...]</p>
                               <h3 className="feedback-author"> M. G. - anya</h3>
-                              <button className="feedback-button"><Link to="/feedback9mg">Bővebben</Link></button>
+                              <button className="feedback-button"><Link to="/annyi-mindent-javasoltál-es-csinaltal">Bővebben</Link></button>
                           </div>
                       </div>
                   </div>
@@ -131,7 +131,7 @@ export default function FeedbackParents2() {
                                     és olyan kérdéseket is fel lehetett tenni neki, 
                                     amivel egy szülésznőt nem illik zavarni.[...]</p>
                                 <h3 className="feedback-author">K. K. - anya</h3>
-                                <button className="feedback-button"><Link to="/feedback90kk">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/olyan-mint-egy-baratno-csak-hozzaerto">Bővebben</Link></button>
                             </div>
                         </div>
 
@@ -156,7 +156,7 @@ export default function FeedbackParents2() {
                                     azt gondoltam, hogy ezt a csodát belülről átélve egyszerűen 
                                     nem lehet felfogni,  hogy ő egyszer csak itt van velünk [...]</p>
                                 <h3 className="feedback-author">Ő. H. - anya</h3>
-                                <button className="feedback-button"><Link to="/feedback91oh">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/letrejon-egy-spiritualis-kötelek">Bővebben</Link></button>
                             </div>
                         </div>
 
@@ -181,15 +181,15 @@ export default function FeedbackParents2() {
                                     a várandósság kilenc hónapja alatt. 
                                     Ez alatt azt értem, hogy bármi kérdésem volt, akármikor [...] </p>
                                 <h3 className="feedback-author">H. E. - anya</h3>
-                                <button className="feedback-button"><Link to="/feedback92he">Bővebben</Link></button>
+                                <button className="feedback-button"><Link to="/felkeszitett-benunnket-a-szulesre">Bővebben</Link></button>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="feedback-button-btn-p">
-                  <Link to="/feedbackparents1">1</Link>
-                  <Link to="/feedbackparents2">2</Link>
+                  <Link to="/szuloi-visszajelzesek-1">1</Link>
+                  <Link to="/szuloi-visszajelzesek-2">2</Link>
                 </div>
                         
               </div>

@@ -46,7 +46,7 @@ export default function FeedBack4SGY() {
         <p>Címkék:</p>
         <i className="far fa-calendar"> 2016.09.18.</i>
         <Link to="/feedback">Visszajelzések</Link> 
-        <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
+        <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
     </div>
     
     <div className="feedback-parent-title">
@@ -54,8 +54,8 @@ export default function FeedBack4SGY() {
     </div>
 
     <div className="feedback-parent-pag">
-        <Link to="/feedback3nzs" className="feedback-parent-pag1">Előző</Link>
-        <Link to="/feedback5bb" className="feedback-parent-pag2">Következő</Link>
+        <Link to="/nem-volt-kerdes-a-dulavalasztas" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/orvos-vagyok-megis-sokat-jelentetel" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

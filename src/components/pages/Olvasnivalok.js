@@ -83,7 +83,7 @@ export default function Olvasnivalok() {
   
                     <span className="latestblog-chip latestbloglabel-md">Olvasnivalók</span>
   
-                    <h3 className="latestblogtitle-md">Publikációk</h3>
+                    <h3 className="latestblogtitle-md">Publikációim</h3>
    
                     <Link to="/publications" className="latest-blog-btn">Tovább</Link>
   

@@ -51,7 +51,7 @@ export default function FeedBack1DF() {
                 <p>Címkék:</p>
                 <i className="far fa-calendar"> 2017.01.11.</i>
                 <Link to="/feedback">Visszajelzések</Link> 
-                <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
+                <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
             </div>
 
             <div className="feedback-parent-title">
@@ -59,7 +59,7 @@ export default function FeedBack1DF() {
             </div>
 
             <div className="feedback-parent-pag">
-                <Link to="/feedback2ft" className="feedback-parent-pag2">Következő</Link>
+                <Link to="/egeszsegesenmegszuletett-a-kislanyom" className="feedback-parent-pag2">Következő</Link>
             </div>
             
         </div>

@@ -30,7 +30,7 @@ export default function Feedback() {
                 <div className="feedback-card-content">
                   <h2 className="feedback-name">Visszajelzés szülőktől</h2>
                   
-                  <button className="feedback-button"><Link to="/feedbackparents1">Tovább</Link></button>
+                  <button className="feedback-button"><Link to="/szuloi-visszajelzesek-1">Tovább</Link></button>
                 </div>
               </div>
 
@@ -45,7 +45,7 @@ export default function Feedback() {
                 <div className="feedback-card-content">
                   <h2 className="feedback-name">Visszajelzés partnerektől</h2>
                   
-                  <button className="feedback-button"><Link to="/feedbackpartners">Tovább</Link></button>
+                  <button className="feedback-button"><Link to="/partneri-visszajelzesek">Tovább</Link></button>
                 </div>
               </div> 
             </div>
@@ -68,7 +68,7 @@ export default function Feedback() {
                   <div className="feedback-card-content">
                     <h2 className="feedback-name">Visszajelzés a Békés Dúlatréningről</h2>
                     
-                    <button className="feedback-button"><Link to="/feedbackDulatrening">Tovább</Link></button>
+                    <button className="feedback-button"><Link to="/dulatrening-visszajelzesek">Tovább</Link></button>
                   </div>
                 </div>
 
@@ -82,7 +82,7 @@ export default function Feedback() {
 
                   <div className="feedback-card-content">
                     <h2 className="feedback-name">Visszajelzés a Békés Dúlaműhelyről</h2>
-                    <button className="feedback-button"><Link to="/feedbackDulamuhely">Tovább</Link></button>
+                    <button className="feedback-button"><Link to="/dulamuhely-visszajelzesek">Tovább</Link></button>
                   </div>
                 </div>
               </div>

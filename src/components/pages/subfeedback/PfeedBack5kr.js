@@ -42,7 +42,7 @@ export default function PfeedBack5kr() {
         <p>Címkék:</p>
         <i className="far fa-calendar"> 2016. 11. 09.</i>
         <Link to="/feedback">Visszajelzések</Link> 
-        <Link to="/feedbackpartners">Visszajelzések szakmai partnerektől</Link>
+        <Link to="/partneri-visszajelzesek">Visszajelzések szakmai partnerektől</Link>
     </div>
 
     <div className="feedback-partner-title">
@@ -50,7 +50,7 @@ export default function PfeedBack5kr() {
     </div>
 
     <div className="feedback-partner-pag">
-        <Link to="/pfeedback4kg" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/aki-tudja-szakmáját-tudja-kompetenciait" className="feedback-parent-pag1">Előző</Link>
     </div>
     
 </div>

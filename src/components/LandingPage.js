@@ -300,7 +300,7 @@ export default function LandingPage() {
                 </div>
                 <div className="dula-education">
                     <div className="education-faq">
-                        <a href="#" className="education-btn">Gyakori kérdések a képzésekről</a>
+                        <Link to="/gyik" className="education-btn">Gyakori kérdések a képzésekről</Link>
                     </div>
                 </div>
 

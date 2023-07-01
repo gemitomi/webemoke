@@ -33,7 +33,7 @@ return (
           <div className="faq-card-left">
             <h2 className="h2 section-title">Gyakori kérdések a képzésről?<br/><span>Ha kérdésed van, lépj kapcsolatba velem!</span></h2>
             <div className="faq-btn-container">
-            <Link to="/contact" className="faq-btn faq-btn-primary">Kapcsolatfelvétel</Link>
+            <center><Link to="/contact" className="latest-blog-btn">Kapcsolatfelvétel</Link></center>
             </div>  
           </div>
 

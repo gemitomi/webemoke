@@ -70,7 +70,7 @@ export default function FeedBack6DV() {
         <p>Címkék:</p>
         <i className="far fa-calendar"> 2016.09.18.</i>
         <Link to="/feedback">Visszajelzések</Link> 
-        <Link to="/feedbackparents1">Visszajelzések szülőktől</Link>
+        <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
     </div>
 
     <div className="feedback-parent-title">
@@ -78,8 +78,8 @@ export default function FeedBack6DV() {
     </div>
 
     <div className="feedback-parent-pag">
-        <Link to="/feedback5bb" className="feedback-parent-pag1">Előző</Link>
-        <Link to="/feedback7cst" className="feedback-parent-pag2">Következő</Link>
+        <Link to="/orvos-vagyok-megis-sokat-jelentetel" className="feedback-parent-pag1">Előző</Link>
+        <Link to="/milyen-jo-hogy-igy-alakult" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

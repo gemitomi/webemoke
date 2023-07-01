@@ -3,17 +3,22 @@ import Masonry from 'react-masonry-css';
 import { Link } from "react-router-dom";
 import "../../CSS/blog.css"
 
-import Pic1 from "../../image/blog/blog_01_ki a dula.png";
-import Pic2 from "../../image/blog/blog_02_dulahatás.png";
-import Pic3 from "../../image/blog/blog_03_dulatrening_menni.png";
-import Pic4 from "../../image/blog/blog_04_lany_ .png";
-import Pic5 from "../../image/blog/blog_05_nyilt_hetvege.png";
-import Pic6 from "../../image/blog/blog_06_szuletes_napja.png";
-import Pic7 from "../../image/blog/blog_07_csend_fia.png";
-import Pic8 from "../../image/blog/blog_08_ki_fel.png";
-import Pic9 from "../../image/blog_01.png";
-import Pic10 from "../../image/szulesfelkeszites_2.png";
-import Pic11 from "../../image/publik_01.png";
+import Pic1 from "../../image/publications/public-01-hero-otthon szules-vagy-korhazi-szules.png";
+import Pic2 from "../../image/publications/public-02-hero-indulas-erkezes.jpg";
+import Pic3 from "../../image/publications/public-03-hero-csaszarmetszes-utan.png";
+import Pic4 from "../../image/publications/public-04-hero-nem-konnyu-de-erdemes.png";
+import Pic5 from "../../image/publications/public-05-hero-tamogatas-a-szules-alatt.png";
+import Pic6 from "../../image/publications/public-06-hero-adventi-gondolatok-az-elfogadasrol.png";
+import Pic7 from "../../image/publications/public-07-hero-tango-egy-gyermekert.png";
+import Pic8 from "../../image/publications/public-08-hero-kicsi-es-nagy-szulesbatyuk.png";
+import Pic9 from "../../image/publications/public-09-hero-a-hit-amely-vilagra-segiti-a-kisbabakat.png";
+import Pic10 from "../../image/publications/public-10-hero-kenyelemre-programozva.png";
+import Pic11 from "../../image/publications/public-11-hero-korhazban-vagy-otthonszulesnel-segit-a-dula.png";
+import Pic12 from "../../image/publications/public-12-hero-csaszarmetszes-dulaval.png";
+import Pic13 from "../../image/publications/public-13-hero-van-e feladata-az-apanak-a-szuloszoban.png";
+import Pic14 from "../../image/publications/public-14-hero-kie-a-kisbaba-otthon.png";
+import Pic15 from "../../image/publications/public-15-hero-kie-a-kisbaba.png";
+import Pic16 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
 
 export default function Publications() {
 
@@ -27,101 +32,155 @@ export default function Publications() {
 
     return (
         <div className="blog">
-            <div className="blog-title">Publikációk</div> 
+            <div className="blog-title">Publikációim</div> 
             <Masonry
                 breakpointCols={breakpoints}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column">
                 {<div className="picture-gal">
-                    <Link to=""><img src={Pic1}/></Link>
+                    <Link to="/otthonszules-vagy-korhazi-szules"><img src={Pic1}/></Link>
                     <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                    <h2 className="blog-racs-title">Ki a dúla és miben segít</h2>
-                    <p className="blog-racs-description">A szülés a modern időket megelőző korokban a legtöbb kultúrában szigorúan asszonyi fennhatóság alá tartozott. A szülő nőt tapasztalt asszonytársak segítették a gyermek világra hozatalának nehéz óráiban. A közösség nőtagjai a bába felügyelete mellett bátorították, erősítették, biztatták a vajúdót. A közös női bölcsesség ösztönös tudásának és erejének védőhálóját vonták az ilyenkor sebezhető társuk köré.
-    
-                        A XX. század, mint oly sok minden másban, ebben is változást hozott </p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2011.05.05.</i></p>
+                     <Link to="/otthonszules-vagy-korhazi-szules"><h2 className="blog-racs-title">Otthonszülés vagy kórházi szülés? </h2></Link>
+                    <p className="blog-racs-description">Az MTV 1 Nappali című műsorában egy, a szülésére velem készülő anya nyilatkozata hallható, majd a stúdióbeszélgetésben Dr. Bálint Sándor szülész-nőgyógyász beszél az otthonszülés szabályozásáról, valamint arról, hogy a dúlai szemléletnek be kellene kerülnie az egyetemi oktatásba.</p>
                 </div>
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic2}/>
+                    <Link to="/indulas-erkezes"><img src={Pic2}/></Link>
                     <div className="blog-racs-content">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">A Dúlahatás - kutatások, eredmények</h2>
-                        <p className="blog-racs-description">Az elmúlt évtized során jelentősen nőtt a bizonyítékok száma a dúla által támogatott szülések előnyeivel kapcsolatban. Tizenhat olyan ellenőrzött tanulmányt publikáltak, melyekben több mint 5000 véletlenszerűen kiválasztott nő szerepelt.</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2010.02.02.</i></p>
+                         <Link to="/indulas-erkezes"><h2 className="blog-racs-title">Indulás, érkezés</h2></Link>
+                        <p className="blog-racs-description">Megcsördül a telefonom. Mire az ágyból érte nyúlok, már teljesen éber vagyok, és tudom, hogy mennem kell. Az ébresztőórára pillantok: éjjel fél kettő. Olga hív. Vajúdik. Elmeséli, hogy mit érez, én pedig finoman kérdezgetem erről-arról. Hallgatom és figyelek. Két kontrakció érkezik a beszélgetésünk alatt. Olga hangjai segítenek abban, hogy ráérezzek, hol tarthat a vajúdás folyamatában. […]</p>
                     </div>
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic3}/>
+                    <Link to="/csaszarmetszes-utan"><img src={Pic3}/></Link>
                     <div className="blog-racs-text">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">Dúlatréningre menni jó</h2>
-                        <p className="blog-racs-description">Készülődöm. Holnapután dúlatréningre megyek. Körülbelül harminchatodszorra. Ugyanolyan izgalommal és várakozással a szívemben, mint amikor először ültem be résztvevőként a csoportba. Ma már én kísérem a csoportokat, de van, ami nem változik. A bizalom légköre, a női tapasztalatok, az elinduló önismereti folyamatok és el nem sírt könnyek, az önfeledt nevetések, a sűrű csendek minden tréningen velünk […]</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2010.01.19.</i></p>
+                         <Link to="/csaszarmetszes-utan"><h2 className="blog-racs-title">Császármetszés után</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Három évvel ezelőtt született meg az első gyermekem, sajnos császármetszéssel. Az orvosom a kiírt időpont után két nappal úgy döntött, hogy nem vár tovább, elindítja a szülést, bár én is, a kisfiam is jól voltunk. Akkor én ez ellen nem tiltakoztam, egyrészt, mert megbíztam benne, másrészt mert nem tájékoztatott senki a szülésindítás esetleges […]</p>
                     </div>
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic4}/>
+                    <Link to="/nem-konnyu-de-erdemes"><img src={Pic4}/></Link>
                     <div className="blog-racs-text">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">A Lány és a Kisfiú</h2>
-                        <p className="blog-racs-description">A Lány alig több mint 20 éves. Megkérdőjelezhetetlenül, a kezdetektől tudta, hogy mi az, akit és amit nagyon szeretne. A Kisfiút, még akkor is, ha apa nélkül neveli majd fel, és azt, hogy az otthonában szülhesse meg a babáját. A nappaliban áll a szülőmedence. Benne áramlik a Lány. Szabadon mozog, siklik, hajlik, elmerül. Csendben figyelem […]</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2010.01.05.</i></p>
+                         <Link to="/nem-konnyu-de-erdemes"><h2 className="blog-racs-title">Nem könnyű, de érdemes</h2></Link>
+                        <p className="blog-racs-description">Az elmúlt hetekben több gyermekvállalás előtt álló nő írt nekem levelet. Ki ilyen, ki olyan kérdéssel keresett meg, a közös bennük talán csak annyi volt, hogy mindannyian keresték az útjukat a várandósság és a szülés körüli információrengeteg sűrűjében. Néhány napja én is eljátszottam a gondolattal, mi lenne, ha most várnám az első gyermekemet és nem […]</p>
                     </div>                
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic5}/>
+                    <Link to="/tamogatas-a-szules-alatt"><img src={Pic5}/></Link>
                     <div className="blog-racs-text">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">Nyílt hétvége a Békés Dúlakörrel</h2>
-                        <p className="blog-racs-description">Ha várandós vagy, és úgy érzed, kevés az az idő, amit a szakemberek rád szánnak… Ha lenne egy csomó kérdésed, de azt sem tudod, hol kezdjed… Ha nehezen igazodsz el a rád zúduló információk tengerében…ez a program segít megtalálni a saját utadat. GYERE EL KÖRÜNKBE, BESZÉLGESS VELÜNK, INFORMÁLÓDJ A BÉKÉS DÚLAKÖR NYÍLT HÉTVÉGÉJÉN. 2017. MÁJUS 27-28-ÁN […]</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.12.22.</i></p>
+                         <Link to="/tamogatas-a-szules-alatt"><h2 className="blog-racs-title">Támogatás a szülés alatt</h2></Link>
+                        <p className="blog-racs-description">Néhány nappal ezelőtt hazánkban tartott egy workshopot Debra Pascali Bonaro, a világ legnagyobb dúlaszervezetének (DONA) vezetője. A tréningen már gyakorló dúlák illetve a hivatás iránt érdeklődő anyák, köztük nagy örömömre egy védőnő és szülésznők is részt vettek. A gyakorlati ismeretek átadása mellett Debra többször említést tett egy olyan nemzetközi szervezet kutatási eredményeiről (Cohrane Collaboration), amely […]</p>
                     </div>    
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic6}/>
+                    <Link to="/adventi-gondolatok-az-elfogadasrol"><img src={Pic6}/></Link>
                     <div className="blog-racs-content">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">Szülés és születés napja a Békés Dúlakörrel</h2>
-                        <p className="blog-racs-description">Amiről máshol nem hallunk eleget – interaktív előadások és workshopok Szeretettel várunk minden kismamát és gyermeket váró párt, továbbá minden téma iránt érdeklődőt, aki szeretne többet megtudni a várandósság és a családdá válás lelki aspektusairól, illetve felkészülten és kompetensen szeretne megérkezni a gyermekvállalás kapujába. Egy gyönyörű, bensőséges helyszínre, a Zen kertbe invitálunk benneteket, ahol […]</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.12.08.</i></p>
+                         <Link to="/adventi-gondolatok-az-elfogadasrol"><h2 className="blog-racs-title">Adventi gondolatok az elfogadásról</h2></Link>
+                        <p className="blog-racs-description">Nagy boldogság számomra, hogy a munkám egyben a hivatásom is, mely számtalan különleges élménnyel ajándékoz meg. Az egyik legizgalmasabb annak a megtapasztalása, hogy mennyire sokszínűek vagyunk mi nők. Nap mint nap kapok leveleket lányoktól, asszonyoktól. Vannak, akik konkrét kérdésekkel keresnek meg, és olyanok is, akik valamilyen élményüket szeretnék megosztani velem, gyakran éppen a fájdalmas vagy […]</p>
                     </div>
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic7}/>
+                    <Link to="/tango-egy-gyermekert"><img src={Pic7}/></Link>
                     <div className="blog-racs-content">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">Ki fél a szüléstől?</h2>
-                        <p className="blog-racs-description">Talán meglepő, de az elmúlt években egyre gyakrabban tapasztalom azt, hogy nem az anya, hanem maga a szülészorvos. “Fenyegető, hüvelyi szülésre készülök!” – hangzott egy szülész-nőgyógyász szájából, és én döbbenetemből ocsúdva azóta is próbálom értelmezni, vajon mi fenyegeti? 15 éve kísérek szüléseket kórházakban, különböző orvosokkal és szülésznőkkel. Ez alatt az idő alatt nagyon sokféle személyiségű, […]</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.12.02.</i></p>
+                         <Link to="/tango-egy-gyermekert"><h2 className="blog-racs-title">Tangó egy gyermekért</h2></Link>
+                        <p className="blog-racs-description">Egy szülés, egy születés igaz története, ahogy a dúla látta. Éjjel érkeztünk a szülőszobára. Csordogált a magzatvíz, de Hajninak még nem voltak méhösszehúzódásai. Elhelyezkedtünk a félhomályos, de még így sem túl intim szülőszobában. Bóbiskolva, zenét hallgatva virradt ránk a reggel. Berci nagyon fáradt volt. Napok óta intézte az új lakásba költözés összes gondját-baját, szorgosan takarított, […]</p>
                     </div>
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic8}/>
+                    <Link to="/a-kicsi-es-a-nagy-szulesbatyuk"><img src={Pic8}/></Link>
                     <div className="blog-racs-content">
-                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2016.10.13.</i></p>
-                        <h2 className="blog-racs-title">A csend fia</h2>
-                        <p className="blog-racs-description">A december beköszöntével érkezett. Sötétedés után indult, kora este, csöndben, finoman. Édesanyja szinte nem is érezte az összehúzódásokat, melyek mégis egyre nagyobbra nyitották előtte a kaput. Nyugodt és lassú folyamat volt, örömteli adventi várakozás. A szülőszoba falán még az óra sem járt. Háromnegyed kilencet mutatott, és én viccelődtem, hogy úgy látszik, ebben a szobában minden […]</p>
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.11.24.</i></p>
+                         <Link to="/a-kicsi-es-a-nagy-szulesbatyuk"><h2 className="blog-racs-title">A kicsi és a nagy „szülésbatyuk”</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Első gyermekemet várom és abban szeretném a tanácsodat kérni, hogy mit vigyek magammal a kórházba, ha beindul a szülés. Már összepakoltam néhány alapvető dolgot, de kíváncsi vagyok, hogy Te mit tartasz fontosnak. Szeretném, ha nem hiányozna semmi a szülőszobán, de ami van ott, azt viszont felesleges nem akarom vinni. Válaszodat előre is köszönöm! […]</p>
                     </div>
                 </div>}
     
                 {<div className="picture-gal">
-                    <img src={Pic9}/>
-                    
+                    <Link to="/a-hit-amely-vilagra-segiti-a-kisbabakat"><img src={Pic9}/></Link>
+                    <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.11.10.</i></p>
+                         <Link to="/a-hit-amely-vilagra-segiti-a-kisbabakat"><h2 className="blog-racs-title">A hit, amely világra segíti a kisbabákat</h2></Link>
+                        <p className="blog-racs-description">A természetes szülés megvalósulásának egyik legfontosabb alapja az, hogy a nő hinni tudjon a saját erejében és a teste működésében. De van még valami, ami legalább ilyen fontos. Hogy ez mekkora segítő erőt jelent a szülésnél, arról néhány héttel ezelőtt újra megbizonyosodhattam. A hit, amely világra segíti a kisbabákatSzép őszi délután volt, már alkonyult. A […]</p>
+                    </div>
                 </div>}
+
                 {<div className="picture-gal">
-                    <img src={Pic10}/>
-                    
+                    <Link to="/kenyelemre-programozva"><img src={Pic10}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.10.27.</i></p>
+                         <Link to="/kenyelemre-programozva"><h2 className="blog-racs-title">Kényelemre programozva</h2></Link>
+                        <p className="blog-racs-description">Többször is elolvastam a Babázzunk rovatban két hete megjelent cikket a programozott szülésről, és egyre csak az olvasottakon tűnődöm. Kényelem. Kényelem a szülőszobán. Furcsa nekem ez a szó. Használom-e, és ha igen, mikor érzem megfelelőnek ezt a kifejezést egyáltalán szüléskísérés közben? Azt hiszem, a vajúdás és a szülés alatt nem. Az anyák – ha hagyják […]</p>
+                    </div>
                 </div>}
+
                 {<div className="picture-gal">
-                    <img src={Pic11}/>
-                    
+                    <Link to="/korhazban-vagy-otthonszulesnel-segit-a-dula"><img src={Pic11}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.10.13.</i></p>
+                         <Link to="/korhazban-vagy-otthonszulesnel-segit-a-dula"><h2 className="blog-racs-title">Kórházban vagy otthonszülésnél segít a dúla?</h2></Link>
+                        <p className="blog-racs-description">Bár egyre ismertebb a dúla szerepe és munkája, mégsem tudja mindenki pontosan, hogy vajon otthon vagy a kórházban segédkezik a szülésnél? Annak ellenére, hogy már 8 éve kísérnek különböző hazai kórházakban dúlák szüléseket, még mindig gyakran tapasztalom azt, hogy amikor bemutatkozom valakinek és megemlítem, hogy dúla vagyok, akkor azt gondolják rólam, hogy én kizárólag otthonszülésekhez […]</p>
+                    </div>
                 </div>}
-                
-            </Masonry>
-    
-             
+
+                {<div className="picture-gal">
+                    <Link to="/csaszarmetszes-dulaval"><img src={Pic12}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.09.29.</i></p>
+                         <Link to="/csaszarmetszes-dulaval"><h2 className="blog-racs-title">Császármetszés dúlával?</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Többször olvastam már a dúlák tevékenységéről és most, hogy a második kisbabámat várom, elhatároztam, hogy dúla támogatásával szeretnék szülni. Az első gyermekem császármetszéssel született, s bár szeretném, ha ez most nem így lenne, foglalkoztat az a kérdés, hogy érdemes-e akkor is választanom dúlát, ha ismét műtéttel fejeződne be a szülésem? Császármetszés dúlával? – […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/van-e-fealadata-az-apanak-a-szuloszobaban"><img src={Pic13}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.09.18.</i></p>
+                         <Link to="/van-e-fealadata-az-apanak-a-szuloszobaban"><h2 className="blog-racs-title">Van-e feladata az apának a szülőszobán?</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Lassan közeledik a szülésem időpontja, már alig várjuk, hogy megláthassuk a kisfiunkat. A férjemmel apás szülésre készülünk. A kórházban, ahová majd megyünk, a múlt héten volt lehetőségünk arra, hogy megnézzük a szülőszobát. Ezen a szülésre felkészítő alkalmon azt is elmondta a szülésznő, hogy az apukáktól a vajúdás alatt miben kérnek majd segítséget, például, […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/kie-a-kisbaba-otthon"><img src={Pic14}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.09.01.</i></p>
+                         <Link to="/kie-a-kisbaba-otthon"><h2 className="blog-racs-title">Kié a kisbaba otthon?</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Először is köszönöm, hogy kérdésekkel fordulhatok hozzád. Most vagyok 28 hetes kismama, és úgy érzem, egyre gyakrabban foglalkoztat a szülés és az utána következő időszak. Két éve párommal még az anyósoméknál laktunk, de most már külön élünk. Annak ellenére, hogy már nem a szülőknél élünk (akiket egyébként nagyon szeretek), úgy érzem, hogy mindenbe […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/kie-a-kisbaba"><img src={Pic15}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.08.18.</i></p>
+                         <Link to="/kie-a-kisbaba"><h2 className="blog-racs-title">Kié a kisbaba?</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Két éve született a kisfiam, Ádám. Egy vidéki nagyváros kórházában látta meg a napvilágot. Bár a születése sem volt teljesen háborítatlan, a velem történteket könnyebben el tudtam fogadni mint azt, ahogy az újszülött ellátása zajlott. Amikor Ádám kibújt, igaz, hogy a mellemre tették, de csak alig egy-két percig, aztán már vitték is el […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/varandosan-nehez-az-alvas"><img src={Pic16}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.08.04.</i></p>
+                         <Link to="/varandosan-nehez-az-alvas"><h2 className="blog-racs-title">Várandósan nehéz az alvás</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Nyolcadik hónapban járó várandós kismama vagyok. (Már a megnevezésen is sokat gondolkodtam. A “várandós” kifejezést találtam a legpontosabbnak, mert valóban várakozom, hogy végre megismerhessem azt a kis embert, akivel már egy ideje együtt élek, aki már egy ideje a mindennapjaim része, és akit remélem, nem nagyon gyötör meg odabent az én idekinti tehetetlenségem.) […]</p>
+                    </div>
+                </div>}
+            </Masonry> 
         </div>
       )
 }

@@ -19,6 +19,9 @@
 
 .faq-card-left{
   max-width: 500px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq-btn {
