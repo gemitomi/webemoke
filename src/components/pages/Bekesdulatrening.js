@@ -4,6 +4,7 @@ import { Button, Modal} from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 
 import "../../CSS/bekesdulatraining.css"
+import "../../CSS/form.css"
 
 import DoulaTrain from "../../image/dula_treningek.png"
 
@@ -13,6 +14,8 @@ const sendEmail = (e) => {
   emailjs.sendForm('service_nclcu9j', 'template_f8fh6j8', e.target, 'dvGDZxVnl8xRc5665');
   alert('Jelentkezését továbbítottuk!');
   document.getElementById("sendbox").reset();
+  
+
 
 }
 
@@ -104,73 +107,7 @@ render(){
             <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most is megteheted</Button>               
           </div>
 
-          <Modal show={this.state.show} onHide={()=>this.handleModal()}>  
-            <Modal.Header closeButton>This is a Modal Heading</Modal.Header>  
-            <Modal.Body>
-              <div className="dulatrening-form">
-                  <h2 >Kapcsolatfelvétel</h2>
-                  <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
-                    <div className="dulatrening-formBox">
-                      
-                      <div className="dulatrening-inputBox">
-                        <span>Neved (kötelező)</span>
-                        <input type="text" name="name"  id="name" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Születési neved (kötelező)</span>
-                          <input type="text" name="birthname" id="birthname" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Születési dátumod (kötelező)</span>
-                          <input type="text" name="birthday" id="birthday" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Születési helyed (kötelező)</span>
-                          <input type="text" name="birthplace" id="birthplace" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Édesanyád születési neve (kötelező)</span>
-                          <input type="text" name="mother" id="mother" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Legmagasabb iskolai végzettséged (kötelező)</span>
-                          <input type="text" name="school" id="school" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Számlázási címed (kötelező)</span>
-                          <input type="text" name="addres" id="addres" required/>
-                      </div>
-
-                      <div className="dulatrening-inputBox">
-                          <span>Telefonszámod</span>
-                          <input type="text" name="phone" id="phone" required/>
-                      </div>  
-
-                      <div className="dulatrening-inputBox">
-                          <span>e-mail cím (kötelező)</span>
-                          <input type="text" name="email_from" id="emailFrom" required/>
-                      </div>
-
-                      <div className="dulatrening-btn-box">
-                        <Button className="dulatrening-btn" onClick={()=>this.handleModal()}>Close</Button>  
-                        <Button className="dulatrening-btn" type="submit">Küldés</Button>  
-                      </div>
-                    </div>              
-                  </form>
-                </div>
-            </Modal.Body>  
-            <Modal.Footer>  
-              <div>
-                Elolvastam és elfogadom az Adatvédelmi tájékoztatót. A jelentkezési lapon szereplő személyes adataim kezeléséhez és megőrzéséhez hozzájárulok. Adataim továbbítását csak a képzésemben közreműködő személyek és a jogszabályban felhatalmazott szervek felé engedélyezem. Megismertem és tudomásul vettem az adatkezelési tájékoztatóban foglaltakat, így azt, hogy személyes adataim a 2013. évi LXXVII. Tv. 21.§ előírásai alapján kerülnek kezelésre. Megőrzésük a jogszabály alapján 8 év. Adataim továbbítását csak a képzésemben közreműködő személyek felé engedélyezem, a jogszabályban felhatalmazott szervek felé való továbbításról külön rendelkezem.
-              </div>
-            </Modal.Footer>  
-          </Modal>  
+          
 
           <div className="doula-trening-details">
               <h6>Motivációs tréning</h6>
@@ -273,8 +210,83 @@ render(){
           </div>
         </div>
 
-      </div>    
+      </div>
+      <div class="appli-box">    
+      <Modal  show={this.state.show} onHide={()=>this.handleModal()}>  
+            <Modal.Header closeButton></Modal.Header>  
+            <Modal.Body>
+            <div >
+                <div class="appli-container">
+                    <div class="form">
+                    <h2 >Kapcsolatfelvétel</h2>
+                    <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
+                        <div>
+                        
+                        <div className="appli-inputBox">
+                            <label>Neved (kötelező)</label>
+                            <input type="text" name="name"  id="name" required/>
+                        </div>
 
+                        <div className="appli-inputBox">
+                            <label>Születési neved (kötelező)</label>
+                            <input type="text" name="birthname" id="birthname" required/>
+                        </div>
+
+                        <div className="appli-inputBox">
+                            <label>Születési dátumod (kötelező)</label>
+                            <input type="text" name="birthday" id="birthday" required/>
+                        </div>
+
+                        <div className="appli-inputBox">
+                            <label>Születési helyed (kötelező)</label>
+                            <input type="text" name="birthplace" id="birthplace" required/>
+                        </div>
+
+                        <div className="appli-inputBox">
+                            <label>Édesanyád születési neve (kötelező)</label>
+                            <input type="text" name="mother" id="mother" required/>
+                        </div>
+
+                        <div className="appli-inputBox">
+                            <label>Legmagasabb iskolai végzettséged (kötelező)</label>
+                            <input type="text" name="school" id="school" required/>
+                        </div>
+
+                        <div className="appli-inputBox">
+                            <label>Számlázási címed (kötelező)</label>
+                            <input type="text" name="addres" id="addres" required/>
+                        </div>
+
+                        <div className="appli-inputBox">
+                            <label>Telefonszámod</label>
+                            <input type="text" name="phone" id="phone" required/>
+                        </div>  
+
+                        <div className="appli-inputBox">
+                            <label>e-mail cím (kötelező)</label>
+                            <input type="text" name="email_from" id="emailFrom" required/>
+                        </div>
+                        <div class="appli-checkbox">
+                            <label for="vehicle"></label><br/>
+                            <input type="checkbox" name="vehicle" id="vehicle" value="true" required/><br/>
+                        </div>
+                        <div class="alert">
+                            <p> Elolvastam és elfogadom az <a href="#" >Adatvédelmi tájékoztatót</a>. A jelentkezési lapon szereplő személyes adataim kezeléséhez és megőrzéséhez hozzájárulok. Adataim továbbítását csak a képzésemben közreműködő személyek és a jogszabályban felhatalmazott szervek felé engedélyezem. Megismertem és tudomásul vettem az adatkezelési tájékoztatóban foglaltakat, így azt, hogy személyes adataim a 2013. évi LXXVII. Tv. 21.§ előírásai alapján kerülnek kezelésre. Megőrzésük a jogszabály alapján 8 év. Adataim továbbítását csak a képzésemben közreműködő személyek felé engedélyezem, a jogszabályban felhatalmazott szervek felé való továbbításról külön rendelkezem.</p>
+                        </div>
+
+                        <div className="appli-button-container">
+                            
+                            <Button type="submit">Küldés</Button>  
+                        </div>
+                        </div>              
+                    </form>
+                    </div>
+                </div>
+            </div>
+            </Modal.Body>  
+            
+          </Modal>  
+        </div>
     </div>
   )
 }

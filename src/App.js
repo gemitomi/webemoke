@@ -34,6 +34,8 @@ import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
 import Gyik from "./components/pages/Gyik"
 import Stories from "./components/pages/Stories";
 import Publications from "./components/pages/Publications";
+import Publications2 from "./components/pages/Publications2";
+import Publications3 from "./components/pages/Publications3";
 
 import FeedBack1DF from "./components/pages/subfeedback/FeedBack1DF";
 import FeedBack5BB from "./components/pages/subfeedback/FeedBack5BB";
@@ -107,6 +109,52 @@ import Public13 from "./components/pages/publications/Public13"
 import Public14 from "./components/pages/publications/Public14"
 import Public15 from "./components/pages/publications/Public15"
 import Public16 from "./components/pages/publications/Public16"
+import Public17 from "./components/pages/publications/Public17"
+import Public18 from "./components/pages/publications/Public18"
+import Public19 from "./components/pages/publications/Public19"
+import Public20 from "./components/pages/publications/Public20"
+import Public21 from "./components/pages/publications/Public21"
+import Public22 from "./components/pages/publications/Public22"
+import Public23 from "./components/pages/publications/Public23"
+import Public24 from "./components/pages/publications/Public24"
+import Public25 from "./components/pages/publications/Public25"
+import Public26 from "./components/pages/publications/Public26"
+import Public27 from "./components/pages/publications/Public27"
+import Public28 from "./components/pages/publications/Public28"
+import Public29 from "./components/pages/publications/Public29"
+import Public30 from "./components/pages/publications/Public30"
+import Public31 from "./components/pages/publications/Public31"
+import Public32 from "./components/pages/publications/Public32"
+import Public33 from "./components/pages/publications/Public33"
+import Public34 from "./components/pages/publications/Public34"
+import Public35 from "./components/pages/publications/Public35"
+import Public36 from "./components/pages/publications/Public36"
+import Public37 from "./components/pages/publications/Public37"
+import Public38 from "./components/pages/publications/Public38"
+import Public39 from "./components/pages/publications/Public39"
+import Public40 from "./components/pages/publications/Public40"
+import Public41 from "./components/pages/publications/Public41"
+import Public42 from "./components/pages/publications/Public42"
+import Public43 from "./components/pages/publications/Public43"
+import Public44 from "./components/pages/publications/Public44"
+import Public45 from "./components/pages/publications/Public45"
+import Public46 from "./components/pages/publications/Public46"
+import Public47 from "./components/pages/publications/Public47"
+import Public48 from "./components/pages/publications/Public48"
+import Public49 from "./components/pages/publications/Public49"
+import Public50 from "./components/pages/publications/Public50"
+import Public51 from "./components/pages/publications/Public51"
+import Public52 from "./components/pages/publications/Public52"
+import Public53 from "./components/pages/publications/Public53"
+import Public54 from "./components/pages/publications/Public54"
+import Public55 from "./components/pages/publications/Public55"
+import Public56 from "./components/pages/publications/Public56"
+import Public57 from "./components/pages/publications/Public57"
+import Public58 from "./components/pages/publications/Public58"
+import Public59 from "./components/pages/publications/Public59"
+import Public60 from "./components/pages/publications/Public60"
+import Public61 from "./components/pages/publications/Public61"
+import Public62 from "./components/pages/publications/Public62"
 
 function App() {
   return (
@@ -132,6 +180,8 @@ function App() {
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/stories" element={<Stories/>}/>
             <Route path="/publications" element={<Publications/>}/>
+            <Route path="/publications2" element={<Publications2/>}/>
+            <Route path="/publications3" element={<Publications3/>}/>
             <Route path="/gallery" element={<Gallery/>}/>
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
@@ -227,6 +277,53 @@ function App() {
             <Route path="/kie-a-kisbaba-otthon" element={<Public14/>}/>
             <Route path="/kie-a-kisbaba" element={<Public15/>}/>
             <Route path="/varandosan-nehez-az-alvas" element={<Public16/>}/>
+            <Route path="/brigi-szuletesenek-tortenete" element={<Public17/>}/>
+            <Route path="/lehet-e-oxytocin-nelkul-szulni" element={<Public18/>}/>
+            <Route path="/agyban-a-gyermekagy-idejen" element={<Public19/>}/>
+            <Route path="/ket-unnep-kozott-egy-harmadik" element={<Public20/>}/>
+            <Route path="/segitok-az-elet-kapujanal" element={<Public21/>}/>
+            
+            <Route path="/kistestver-szuletik" element={<Public22/>}/>
+            <Route path="/varazsszerek-nelkul" element={<Public23/>}/>
+            <Route path="/mivel-jar-az-anyasag" element={<Public24/>}/>
+            <Route path="/abris-szuletesnapjan" element={<Public25/>}/>
+            <Route path="/dula-vagy-fogadott-szuleszno" element={<Public26/>}/>
+            <Route path="/vajudas-es-szuletes" element={<Public27/>}/>
+            <Route path="/a-szulesen-innen-es-tul" element={<Public28/>}/>
+            <Route path="/a-kincsemet-nem-lehet-ellopni" element={<Public29/>}/>
+            <Route path="/felelem-a-szuloszoban" element={<Public30/>}/>
+            <Route path="/kell-e-lehet-e-tervezni-a-szulest" element={<Public31/>}/>
+            <Route path="/dula-lennek" element={<Public32/>}/>
+            <Route path="/mikor-vallaljunk-gyereket" element={<Public33/>}/>
+            <Route path="/barnabas" element={<Public34/>}/>
+            <Route path="/terhes-vagyok-hogyan-tovabb" element={<Public35/>}/>
+            <Route path="/nem-tehetek-semmit" element={<Public36/>}/>
+            <Route path="/egyutt-szules" element={<Public37/>}/>
+            <Route path="/ovodai-beszoktatas" element={<Public38/>}/>
+            <Route path="/ujra-lesz-dulatrening" element={<Public39/>}/>
+            <Route path="/nyugalmas-szoptatas" element={<Public40/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public41/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public42/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public43/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public44/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public45/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public46/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public47/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public48/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public49/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public50/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public51/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public52/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public53/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public54/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public55/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public56/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public57/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public58/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public59/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public60/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public61/>}/>
+            <Route path="/varandosan-nehez-az-alvas" element={<Public62/>}/>
           </Routes>
           
         </div>

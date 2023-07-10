@@ -1,0 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "../../../CSS/blog_global.css"
+
+import Public49Pic1 from "../../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+
+export default function Public49() {
+  return <div>Public49</div>;
+}

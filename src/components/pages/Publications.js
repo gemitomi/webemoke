@@ -19,6 +19,21 @@ import Pic13 from "../../image/publications/public-13-hero-van-e feladata-az-apa
 import Pic14 from "../../image/publications/public-14-hero-kie-a-kisbaba-otthon.png";
 import Pic15 from "../../image/publications/public-15-hero-kie-a-kisbaba.png";
 import Pic16 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic17 from "../../image/publications/public-17-hero-brigi-szuletesenek-tortenete.png";
+import Pic18 from "../../image/publications/public-18-hero-lehet-e-oxytocin-nelkul-szulni.png";
+import Pic19 from "../../image/publications/public-19-hero-agyban-a-gyermekagy-idejen.png";
+import Pic20 from "../../image/publications/public-20-hero-ket-unnep-kozt-egy-harmadik.png";
+
+import Pic41 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic42 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic43 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic44 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic45 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic46 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic47 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic48 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic49 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
+import Pic50 from "../../image/publications/public-16-hero-varandosan-nehez-az-alvas.png";
 
 export default function Publications() {
 
@@ -180,7 +195,49 @@ export default function Publications() {
                         <p className="blog-racs-description">Kedves Emőke! Nyolcadik hónapban járó várandós kismama vagyok. (Már a megnevezésen is sokat gondolkodtam. A “várandós” kifejezést találtam a legpontosabbnak, mert valóban várakozom, hogy végre megismerhessem azt a kis embert, akivel már egy ideje együtt élek, aki már egy ideje a mindennapjaim része, és akit remélem, nem nagyon gyötör meg odabent az én idekinti tehetetlenségem.) […]</p>
                     </div>
                 </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/brigi-szuletesenek-tortenete"><img src={Pic17}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.07.21.</i></p>
+                         <Link to="/brigi-szuletesenek-tortenete"><h2 className="blog-racs-title">Brigi születésének története</h2></Link>
+                        <p className="blog-racs-description">Drága Petra! Amikor ezt a levelet olvasod, két születésnap is nagyon közel lesz már. Az egyik a Tiéd, a másik a kisfiadé, aki talán – mint a legszebb ajándék – pont ugyanezen a napon fog a világra érkezni. Emlékszel az első levélváltásunkra? Akkor Te írtál nekem. A szakdolgozatodhoz gyűjtöttél anyagot, és én örömmel segítettem ebben. […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/lehet-e-oxytocin-nelkul-szulni"><img src={Pic18}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.07.07.</i></p>
+                         <Link to="/lehet-e-oxytocin-nelkul-szulni"><h2 className="blog-racs-title">Lehet-e oxytocin nélkül szülni?</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Szeptember végére várom első gyermekem születését. Több barátnőm, rokonom is szült mostanában, és egyikőjük kivételével mindegyik kapott a vajúdása folyamán oxytocint. Ha jól tudom, ez valami vajúdásgyorsító gyógyszer, amitől a barátnőimnek szinte elviselhetetlen fájásai lettek. Azt szeretném megkérdezni Tőled, hogy tényleg ilyen gyakran szükséges ez? Nagyon szeretnék mindenféle gyógyszeres beavatkozást elkerülni a szülésemnél. […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/agyban-a-gyermekagy-idejen"><img src={Pic19}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.06.23.</i></p>
+                         <Link to="/agyban-a-gyermekagy-idejen"><h2 className="blog-racs-title">Ágyban a gyermekágy idején?</h2></Link>
+                        <p className="blog-racs-description">Kedves Emőke! Kétségbeesve írok Neked. A kisfiam egy hónappal ezelőtt született, nagyon szép, egészséges kisfiú, mégsem felhőtlen az örömöm. Úgy érzem, hogy nem tudom ellátni az anyasággal megnövekedett feladataimat. Az első két héten még itthon volt velünk a férjem és segített a házi munkában. Azóta viszont egyedül vagyok napközben a kisfiammal és nem megy jól […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/ket-unnep-kozott-egy-harmadik"><img src={Pic20}/></Link>
+                     <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.06.09.</i></p>
+                         <Link to="/ket-unnep-kozott-egy-harmadik"><h2 className="blog-racs-title">Két ünnep közt egy harmadik</h2></Link>
+                        <p className="blog-racs-description">Már csütörtökön este éreztem, hogy valami mintha finoman, de mégis egyre inkább szorongatná a szívemet. Aztán amikor másnap reggel, a ballagás napján bekísértem kislányomat, Esztert az oviba, ki is gördült könnyek formájában az az ünnepi hangulattal és büszkeséggel párosuló szomorúság, ami annak volt köszönhető, hogy a legkisebb gyermekünk is elbúcsúzik az óvodától. Amíg a boltig […]
+</p>
+                    </div>
+                </div>}
             </Masonry> 
+            <div className="blog-step-button-box" >
+                  <Link className="blog-step-button" to="/publications">1</Link>
+                  <Link className="blog-step-button" to="/publications2">2</Link>
+                  <Link className="blog-step-button" to="/publications3">3</Link>
+            </div>
         </div>
       )
 }
