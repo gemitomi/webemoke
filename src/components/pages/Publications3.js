@@ -3,28 +3,28 @@ import Masonry from 'react-masonry-css';
 import { Link } from "react-router-dom";
 import "../../CSS/blog.css"
 
-import Pic41 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic42 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic43 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic44 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic45 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic46 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic47 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic48 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic49 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic50 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic51 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic52 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic53 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic54 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic55 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic56 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic57 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic58 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic59 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic60 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic61 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
-import Pic62 from "../../image/publications/public-40-hero-nyugalmas-szoptatas.png";
+import Pic41 from "../../image/publications/public-41-hero-ina-may-gaskin.png";
+import Pic42 from "../../image/publications/public-42-hero-csaszarmetszes-utan-ujra-szulni.png";
+import Pic43 from "../../image/publications/public-43-hero-kiseroim.jpg";
+import Pic44 from "../../image/publications/public-44-hero-a-vajudolabda.png";
+import Pic45 from "../../image/publications/public-45-hero-az-egyes-vajudasi-poziciok-elonyei.png";
+import Pic46 from "../../image/publications/public-46-hero-tengerviz-szulofold.png";
+import Pic47 from "../../image/publications/public-47-hero-miert-sir-a-baba.png";
+import Pic48 from "../../image/publications/public-48-hero-felelm-a-szulestol.png";
+import Pic49 from "../../image/publications/public-49-hero-a-valasztas-szabadsaga.png";
+import Pic50 from "../../image/publications/public-50-hero-a-kapcsolat-alapja.png";
+import Pic51 from "../../image/publications/public-51-hero-egy-kep-es-ami-mogotte-van.png";
+import Pic52 from "../../image/publications/public-52-hero-egy-kep-amely-megallasra-kesztet.png";
+import Pic53 from "../../image/publications/public-53-hero-egykisfiu-erkezesere-varva.png";
+import Pic54 from "../../image/publications/public-54-hero-szeretnek-szepen-szulni.png";
+import Pic55 from "../../image/publications/public-55-hero-gyogyito-szules.png";
+import Pic56 from "../../image/publications/public-56-hero-a-termeszetessegrol.png";
+import Pic57 from "../../image/publications/public-57-hero-unnep.png";
+import Pic58 from "../../image/publications/public-58-hero-meg-egyszer-a-csaszarosokrol.png";
+import Pic59 from "../../image/publications/public-59-hero-gatmetszes-vagy-csaszarmetszes.png";
+import Pic60 from "../../image/publications/public-60-hero-a-dula-es-az-apa.png";
+import Pic61 from "../../image/publications/public-61-hero-az-elvalasztasrol.png";
+import Pic62 from "../../image/publications/public-62-hero-a-szulesi-tervrol.png";
 
 export default function Publications3() {
   const breakpoints = {
@@ -43,200 +43,200 @@ return (
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column">
             {<div className="picture-gal">
-                <Link to="/otthonszules-vagy-korhazi-szules"><img src={Pic41}/></Link>
+                <Link to="/a-vilag-legismertebb-babaja-ina-may-gaskin"><img src={Pic41}/></Link>
                 <div className="blog-racs-content">
-                <p className="blog-racs-catagory"><i className="far fa-calendar"> 2011.05.05.</i></p>
-                 <Link to="/otthonszules-vagy-korhazi-szules"><h2 className="blog-racs-title">Otthonszülés vagy kórházi szülés? </h2></Link>
-                <p className="blog-racs-description">Az MTV 1 Nappali című műsorában egy, a szülésére velem készülő anya nyilatkozata hallható, majd a stúdióbeszélgetésben Dr. Bálint Sándor szülész-nőgyógyász beszél az otthonszülés szabályozásáról, valamint arról, hogy a dúlai szemléletnek be kellene kerülnie az egyetemi oktatásba.</p>
+                <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.07.22.</i></p>
+                 <Link to="/a-vilag-legismertebb-babaja-ina-may-gaskin"><h2 className="blog-racs-title">A világ legismertebb bábája: Ina May Gaskin</h2></Link>
+                <p className="blog-racs-description">A várandóssággal, szüléssel kapcsolatos írásaimban többször hivatkoztam már Ina May Gaskin tapasztalataira, illetve ajánlottam az Útmutató szüléshez című, Magyarországon is megjelent könyvét. De ki is ő valójában? Hogyan vált a világ legismertebb bábájává, és mivel érdemelte ki, hogy egy szülészeti komplikáció megoldására alkalmazott eljárás is a nevéhez fűződik? Ina May Gaskin a 60-as évek végén, […]</p>
             </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/indulas-erkezes"><img src={Pic42}/></Link>
+                <Link to="/csaszarmetszes-utan-ujra-szulni"><img src={Pic42}/></Link>
                 <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2010.02.02.</i></p>
-                     <Link to="/indulas-erkezes"><h2 className="blog-racs-title">Indulás, érkezés</h2></Link>
-                    <p className="blog-racs-description">Megcsördül a telefonom. Mire az ágyból érte nyúlok, már teljesen éber vagyok, és tudom, hogy mennem kell. Az ébresztőórára pillantok: éjjel fél kettő. Olga hív. Vajúdik. Elmeséli, hogy mit érez, én pedig finoman kérdezgetem erről-arról. Hallgatom és figyelek. Két kontrakció érkezik a beszélgetésünk alatt. Olga hangjai segítenek abban, hogy ráérezzek, hol tarthat a vajúdás folyamatában. […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.07.15.</i></p>
+                     <Link to="/csaszarmetszes-utan-ujra-szulni"><h2 className="blog-racs-title">Császármetszés után újra szülni</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! Két kislányt szültem császármetszéssel. Az elsőt 2000-ben, 12 órás vajúdás után. Indított szülés volt, és bár mindent megpróbált az orvosom, nem tágultam egy icike-picikét sem. Már nehezen bírtam a kétperces fájásokat, és a doktor szerint, ha ki is tágultam volna még egy nap alatt, nem lett volna erőm. Nem tudom. Nagyon bánom. Nem […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/csaszarmetszes-utan"><img src={Pic43}/></Link>
+                <Link to="/kiseroim"><img src={Pic43}/></Link>
                 <div className="blog-racs-text">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2010.01.19.</i></p>
-                     <Link to="/csaszarmetszes-utan"><h2 className="blog-racs-title">Császármetszés után</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Három évvel ezelőtt született meg az első gyermekem, sajnos császármetszéssel. Az orvosom a kiírt időpont után két nappal úgy döntött, hogy nem vár tovább, elindítja a szülést, bár én is, a kisfiam is jól voltunk. Akkor én ez ellen nem tiltakoztam, egyrészt, mert megbíztam benne, másrészt mert nem tájékoztatott senki a szülésindítás esetleges […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.07.08.</i></p>
+                     <Link to="/kiseroim"><h2 className="blog-racs-title">Kísérőim</h2></Link>
+                    <p className="blog-racs-description">Alkonyat. A legjobb futóidő. Még süt a nap, de már a horizont közelében jár. Indulok. Két éve rendszeresen, legalább hetente háromszor nekivágok, hogy a testem edzésén kívül lelkileg is megtisztuljak, felfrissüljek. Az első kilométer ritkán esik igazán jól. Még nagyon a földön vagyok. Nézelődöm, megfigyelem a terepet. Ez az első körben már csak azért sem […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/nem-konnyu-de-erdemes"><img src={Pic44}/></Link>
+                <Link to="/a-vajudolabda"><img src={Pic44}/></Link>
                 <div className="blog-racs-text">
                     <p className="blog-racs-catagory"><i className="far fa-calendar"> 2010.01.05.</i></p>
-                     <Link to="/nem-konnyu-de-erdemes"><h2 className="blog-racs-title">Nem könnyű, de érdemes</h2></Link>
-                    <p className="blog-racs-description">Az elmúlt hetekben több gyermekvállalás előtt álló nő írt nekem levelet. Ki ilyen, ki olyan kérdéssel keresett meg, a közös bennük talán csak annyi volt, hogy mindannyian keresték az útjukat a várandósság és a szülés körüli információrengeteg sűrűjében. Néhány napja én is eljátszottam a gondolattal, mi lenne, ha most várnám az első gyermekemet és nem […]</p>
+                     <Link to="/a-vajudolabda"><h2 className="blog-racs-title">A vajúdólabda</h2></Link>
+                    <p className="blog-racs-description">Ma már egyre több szülészeten megtalálható a nagyméretű, felfújható vajúdólabda. Van, ahol gyakran alkalmazzák és ajánlják is a kipróbálását a vajúdás alatt, de hallok olyan történeteket is az anyáktól, amikor kifejezetten kérniük kellett, vagy egyenesen lebeszélték őket a használatáról. Pedig a labda csökkenti a szülési fájdalmakat és segíti a vajúdási folyamatot. Három alapvető pozícióban lehet […]</p>
                 </div>                
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/tamogatas-a-szules-alatt"><img src={Pic45}/></Link>
+                <Link to="/az-egyes-vajudasi-poziciok-elonyei"><img src={Pic45}/></Link>
                 <div className="blog-racs-text">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.12.22.</i></p>
-                     <Link to="/tamogatas-a-szules-alatt"><h2 className="blog-racs-title">Támogatás a szülés alatt</h2></Link>
-                    <p className="blog-racs-description">Néhány nappal ezelőtt hazánkban tartott egy workshopot Debra Pascali Bonaro, a világ legnagyobb dúlaszervezetének (DONA) vezetője. A tréningen már gyakorló dúlák illetve a hivatás iránt érdeklődő anyák, köztük nagy örömömre egy védőnő és szülésznők is részt vettek. A gyakorlati ismeretek átadása mellett Debra többször említést tett egy olyan nemzetközi szervezet kutatási eredményeiről (Cohrane Collaboration), amely […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.06.17.</i></p>
+                     <Link to="/az-egyes-vajudasi-poziciok-elonyei"><h2 className="blog-racs-title">Az egyes vajúdási pozíciók előnyei</h2></Link>
+                    <p className="blog-racs-description">Ha vajúdáskor szabadon megválaszthatod azt a pozíciót, amelyik a legmegfelelőbb számodra, akkor valószínűleg ösztönösen megtalálod azt a testhelyzetet, amelyik a legkényelmesebb és a baba előrehaladásához is a legoptimálisabb. A vajúdás hosszú óráiban, amikor a fáradtság, esetleg a feladás jelei mutatkoznak rajtad, segít, ha változtatsz a pozíciódon, és egy újabb testhelyzetet, mozgást is kipróbálsz, ez átlendíthet […]</p>
                 </div>    
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/adventi-gondolatok-az-elfogadasrol"><img src={Pic46}/></Link>
+                <Link to="/tengerviz-szulofold"><img src={Pic46}/></Link>
                 <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.12.08.</i></p>
-                     <Link to="/adventi-gondolatok-az-elfogadasrol"><h2 className="blog-racs-title">Adventi gondolatok az elfogadásról</h2></Link>
-                    <p className="blog-racs-description">Nagy boldogság számomra, hogy a munkám egyben a hivatásom is, mely számtalan különleges élménnyel ajándékoz meg. Az egyik legizgalmasabb annak a megtapasztalása, hogy mennyire sokszínűek vagyunk mi nők. Nap mint nap kapok leveleket lányoktól, asszonyoktól. Vannak, akik konkrét kérdésekkel keresnek meg, és olyanok is, akik valamilyen élményüket szeretnék megosztani velem, gyakran éppen a fájdalmas vagy […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.06.06.</i></p>
+                     <Link to="/tengerviz-szulofold"><h2 className="blog-racs-title">Tengervíz, szülőföld</h2></Link>
+                    <p className="blog-racs-description">Többen kérdezik tőlem, hogy lehet-e, érdemes-e messzire, más országba utazni, nyaralni várandósan. Arról már írtam korábban, hogy mire érdemes ügyelni, miket kell indulás előtt végiggondolni. Most egy személyes élményemet szeretném megosztani az olvasóimmal. Hat évvel ezelőtt történt. Nyár volt, július. A lányaim élvezték az iskolaszünetet és izgatottan várták a nyaralást. Olaszországba készültünk, a tengerpartra, oda, […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/tango-egy-gyermekert"><img src={Pic47}/></Link>
+                <Link to="/miert-sir-a-baba"><img src={Pic47}/></Link>
                 <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.12.02.</i></p>
-                     <Link to="/tango-egy-gyermekert"><h2 className="blog-racs-title">Tangó egy gyermekért</h2></Link>
-                    <p className="blog-racs-description">Egy szülés, egy születés igaz története, ahogy a dúla látta. Éjjel érkeztünk a szülőszobára. Csordogált a magzatvíz, de Hajninak még nem voltak méhösszehúzódásai. Elhelyezkedtünk a félhomályos, de még így sem túl intim szülőszobában. Bóbiskolva, zenét hallgatva virradt ránk a reggel. Berci nagyon fáradt volt. Napok óta intézte az új lakásba költözés összes gondját-baját, szorgosan takarított, […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.06.03.</i></p>
+                     <Link to="/miert-sir-a-baba"><h2 className="blog-racs-title">Miért sír a baba?</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! Tanácsot szeretnék Öntől kérni, ugyanis a bátyámék kislánya (Petra) délután 4 órától kb. este fél 7-ig folyamatosan sír, akkor is azért hagyja abba, mert kifárad. Ez sajnos már egy hete tart. Petra most 7 hetes és hasfájós. De ebben az időszakban nem tapasztalnak nála hasfájásra utaló panaszt (például nem húzza össze magát stb.). […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/a-kicsi-es-a-nagy-szulesbatyuk"><img src={Pic48}/></Link>
+                <Link to="/felelem-a-szulestol"><img src={Pic48}/></Link>
                 <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.11.24.</i></p>
-                     <Link to="/a-kicsi-es-a-nagy-szulesbatyuk"><h2 className="blog-racs-title">A kicsi és a nagy „szülésbatyuk”</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Első gyermekemet várom és abban szeretném a tanácsodat kérni, hogy mit vigyek magammal a kórházba, ha beindul a szülés. Már összepakoltam néhány alapvető dolgot, de kíváncsi vagyok, hogy Te mit tartasz fontosnak. Szeretném, ha nem hiányozna semmi a szülőszobán, de ami van ott, azt viszont felesleges nem akarom vinni. Válaszodat előre is köszönöm! […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.05.27.</i></p>
+                     <Link to="/felelem-a-szulestol"><h2 className="blog-racs-title">Félelem a szüléstől</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! 22 éves és 22 hetes kismama vagyok. 🙂 A terhességem teljes mértékben problémamentes, csupán néhány természetes, vele járó kellemetlenség fordul néha elő. Nagyon várjuk már a picit, és kezdettől fogva tudatosan készülök az érkezésére. Igyekszem megfelelően táplálkozni, mozogni és pihenni is, amennyit csak lehet. Mint minden kismama, bevallom, egy kicsit félek a szüléstől, […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/a-hit-amely-vilagra-segiti-a-kisbabakat"><img src={Pic49}/></Link>
+                <Link to="/a-valasztas-szabadsaga"><img src={Pic49}/></Link>
                 <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.11.10.</i></p>
-                     <Link to="/a-hit-amely-vilagra-segiti-a-kisbabakat"><h2 className="blog-racs-title">A hit, amely világra segíti a kisbabákat</h2></Link>
-                    <p className="blog-racs-description">A természetes szülés megvalósulásának egyik legfontosabb alapja az, hogy a nő hinni tudjon a saját erejében és a teste működésében. De van még valami, ami legalább ilyen fontos. Hogy ez mekkora segítő erőt jelent a szülésnél, arról néhány héttel ezelőtt újra megbizonyosodhattam. A hit, amely világra segíti a kisbabákatSzép őszi délután volt, már alkonyult. A […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.05.20.</i></p>
+                     <Link to="/a-valasztas-szabadsaga"><h2 className="blog-racs-title">A választás szabadsága</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! A Nők Lapja Cafe oldalán találtam meg a címed és a cikkeidet, és utolsó szalmaszálként kapaszkodnék beléd. Ez most valószínűleg elég tragikusan hangzik, de azért rettentően kíváncsi lennék a te véleményedre is. Egy vidéki városban élek. Tizennégy hetes terhes vagyok, a legnagyobb boldogságunkra. Eddig minden tökéletesen alakult, és remélem, ezután sem lesz másként. […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/kenyelemre-programozva"><img src={Pic50}/></Link>
+                <Link to="/a-kapcsolat-alapja"><img src={Pic50}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.10.27.</i></p>
-                     <Link to="/kenyelemre-programozva"><h2 className="blog-racs-title">Kényelemre programozva</h2></Link>
-                    <p className="blog-racs-description">Többször is elolvastam a Babázzunk rovatban két hete megjelent cikket a programozott szülésről, és egyre csak az olvasottakon tűnődöm. Kényelem. Kényelem a szülőszobán. Furcsa nekem ez a szó. Használom-e, és ha igen, mikor érzem megfelelőnek ezt a kifejezést egyáltalán szüléskísérés közben? Azt hiszem, a vajúdás és a szülés alatt nem. Az anyák – ha hagyják […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.04.15.</i></p>
+                     <Link to="/a-kapcsolat-alapja"><h2 className="blog-racs-title">A kapcsolat alapja</h2></Link>
+                    <p className="blog-racs-description">Őszinte érdeklődéssel olvastam az idei Születés Hete-kép kapcsán az NLC-n indított fórumot. Nagyon tanulságosnak éreztem a hozzászólásokat, mert segítségemre vannak abban, hogy pontosítsam a dúlai hivatással kapcsolatos információkat azok számára is, akik eddig még nem – vagy nem dúlától – hallottak erről. Az egyik gyakran hozzám intézett kérdés az, hogy hogyan is tudna segíteni a […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/korhazban-vagy-otthonszulesnel-segit-a-dula"><img src={Pic51}/></Link>
+                <Link to="/egy-kep-es-ami-mogotte-van-2"><img src={Pic51}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.10.13.</i></p>
-                     <Link to="/korhazban-vagy-otthonszulesnel-segit-a-dula"><h2 className="blog-racs-title">Kórházban vagy otthonszülésnél segít a dúla?</h2></Link>
-                    <p className="blog-racs-description">Bár egyre ismertebb a dúla szerepe és munkája, mégsem tudja mindenki pontosan, hogy vajon otthon vagy a kórházban segédkezik a szülésnél? Annak ellenére, hogy már 8 éve kísérnek különböző hazai kórházakban dúlák szüléseket, még mindig gyakran tapasztalom azt, hogy amikor bemutatkozom valakinek és megemlítem, hogy dúla vagyok, akkor azt gondolják rólam, hogy én kizárólag otthonszülésekhez […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.04.08.</i></p>
+                     <Link to="/egy-kep-es-ami-mogotte-van-2"><h2 className="blog-racs-title">Egy kép és ami mögötte van… </h2></Link>
+                    <p className="blog-racs-description">2007 októbere volt. Épp egy háromnapos dúlatréninget tartottam, amelynek utolsó órájában érkezett az SMS, elindult Judit szülése. Azonnal ott voltam gondolatban mellettük. A képzésen már megszületett a csoport, meghitten búcsúztam a tizenegy nőtől. Dúlák lesznek ők is, izgatott csillogással a szemükben néztek utánam, hisz oda mentem, ahová ők is vágynak. A csoda közelébe. Akkor már […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/csaszarmetszes-dulaval"><img src={Pic52}/></Link>
+                <Link to="/egy-kep-amely-megallasra-kesztet"><img src={Pic52}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.09.29.</i></p>
-                     <Link to="/csaszarmetszes-dulaval"><h2 className="blog-racs-title">Császármetszés dúlával?</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Többször olvastam már a dúlák tevékenységéről és most, hogy a második kisbabámat várom, elhatároztam, hogy dúla támogatásával szeretnék szülni. Az első gyermekem császármetszéssel született, s bár szeretném, ha ez most nem így lenne, foglalkoztat az a kérdés, hogy érdemes-e akkor is választanom dúlát, ha ismét műtéttel fejeződne be a szülésem? Császármetszés dúlával? – […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.04.01.</i></p>
+                     <Link to="/egy-kep-amely-megallasra-kesztet"><h2 className="blog-racs-title">Egy kép, amely megállásra késztet</h2></Link>
+                    <p className="blog-racs-description">Családdá születünk – hangzik a Születés Hete 2008 jelmondata. A mondatot kísérő képen az idei hét üzenetét hordozó arcokat látjuk, az MTV1 híradójából ismert Nagy Juditot és családját. A családját? De hogyan? Miért így? És a feliratok… Miért így? Hogy kerül oda egy nem családtag? Miért van olyan közel? Vagy messze? Vagy fordítva? Vagy… Mit […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/van-e-fealadata-az-apanak-a-szuloszobaban"><img src={Pic53}/></Link>
+                <Link to="/egy-kisfiu-erkezesere-varva"><img src={Pic53}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.09.18.</i></p>
-                     <Link to="/van-e-fealadata-az-apanak-a-szuloszobaban"><h2 className="blog-racs-title">Van-e feladata az apának a szülőszobán?</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Lassan közeledik a szülésem időpontja, már alig várjuk, hogy megláthassuk a kisfiunkat. A férjemmel apás szülésre készülünk. A kórházban, ahová majd megyünk, a múlt héten volt lehetőségünk arra, hogy megnézzük a szülőszobát. Ezen a szülésre felkészítő alkalmon azt is elmondta a szülésznő, hogy az apukáktól a vajúdás alatt miben kérnek majd segítséget, például, […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.03.11.</i></p>
+                     <Link to="/egy-kisfiu-erkezesere-varva"><h2 className="blog-racs-title">Egy kisfiú érkezésére várva</h2></Link>
+                    <p className="blog-racs-description">Itt ülök a számítógépemnél. Most nem levélre válaszolok, az élet írja a következő cikket. Még nem tudom, milyen hosszú lesz, ha holnap szüléshez megyek, a leadásig már nem is tudom befejezni. Akkor majd a jövő héten mesélem tovább Nóri történetét. Szombat este van. Az anya kedden töltötte be várandósságának 40. hetét, és már nagyon szeretné […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/kie-a-kisbaba-otthon"><img src={Pic54}/></Link>
+                <Link to="/szeretnek-szepen-szulni"><img src={Pic54}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.09.01.</i></p>
-                     <Link to="/kie-a-kisbaba-otthon"><h2 className="blog-racs-title">Kié a kisbaba otthon?</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Először is köszönöm, hogy kérdésekkel fordulhatok hozzád. Most vagyok 28 hetes kismama, és úgy érzem, egyre gyakrabban foglalkoztat a szülés és az utána következő időszak. Két éve párommal még az anyósoméknál laktunk, de most már külön élünk. Annak ellenére, hogy már nem a szülőknél élünk (akiket egyébként nagyon szeretek), úgy érzem, hogy mindenbe […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.03.04.</i></p>
+                     <Link to="/szeretnek-szepen-szulni"><h2 className="blog-racs-title">Szeretnék szépen szülni</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! A napokban derült ki, hogy babát várok. Nagyon izgulok, örülök, ugyanakkor kicsit meg is szeppentem. Ez lesz az első babánk. Nemrég olvastam a Gyógyító szülés című cikkedet. Én is szeretnék meghitten szülni. Az a kép él bennem, hogy a szülés csodás dolog és fantasztikus élmény. Szeretnék a saját tempómban úgy vajúdni, ahogy kényelmes. […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/kie-a-kisbaba"><img src={Pic55}/></Link>
+                <Link to="/gyogyito-szules"><img src={Pic55}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.08.18.</i></p>
-                     <Link to="/kie-a-kisbaba"><h2 className="blog-racs-title">Kié a kisbaba?</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Két éve született a kisfiam, Ádám. Egy vidéki nagyváros kórházában látta meg a napvilágot. Bár a születése sem volt teljesen háborítatlan, a velem történteket könnyebben el tudtam fogadni mint azt, ahogy az újszülött ellátása zajlott. Amikor Ádám kibújt, igaz, hogy a mellemre tették, de csak alig egy-két percig, aztán már vitték is el […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.01.22.</i></p>
+                     <Link to="/gyogyito-szules"><h2 className="blog-racs-title">Gyógyitó szülés</h2></Link>
+                    <p className="blog-racs-description">A hét eleje óta várok egy kisfiú születésére. Komótosan készülõdik. Néhány napja már a méhösszehúzódások jelzik, hogy közeledik az idõ. Édesanyja rendszeresen beszámol telefonon arról, hogy mit érez. Szerda éjjel SMS-eket váltunk. Talán ez már az. Reggel megbeszéljük, hogy a kórházban találkozunk. Indulok. Útközben végig arra gondolok, hogy a mai egy szép nap lesz. Az […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/varandosan-nehez-az-alvas"><img src={Pic56}/></Link>
+                <Link to="/a-termeszetessegtol"><img src={Pic56}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.08.04.</i></p>
-                     <Link to="/varandosan-nehez-az-alvas"><h2 className="blog-racs-title">Várandósan nehéz az alvás</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Nyolcadik hónapban járó várandós kismama vagyok. (Már a megnevezésen is sokat gondolkodtam. A “várandós” kifejezést találtam a legpontosabbnak, mert valóban várakozom, hogy végre megismerhessem azt a kis embert, akivel már egy ideje együtt élek, aki már egy ideje a mindennapjaim része, és akit remélem, nem nagyon gyötör meg odabent az én idekinti tehetetlenségem.) […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2008.01.16.</i></p>
+                     <Link to="/a-termeszetessegtol"><h2 className="blog-racs-title">A természetességről</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! Azért írok, mert történt valami, ami gyökeresen megváltoztatta a felfogásomat. A terhességem alatt folyamatosan olvastam a modern elméleteket, lehetőségeket a szüléssel kapcsolatban, rendszeresen látogattam a Nők Lapja oldalait is, és megdöbbentő felfedezést tettem: még ebben a különleges helyzetben, a várandósság ideje alatt is tervezünk, irányítunk, menedzserkedünk. Mindezt beöltöztetjük a „vissza a természethez” köntösébe, […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/van-e-fealadata-az-apanak-a-szuloszobaban"><img src={Pic57}/></Link>
+                <Link to="/unnep"><img src={Pic57}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.07.21.</i></p>
-                     <Link to="/van-e-fealadata-az-apanak-a-szuloszobaban"><h2 className="blog-racs-title">Brigi születésének története</h2></Link>
-                    <p className="blog-racs-description">Drága Petra! Amikor ezt a levelet olvasod, két születésnap is nagyon közel lesz már. Az egyik a Tiéd, a másik a kisfiadé, aki talán – mint a legszebb ajándék – pont ugyanezen a napon fog a világra érkezni. Emlékszel az első levélváltásunkra? Akkor Te írtál nekem. A szakdolgozatodhoz gyűjtöttél anyagot, és én örömmel segítettem ebben. […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.12.20.</i></p>
+                     <Link to="/unnep"><h2 className="blog-racs-title">Ünnep</h2></Link>
+                    <p className="blog-racs-description">Lassan véget ér ez az esztendő is. Lelassulnak a mindennapjaim, elcsendesedőben vagyok. Miközben ünneplőbe öltöztetem a házat és begyúrom a mézeskalács tésztáját, felidéződnek az emlékeim. A kisbabák születésére gondolok, azokéra, akiknek jelen lehettem az érkezésüknél. Kislányok, kisfiúk. Érdekes, ritkán indulnak nappal. Általában megvárják, amíg lepihen a mamájuk, és leszáll a puha sötét. Valahogy én is […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/kie-a-kisbaba-otthon"><img src={Pic58}/></Link>
+                <Link to="/meg-egyszer-a-csaszarosokrol"><img src={Pic58}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.07.07.</i></p>
-                     <Link to="/kie-a-kisbaba-otthon"><h2 className="blog-racs-title">Lehet-e oxytocin nélkül szülni?</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Szeptember végére várom első gyermekem születését. Több barátnőm, rokonom is szült mostanában, és egyikőjük kivételével mindegyik kapott a vajúdása folyamán oxytocint. Ha jól tudom, ez valami vajúdásgyorsító gyógyszer, amitől a barátnőimnek szinte elviselhetetlen fájásai lettek. Azt szeretném megkérdezni Tőled, hogy tényleg ilyen gyakran szükséges ez? Nagyon szeretnék mindenféle gyógyszeres beavatkozást elkerülni a szülésemnél. […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.12.13.</i></p>
+                     <Link to="/meg-egyszer-a-csaszarosokrol"><h2 className="blog-racs-title">Még egyszer a császárosokról</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! A kérdéseim a császármetszéssel kapcsolatosak. Van egy 16 hónapos kisfiam, terhességi HELLP-szindróma miatt (a toxémia „durvább” változata) császármetszéssel született a 39. héten. Nem úgy indult, hogy császár lesz, de mivel a tágulásom lassan haladt, a babám pedig nem volt jó kondiban (a betegségem miatt már visszafogyott egy kicsit odabent), az orvosom a császár […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/kie-a-kisbaba"><img src={Pic59}/></Link>
+                <Link to="/a-gatmetszesrol-es-a-bizalomrol"><img src={Pic59}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.06.23.</i></p>
-                     <Link to="/kie-a-kisbaba"><h2 className="blog-racs-title">Ágyban a gyermekágy idején?</h2></Link>
-                    <p className="blog-racs-description">Kedves Emőke! Kétségbeesve írok Neked. A kisfiam egy hónappal ezelőtt született, nagyon szép, egészséges kisfiú, mégsem felhőtlen az örömöm. Úgy érzem, hogy nem tudom ellátni az anyasággal megnövekedett feladataimat. Az első két héten még itthon volt velünk a férjem és segített a házi munkában. Azóta viszont egyedül vagyok napközben a kisfiammal és nem megy jól […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.12.05.</i></p>
+                     <Link to="/a-gatmetszesrol-es-a-bizalomrol"><h2 className="blog-racs-title">Gátmetszés vagy császármetszés?</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! Kérdésem lenne hozzád, de először is a gondolataimat szeretném leírni. Két hónapja szültem természetes szüléssel, kórházban. Négy óra alatt meglett a kisfiam, de ebből egy órát toltam, a fejét már lehetett látni, de nem jött. Nagyon jó érzés volt utána, igazából a szüléssel nem is volt problémám. Inkább azzal, hogy sajnos muszáj volt […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/varandosan-nehez-az-alvas"><img src={Pic60}/></Link>
+                <Link to="/a-dula-es-az-apa"><img src={Pic60}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.06.09.</i></p>
-                     <Link to="/varandosan-nehez-az-alvas"><h2 className="blog-racs-title">Két ünnep közt egy harmadik</h2></Link>
-                    <p className="blog-racs-description">Már csütörtökön este éreztem, hogy valami mintha finoman, de mégis egyre inkább szorongatná a szívemet. Aztán amikor másnap reggel, a ballagás napján bekísértem kislányomat, Esztert az oviba, ki is gördült könnyek formájában az az ünnepi hangulattal és büszkeséggel párosuló szomorúság, ami annak volt köszönhető, hogy a legkisebb gyermekünk is elbúcsúzik az óvodától. Amíg a boltig […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.11.27.</i></p>
+                     <Link to="/a-dula-es-az-apa"><h2 className="blog-racs-title">A dúla és az apa</h2></Link>
+                    <p className="blog-racs-description">Amikor egy pár felkeres azzal, hogy szeretnék, ha ott lennék a babájuk születésénél, nagy hangsúlyt fektetek arra, hogy megtudjam, melyikükben vetõdött fel ez a gondolat, és hogy egyetértenek-e ebben. A tapasztalataim szerint az igény legtöbbször a várandós nőben merül fel, és gyakran az apák ezzel az ötlettel szemben ambivalens érzéseket táplálnak. Úgy érzik, hogy meg […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/varandosan-nehez-az-alvas"><img src={Pic61}/></Link>
+                <Link to="/az-elvalasztasrol"><img src={Pic61}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.06.09.</i></p>
-                     <Link to="/varandosan-nehez-az-alvas"><h2 className="blog-racs-title">Két ünnep közt egy harmadik</h2></Link>
-                    <p className="blog-racs-description">Már csütörtökön este éreztem, hogy valami mintha finoman, de mégis egyre inkább szorongatná a szívemet. Aztán amikor másnap reggel, a ballagás napján bekísértem kislányomat, Esztert az oviba, ki is gördült könnyek formájában az az ünnepi hangulattal és büszkeséggel párosuló szomorúság, ami annak volt köszönhető, hogy a legkisebb gyermekünk is elbúcsúzik az óvodától. Amíg a boltig […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.11.06.</i></p>
+                     <Link to="/az-elvalasztasrol"><h2 className="blog-racs-title">Az elválasztásról</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! Nagy szükségem lenne egy szakember segítségére. Az én problémám az elválasztás és az éjszakai alvás. Van egy gyönyörű kétéves kislányom, aki borzasztóan ragaszkodik a cicihez. Már alig van tejem, és sokszor kellemetlen érzés, amikor cicizik, úgy érzem, kifogytam. Nagyon szeretném leszoktatni róla, de nem sikerül. Hiába próbálkoztam mindenfélével, sikertelenül. És gondolom, amíg szopik, […]</p>
                 </div>
             </div>}
 
             {<div className="picture-gal">
-                <Link to="/varandosan-nehez-az-alvas"><img src={Pic62}/></Link>
+                <Link to="/a-szulesi-tervrol"><img src={Pic62}/></Link>
                  <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2009.06.09.</i></p>
-                     <Link to="/varandosan-nehez-az-alvas"><h2 className="blog-racs-title">Két ünnep közt egy harmadik</h2></Link>
-                    <p className="blog-racs-description">Már csütörtökön este éreztem, hogy valami mintha finoman, de mégis egyre inkább szorongatná a szívemet. Aztán amikor másnap reggel, a ballagás napján bekísértem kislányomat, Esztert az oviba, ki is gördült könnyek formájában az az ünnepi hangulattal és büszkeséggel párosuló szomorúság, ami annak volt köszönhető, hogy a legkisebb gyermekünk is elbúcsúzik az óvodától. Amíg a boltig […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.10.06.</i></p>
+                     <Link to="/a-szulesi-tervrol"><h2 className="blog-racs-title">A szülési tervről</h2></Link>
+                    <p className="blog-racs-description">Korábban Áginak írott válaszom kapcsán már említettem, hogy mennyire fontos, hogy végiggondoljuk, összegyűjtsük és leírjuk, majd az orvosunkkal megbeszéljük a szülés körülményeivel kapcsolatos elképzeléseinket. A szülési terv elnevezés talán nem a legpontosabb kifejezés, mert többekben kelti azt a képzetet, hogy ez esetleg valamiféle rugalmatlan, kőbe vésett elgondolások összessége egy olyan helyzetben, amiben bármi megtörténhet a […]</p>
                 </div>
             </div>}
         </Masonry> 
@@ -244,6 +244,7 @@ return (
                   <Link className="blog-step-button" to="/publications">1</Link>
                   <Link className="blog-step-button" to="/publications2">2</Link>
                   <Link className="blog-step-button" to="/publications3">3</Link>
+                  <Link className="blog-step-button" to="/publications4">4</Link>
             </div>
     </div>
 )

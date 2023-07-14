@@ -36,6 +36,7 @@ import Stories from "./components/pages/Stories";
 import Publications from "./components/pages/Publications";
 import Publications2 from "./components/pages/Publications2";
 import Publications3 from "./components/pages/Publications3";
+import Publications4 from "./components/pages/Publications4";
 
 import FeedBack1DF from "./components/pages/subfeedback/FeedBack1DF";
 import FeedBack5BB from "./components/pages/subfeedback/FeedBack5BB";
@@ -92,6 +93,22 @@ import BirthStory13 from "./components/pages/stories/BirthStory13";
 import BirthStory14 from "./components/pages/stories/BirthStory14";
 import BirthStory15 from "./components/pages/stories/BirthStory15";
 import BirthStory16 from "./components/pages/stories/BirthStory16";
+import BirthStory17 from "./components/pages/stories/BirthStory17";
+import BirthStory18 from "./components/pages/stories/BirthStory18";
+import BirthStory19 from "./components/pages/stories/BirthStory19";
+import BirthStory20 from "./components/pages/stories/BirthStory20";
+import BirthStory21 from "./components/pages/stories/BirthStory21";
+import BirthStory22 from "./components/pages/stories/BirthStory22";
+import BirthStory23 from "./components/pages/stories/BirthStory23";
+import BirthStory24 from "./components/pages/stories/BirthStory24";
+import BirthStory25 from "./components/pages/stories/BirthStory25";
+import BirthStory26 from "./components/pages/stories/BirthStory26";
+import BirthStory27 from "./components/pages/stories/BirthStory27";
+import BirthStory28 from "./components/pages/stories/BirthStory28";
+import BirthStory29 from "./components/pages/stories/BirthStory29";
+import BirthStory30 from "./components/pages/stories/BirthStory30";
+import BirthStory31 from "./components/pages/stories/BirthStory31";
+import BirthStory32 from "./components/pages/stories/BirthStory32";
 
 import Public01 from "./components/pages/publications/Public01"
 import Public02 from "./components/pages/publications/Public02"
@@ -155,6 +172,17 @@ import Public59 from "./components/pages/publications/Public59"
 import Public60 from "./components/pages/publications/Public60"
 import Public61 from "./components/pages/publications/Public61"
 import Public62 from "./components/pages/publications/Public62"
+import Public63 from "./components/pages/publications/Public63"
+import Public64 from "./components/pages/publications/Public64"
+import Public65 from "./components/pages/publications/Public65"
+import Public66 from "./components/pages/publications/Public66"
+import Public67 from "./components/pages/publications/Public67"
+import Public68 from "./components/pages/publications/Public68"
+import Public69 from "./components/pages/publications/Public69"
+import Public70 from "./components/pages/publications/Public70"
+import Public71 from "./components/pages/publications/Public71"
+import Public72 from "./components/pages/publications/Public72"
+import Public73 from "./components/pages/publications/Public73"
 
 function App() {
   return (
@@ -182,6 +210,7 @@ function App() {
             <Route path="/publications" element={<Publications/>}/>
             <Route path="/publications2" element={<Publications2/>}/>
             <Route path="/publications3" element={<Publications3/>}/>
+            <Route path="/publications4" element={<Publications4/>}/>
             <Route path="/gallery" element={<Gallery/>}/>
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
@@ -258,6 +287,22 @@ function App() {
             <Route path="/talaltam-erot-valahogy-mindig-akadt" element={<BirthStory14/>}/>
             <Route path="/az-ut" element={<BirthStory15/>}/>
             <Route path="/kulonleges-ajandek" element={<BirthStory16/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory17/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory18/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory19/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory20/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory21/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory22/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory23/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory24/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory25/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory26/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory27/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory28/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory29/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory30/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory31/>}/>
+            <Route path="/kulonleges-ajandek" element={<BirthStory32/>}/>
           </Routes>
 
           <Routes>
@@ -302,28 +347,39 @@ function App() {
             <Route path="/ovodai-beszoktatas" element={<Public38/>}/>
             <Route path="/ujra-lesz-dulatrening" element={<Public39/>}/>
             <Route path="/nyugalmas-szoptatas" element={<Public40/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public41/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public42/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public43/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public44/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public45/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public46/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public47/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public48/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public49/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public50/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public51/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public52/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public53/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public54/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public55/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public56/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public57/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public58/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public59/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public60/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public61/>}/>
-            <Route path="/varandosan-nehez-az-alvas" element={<Public62/>}/>
+            <Route path="/a-vilag-legismertebb-babaja-ina-may-gaskin" element={<Public41/>}/>
+            <Route path="/csaszarmetszes-utan-ujra-szulni" element={<Public42/>}/>
+            <Route path="/kiseroim" element={<Public43/>}/>
+            <Route path="/a-vajudolabda" element={<Public44/>}/>
+            <Route path="/az-egyes-vajudasi-poziciok-elonyei" element={<Public45/>}/>
+            <Route path="/tengerviz-szulofold" element={<Public46/>}/>
+            <Route path="/miert-sir-a-baba" element={<Public47/>}/>
+            <Route path="/felelem-a-szulestol" element={<Public48/>}/>
+            <Route path="/a-valasztas-szabadsaga" element={<Public49/>}/>
+            <Route path="/a-kapcsolat-alapja" element={<Public50/>}/>
+            <Route path="/egy-kep-es-ami-mogotte-van-2" element={<Public51/>}/>
+            <Route path="/egy-kep-amely-megallasra-kesztet" element={<Public52/>}/>
+            <Route path="/egy-kisfiu-erkezesere-varva" element={<Public53/>}/>
+            <Route path="/szeretnek-szepen-szulni" element={<Public54/>}/>
+            <Route path="/gyogyito-szules" element={<Public55/>}/>
+            <Route path="/a-termeszetessegtol" element={<Public56/>}/>
+            <Route path="/unnep" element={<Public57/>}/>
+            <Route path="/meg-egyszer-a-csaszarosokrol" element={<Public58/>}/>
+            <Route path="/a-gatmetszesrol-es-a-bizalomrol" element={<Public59/>}/>
+            <Route path="/a-dula-es-az-apa" element={<Public60/>}/>
+            <Route path="/az-elvalasztasrol" element={<Public61/>}/>
+            <Route path="/a-szulesi-tervrol" element={<Public62/>}/>
+            <Route path="/megint-a-csaszarosokrol" element={<Public63/>}/>
+            <Route path="/a-gatmetszesrol-es-a-bizalomrol" element={<Public64/>}/>
+            <Route path="/a-dulasagrol" element={<Public65/>}/>
+            <Route path="/a-kesoi-gyermekvallalasrol" element={<Public66/>}/>
+            <Route path="/csak-csaszaros" element={<Public67/>}/>
+            <Route path="/a-szoptatasi-nehezsegekrol" element={<Public68/>}/>
+            <Route path="/a-hosszu-es-nehez-szulesrol" element={<Public69/>}/>
+            <Route path="/az-apas-szulesrol" element={<Public70/>}/>
+            <Route path="/az-elvalasrol" element={<Public71/>}/>
+            <Route path="/a-kisbabasirasrol" element={<Public72/>}/>
+            <Route path="/a-csaszarmetszesrol" element={<Public73/>}/>
           </Routes>
           
         </div>

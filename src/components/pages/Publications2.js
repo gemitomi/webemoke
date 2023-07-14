@@ -225,6 +225,7 @@ export default function Publications2() {
                   <Link className="blog-step-button" to="/publications">1</Link>
                   <Link className="blog-step-button" to="/publications2">2</Link>
                   <Link className="blog-step-button" to="/publications3">3</Link>
+                  <Link className="blog-step-button" to="/publications4">4</Link>
             </div>
         </div>
     )
