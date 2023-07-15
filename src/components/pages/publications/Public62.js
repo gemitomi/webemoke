@@ -27,7 +27,7 @@ export default function Public62() {
                         </div>
                     </div>
                     <div class="blog-global-button">
-                        <a href="#" class="blog-global-btn">Publikációim</a>
+                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
@@ -135,8 +135,8 @@ Valószínűleg nem lesz szükség a váratlan eseményekre vonatkozó tervedre,
 
             <div class="blog-global-tags">
                 <p>Címkék:</p>
-                <a href="#">Olvasnivalók</a>
-                <a href="#">Publikációim</a>
+                <Link to="/olvasnivalok">Olvasnivalók</Link> 
+                <Link to="/publications4">Publikációim</Link>
             </div>
         </div>
     </section>

@@ -26,7 +26,7 @@ export default function Public35() {
                   </div>
               </div>
               <div class="blog-global-button">
-                  <a href="#" class="blog-global-btn">Publikációim</a>
+                  <Link to="/publications2" class="blog-global-btn">Publikációim</Link>
               </div>
           </div>
 
@@ -118,9 +118,8 @@ export default function Public35() {
       </div>
 
       <div class="blog-global-tags">
-          <p>Címkék:</p>
-          <a href="#">Olvasnivalók</a>
-          <a href="#">Publikációim</a>
+            <p>Címkék:</p><Link to="/olvasnivalok">Olvasnivalók</Link> 
+                <Link to="/publications2">Publikációim</Link>
       </div>
   </div>
 </section></div>

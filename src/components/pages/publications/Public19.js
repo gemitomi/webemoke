@@ -27,7 +27,7 @@ export default function Public19() {
                         </div>
                     </div>
                     <div class="blog-global-button">
-                        <a href="#" class="blog-global-btn">Publikációim</a>
+                        <Link to="/publications" class="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
@@ -94,8 +94,8 @@ export default function Public19() {
 
             <div class="blog-global-tags">
                 <p>Címkék:</p>
-                <a href="#">Olvasnivalók</a>
-                <a href="#">Publikációim</a>
+                <Link to="/olvasnivalok">Olvasnivalók</Link> 
+                <Link to="/publications">Publikációim</Link>
             </div>
         </div>
     </section>

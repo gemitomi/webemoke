@@ -27,7 +27,7 @@ export default function Public71() {
                         </div>
                     </div>
                     <div class="blog-global-button">
-                        <a href="#" class="blog-global-btn">Publikációim</a>
+                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
@@ -90,8 +90,8 @@ Ehhez bizony sok türelem kell, de a szeretetteljes következetesség meghozza a
 
             <div class="blog-global-tags">
                 <p>Címkék:</p>
-                <a href="#">Olvasnivalók</a>
-                <a href="#">Publikációim</a>
+                <Link to="/olvasnivalok">Olvasnivalók</Link> 
+                <Link to="/publications4">Publikációim</Link>
             </div>
         </div>
     </section>

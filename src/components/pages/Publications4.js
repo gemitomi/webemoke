@@ -3,6 +3,8 @@ import Masonry from 'react-masonry-css';
 import { Link } from "react-router-dom";
 import "../../CSS/blog.css"
 
+import Pic61 from "../../image/publications/public-61-hero-az-elvalasztasrol.png";
+import Pic62 from "../../image/publications/public-62-hero-a-szulesi-tervrol.png";
 import Pic63 from "../../image/publications/public-63-hero-megint-a-csaszarosokrol.png";
 import Pic64 from "../../image/publications/public-64-hero-a gatmetszesrol-es-a-bizalomrol.png";
 import Pic65 from "../../image/publications/public-65-hero-a-dulasagrol.png";
@@ -32,6 +34,25 @@ export default function Publications4() {
             breakpointCols={breakpoints}
             className="my-masonry-grid"
             columnClassName="my-masonry-grid_column">
+                
+            {<div className="picture-gal">
+                <Link to="/az-elvalasztasrol"><img src={Pic61}/></Link>
+                 <div className="blog-racs-content">
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.11.06.</i></p>
+                     <Link to="/az-elvalasztasrol"><h2 className="blog-racs-title">Az elválasztásról</h2></Link>
+                    <p className="blog-racs-description">Kedves Emőke! Nagy szükségem lenne egy szakember segítségére. Az én problémám az elválasztás és az éjszakai alvás. Van egy gyönyörű kétéves kislányom, aki borzasztóan ragaszkodik a cicihez. Már alig van tejem, és sokszor kellemetlen érzés, amikor cicizik, úgy érzem, kifogytam. Nagyon szeretném leszoktatni róla, de nem sikerül. Hiába próbálkoztam mindenfélével, sikertelenül. És gondolom, amíg szopik, […]</p>
+                </div>
+            </div>}
+
+            {<div className="picture-gal">
+                <Link to="/a-szulesi-tervrol"><img src={Pic62}/></Link>
+                 <div className="blog-racs-content">
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2007.10.06.</i></p>
+                     <Link to="/a-szulesi-tervrol"><h2 className="blog-racs-title">A szülési tervről</h2></Link>
+                    <p className="blog-racs-description">Korábban Áginak írott válaszom kapcsán már említettem, hogy mennyire fontos, hogy végiggondoljuk, összegyűjtsük és leírjuk, majd az orvosunkkal megbeszéljük a szülés körülményeivel kapcsolatos elképzeléseinket. A szülési terv elnevezés talán nem a legpontosabb kifejezés, mert többekben kelti azt a képzetet, hogy ez esetleg valamiféle rugalmatlan, kőbe vésett elgondolások összessége egy olyan helyzetben, amiben bármi megtörténhet a […]</p>
+                </div>
+            </div>}
+            
             {<div className="picture-gal">
                 <Link to="/megint-a-csaszarosokrol"><img src={Pic63}/></Link>
                 <div className="blog-racs-content">

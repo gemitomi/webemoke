@@ -76,6 +76,53 @@ import SubBlog13 from "./components/pages/blogs/SubBlog13";
 import SubBlog14 from "./components/pages/blogs/SubBlog14";
 import SubBlog15 from "./components/pages/blogs/SubBlog15";
 import SubBlog16 from "./components/pages/blogs/SubBlog16";
+import SubBlog17 from "./components/pages/blogs/SubBlog17";
+import SubBlog18 from "./components/pages/blogs/SubBlog18";
+import SubBlog19 from "./components/pages/blogs/SubBlog19";
+import SubBlog20 from "./components/pages/blogs/SubBlog20";
+import SubBlog21 from "./components/pages/blogs/SubBlog21";
+import SubBlog22 from "./components/pages/blogs/SubBlog22";
+import SubBlog23 from "./components/pages/blogs/SubBlog23";
+import SubBlog24 from "./components/pages/blogs/SubBlog24";
+import SubBlog25 from "./components/pages/blogs/SubBlog25";
+import SubBlog26 from "./components/pages/blogs/SubBlog26";
+import SubBlog27 from "./components/pages/blogs/SubBlog27";
+import SubBlog28 from "./components/pages/blogs/SubBlog28";
+import SubBlog29 from "./components/pages/blogs/SubBlog29";
+import SubBlog30 from "./components/pages/blogs/SubBlog30";
+import SubBlog31 from "./components/pages/blogs/SubBlog31";
+import SubBlog32 from "./components/pages/blogs/SubBlog32";
+import SubBlog33 from "./components/pages/blogs/SubBlog33";
+import SubBlog34 from "./components/pages/blogs/SubBlog34";
+import SubBlog35 from "./components/pages/blogs/SubBlog35";
+import SubBlog36 from "./components/pages/blogs/SubBlog36";
+import SubBlog37 from "./components/pages/blogs/SubBlog37";
+import SubBlog38 from "./components/pages/blogs/SubBlog38";
+import SubBlog39 from "./components/pages/blogs/SubBlog39";
+import SubBlog40 from "./components/pages/blogs/SubBlog40";
+import SubBlog41 from "./components/pages/blogs/SubBlog41";
+import SubBlog42 from "./components/pages/blogs/SubBlog42";
+import SubBlog43 from "./components/pages/blogs/SubBlog43";
+import SubBlog44 from "./components/pages/blogs/SubBlog44";
+import SubBlog45 from "./components/pages/blogs/SubBlog45";
+import SubBlog46 from "./components/pages/blogs/SubBlog46";
+import SubBlog47 from "./components/pages/blogs/SubBlog47";
+import SubBlog48 from "./components/pages/blogs/SubBlog48";
+import SubBlog49 from "./components/pages/blogs/SubBlog49";
+import SubBlog50 from "./components/pages/blogs/SubBlog50";
+import SubBlog51 from "./components/pages/blogs/SubBlog51";
+import SubBlog52 from "./components/pages/blogs/SubBlog52";
+import SubBlog53 from "./components/pages/blogs/SubBlog53";
+import SubBlog54 from "./components/pages/blogs/SubBlog54";
+import SubBlog55 from "./components/pages/blogs/SubBlog55";
+import SubBlog56 from "./components/pages/blogs/SubBlog56";
+import SubBlog57 from "./components/pages/blogs/SubBlog57";
+import SubBlog58 from "./components/pages/blogs/SubBlog58";
+import SubBlog59 from "./components/pages/blogs/SubBlog59";
+import SubBlog60 from "./components/pages/blogs/SubBlog60";
+import SubBlog61 from "./components/pages/blogs/SubBlog61";
+import SubBlog62 from "./components/pages/blogs/SubBlog62";
+import SubBlog63 from "./components/pages/blogs/SubBlog63";
 
 import BirthStory01 from "./components/pages/stories/BirthStory01";
 import BirthStory02 from "./components/pages/stories/BirthStory02";
@@ -268,6 +315,53 @@ function App() {
             <Route path="/dulatrening-ujra" element={<SubBlog14/>}/>
             <Route path="/pozitiv-uzenetek-szerepe-a-szulesnel-1" element={<SubBlog15/>}/>
             <Route path="/pozitiv-uzenetek-szerepe-a-szulesnel-2" element={<SubBlog16/>}/>
+            <Route path="/csoportos-szulesfelkeszito" element={<SubBlog17/>}/>
+            <Route path="/lehet-eleget-beszelni-a-szulesrol-2" element={<SubBlog18/>}/>
+            <Route path="/lehet-eleget-beszelni-a-szulesrol-1" element={<SubBlog19/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-az-ut-de-maradok-4" element={<SubBlog20/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-utra-megyek-3" element={<SubBlog21/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-utra-megyek-2" element={<SubBlog22/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-utra-megyek-1" element={<SubBlog23/>}/>
+            <Route path="/veluk-es-nem-ellenuk" element={<SubBlog24/>}/>
+            <Route path="/dula-zarovizsga" element={<SubBlog25/>}/>
+            <Route path="/a-masodik-szines-viragcsokor" element={<SubBlog26/>}/>
+            <Route path="/szuletes-hete-a-bekes-dulakor-szervezeseben" element={<SubBlog27/>}/>
+            <Route path="/tagulo-dulakor-bovulo-ismeretek" element={<SubBlog28/>}/>
+            <Route path="/visszajelzesek-a-motivacios-treningekrol" element={<SubBlog29/>}/>
+            <Route path="/nyomtatasban-megjelent-cikk-a-szivembe-zart-csaladjaim-talalkozojarol-2" element={<SubBlog30/>}/>
+            <Route path="/nyomtatasban-megjelent-cikk-a-szivembe-zart-csaladjaim-talalkozojarol-1" element={<SubBlog31/>}/>
+            <Route path="/a-szuleszeti-beavatkozasok-elonyeirol-hatranyairol-es-letjogosultsagarol-valamint-a korhazi-protokollrol" element={<SubBlog32/>}/>
+            <Route path="/dulamesek-esteje" element={<SubBlog33/>}/>
+            <Route path="/bucsu-a-botyitol" element={<SubBlog34/>}/>
+            <Route path="/szivembe-zart-csaladjaim-talalkozoja" element={<SubBlog35/>}/>
+            <Route path="/osszefonodo-szalak" element={<SubBlog36/>}/>
+            <Route path="/szivembe-zart-csaladjaim-talalkozoja" element={<SubBlog37/>}/>
+            <Route path="/szulesfelkeszites-szardinian-4" element={<SubBlog38/>}/>
+            <Route path="/szulesfelkeszites-szardinian-3" element={<SubBlog39/>}/>
+            <Route path="/szulesfelkeszites-szardinian-2" element={<SubBlog40/>}/>
+            <Route path="/bekes-dulak" element={<SubBlog41/>}/>
+            <Route path="/szulesfelkeszites-szardinian-1" element={<SubBlog42/>}/>
+            <Route path="/hatartalanul" element={<SubBlog43/>}/>
+            <Route path="/megalakult-a-bekes-dulakor" element={<SubBlog44/>}/>
+            <Route path="/barcsak-megvalosulna" element={<SubBlog45/>}/>
+            <Route path="/ahogy-egy-szuleszorvos-latja-a-dulasagot-es-a-jovot-2" element={<SubBlog46/>}/>
+            <Route path="/ahogy-egy-szuleszorvos-latja-a-dulasagot-1" element={<SubBlog47/>}/>
+            <Route path="/lanybol-anyava-valni" element={<SubBlog48/>}/>
+            <Route path="/dulakepzes-avagy-egy-noi-kor-ereje" element={<SubBlog49/>}/>
+            <Route path="/az-egyes-beavatkozasok-elonyeirol-hatranyairol-es-kockazatairol" element={<SubBlog50/>}/>
+            <Route path="/gondolatok-a-bizalomrol-es-a-biztonsagrol" element={<SubBlog51/>}/>
+            <Route path="/hol-segitek-en" element={<SubBlog52/>}/>
+            <Route path="/hol-segit-a-dula" element={<SubBlog53/>}/>
+            <Route path="/szuleselmeny" element={<SubBlog54/>}/>
+            <Route path="/a-padon-ulve" element={<SubBlog55/>}/>
+            <Route path="/szeptemberben-ujra-lesz-dulakepzes" element={<SubBlog56/>}/>
+            <Route path="dulakor-tihanyban" element={<SubBlog57/>}/>
+            <Route path="/babak-akiknek-jelen-lehettem-a-szuletesuknel" element={<SubBlog58/>}/>
+            <Route path="/megujulas" element={<SubBlog59/>}/>
+            <Route path="/miert-eppen-gyermekaldas" element={<SubBlog60/>}/>
+            <Route path="/konyvheti-pszichofesztival-a-radayban" element={<SubBlog61/>}/>
+            <Route path="/utitars" element={<SubBlog62/>}/>
+            <Route path="/melyinterju" element={<SubBlog63/>}/>
           </Routes>
 
           <Routes>
