@@ -5,6 +5,7 @@ import "../../CSS/blog.css"
 
 import Pic1 from "../../image/blog/blog_01_hero_ki a dula.png";
 import Pic2 from "../../image/blog/blog_02_hero_dulahatas.png";
+import Pic63 from "../../image/blog/blog-63-hero-melyinterju.jpg";
 import Pic3 from "../../image/blog/blog_03_hero_dulatrening.png";
 import Pic4 from "../../image/blog/blog_04_hero_lany_.png";
 import Pic5 from "../../image/blog/blog_05_hero_nyilt_hetvege.png";
@@ -19,6 +20,10 @@ import Pic13 from "../../image/blog/blog_13_hero_szoptatasrol.png";
 import Pic14 from "../../image/blog/blog_14_hero_dulatrening_ujra.png";
 import Pic15 from "../../image/blog/blog_15_hero_pozitiv_uzenetek_szerepe_2.png";
 import Pic16 from "../../image/blog/blog_16_hero_pozitiv_uzenetek_szerepe_1.png";
+import Pic17 from "../../image/blog/blog-17-hero-csoportos-szulesfelkeszito.png";
+import Pic18 from "../../image/blog/blog-18-hero-lehet-eleget-beszelni a szulesrol-2.png";
+import Pic19 from "../../image/blog/blog-19-hero-lehet-eleget-beszelni a szulesrol-1.png";
+
 
 export default function Blog() {
 
@@ -54,6 +59,15 @@ export default function Blog() {
                     <p className="blog-racs-catagory"><i className="far fa-calendar"> 2023.01.20.</i></p>
                     <h2 className="blog-racs-title"><Link to="/dulahatas-kutatasok-eredmenyek">A Dúlahatás - kutatások, eredmények</Link></h2>
                     <p className="blog-racs-description">Az elmúlt évtized során jelentősen nőtt a bizonyítékok száma a dúla által támogatott szülések előnyeivel kapcsolatban. Tizenhat olyan ellenőrzött tanulmányt publikáltak, melyekben több mint 5000 véletlenszerűen kiválasztott nő szerepelt. […]</p>
+                </div>
+            </div>}
+
+            {<div className="picture-gal">
+            <Link to="/melyinterju"><img src={Pic63}/></Link>
+                <div className="blog-racs-content">
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2022.12.14.</i></p>
+                    <h2 className="blog-racs-title"><Link to="/melyinterju">Mélyinterjú</Link></h2>
+                    <p className="blog-racs-description">Többet, személyesebbet rólam, a szüléskísérésekről és a hivatásomhoz fűződő viszonyomról az alábbi, Szuromi Ágnes által készített interjú részleteiből olvashatsz. […]</p>
                 </div>
             </div>}
 
@@ -166,6 +180,15 @@ export default function Blog() {
             </div>}
 
             {<div className="picture-gal">
+            <Link to="/pozitiv-uzenetek-szerepe-a-szulesnel-2"><img src={Pic16}/></Link>
+            <div className="blog-racs-content">
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2013.03.04.</i></p>
+                    <h2 className="blog-racs-title"> <Link to="/pozitiv-uzenetek-szerepe-a-szulesnel-2">A pozitív üzenetek szerepe a szülésnél – 2.</Link></h2>
+                    <p className="blog-racs-description">–  Azért elég embert próbáló helyzetnek tűnik, amikor nem csak a vajúdót kell támogatni lelkileg, hanem a személyzetet is. –   Nagyon nehéz terep az egészségügy, ugyanakkor óriási jelentősége van annak, hogy a szülőszobán jelen lévők milyen viszonyban vannak egymással. Csak akkor lehet támogató a szülő nőt körül vevő erőtér, ha a benne lévők kölcsönösen tisztelik és […]</p>
+                </div>
+            </div>}
+
+            {<div className="picture-gal">
             <Link to="/pozitiv-uzenetek-szerepe-a-szulesnel-1"><img src={Pic15}/></Link>
             <div className="blog-racs-content">
                     <p className="blog-racs-catagory"><i className="far fa-calendar"> 2013.03.01.</i></p>
@@ -174,17 +197,42 @@ export default function Blog() {
                 </div>
             </div>}
 
+           
+
             {<div className="picture-gal">
-            <Link to="/pozitiv-uzenetek-szerepe-a-szulesnel-2"><img src={Pic16}/></Link>
+            <Link to="/csoportos-szulesfelkeszito"><img src={Pic17}/></Link>
             <div className="blog-racs-content">
-                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2013.03.04.</i></p>
-                    <h2 className="blog-racs-title"> <Link to="/pozitiv-uzenetek-szerepe-a-szulesnel-2">A pozitív üzenetek szerepe a szülésnél – 2.</Link></h2>
-                    <p className="blog-racs-description">–  Azért elég embert próbáló helyzetnek tűnik, amikor nem csak a vajúdót kell támogatni lelkileg, hanem a személyzetet is. –   Nagyon nehéz terep az egészségügy, ugyanakkor óriási jelentősége van annak, hogy a szülőszobán jelen lévők milyen viszonyban vannak egymással. Csak akkor lehet támogató a szülő nőt körül vevő erőtér, ha a benne lévők kölcsönösen tisztelik és […]</p>
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2013.01.09.</i></p>
+                    <h2 className="blog-racs-title"> <Link to="/csoportos-szulesfelkeszito">Csoportos szülésfelkészítő</Link></h2>
+                    <p className="blog-racs-description">2013. év elejétől heti rendszerességgel szülésre és a szülői szerepre felkészítő beszélgetések lesznek a SokSzínTérben, azon a helyszínen, ahol dolgozom, és amely otthont ad még sok várandósoknak szóló egyéb előadásoknak is. A beszélgetéseket olyan dúlák vezetik, akik széles körű ismeretekkel rendelkeznek a várandósság, a szülés és az azt követő egy év lélektani és élettani eseményeiről, valamint tapasztalataikat […]</p>
+                </div>
+            </div>}
+
+            {<div className="picture-gal">
+            <Link to="/lehet-eleget-beszelni-a-szulesrol-2"><img src={Pic18}/></Link>
+            <div className="blog-racs-content">
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2012.12.11.</i></p>
+                    <h2 className="blog-racs-title"> <Link to="/lehet-eleget-beszelni-a-szulesrol-2">Lehet eleget beszélni a szülésről? – 2.</Link></h2>
+                    <p className="blog-racs-description">A szülés javarészt egy technikailag irányítható orvosi eseménnyé vált, sok a vita a téma körül. Mit gondolsz az otthonszülésről? Nagyon örülök, hogy elkészült a törvényi szabályozás, és bízom abban, hogy hamarosan valóban teljesen tisztázott és megnyugtató módon válik lehetővé az anyák számára, hogy az otthonukban vagy születésházakban hozhassák a világra gyermekeiket, ha számukra nem […]</p>
+                </div>
+            </div>}
+
+            {<div className="picture-gal">
+            <Link to="/lehet-eleget-beszelni-a-szulesrol-1"><img src={Pic19}/></Link>
+            <div className="blog-racs-content">
+                    <p className="blog-racs-catagory"><i className="far fa-calendar"> 2012.11.28.</i></p>
+                    <h2 className="blog-racs-title"> <Link to="/lehet-eleget-beszelni-a-szulesrol-1">Lehet eleget beszélni a szülésről? – 1.</Link></h2>
+                    <p className="blog-racs-description">Minivilág, 2012. november 24. Korábban a szülő nőt tapasztalt asszonytársak segítették a gyermek világra hozatalának nehéz óráiban. A közösség nőtagjai a bába felügyelete mellett bátorították, biztatták a vajúdót. A közös női bölcsesség ösztönös tudásának és erejének védőhálóját vonták az ilyenkor sebezhető társuk köré. Manapság is sokan vágynak hasonló élményekre, segítő kézre, bizalomra és nyugodt szülésre. […]</p>
                 </div>
             </div>}
             
         </Masonry>
 
+        <div className="blog-step-button-box" >
+            <Link className="blog-step-button" to="/blog">1</Link>
+            <Link className="blog-step-button" to="/blog2">2</Link>
+            <Link className="blog-step-button" to="/blog3">3</Link>
+        </div>
          
     </div>
   )

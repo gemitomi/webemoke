@@ -19,6 +19,10 @@ import Pic13 from "../../image/szulestort/szules_story_13_hero_lena.png";
 import Pic14 from "../../image/szulestort/szules_story_14_hero_talaltam_erot.png";
 import Pic15 from "../../image/szulestort/szules_story_15_hero_az_ut.png";
 import Pic16 from "../../image/szulestort/szules_story_16_hero_kulonleges_ajandek.png";
+import Pic17 from "../../image/szulestort/szules-story-17-hero-szuletesnapi-level.png";
+import Pic18 from "../../image/szulestort/szules-story-18-hero-barnus-szuletese.png";
+import Pic19 from "../../image/szulestort/szules-story-19-hero-alomszules.png";
+import Pic20 from "../../image/szulestort/szules-story-20-hero-apa-gepe-idoben-leszallt.jpg";
 
 export default function Stories() {
 
@@ -37,6 +41,7 @@ export default function Stories() {
                 breakpointCols={breakpoints}
                 className="my-masonry-grid"
                 columnClassName="my-masonry-grid_column">
+
                 {<div className="picture-gal">
                     <Link to="/kortars-kontosbe-bujt-javasasszony"><img src={Pic1}/></Link>
                     <div className="blog-racs-content">
@@ -180,9 +185,48 @@ export default function Stories() {
                         <p className="blog-racs-description">Már az különleges érzésekkel töltött el, amikor a terhességi teszt megmutatta egy kis élet megjelenését. Napokig furcsa mámorban jártam be dolgozni, és megfogalmazódott bennem, hogy most már semmi sem lesz olyan, mint eddig volt, és tele várakozással tekintettem a jövő elé. Izgalmas volt, hogy én már tudom, amit még másnak nem mondhatok el, mert a […]</p>
                     </div>
                 </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/szuletesnapi-level"><img src={Pic17}/></Link>
+                    <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"></p>
+                        <h2 className="blog-racs-title"><Link to="/szuletesnapi-level">Születésnapi levél</Link></h2>
+                        <p className="blog-racs-description">Drága Emőke! Ma 2009. január 16-a van. Máté egy éves. Rengeteg dolog történt velünk ezalatt az egy év alatt, ismered a történetünket. Most újra szeretném megköszönni Neked azt a csodálatos napot, amikor Ő világra jött. Hol is kezdjem… talán hogy miért és hogyan találtam Rád. 2005. áprilisában megszületett Boróka, az én kis tündérlányom. Négy napig […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/barnus-szuletese"><img src={Pic18}/></Link>
+                    <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"></p>
+                        <h2 className="blog-racs-title"><Link to="/barnus-szuletese">Barnus születése</Link></h2>
+                        <p className="blog-racs-description">Barnabás 2008. október 18-án jött a világra, születésének története mégis 2006 őszén kezdődött. Ekkor vártuk ugyanis a nővérét, és ekkor derült ki, hogy Blanka, aki addig ügyesen fejjel lefelé fordulva feküdt, egyszer csak visszafordult. Innentől kezdve a szülésig hátra lévő három hétben non-stop csak azzal foglalkoztam, hogy hogyan tudnánk megfordítani Blankát. Mindent, de mindent megpróbáltunk, […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/alomszules"><img src={Pic19}/></Link>
+                    <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"></p>
+                        <h2 className="blog-racs-title"><Link to="/alomszules">Álomszülés</Link></h2>
+                        <p className="blog-racs-description">Jocival terveztük a második gyerkőcöt, és szinte rögtön meg is fogant, ahogy nem védekeztünk! Az első babánk érkezésekor dúlát (Emőke) fogadtunk, és nem volt kérdés, hogy most is ragaszkodunk hozzá. 🙂 Brigi lányom születésénél „jól kifogtuk” a fogadott dokit és szülésznőt, így most ez nagy dilemma volt számomra! Jártam a kerületi SZTK-ba egy orvoshoz, akivel […]</p>
+                    </div>
+                </div>}
+
+                {<div className="picture-gal">
+                    <Link to="/apa-gepe-idoben-leszallt"><img src={Pic20}/></Link>
+                    <div className="blog-racs-content">
+                        <p className="blog-racs-catagory"></p>
+                        <h2 className="blog-racs-title"><Link to="/apa-gepe-idoben-leszallt">Apa gépe időben leszállt</Link></h2>
+                        <p className="blog-racs-description">Ha másfél évvel ezelőtt azt mondtam/írtam, hogy szülni jó, akkor most csak azt mondhatom, szülni még jobb 🙂 Ismét életem egyik legfelemelőbb élményén vagyok túl, ha ez így megy tovább, abba sem tudom hagyni vagy 10 gyerekig 🙂 Ez alkalommal még tudatosabban készültem a szülésre, mint először. Meg is volt erre az okom, hiszen azt […]</p>
+                    </div>
+                </div>}
                 
             </Masonry>
-    
+            <div className="blog-step-button-box" >
+                  <Link className="blog-step-button" to="/stories">1</Link>
+                  <Link className="blog-step-button" to="/stories2">2</Link>
+            </div>
              
         </div>
       )

@@ -13,6 +13,8 @@ import Dulatrening from "./components/pages/Dulatrening";
 import Dulakor from "./components/pages/Dulakor";
 import Olvasnivalok from "./components/pages/Olvasnivalok";
 import Blog from "./components/pages/Blog";
+import Blog2 from "./components/pages/Blog2";
+import Blog3 from "./components/pages/Blog3";
 import Feedback from "./components/pages/Feedback";
 import FeedbackParents1 from "./components/pages/FeedbackParents1";
 import FeedbackParents2 from "./components/pages/FeedbackParents2";
@@ -33,6 +35,7 @@ import SzulesElmenyFeldolg from "./components/pages/SzulesElmenyFeldolg";
 import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
 import Gyik from "./components/pages/Gyik"
 import Stories from "./components/pages/Stories";
+import Stories2 from "./components/pages/Stories2";
 import Publications from "./components/pages/Publications";
 import Publications2 from "./components/pages/Publications2";
 import Publications3 from "./components/pages/Publications3";
@@ -156,6 +159,10 @@ import BirthStory29 from "./components/pages/stories/BirthStory29";
 import BirthStory30 from "./components/pages/stories/BirthStory30";
 import BirthStory31 from "./components/pages/stories/BirthStory31";
 import BirthStory32 from "./components/pages/stories/BirthStory32";
+import BirthStory33 from "./components/pages/stories/BirthStory33";
+import BirthStory34 from "./components/pages/stories/BirthStory34";
+import BirthStory35 from "./components/pages/stories/BirthStory35";
+import BirthStory36 from "./components/pages/stories/BirthStory36";
 
 import Public01 from "./components/pages/publications/Public01"
 import Public02 from "./components/pages/publications/Public02"
@@ -245,6 +252,8 @@ function App() {
             <Route path="/dulakor" element={<Dulakor/>}/>
             <Route path="/olvasnivalok" element={<Olvasnivalok/>}/>
             <Route path="/blog" element={<Blog/>}/>
+            <Route path="/blog2" element={<Blog2/>}/>
+            <Route path="/blog3" element={<Blog3/>}/>
             <Route path="/feedback" element={<Feedback/>}/>
             <Route path="/szuloi-visszajelzesek-1" element={<FeedbackParents1/>}/>
             <Route path="/szuloi-visszajelzesek-2" element={<FeedbackParents2/>}/>
@@ -254,6 +263,7 @@ function App() {
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/stories" element={<Stories/>}/>
+            <Route path="/stories2" element={<Stories2/>}/>
             <Route path="/publications" element={<Publications/>}/>
             <Route path="/publications2" element={<Publications2/>}/>
             <Route path="/publications3" element={<Publications3/>}/>
@@ -319,9 +329,9 @@ function App() {
             <Route path="/lehet-eleget-beszelni-a-szulesrol-2" element={<SubBlog18/>}/>
             <Route path="/lehet-eleget-beszelni-a-szulesrol-1" element={<SubBlog19/>}/>
             <Route path="/elmegyek-elmegyek-hosszu-az-ut-de-maradok-4" element={<SubBlog20/>}/>
-            <Route path="/elmegyek-elmegyek-hosszu-utra-megyek-3" element={<SubBlog21/>}/>
-            <Route path="/elmegyek-elmegyek-hosszu-utra-megyek-2" element={<SubBlog22/>}/>
-            <Route path="/elmegyek-elmegyek-hosszu-utra-megyek-1" element={<SubBlog23/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-az-ut-de-maradok-3" element={<SubBlog21/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-az-ut-de-maradok-2" element={<SubBlog22/>}/>
+            <Route path="/elmegyek-elmegyek-hosszu-az-ut-de-maradok-1" element={<SubBlog23/>}/>
             <Route path="/veluk-es-nem-ellenuk" element={<SubBlog24/>}/>
             <Route path="/dula-zarovizsga" element={<SubBlog25/>}/>
             <Route path="/a-masodik-szines-viragcsokor" element={<SubBlog26/>}/>
@@ -333,9 +343,9 @@ function App() {
             <Route path="/a-szuleszeti-beavatkozasok-elonyeirol-hatranyairol-es-letjogosultsagarol-valamint-a korhazi-protokollrol" element={<SubBlog32/>}/>
             <Route path="/dulamesek-esteje" element={<SubBlog33/>}/>
             <Route path="/bucsu-a-botyitol" element={<SubBlog34/>}/>
-            <Route path="/szivembe-zart-csaladjaim-talalkozoja" element={<SubBlog35/>}/>
+            <Route path="/szivembe-zart-csaladjaim-talalkozoja-2" element={<SubBlog35/>}/>
             <Route path="/osszefonodo-szalak" element={<SubBlog36/>}/>
-            <Route path="/szivembe-zart-csaladjaim-talalkozoja" element={<SubBlog37/>}/>
+            <Route path="/szivembe-zart-csaladjaim-talalkozoja-1" element={<SubBlog37/>}/>
             <Route path="/szulesfelkeszites-szardinian-4" element={<SubBlog38/>}/>
             <Route path="/szulesfelkeszites-szardinian-3" element={<SubBlog39/>}/>
             <Route path="/szulesfelkeszites-szardinian-2" element={<SubBlog40/>}/>
@@ -345,7 +355,7 @@ function App() {
             <Route path="/megalakult-a-bekes-dulakor" element={<SubBlog44/>}/>
             <Route path="/barcsak-megvalosulna" element={<SubBlog45/>}/>
             <Route path="/ahogy-egy-szuleszorvos-latja-a-dulasagot-es-a-jovot-2" element={<SubBlog46/>}/>
-            <Route path="/ahogy-egy-szuleszorvos-latja-a-dulasagot-1" element={<SubBlog47/>}/>
+            <Route path="/ahogy-egy-szuleszorvos-latja-a-dulasagot-es-a-jovot-1" element={<SubBlog47/>}/>
             <Route path="/lanybol-anyava-valni" element={<SubBlog48/>}/>
             <Route path="/dulakepzes-avagy-egy-noi-kor-ereje" element={<SubBlog49/>}/>
             <Route path="/az-egyes-beavatkozasok-elonyeirol-hatranyairol-es-kockazatairol" element={<SubBlog50/>}/>
@@ -355,7 +365,7 @@ function App() {
             <Route path="/szuleselmeny" element={<SubBlog54/>}/>
             <Route path="/a-padon-ulve" element={<SubBlog55/>}/>
             <Route path="/szeptemberben-ujra-lesz-dulakepzes" element={<SubBlog56/>}/>
-            <Route path="dulakor-tihanyban" element={<SubBlog57/>}/>
+            <Route path="/dulakor-tihanyban" element={<SubBlog57/>}/>
             <Route path="/babak-akiknek-jelen-lehettem-a-szuletesuknel" element={<SubBlog58/>}/>
             <Route path="/megujulas" element={<SubBlog59/>}/>
             <Route path="/miert-eppen-gyermekaldas" element={<SubBlog60/>}/>
@@ -381,22 +391,26 @@ function App() {
             <Route path="/talaltam-erot-valahogy-mindig-akadt" element={<BirthStory14/>}/>
             <Route path="/az-ut" element={<BirthStory15/>}/>
             <Route path="/kulonleges-ajandek" element={<BirthStory16/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory17/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory18/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory19/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory20/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory21/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory22/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory23/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory24/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory25/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory26/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory27/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory28/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory29/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory30/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory31/>}/>
-            <Route path="/kulonleges-ajandek" element={<BirthStory32/>}/>
+            <Route path="/szuletesnapi-level" element={<BirthStory17/>}/>
+            <Route path="/barnus-szuletese" element={<BirthStory18/>}/>
+            <Route path="/alomszules" element={<BirthStory19/>}/>
+            <Route path="/apa-gepe-idoben-leszallt" element={<BirthStory20/>}/>
+            <Route path="/a-termeszet-rendje-szerint" element={<BirthStory21/>}/>
+            <Route path="/#" element={<BirthStory22/>}/>
+            <Route path="/a-ferfiaknak-is-vannak-szulestorteneteik" element={<BirthStory23/>}/>
+            <Route path="/baratsagban-a-fajdalommal" element={<BirthStory24/>}/>
+            <Route path="/csaszar-utan-termeszetesen" element={<BirthStory25/>}/>
+            <Route path="/ereztem-bekes-jottodet" element={<BirthStory26/>}/>
+            <Route path="/haborgatva-vagy-haboritatlanul" element={<BirthStory27/>}/>
+            <Route path="/haboritatlanul-korhazban" element={<BirthStory28/>}/>
+            <Route path="/hosszu-ut" element={<BirthStory29/>}/>
+            <Route path="/kettos-szuletes" element={<BirthStory30/>}/>
+            <Route path="/a-negyedik-eper-szuletese" element={<BirthStory31/>}/>
+            <Route path="/lathatatlanul" element={<BirthStory32/>}/>
+            <Route path="/igaz-mese-a-harom-lanyrol" element={<BirthStory33/>}/>         
+            <Route path="/megszuletett-a-kistesom" element={<BirthStory34/>}/>
+            <Route path="/madarka" element={<BirthStory35/>}/>
+            <Route path="/tango-egy-gyermekert" element={<BirthStory36/>}/>
           </Routes>
 
           <Routes>
