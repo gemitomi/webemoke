@@ -31,7 +31,7 @@ export default function Dulatrening() {
 
                 <div>
 
-                  <span className="dula-subpage-chip subpagelabel-md">Alapképzés</span>
+                  <span className="dula-subpage-chip subpagelabel-md">Alaptréning</span>
 
                   <h3 className="subpagetitle-md">Békés Dúlatréning</h3>
 

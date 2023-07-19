@@ -38,7 +38,7 @@ render(){
         <div className="doula-trening-container">
           <div className="doula-trening-head">
               <h1>Békés Dúlatréning</h1>
-              <h2>alapképzés</h2>
+              <h2>alaptréning</h2>
           </div>
           <div className="doula-trening-column">
               <div className="doula-trening-img-container">
@@ -49,7 +49,7 @@ render(){
                       2004 óta folyamatosan szervezek dúla alap- és továbbképzéseket. A több, mint 40 csoport és az alaptréninget végzett kb. 
                       400 résztvevő száma alapján elmondhatom, hogy Magyarországon jelenleg én rendelkezem a legnagyobb múlttal a kórházi szülések kísérésére (is) felkészítő tréningek szervezésében és vezetésében. A képzéseket a tréning előadóival, a tapasztalataink és a résztvevők visszajelzései alapján folyamatosan alakítjuk, fejlesztjük.
                   </p>
-                  <p>A felnőttképzési törvény szabályainak eleget téve a tréning a B/2020/000659 számmal van nyilvántartásba véve.
+                  <p>A felnőttképzési törvény szabályainak eleget téve a tréning a B/2022/001218 számmal van nyilvántartásba véve.
                   </p>
               </div>
           </div>
@@ -70,7 +70,7 @@ render(){
               támogatásával indulhatnak el a tréningen résztvevők a dúlává válás útján.
           </p>
 
-          <h5>2023 tavaszán a nagy érdeklődésre való tekintettel újra indul csoport!</h5>
+          <h5>2023 őszén a nagy érdeklődésre való tekintettel újra indul csoport!</h5>
 
           <p>
               A tréning valamennyi kiváló előadójával – mint ahogy eddig is – mindent megteszek azért, 
@@ -118,7 +118,7 @@ render(){
           </div>
 
           <p>
-              Ha esetleg kérdéseid vannak a tréninggel kapcsolatban vagy fizetési könnyítést szeretnél, írj a bekes.emoke@gmail.com címre vagy hívj a 70/ 9 485-481-es számon.
+              Ha esetleg kérdéseid vannak a tréninggel kapcsolatban vagy fizetési könnyítést szeretnél, írj a bekes.emoke@gmail.com címre vagy hívj a 70/948-5481-es számon.
           </p>
 
           <p>
@@ -211,6 +211,14 @@ render(){
         </div>
 
       </div>
+
+      <section className="consultation4">
+        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
+        <div className="consultation-btn-box" >
+          <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
+        </div>
+      </section>
+
       <div class="appli-box">    
       <Modal  show={this.state.show} onHide={()=>this.handleModal()}>  
             <Modal.Header closeButton></Modal.Header>  

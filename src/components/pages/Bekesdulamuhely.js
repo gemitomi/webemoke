@@ -20,7 +20,7 @@ export default function Bekesdulamuhely() {
                 </div>
                 <div className="bekesdulamuhely-text">
                     <p>
-                        A Békés Dúlaműhely a már <Link to="/bekesdulatrening">alapszintű képzésen</Link> részt vett 
+                        A Békés Dúlaműhely a már <Link to="/bekesdulatrening">alapszintű tréningen</Link> részt vett 
                         dúláknak nyújt továbbképzési lehetőséget.
                     </p>
                     <p>A csoport tagjai havonta egy napot töltenek együtt azzal a céllal, hogy saját tudásuk, tapasztalataik megosztásával, 
@@ -39,7 +39,7 @@ export default function Bekesdulamuhely() {
             <div className="bekesdulamuhely-details">
                 <div className="bekesdulamuhelyBx">
                     <ul className="bekesdulamuhely-list">
-                        <li className="bekesdulamuhely-has-before">Ha részt vettél már alapszintű dúlaképzésen (nem feltétele a jelentkezésnek az, hogy hol és mikor), és szeretnéd elmélyíteni a tudásodat, bővíteni az ismereteidet,</li>
+                        <li className="bekesdulamuhely-has-before">Ha részt vettél már alapszintű dúlatréningen (nem feltétele a jelentkezésnek az, hogy hol és mikor), és szeretnéd elmélyíteni a tudásodat, bővíteni az ismereteidet,</li>
                         <li className="bekesdulamuhely-has-before">ha gyakorló dúlaként fontosnak érzed, hogy megoszthasd a tapasztalataidat a társaiddal vagy éppen mások tapasztalataiból szeretnél tanulni,</li>
                         <li className="bekesdulamuhely-has-before">ha vágysz arra, hogy együtt dolgozz és beszélgess olyanokkal, akik ugyanígy éreznek, és</li>
                         <li className="bekesdulamuhely-has-before">szeretnél tagja lenni egy elfogadó női körnek,</li>

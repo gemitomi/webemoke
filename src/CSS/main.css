@@ -14,6 +14,11 @@
     text-transform: none;
 }
 
+body{
+    padding: 0rem 0%;
+   
+}
+
 
 .App{
     display: flex;
@@ -47,10 +52,25 @@ html::-webkit-scrollbar-thumb{
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
-    background-color: #f8f4f1;
+    background-color: #d4d1d2;
     margin-top: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
 }
+
+.home-about-container-services{
+    margin-top: 50px;
+}
+
+.home-about-container-services h1{
+    color: #a7638b;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 120px;
+    font-size: 5rem;
+  }
 
 .home-about .image{
     flex: 1 1 41rem;
@@ -64,10 +84,11 @@ html::-webkit-scrollbar-thumb{
 
 
 .home-about .content{
-    flex: 1 1 41rem;
+    flex: 1 1 20rem;
     padding: 3rem;
     margin: 0;
     background: #e8dee4;
+    background-position: 50%;
 }
 
 
@@ -152,10 +173,10 @@ html::-webkit-scrollbar-thumb{
 
 /*Szolgáltatások kezdete*/
 
-
+/*
 .home-service{
     text-align: center;
-    background: #e8dee4;
+    background: #f8f4f1;
 }
 
 .home-service .service{
@@ -167,11 +188,10 @@ html::-webkit-scrollbar-thumb{
     font-size: 5rem;
     color: #a7638b;
 }
-
+*/
+/*
 .home-service .box-container{
-   /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;*/
+   
     position: relative;
     display: flex;
     justify-content: center;
@@ -244,21 +264,22 @@ html::-webkit-scrollbar-thumb{
     color: #39232f;
     text-transform: uppercase;
 }
-
+*/
 /*Szolgáltatások vége*/
 
 
 /*dulatréning kezdete*/
+
+.dulatreningek {
+    background: #d4d1d2;
+}
 
 
 .dula-education-section{
     padding-block: 3rem;
     justify-content: center;
     align-items: center;
-    display:flex;
-    
-    
-    
+    display:flex;    
 }
 
 .dula-education-section.dula-education-container{
@@ -271,7 +292,7 @@ html::-webkit-scrollbar-thumb{
     padding-bottom: 50px;
     margin-block: 20px 60px;
     color: #a7638b;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     line-height: 1.3;
     text-align: center;
@@ -317,6 +338,7 @@ html::-webkit-scrollbar-thumb{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    text-align: center;
 }
 
 .dula-education-txt-box h2{
@@ -324,17 +346,18 @@ html::-webkit-scrollbar-thumb{
     font-weight: 600;
     color: #39232f;
     text-align: center;
+    padding-top: 20px;
 }
 
 
 .dula-education-txt-box .dula-education-btn{
   background-color: #d4b8c7;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   max-width: max-content;
   letter-spacing: 2px;
   padding: 10px 10px;
-  margin-top:10px;
+  margin-top:30px;
   transition: 0.25s ease;
   color:#39232f;
   border-radius: 5px;
@@ -363,13 +386,15 @@ html::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #d4d1d2;
+    margin-bottom: 60px;
 }
 
 .dula-education .education-faq{
     text-align: center;
     margin: 5rem;
     padding: 0;
+    background: #d4d1d2;
 }
 
 .dula-education .education-btn{
@@ -378,14 +403,15 @@ html::-webkit-scrollbar-thumb{
     font-weight: 700;
     max-width: max-content;
     letter-spacing: 2px;
-    padding: 10px 10px;
-    box-shadow: 6px 6px 0 -1px hsl(327, 24%, 18%);
+    padding: 30px 40px;
     transition: 0.25s ease;
     text-decoration: none;
     color: #39232f;
     border: 1px solid #39232f;
     cursor: pointer;
     display: block;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .dula-education .education-btn:is(:hover, :focus-visible) {
@@ -418,185 +444,6 @@ html::-webkit-scrollbar-thumb{
 }
 
 
-/*.dula-education{
-    
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.dula-education .education{
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.dula-education .education h3{
-    font-size: 5rem;
-    letter-spacing: 2px;
-    color: #a7638b;
-}*/
-
-/*
-
-.dula-section{
-    background: #f8f4f1;
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-}
-
-.dula-section .image{
-    position: relative;
-    background: #97bcc7;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-}
-
-.dula-section .image .imageBx{
-    background: #f8f4f1;
-}
-
-.dula-section .image  .container-left{
-    position: relative;
-    width: 40%;
- 
-}
-
-.dula-section .image .container-right{
-    position: relative;
-    background: #97bcc7;
-    width: 40%;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 0;
-}
-
-.dula-section .image .container-right .card{
-    position: relative;
-    width: 500px;
-    height: 300px;
-}
-
-.dula-section .image .container-right .card .face{
-    position: absolute;
-    justify-content: space-between;
-    display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 95%;
-    transition: 0.5s;
-}
-
-.dula-section .image .container-right .card .face.face1{
-    background: #e8dee4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    transform-origin: bottom;
-}
-.dula-section .image .container-right .card .face.face1 img{
-    max-width: 200px;
-
-}
-.dula-section .image .container-right .card .face.face1 h2{
-    margin: 10px 0 0;
-    padding-bottom: 20px;
-    color: #39232f;
-    text-align: center;
-    font-size: 1.5rem;
-}
-.dula-section .image .container-right .card:hover .face.face1{
-    transform: translateY(-100%) rotateX(90deg);
-    background: #a7638b;
-}
-
-.dula-section .image .container-right .card .face.face2{
-    background: #f8f4f1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    transform-origin: top;
-    transform: translateY(100%) rotateX(90deg);
-}
-
-.dula-section .image .container-right .card:hover .face.face2{
-    transform: translateY(0%) rotateX(0deg);
-    text-align: center;
-}
-
-.dula-section .image .container-right .card .face.face2 p{
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-align: center;
-    padding: 10px;
-    color: #39232f;
-}
-.dula-section .image .container-right .card .face.face2 .btn{
-    position: relative;
-    padding: 2rem;
-    transition: all .2s ease;
-    border: none;
-}
-
-.dula-section .image .container-right .card .face.face2 .btn span{
-    font-size: 1.5rem;
-    font-weight: 500;
-    letter-spacing: 0.05rem;
-    color: #a7638b;
-    text-transform: uppercase;
-    margin: 10px;
-}
-*/
-/*
-@media (max-width:877px){
-    .image-content,
-    .card-content{
-        padding: 30px 0px;
-    }
-}
-
-@media (min-width: 640px) and (max-width:1000px){
-    .dula-section{
-        flex-direction: column;
-    }
-    .container-left{
-        display: none;
-    }
-}
-
-@media (max-width: 639px){
-    .dula-section{
-        flex-direction: column;
-    }
-    .container-left{
-        display: none;
-    }
-    .dula-section .image .container-right{
-        width:100%
-    }
-    .dula-section .image .container-right .card{
-        position: relative;
-        width: 400px;
-        height: 250px;
-    }
-}
-
-@media (max-width: 540px){
-    .dula-section .image .container-right .card{
-        position: relative;
-        width:200px;
-        height: 250px;
-    }
-}
-*/
-
 /* dulaképzés vége*/
 
 /* dulakör start */
@@ -626,7 +473,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 .dula-kor-left h1{
-    font-size: 4rem;
+    font-size: 5rem;
     color: #39232f;
     font-weight: 700;
     line-height: 1.5;
@@ -659,7 +506,7 @@ html::-webkit-scrollbar-thumb{
 
 .dula-kor-btn{
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
     max-width: max-content;
@@ -911,28 +758,30 @@ svg circle{
     overflow: hidden;
     padding-block: 100px;
     width: 100%;
-    background-color: #d4d1d2;
+    background-color: #f8f4f1;
 }
 
 .blog-container {
      padding-inline: 12px;
-     background-color: #d4d1d2;
+     background-color: #f8f4f1;
 }
   
   .btn {
     color: #39232f;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     max-width: max-content;
     min-width: max-content;
+    border: 1px solid #a7638b;
     /*padding-top: 30px;*/
   }
   
   .section-subtitle {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 800;
     color: #39232f;
     margin-block-end: 20px;
@@ -941,15 +790,15 @@ svg circle{
   
   .lp-section-title { 
     margin-block-end: 45px;
-    color: #868485;
-    font-size: 4rem;
+    color: #a7638b;
+    font-size: 5rem;
     line-height: 1;
     font-weight: 700;
  }
 
  .section-text{
     color: #39232f;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
  }
   
@@ -1001,8 +850,8 @@ svg circle{
   }
   
   .slider-control .line {
-    width: 30px;
-    height: 1px;
+    width: 40px;
+    height: 3px;
     background-color: #39232f;
   }
   
@@ -1017,12 +866,12 @@ svg circle{
   
   .slider-control.prev .arrow {
     left: 0;
-    border-width: 0 0 1px 1px;
+    border-width: 0 0 3px 3px;
   }
   
   .slider-control.next .arrow {
     right: 0;
-    border-width: 1px 1px 0 0;
+    border-width: 3px 3px 0 0;
   }
   
   .slider-controls {
@@ -1035,9 +884,9 @@ svg circle{
     
   .service-card {
     position: relative;
-    background-color: #d5e1df;
+    background-color:#d4b8c7 ;
     height: 100%;
-    padding: 10px 40px 40px;
+    padding: 40px 40px 40px;
     transition: 0.5s ease;
   }
 
@@ -1062,7 +911,7 @@ svg circle{
     }
   
   .service-card:is(:hover, :focus-within) {
-    background-color: #97bcc7;
+    background-color: #e8dee4;
     --content-color: #d5e1df;
     }
   
@@ -1073,16 +922,17 @@ svg circle{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d5e1df;
+    background-color: #cfdade;
 }
 
 .feedback-hero{
     position: relative;
     display: felx;
+    margin-top: 40px;
     margin-bottom: 60px;
 }
 .feedback-title{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     color: #a7638b;
     letter-spacing: 1px;
@@ -1094,7 +944,7 @@ svg circle{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: #d5e1df;
+    background-color: #cfdade;
     padding: 10px 0;
 }
 
@@ -1230,17 +1080,17 @@ svg circle{
 }
 
 .feedback-button-btn{
-    margin: 0 auto;
+    margin: 50px;
     text-align: center;
 }
 
 .feedback-button-btn .feedback-button-btn1{
     background: #97bcc7;
     color: #39232f;
-    font-size: 1.7rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     font-weight: 600;
-    padding: 0.5rem 3rem;
+    padding: 1.5rem 3rem;
     border-radius: 5px;
     text-decoration: none;
 }

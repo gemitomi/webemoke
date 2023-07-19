@@ -60,6 +60,9 @@ section{
 */
 .header-menu .navbar a:hover{
     color: #39232f;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    border-bottom: #a7638b;
 }
 
 .menu-btn{

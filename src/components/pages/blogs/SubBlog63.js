@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/blog_global.css"
 
-import Blog63Pic1 from "../../../image/blog/blog-63-hero-melyinterju.jpg";
+import Blog63Pic1 from "../../../image/blog/blog-63-hero-melyinterju.png";
 import Blog63Pic2 from "../../../image/blog/blog-63-melyinterju-szulok.jpg";
 import Blog63Pic3 from "../../../image/blog/blog-63-melyinterju-lanyokkal.jpg";
 import Blog63Pic4 from "../../../image/blog/blog-63-melyinteju-kutyaval.jpg";

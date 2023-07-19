@@ -29,7 +29,7 @@ function MenuItems() {
         <li>     
           <div><Link to="/dulatrening">Dúlatréning</Link>
           <ul className="dropdown">
-            <li><a href="/bekesdulatrening">Békés Dúlatréning - alapképzés</a></li>
+            <li><a href="/bekesdulatrening">Békés Dúlatréning - alaptréning</a></li>
             <li><a href="/bekesdulamuhely">Békés Dúlaműhely - továbbképzés</a></li>
             <li><a href="/esetmegbeszelo">Esetmegbeszélő csoport</a></li>
             <li><a href="/gyik">Gyakori kérdések a képzésekről</a></li>

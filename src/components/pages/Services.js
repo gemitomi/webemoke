@@ -61,7 +61,7 @@ export default function Services() {
                 </li>
 
                 <li className="card-container">
-                    <div className="services-card card-md" style={{'background': "#97bcc7"}}>
+                    <div className="services-card card-md" style={{'background': "#d5e1df"}}>
 
                         <div className="card-media">
                             <img src={AnyavaVal}/>
@@ -101,7 +101,7 @@ export default function Services() {
                 </li>
 
                 <li className="card-container">
-                    <div className="services-card card-md" style={{'background': "#a7638b"}}>
+                    <div className="services-card card-md" style={{'background': "#e8dee4"}}>
 
                         <div className="card-media">
                             <img src={SzulFel}/>
@@ -121,7 +121,7 @@ export default function Services() {
                 </li>
 
                 <li className="card-container">
-                    <div className="services-card card-md" style={{'background': "#d5e1df"}}>
+                    <div className="services-card card-md" style={{'background': "#cfdade"}}>
 
                         <div className="card-media">
                             <img src={SzulEsemeny}/>
@@ -145,7 +145,7 @@ export default function Services() {
         </div>
     </section>
     <section className="consultation4">
-        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
+        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
           <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>

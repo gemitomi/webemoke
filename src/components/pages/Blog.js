@@ -5,7 +5,7 @@ import "../../CSS/blog.css"
 
 import Pic1 from "../../image/blog/blog_01_hero_ki a dula.png";
 import Pic2 from "../../image/blog/blog_02_hero_dulahatas.png";
-import Pic63 from "../../image/blog/blog-63-hero-melyinterju.jpg";
+import Pic63 from "../../image/blog/blog-63-hero-melyinterju.png";
 import Pic3 from "../../image/blog/blog_03_hero_dulatrening.png";
 import Pic4 from "../../image/blog/blog_04_hero_lany_.png";
 import Pic5 from "../../image/blog/blog_05_hero_nyilt_hetvege.png";

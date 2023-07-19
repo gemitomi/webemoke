@@ -1,5 +1,6 @@
 import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
+import "../CSS/test.css"
 
 import ProfilePic from "../image/bekes_emoke_1.png"
 import EgyeniKonz from "../image/egyenikonzultacio.png"
@@ -18,6 +19,7 @@ import Post3 from "../image/blog/blog_03_hero_dulatrening.png"
 import Post4 from "../image/blog/blog_04_hero_lany_.png"
 import Post5 from "../image/blog/blog_05_hero_nyilt_hetvege.png"
 import Post6 from "../image/blog/blog_06_hero_szuletes_napja.png"
+import Post7 from "../image/blog/blog-63-hero-melyinterju.png"
 
 import Szulo1 from "../image/feedback_szulo_1.png"
 import Szulo2 from "../image/feedback_szulo_2.png"
@@ -109,6 +111,19 @@ export default function LandingPage() {
     
     return (
         <div>
+<section className="test-home-about">
+
+<div className="test-image"> 
+    <img src={ProfilePic} alt="" />
+</div>
+<div className="test-content">
+    <h1>Békés Emőke<br/><span>dúla, képzésben lévő családterapeuta</span></h1>
+    <p>Három gyermekes édesanya, nő, szerető társ, a Békés Dúlakör szakmai vezetője vagyok.
+    Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő, családkísérő dúla  vagyok.</p>
+    
+</div>
+</section>
+
             <section className="home-about">
 
                 <div className="image"> 
@@ -123,7 +138,7 @@ export default function LandingPage() {
             </section>
 
             <section className="section service has-bg-image" aria-labelledby="service-label">
-                <div className="container-services">
+                <div className="home-about-container-services">
 
                     <h1>Szolgáltatások</h1>
 
@@ -170,7 +185,7 @@ export default function LandingPage() {
                         </li>
 
                         <li className="card-container">
-                            <div className="services-card card-md" style={{'background': "#97bcc7"}}>
+                            <div className="services-card card-md" style={{'background': "#d5e1df"}}>
 
                                 <div className="card-media">
                                     <img src={AnyavaVal}/>
@@ -210,7 +225,7 @@ export default function LandingPage() {
                         </li>
 
                         <li className="card-container">
-                            <div className="services-card card-md" style={{'background': "#a7638b"}}>
+                            <div className="services-card card-md" style={{'background': "#e8dee4"}}>
 
                                 <div className="card-media">
                                     <img src={SzulFel}/>
@@ -230,7 +245,7 @@ export default function LandingPage() {
                         </li>
 
                         <li className="card-container">
-                            <div className="services-card card-md" style={{'background': "#d5e1df"}}>
+                            <div className="services-card card-md" style={{'background': "#cfdade"}}>
 
                                 <div className="card-media">
                                     <img src={SzulEsemeny}/>
@@ -256,7 +271,8 @@ export default function LandingPage() {
 
             <section className="consultation4">
                 <div className="consultation-btn-h2">
-                    <h2>Segíthetek?</h2></div>
+                    <h2>Neked is segíthetek?<br/><br/><span>Szeretettel várom jelentkezésedet!</span></h2>
+                </div>
                 <div className="consultation-btn-box" >
                     <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
                 </div>
@@ -275,8 +291,8 @@ export default function LandingPage() {
                             <div className="dula-education-card">
                                 <img src={DulaTrainig} alt="Bekes Dulatrening"/>
                                     <div className="dula-education-txt-box">
-                                        <h2 className="dula-education-title">Békés Dúlatréning<br/><span>alapképzés</span></h2>
-                                        <a href="#" className="dula-education-btn">Bővebben</a>
+                                        <h2 className="dula-education-title">Békés Dúlatréning<br/><span>alaptréning</span></h2>
+                                        <Link to="/bekesdulatrening" className="dula-education-btn">Bővebben</Link>
                                     </div>
                             </div>
 
@@ -284,7 +300,7 @@ export default function LandingPage() {
                                 <img src={DulaMuhely} alt="Bekes Dulamuhely"/>
                                     <div className="dula-education-txt-box">
                                         <h2 className="dula-education-title">Békés Dúlaműhely<br/><span>továbbképzés</span></h2>
-                                        <a href="#" className="dula-education-btn">Bővebben</a>
+                                        <Link to="/bekesdulamuhely" className="dula-education-btn">Bővebben</Link>
                                     </div>
                             </div>
 
@@ -292,7 +308,7 @@ export default function LandingPage() {
                                 <img src={EsetBesz} alt="Esetmegbeszelo csoport"/>
                                     <div className="dula-education-txt-box">
                                         <h2 className="dula-education-title">Esetmegbeszélő<br/> csoport<br/><span></span></h2>
-                                        <a href="#" className="dula-education-btn">Bővebben</a>
+                                        <Link to="/esetmegbeszelo" className="dula-education-btn">Bővebben</Link>
                                     </div>
                             </div>
                         </div>
@@ -300,7 +316,7 @@ export default function LandingPage() {
                 </div>
                 <div className="dula-education">
                     <div className="education-faq">
-                        <Link to="/gyik" className="education-btn">Gyakori kérdések a képzésekről</Link>
+                        <Link to="/gyik" className="latest-blog-btn">Gyakori kérdések a képzésekről</Link>
                     </div>
                 </div>
 
@@ -351,7 +367,7 @@ export default function LandingPage() {
 
                         <div>
                         <p className="section-subtitle">
-                            Olvasnivaló
+                            Olvasnivalók
                         </p>
 
                         <h2 className="h2 lp-section-title" id="service-label">Blog & Történetek</h2>
@@ -405,6 +421,28 @@ export default function LandingPage() {
                                     <Link to="/dulahatas" className="btn">Bővebben</Link>
 
                                     
+
+                                </div>
+                            </li>
+
+                            <li className="slider-item" data-slider-item>
+                                <div className="service-card">
+
+                                    <div className="card-icon">
+                                        <img src={Post7} alt=""/>
+                                    </div>
+
+                                    <h3 className="h3 card-title">Mélyinterjú</h3>
+
+                                    <p className="card-text">
+                                    Többet, személyesebbet rólam, a szüléskísérésekről és a hivatá- somhoz fűződő viszonyomról az alábbi, Szuromi Ágnes...
+                                    </p>
+
+                                    <span className="text-lg author">Békés Emőke</span>
+
+                                    <Link to="/melyinterju" className="btn">Bővebben</Link>
+
+                                   
 
                                 </div>
                             </li>
@@ -531,7 +569,7 @@ export default function LandingPage() {
                                 <div className="feedback-tags">
                                     <img src={SzuloVissza} width="50" height="50" loading="lazy" alt="Visszajelzés szülőktől"
                                     className="img-feed-cover"/>
-                                    <Link to="/feedbackparents1">Visszajelzés szülőktől</Link>
+                                    <Link to="/szuloi-visszajelzesek-1">Visszajelzés szülőktől</Link>
                                 </div>
 
                                 <div className="feedback-card-content">
@@ -540,7 +578,7 @@ export default function LandingPage() {
                                         ajánlására azért kerestem meg, hogy dúlaként segítsen majd – bár 
                                         kórházi körülmények között [...]</p>
                                     <h3 className="feedback-author">D.F. anya</h3>
-                                    <button className="feedback-button"><Link to="/feedback1df">Bővebben</Link></button>
+                                    <button className="feedback-button"><Link to="/anyava-valasom-soran-volt-a-biztos-pont">Bővebben</Link></button>
                                 </div>
                             </div>
 
@@ -556,7 +594,7 @@ export default function LandingPage() {
                                 <div className="feedback-tags">
                                     <img src={SzuloVissza} width="50" height="50" loading="lazy" alt="Visszajelzés szülőktől"
                                     className="img-feed-cover"/>
-                                    <Link to="/feedbackparents1">Visszajelzés szülőktől</Link>
+                                    <Link to="/szuloi-visszajelzesek-1">Visszajelzés szülőktől</Link>
                                 </div>
 
                                 <div className="feedback-card-content">
@@ -565,7 +603,7 @@ export default function LandingPage() {
                                         azt állította egy nőgyógyász, hogy a hormonjaim rendetlenkednek, 
                                         így nehezebben foganhat meg. Egy másik orvos [...]</p>
                                     <h3 className="feedback-author">F.T. anya</h3>
-                                    <button className="feedback-button"><Link to="/feedback2ft">Bővebben</Link></button>
+                                    <button className="feedback-button"><Link to="/egeszsegesenmegszuletett-a-kislanyom">Bővebben</Link></button>
                                 </div>
                             </div>
 
@@ -581,7 +619,7 @@ export default function LandingPage() {
                                 <div className="feedback-tags">
                                     <img src={PartnerVissza} width="50" height="50" loading="lazy" alt="Visszajelzés szülőktől"
                                     className="img-feed-cover"/>
-                                    <Link to="/feedbackpartners">Visszajelzés szakmai partnertől</Link>
+                                    <Link to="/partneri-visszajelzesek">Visszajelzés szakmai partnertől</Link>
                                 </div>
 
                                 <div className="feedback-card-content">
@@ -592,7 +630,7 @@ export default function LandingPage() {
                                         főleg a női létnek egy olyan kiemelten fontos időszakában, 
                                         mint a várandósság, [...] </p>
                                     <h3 className="feedback-author">Hoplár Bori - testtudat oktató</h3>
-                                    <button className="feedback-button"><Link to="/pfeedback2hb">Bővebben</Link></button>
+                                    <button className="feedback-button"><Link to="/kezdetektol-fogva">Bővebben</Link></button>
                                 </div>
                             </div>
                         </div>
