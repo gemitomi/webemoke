@@ -16,34 +16,34 @@ import Blog02Pic9 from "../../../image/blog/blog_02_g_dulahatas.png";
 export default function SubBlog02() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog02Pic1} alt="A dulahatas-kutatasok, eredmenyek"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A dúlahatás - kutatások, eredmények</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A dúlahatás - kutatások, eredmények</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2023. január 20.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                       <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic2} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Az elmúlt évtized során jelentősen nőtt a bizonyítékok száma a dúla által támogatott szülések előnyeivel kapcsolatban. Tizenhat olyan ellenőrzött tanulmányt publikáltak, melyekben több mint 5000 véletlenszerűen kiválasztott nő szerepelt.
                             Ezek a vizsgálatok Belgiumban, Botswanában, Kanadában, Finnországban, Franciaországban, Görögországban, Guatemalában, Dél-Afrikában és az Egyesült Államokban készültek, és azt vizsgálták, hogy vajon egy tapasztalt nő által nyújtott érzelmi és fizikai támogatás megváltoztatja-e a vajúdás hosszát, a fájdalomcsökkentő gyógyszerek használatának mértékét, az epidurális érzéstelenítés és egyéb szülészeti beavatkozások előfordulási arányát, valamint hogy milyen hatása van az ilyen jellegű támogatásnak a baba egészségére és az anya későbbi viselkedésére. 
@@ -102,11 +102,11 @@ export default function SubBlog02() {
 
                 <h4>A VAJÚDÁS HOSSZA</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic3} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Két, Guatemalában készült tanulmány hívta fel a figyelmünket a vajúdás hosszára az első baba születésekor. Ezek a tanulmányok egy nagyon forgalmas szülészeteken készültek. Rövid összegzésük a következő. 
                         </p>
@@ -168,11 +168,11 @@ export default function SubBlog02() {
 
                 <h4>FÁJDALOMCSILLAPÍTÁS</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic4} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A második, véletlenszerű és kontrollált vizsgálat összehasonlította a fájdalomcsillapítás három módszerét. Az egyik csoportban narkotikus anyagokat, a másodikban folyamatos dúlai támogatást, a harmadikban epidurális analgéziát használtak. A fájdalom enyhülése az anyák beszámolói alapján a szülés után az epidurális analgéziát kapó csoportban volt a legjelentősebb, és a narkotikus gyógyszeres csoportban a legkisebb. A fájdalom csökkenése a folyamatos dúlai támogatást élvezők csoportjában nem volt annyira jelentős, mint az epidurális érzéstelenítéses csoportban. A dúlás csoportban viszont az anyák más területeken jobb eredményeket értek el, mint a másik két csoportban.
                         </p>
@@ -228,11 +228,11 @@ export default function SubBlog02() {
 
                 <h4>AZ EPIDURÁLIS ÉRZÉSTELENÍTÉS</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic5} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A császármetszéssel kapcsolatos általános megegyezéssel szemben az epidurális érzéstelenítés – egészséges, normálisan vajúdó és szülő nőkre gyakorolt – hatásairól azonban a vélemények megoszlanak. Sok aneszteziológus az epidurális érzéstelenítést „az érzéstelenítés Cadillacjének” nevezi. Rámutatnak arra az ideális hatásra, hogy uralmat nyújt a fájdalom felett azon a hosszú folyamaton keresztül, amikor a méhnyak fokozatosan tágul. Időnként a lassú vajúdás felgyorsulhat, amint az epidurális érzéstelenítés hatni kezd. 
                         </p>
@@ -307,11 +307,11 @@ export default function SubBlog02() {
                 </p>
 
 
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">csökkent az újszülöttjüket elhagyó anyák száma,</li>
-                    <li class="blog-globale-has-before">az újszülötteket kevesebbet bántalmazták,</li>
-                    <li class="blog-globale-has-before">sikeresebb lett a szoptatás az első évben (beleértve az anyatej mennyiségét),</li>
-                    <li class="blog-globale-has-before">az apák többet foglalkoztak a babával az első három hónapban.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">csökkent az újszülöttjüket elhagyó anyák száma,</li>
+                    <li className="blog-globale-has-before">az újszülötteket kevesebbet bántalmazták,</li>
+                    <li className="blog-globale-has-before">sikeresebb lett a szoptatás az első évben (beleértve az anyatej mennyiségét),</li>
+                    <li className="blog-globale-has-before">az apák többet foglalkoztak a babával az első három hónapban.</li>
                 </ul>
                 
                 <p>
@@ -332,20 +332,20 @@ export default function SubBlog02() {
                     Az eredmények kedvező hatást mutattak a nők és az újszülöttek pszichológiai egészsége szempontjából az alábbi területeken.
                 </p>
 
-                <ol class="blog-globale-list1">
-                    <li class="blog-globale-has-before1">Az anyák beszámolói a fájdalomról huszonnégy órával a szülés után</li>
+                <ol className="blog-globale-list1">
+                    <li className="blog-globale-has-before1">Az anyák beszámolói a fájdalomról huszonnégy órával a szülés után</li>
                 
                 <p>
                     A szülés után egy nappal készült interjúk eredményei azt jelezték, hogy a dúlás csoport anyái kevesebb fájdalomról számoltak be a vajúdás alatt és huszonnégy órával a szülés után. A két csoport anyái ugyanolyan mértékben voltak feszültek a vajúdás előtt, de a dúlás csoport kevésbé volt nyugtalan huszonnégy órával később. A dúla által támogatott anyák közül kevesebben tartották nehéznek a vajúdást és a szülést, kevesebben gondolták, hogy sokkal rosszabb volt, mint elképzelték, és többen gondolták úgy, hogy jól megbirkóztak a feladattal.
                 </p>
 
-                    <li class="blog-globale-has-before1">Az anyák viselkedése az újszülöttel huszonnégy órával a szülés után (az anyák beszámolói alapján)</li>
+                    <li className="blog-globale-has-before1">Az anyák viselkedése az újszülöttel huszonnégy órával a szülés után (az anyák beszámolói alapján)</li>
 
                 <p>
                     Mikor az anyákat arról kérdezték, milyen tapasztalataik vannak babáikkal, a dúlás csoport anyái kevesebb időt töltöttek távol újszülöttjeiktől. Ezek az eredmények azt sugallják, hogy a dúlai támogatás a vajúdás alatt hasonló hatásokkal jár, mint a rögtön szülés utáni anya-újszülött kontaktus; mindkettő növeli az anya érdeklődését a gyermek iránt, valamint javítja a közöttük levő interakciót.
                 </p>
 
-                <li class="blog-globale-has-before1">Szoptatási viselkedés és a gyermek egészsége hat héttel később (az anyák beszámolói alapján)</li>
+                <li className="blog-globale-has-before1">Szoptatási viselkedés és a gyermek egészsége hat héttel később (az anyák beszámolói alapján)</li>
 
                 <p>
                     A szülés után hat héttel az anyák beszámolói alapján kiderült, hogy jelentősen gyakrabban fordult elő szoptatás és igény szerinti táplálás a támogatott csoportban, és anyatej helyett más étellel etetés a kontrollcsoportban. Kiemelkedő volt a különbség az anyák újszülöttjükhöz való hozzáállásában és a velük való viselkedésben. Mély benyomást tett az ápolókra, gyermekorvosokra és azokra a szakemberekre, akik gyermekek egészségével és etetésével foglalkoznak, hogy nagy mértékű eltérést találtak a szoptatási problémák előfordulásának terén: a dúlás csoport 16 százalékának volt ilyen gondja szemben a dúla nélküli csoport 63 százalékával. Mennyivel kevesebbet aggódtak ezek a szülők, és mennyivel kevesebb pénzt fizettek ki az orvosoknak, mert sokkal kevesebbszer volt szükségük szakszerű segítségre!
@@ -374,11 +374,11 @@ export default function SubBlog02() {
 
                 <h4>AZ ANYÁK ÉRZELMI ÁLLAPOTA</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic6} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A dúlás csoportban szült anyák sokkal kevesebb feszültséget, depressziós tünetet mutattak, valamint magasabb volt az önbecsülésük. Bár ezek a felmérések nem voltak elegendők a depresszió kimutatására, az eredmények sugallják annak lehetőségét. A szülés utáni depresszió káros az anyára és a vele élőkre – különösképpen az újszülöttre. Ha kevesebb anya esik ilyen állapotba a dúlai támogatásnak köszönhetően, az nagy előnyökkel jár az anyák, babáik és a többi családtag számára. Azok az anyák, akik elégedettek magukkal, és kevésbé szoronganak, pozitívabb környezetet hoznak létre gyermekük számára a növekedéshez és kibontakozáshoz.
                         </p>
@@ -398,11 +398,11 @@ export default function SubBlog02() {
 
                 <h4>A BABA ÉRZÉKELÉSE HAT HÉTTEL A SZÜLÉS UTÁN</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic7} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Hat héttel a szülés után a dúla által támogatott nők saját magukról és babáikról alkotott képe észrevehetően kedvezőbb volt. Wolman szerint „a támogatott anyák pozitívabbak voltak minden tekintetben, beleértve a baba különlegességét, a fesztelenséget és a babáik szépségéről és okosságáról alkotott véleményüket”. A támogatott anyák nagyobb arányban tartották babáikat nemcsak szebbnek, okosabbnak és könnyen kezelhetőnek, hanem azt is gondolták, hogy újszülöttjük kevesebbet sír, mint más babák. 
                         </p>
@@ -432,18 +432,18 @@ export default function SubBlog02() {
                     Az interakciót egytől hétig terjedő skálán osztályozták a következő kritériumok alapján: az anya fizikai kontaktusa, vizuális figyelme és gyengéd viselkedése gyermeke iránt. Az anyai interakciót a babával öt alkalommal figyelték meg a látogatás alatt:
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic8} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
 
-                        <ul class="blog-globale-list">
-                            <li class="blog-globale-has-before">mikor a megfigyelő belépett az anya házába,</li>
-                            <li class="blog-globale-has-before">míg a fejlődést ellenőrző vizsgálatot elkészítették,</li>
-                            <li class="blog-globale-has-before">míg a vizsgálatot értékelték,</li>
-                            <li class="blog-globale-has-before">etetés alatt, és</li>
-                            <li class="blog-globale-has-before">mialatt az anya tisztába tette a babát.</li>
+                        <ul className="blog-globale-list">
+                            <li className="blog-globale-has-before">mikor a megfigyelő belépett az anya házába,</li>
+                            <li className="blog-globale-has-before">míg a fejlődést ellenőrző vizsgálatot elkészítették,</li>
+                            <li className="blog-globale-has-before">míg a vizsgálatot értékelték,</li>
+                            <li className="blog-globale-has-before">etetés alatt, és</li>
+                            <li className="blog-globale-has-before">mialatt az anya tisztába tette a babát.</li>
                         </ul>
                     </div>
                 </div>
@@ -474,11 +474,11 @@ export default function SubBlog02() {
 
                 <h4>SZÜLŐ-GYERMEK KÖTŐDÉS</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog02Pic9} alt="A dulahatas-kutatasok, eredmenyek"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A biztos kötődéshez vezető út nagyon korán kezdődik a gyermek életében, és a korai szülő-gyermek kötődés az alapja. A kötődés a szülők gyermekük iránti érzelmi bevonódására utal. Ez a folyamat ismételt kellemes és jelentőségteljes tapasztalatokra épül, és általuk fejlődik. A szülők számára a kötődés, az érzelmi kapcsolat sokkal többet jelent, mint csak a gyermek etetése vagy ellátása. Sokkal inkább törődést jelent – érzékelés és reakció a gyermek fizikai és érzelmi szükségleteire. 
                         </p>
@@ -505,7 +505,7 @@ export default function SubBlog02() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
               <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/blog">Blog</Link>

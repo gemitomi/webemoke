@@ -8,34 +8,34 @@ import Blog10Pic2 from "../../../image/blog/blog_10_logo-icon.png";
 export default function SubBlog10() {
   return (
     <div>
-      <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+      <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog10Pic1} alt="Ujjaszuletes"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Újjászületés</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Újjászületés</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2017. október 14.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog10Pic2} alt="Ujjaszuletes"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Ma éppen 25 éve, hogy anyává születtem. A várandósságom 37. hetében ezen a napon jött világra Gyöngyvér lányom, akinek az érkezése határtalan boldogsággal töltött el.
                         </p>
@@ -75,7 +75,7 @@ export default function SubBlog10() {
                 <p> www.corpuscom.hu</p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

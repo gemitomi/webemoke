@@ -176,6 +176,8 @@
         width: 80%;
     }
 
+    
+
     .second{
         grid-column: initial;
         grid-row: initial;
@@ -240,6 +242,20 @@
 }
 
 @media (max-width:768px){
+    .blog{
+        margin-top: 60px;
+       
+    }
+
+    .blog-title{
+        font-size: 5rem;
+    }
+
+    .my-masonry-grid {
+        margin-left: 1px;
+        margin-right:1px;
+      }
+
     .blog-racs-container{
         width: 96%;
     }
@@ -276,10 +292,10 @@
     }
 
     .blog-racs-title{
-        font-size: 1.2rem;
+        font-size: 3.4rem;
     }
 
     .blog-racs-description{
-        font-size: 0.9rem;
+        font-size: 3rem;
     }
 }

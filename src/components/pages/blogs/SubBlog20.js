@@ -8,34 +8,34 @@ import Blog20Pic2 from "../../../image/blog/blog-20-elmegyek-elmegyek-hosszu-az-
 export default function SubBlog20() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog20Pic1} alt="elmegyek-elmegyek-hosszu-az-ut-de-maradok-4"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Elmegyek, elmegyek…, hosszú az út, de maradok? 4.</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Elmegyek, elmegyek…, hosszú az út, de maradok? 4.</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2012. szeptember 04.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                         <Link to="/blog2" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog20Pic2} alt="elmegyek-elmegyek-hosszu-az-ut-de-maradok-4"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Jennifertől Catharinához bicikliztünk át. Ő az egyetlen dúla, akit az amszterdami klinika státuszban foglalkoztat. Igazán izgalmas dolgokat mesélt!
                         </p>
@@ -82,7 +82,7 @@ export default function SubBlog20() {
                 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                  <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

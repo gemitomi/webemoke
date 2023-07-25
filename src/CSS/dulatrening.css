@@ -197,7 +197,29 @@
       width: 80%;
       margin-inline: auto;
     }
+
+    
   
+  }
+
+  @media (max-width: 900px) {
+    .dulasubpage{
+      padding-bottom: 40px;
+    }
+  
+    .dula-subpage-portfolio-card .dula-subpage-chip {
+          
+          font-size: 4rem;
+    }
+
+    .subpagetitle-md {
+      font-size: 4rem;
+      padding-bottom: 5px; 
+    }
+
+    .dula-subpage-btn{
+      font-size: 3rem;
+    }
   }
 
 

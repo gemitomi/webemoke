@@ -9,34 +9,34 @@ import Blog13Pic3 from "../../../image/blog/blog_13_b_szoptatasrol.png";
 export default function SubBlog13() {
   return (
     <div>
-      <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+      <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog13Pic1} alt="Az igeny szerinti szoptatasrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Az igény szerinti szoptatásról</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Az igény szerinti szoptatásról</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2015. április 15.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog13Pic2} alt="Az igeny szerinti szoptatasrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Sződy Judit pszichológus, IBCLC szoptatási tanácsadó írását teszem most közzé. Örömmel várom a hozzászólásokat!
                         </p>
@@ -63,11 +63,11 @@ export default function SubBlog13() {
 
                 <h4>Egy félreértés nyomában</h4>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog13Pic3} alt="Az igeny szerinti szoptatasrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Vajon miért jutottunk el onnan, hogy egy baba bármikor szophat, odáig, hogy, ha három óránál gyakrabban tesszük mellre, akkor aggódni kezdünk, hogy ez nem normális. Azért, mert a szoptatást etetésnek tekintjük. Úgy gondoljuk, hogy a baba csak akkor akar megint szopni, ha megéhezett, vagyis, ha teljesen megemésztette az előző adagot, és ez a számítások szerint három óra. Régen senki sem gondolkodott rajta, hogy mennyit eszik a gyerek, mennyit kellene ennie, mennyi ideig tart az emésztés, és mikor lesz jogos a mell követelése. Régen ugyanis a szoptatást nem pusztán etetésnek tekintették, hanem vigasznak, menedéknek, altatónak is. 
                         </p>
@@ -86,7 +86,7 @@ export default function SubBlog13() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

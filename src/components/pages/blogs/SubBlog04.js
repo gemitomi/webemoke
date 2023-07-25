@@ -9,34 +9,34 @@ import Blog4Pic2 from "../../../image/blog/blog_04_lany_ .png";
 export default function SubBlog04() {
   return (
     <div>
-       <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+       <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog4Pic1} alt=""/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A Lány és a Kisfiú</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A Lány és a Kisfiú</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2017. május 17.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog4Pic2} alt="A lany es a kisfiu"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A Lány alig több mint 20 éves. Megkérdőjelezhetetlenül, 
                             a kezdetektől tudta, hogy mi az, akit és amit nagyon szeretne. 
@@ -81,7 +81,7 @@ export default function SubBlog04() {
                 <p><b>Egy Anya és egy Kisfiú.</b></p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

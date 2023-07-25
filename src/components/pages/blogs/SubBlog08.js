@@ -9,34 +9,34 @@ import Blog8Pic3 from "../../../image/blog/blog_08_a_ki_fel.jpg";
 export default function SubBlog08() {
   return (
     <div>
-      <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+      <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog8Pic1} alt="Ki fel a szulestol?"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Ki fél a szüléstől?</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Ki fél a szüléstől?</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2016. december 04.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog8Pic3} alt="Ki fel a szulestol?"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p><b>Ki fél a szüléstől?</b></p>
                         <p>
                             Talán meglepő, de az elmúlt években egyre gyakrabban tapasztalom azt, hogy nem az anya, hanem maga a szülészorvos.
@@ -58,12 +58,12 @@ export default function SubBlog08() {
 
                 <p>Mert  a következőket tapasztalom. Vannak olyan orvosok, akik szerint:</p>
 
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">“a várandósság folyamatát szigorúan követni kell”,</li>
-                    <li class="blog-globale-has-before">“a terhes nő számtalan veszélynek van kitéve”,</li>
-                    <li class="blog-globale-has-before">“biztonságosabb a kiírt napon elindítani a szülést, mint tovább várni”,</li>
-                    <li class="blog-globale-has-before">“jobb vágni (gátat, hasat), mint nem”,</li>
-                    <li class="blog-globale-has-before">“a szülés, akut, életveszélyes állapot”.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">“a várandósság folyamatát szigorúan követni kell”,</li>
+                    <li className="blog-globale-has-before">“a terhes nő számtalan veszélynek van kitéve”,</li>
+                    <li className="blog-globale-has-before">“biztonságosabb a kiírt napon elindítani a szülést, mint tovább várni”,</li>
+                    <li className="blog-globale-has-before">“jobb vágni (gátat, hasat), mint nem”,</li>
+                    <li className="blog-globale-has-before">“a szülés, akut, életveszélyes állapot”.</li>
                 </ul>
 
                 <p>
@@ -99,7 +99,7 @@ export default function SubBlog08() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

@@ -9,34 +9,34 @@ import Blog12Pic3 from "../../../image/blog/blog_12_b_dulatabor.jpg";
 export default function SubBlog12() {
   return (
     <div>
-      <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+      <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog12Pic1} alt="Dulatabor"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Dúlatábor</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Dúlatábor</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2015. július 06.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog12Pic2} alt="Dulatabor"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Tavaly, Kemencén volt a hagyományteremtő, az idén, Dunabogdányban hagyománnyá is nyilvánítottuk, hiszen már  a jövő évi táborunknak is megvan a szervezője és a helyszíne. 🙂
                         </p>
@@ -58,11 +58,11 @@ export default function SubBlog12() {
                     Gyakoroljuk dúlatábor előtt alatt és után, mert tudjuk, hogy a nyitottság, az ítéletmentes és empatikus attitűd az, ami a legközelebb visz a hozzánk forduló párokhoz, a velünk dolgozó orvosokhoz és szülésznőkhöz, és végső soron önmagunkhoz is.
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog12Pic3} alt="Dulatabor"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Nagyon szeretem ezt a közösséget, és jó hallani, hogy a többiek is ezt érzik.  Évek óta vagyunk kísérői egymás életének is, és bár természetszerűleg nem tartjuk napi szinten a kapcsolatot, a nyári táborunk, az adventi estéink és a havi női körös együttléteink, esetmegbeszélőink mindig megerősítik bennünk ennek a közösségnek az értékeit.
                         </p>
@@ -73,7 +73,7 @@ export default function SubBlog12() {
                     </div>
                 </div>
 
-                <div class="blog-global-tags">
+                <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

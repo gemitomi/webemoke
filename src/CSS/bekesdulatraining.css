@@ -16,6 +16,11 @@
     
 }
 
+.doula-trening-container a{
+    color: #a7638b;
+   
+}
+
 .doula-trening-head{
     text-align: center;
     line-height: 1.5;
@@ -107,7 +112,9 @@
     
 }
 
-
+.doula-trening-details ul li a{
+    display:inline;
+}
 
 
 .doula-trening-list .doula-trening-has-before{

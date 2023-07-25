@@ -257,3 +257,10 @@ ion-icon {
   }
 
 }
+
+@media (max-width: 800px) {
+  .latest-blog-btn {
+    
+    font-size: 2.8rem;
+  }
+}

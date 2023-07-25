@@ -46,8 +46,7 @@ render(){
               </div>
               <div className="doula-trening-text">
                   <p>
-                      2004 óta folyamatosan szervezek dúla alap- és továbbképzéseket. A több, mint 40 csoport és az alaptréninget végzett kb. 
-                      400 résztvevő száma alapján elmondhatom, hogy Magyarországon jelenleg én rendelkezem a legnagyobb múlttal a kórházi szülések kísérésére (is) felkészítő tréningek szervezésében és vezetésében. A képzéseket a tréning előadóival, a tapasztalataink és a résztvevők visszajelzései alapján folyamatosan alakítjuk, fejlesztjük.
+                  2004 óta folyamatosan szervezek dúla alap- és továbbképzéseket. A több, mint 50 alaptréningen végzett közel 500 résztvevő száma alapján elmondhatom, hogy Magyarországon a legrégebb óta rendelkezem a kórházi szülések kísérésére (is) felkészítő tréningek szervezésében és vezetésében. A képzéseket a tréning előadóival, a tapasztalataink és a résztvevők visszajelzései alapján folyamatosan alakítjuk, fejlesztjük.
                   </p>
                   <p>A felnőttképzési törvény szabályainak eleget téve a tréning a B/2022/001218 számmal van nyilvántartásba véve.
                   </p>
@@ -55,50 +54,59 @@ render(){
           </div>
 
           <p>Célom, hogy már az alaptréningen átadjuk a dúlai hivatás gyakorlásához legszükségesebb ismereteket, melyek bővítésére a továbbképzéseken, 
-              az esetmegbeszélő csoportokon és a műhelymunka (Dúlaműhely) keretein belül biztosítok lehetőséget.
+              az esetmegbeszélő csoportokon és a műhelymunka <Link to="/bekesdulamuhely">Békés Dúlaműhely</Link> keretein belül biztosítok lehetőséget.
           </p>
 
-          <p>Célom, hogy már az alaptréningen átadjuk a dúlai hivatás gyakorlásához legszükségesebb ismereteket, 
-              melyek bővítésére a továbbképzéseken, az esetmegbeszélő csoportokon és a műhelymunka (Dúlaműhely) keretein belül biztosítok lehetőséget.
-          </p> 
 
           <p>
-              A képzés egyre elismertebb az orvosok, szülésznők, más szülés körüli segítők körében, és nagy érdeklődésre tart számot a dúlai hivatás iránt érdeklődők között is.
+              Nagy örömömre a tréningre egyre többször jelentkeznek szülésznők, védőnők vagy más szülés körüli segítők, de nagy érdeklődésre tart számot a korábban teljesen más foglalkozást végzők között is. Sokan jönnek a tréningre olyanok is, akik a saját anyaságukra készülnek vagy a nőiségük, anyaságuk önismereti kérdéseiben szeretnének elmélyülni. 
           </p>
 
-          <p>A dúla alaptréning után tehát nem feltétlenül egyedül, hanem a dúlatársak 
-              támogatásával indulhatnak el a tréningen résztvevők a dúlává válás útján.
+          <p>
+            A tréning valamennyi, kiváló előadójával mindent megteszek azért, hogy magas minőségű, pontos és hiteles információkon alapuló képzésben részesüljenek a Békés Dúlatréningre jelentkezők. 
           </p>
+
+          
 
           <h5>2023 őszén a nagy érdeklődésre való tekintettel újra indul csoport!</h5>
 
           <p>
-              A tréning valamennyi kiváló előadójával – mint ahogy eddig is – mindent megteszek azért, 
-              hogy magas minőségű, pontos és hiteles információkon alapuló képzésben részesüljenek a 
-              Békés Dúlatréningre jelentkezők. Az alapképzés két, egymásra épülő tréningből áll. Az első az önismereti, motivációs tréning, tágabb lehetőséget nyújt az önmagunkban való elmélyedésre, a kb. egy hónappal későbbre meghirdetett 4 napos dúlatréning pedig a dúlai hivatással kapcsolatos praktikus információk feldolgozására.
+            Az alapképzés két, egymásra épülő tréningből áll. 
+          </p>
+          <p>
+            Az első az önismereti, motivációs tréning lehetőséget nyújt a résztvevőknek arra, hogy rátekinthessenek a segítői hivatás iránti érdeklődésük motivációira és mindazokra az alapvető készségekre, amelyek a dúlai támogatáshoz szükségesek. 
+
           </p>
 
           <p>
-              Az alaptréning elvégzése után a Békés Dúlaműhelyben mélyítheted tovább az ismereteidet, egy 150-170 órás továbbképzés keretein belül.  Az itt folyó munka egyrészt sokféle szakmai ismeretet nyújt, másrészt teret ad a további önismereti munkának.
+            A kb. egy hónappal későbbi 4 napos dúlatréning pedig a dúlai hivatással kapcsolatos attitűd, ismeretek, támogatási formák, praktikák és számos más információ megismerésére és feldolgozására szolgál.
           </p>
 
           <p>
-              A Békés Dúlatréninget végzett dúlák számára folyamatosan egyéni illetve csoportos szupervíziós lehetőséget biztosítok.
+            Mivel minden segítői munka - így a dúlai hivatás is – megkívánja az önismeretet és a sajátélmények megdolgozottságát, így a tréning során erre is nagy hangsúlyt helyezek. 
+          </p>
+
+          <p>
+            Az alaptréning elvégzése után a <Link to="/bekesdulamuhely">Békés Dúlaműhelyben</Link> mélyítheted tovább az ismereteidet, egy 150-170 órás továbbképzés keretein belül.  Az itt folyó munka egyrészt számos témában nyújt további szakmai ismereteket, másrészt teret ad a folyamatos önismereti munkának is, egy nagyon mély, egymást elfogadó és megtartó közösségben.
+          </p>
+
+          <p>
+            Sok éves tapasztalat, hogy az alaptréningen résztvevők szinte teljes létszámmal szeretnének tovább menni a dúlává válás útján a műhely keretei között, mert biztonságot és erőt ad számukra nem egyedül, hanem csoportban fejlődni.
           </p>
 
           <div className="doula-trening-details">
               <div className="doula-treningBx">
                   <h4>Mit nyújt a tréning?</h4>
                   <ul className="doula-trening-list">
-                      <li className="doula-trening-has-before">A tréningen – a mögöttem álló 20 évnyi, több, mint száz képzés tapasztalatai alapján – egy letisztult, de folyamatosan újuló, a mindenkori csoport igényeihez rugalmasan alkalmazkodó tematikát használok.</li>
+                      <li className="doula-trening-has-before">A tréningen - a mögöttem álló, több mint 20 évnyi képzés tapasztalatai alapján - egy letisztult, de folyamatosan újuló, a mindenkori csoport igényeihez rugalmasan alkalmazkodó tematikát használok.</li>
                       <li className="doula-trening-has-before">Ablakokat nyitok olyan témák, szakterületek felé, amelyek lehetővé teszik, hogy az alaptréninget végzett dúlák ismeretei tovább mélyülhessenek abba az irányba, amelyek felkeltették az érdeklődésüket (pl. a tréning után többen perinatális szaktanácsadó, aromaterapeuta vagy szoptatási tanácsadói képzésre jelentkeznek vagy elindulnak a bábává válás útján.)</li>
                       <li className="doula-trening-has-before">A tényszerű, konkrét ismeretek nyújtása mellett jelentősen építek a résztvevők tapasztalataira, tudására, teret adok a kérdéseik, gondolataik megfogalmazására és ezek közösen megbeszélésére.</li>
                       <li className="doula-trening-has-before">Folyamatosan és érzékenyen figyelek az egyes csoporttagokban zajló belső folyamatokra és a csoportdinamikára is, és segítem az önismereti illetve feldolgozó munkát.</li>
                       <li className="doula-trening-has-before">A tréning előadói legjobb tudásukkal, ugyanakkor távolságtartás nélkül, a női kör tagjaiként vesznek részt a képzésben.</li>
                       <li className="doula-trening-has-before">A tréning kiváló lehetőséget nyújt olyan nők számára is, akik vagy a gyermekáldásra készülnek vagy már várandósok, és hiteles információk alapján szeretnének a szülésükre és az anyaságra felkészülni.</li>
                       <li className="doula-trening-has-before">Az alaptréning a visszajelzések alapján mindig sokkal többet ad egyszerű dúlaképzésnél, és ez annak is köszönhető, hogy általában nagyon hamar kialakul a bizalom, a nyitottság és az elfogadás a csoport tagjai között.</li>
-                      <li className="doula-trening-has-before">Az alaptréninget végzetteknek nem engedem el a kezét. Lehetőségük van a Békés Dúlakör esetmegbeszélő csoportjain részt venni, beiratkozhatnak a Dúlaműhelybe, és a tréning végén egyéb utakat is mutatok az ismereteik bővítésére.</li>
-                      <li className="doula-trening-has-before">A Békés Dúlatréninget végzett dúlák számára szupervíziós lehetőséget biztosítok.</li>
+                      <li className="doula-trening-has-before">Az alaptréninget végzetteknek nem engedem el a kezét. Lehetőségük van  <Link to="/dulakor">Békés Dúlakör</Link>esetmegbeszélő csoportjain részt venni, beiratkozhatnak a<Link to="/bekesdulamuhely">Békés Dúlaműhelybe</Link>, és a tréning végén egyéb utakat is mutatok az ismereteik bővítésére.</li>
+                      <li className="doula-trening-has-before">A Békés Dúlatréninget végzett dúlák számára folyamatosan biztosítok egyéni és csoportos szupervízióra lehetőséget.</li>
                   </ul>
               </div>
           </div>
@@ -153,6 +161,14 @@ render(){
           <div className="doula-trening-faq">
               <Link to="/gyik" className="doula-trening-btn">Olvasd el a leggyakrabban előforduló kérdésekre adott válaszokat a tréninggel kapcsolatban!</Link>
           </div>
+          <div>
+
+          </div>
+
+          <div className="doula-trening-faq">
+              <Link to="/gallery" className="doula-trening-btn">Pillants bele a Békés Dúlatréning világába! <br/> A tréningről készült képeket itt tudod megtekinteni</Link>
+          </div>
+
           
 
 
@@ -162,49 +178,31 @@ render(){
                   <ul className="doula-trening-list">
                       <li className="doula-trening-has-before">A dúlaság alapelvei</li>
                       <li className="doula-trening-has-before">A dúla szerepe és lehetőségei a szülésre felkészítésben</li>
-                      <li className="doula-trening-has-before">A várandósság és a gyermekágy lélektani jellemzői</li>
+                      <li className="doula-trening-has-before">A várandósság és a gyermekágyas időszak testi és lélektani változásai, jellemzői</li>
                       <li className="doula-trening-has-before">A vajúdás és a szülés a bába szemével</li>
                       <li className="doula-trening-has-before">A vajúdás előrehaladásának nyomon követése külső jelek alapján</li>
                       <li className="doula-trening-has-before">Vajúdástámogatás</li>
                       <li className="doula-trening-has-before">Nehéz helyzetek</li>
                       <li className="doula-trening-has-before">A dúla szerepe császármetszés esetén</li>
-                      <li className="doula-trening-has-before">Az apáknak nyújtott támogatás</li>
-                      <li className="doula-trening-has-before">A gyermekágyas időszak alatti gondozás</li>
-                      <li className="doula-trening-has-before">A dokumentáció készítése</li>
-                      <li className="doula-trening-has-before">Szoptatás</li>
-                      <li className="doula-trening-has-before">Aromaterápiás és homeopátiás ismeretek a vajúdás, a szülés és a gyermekágy idejére</li>
-                      <li className="doula-trening-has-before">Kommunikációs gyakorlatok</li>
-                      <li className="doula-trening-has-before">A szuggesztív kommunikáció hatásai</li>
-                      <li className="doula-trening-has-before">Kompetencia-határok</li>
-                      <li className="doula-trening-has-before">Dúlapraktikák</li>
-                      <li className="doula-trening-has-before">Dúlamesék</li>
+                      <li className="doula-trening-has-before">Az apáknak nyújtott támogatás</li>                     
                   </ul>
               </div>
-          
+
 
               <div className="doula-trening-perform">
-                  <h4>A dúlatréning eddigi előadói:</h4>
+                  <h4>&nbsp;</h4>
                   
                   <ul className="doula-trening-list">
-                      <li className="doula-trening-has-before">Andrek Andrea – pszichológus </li>
-                      <li className="doula-trening-has-before">Békés Emőke szülésfelkészítő és családkísérő dúla, pszichopedagógus – tréner</li>
-                      <li className="doula-trening-has-before">Békési Beáta – klinikai szakpszichológus </li>
-                      <li className="doula-trening-has-before">Feller Adrienne – aromaterapeuta </li>
-                      <li className="doula-trening-has-before">Haas György – dúla – tréner</li>
-                      <li className="doula-trening-has-before">Hoppál Bori – testtudat oktató, dúla</li>
-                      <li className="doula-trening-has-before">Kovács Judit – aromaterapeuta</li>
-                      <li className="doula-trening-has-before">Dr. Kürti Katalin – homeopata orvos, a Magyar Homeopata Egyesület elnöke</li>
-                      <li className="doula-trening-has-before">Lénárd Orsolya – szülésfelkészítő és szüléskísérő dúla</li>
-                      <li className="doula-trening-has-before">Molnár Judit – klinikai szakpszichológus</li>
-                      <li className="doula-trening-has-before">Morvay Réka – szoptatási tanácsadó, dúla, pszichológus</li>
-                      <li className="doula-trening-has-before">Noll Andrea Nandu – holisztikus bába</li>
-                      <li className="doula-trening-has-before">Rákócziné Krämer Ágnes – szülésznő, szoptatási tanácsadó</li>
-                      <li className="doula-trening-has-before">Rózsa Ibolya – IBCLC szoptatási tanácsadó</li>
-                      <li className="doula-trening-has-before">Szászné Bán Judit – pszichológus</li>
-                      <li className="doula-trening-has-before">Szonda Györgyi – dúla, aromaterapeuta</li>
-                      <li className="doula-trening-has-before">Sződy Judit – pszichológus, IBCLC szoptatási tanácsadó</li>
-                      <li className="doula-trening-has-before">Tamás Dorka mentálhigiénés tanácsadó – tréner</li>
-                      <li className="doula-trening-has-before">Varga Katalin – klinikai szakpszichológus, hipnoterapeuta</li>
+                    <li className="doula-trening-has-before">A gyermekágyas időszak alatti gondozás</li>
+                    <li className="doula-trening-has-before">A dokumentáció készítése</li>
+                    <li className="doula-trening-has-before">Szoptatás</li>
+                    <li className="doula-trening-has-before">Aromaterápiás és homeopátiás ismeretek a vajúdás, a szülés és a gyermekágy idejére</li>
+                    <li className="doula-trening-has-before">Kommunikációs helyzetgyakorlatok</li>
+                    <li className="doula-trening-has-before">A szuggesztív kommunikáció jelentősége és hatásai</li>
+                    <li className="doula-trening-has-before">Kompetencia-határok</li>
+                    <li className="doula-trening-has-before">Dúlapraktikák</li>
+                    <li className="doula-trening-has-before">Dúlamesék gyakorló dúláktól</li>
+                    <li className="doula-trening-has-before">Hogyan induljunk dúlaként?</li>
                   </ul>
               </div>
           </div>

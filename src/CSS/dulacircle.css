@@ -88,6 +88,7 @@
 .bekesdulakor-other-text{
     width: 80%;
     padding: 2rem;
+    text-align: justify;
 }
 
 .bekesdulakor-other-container p{
@@ -96,6 +97,7 @@
     font-weight: 400;
     color: #39232f;
     margin: 1rem 0;
+    text-align: justify;
 }
 
 .bekesdulakor-other-container h3{

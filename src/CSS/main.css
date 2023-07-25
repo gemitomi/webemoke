@@ -44,23 +44,24 @@ html::-webkit-scrollbar-thumb{
     background-color: #fff9;
 }
 
-
-/*Rólam kezdete*/
-
 .home-about{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0;
-    background-color: #d4d1d2;
-    margin-top: 90px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
+  display: none;  
 }
 
-.home-about-container-services{
-    margin-top: 50px;
+/*Rólam kezdete*/
+@media (max-width: 805px){
+    .home-about{
+        display: flex;
+        align-items: center;
+        
+        padding: 0;
+        background-color: #d4d1d2;
+        margin-top: 70px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-direction: column;
+        
+    }
 }
 
 .home-about-container-services h1{
@@ -171,9 +172,187 @@ html::-webkit-scrollbar-thumb{
 /*Rólam vége*/
 
 
-/*Szolgáltatások kezdete*/
 
+.home-service{
+    text-align: center;
+    background: #f8f4f1;
+}
+
+.home-service .service{
+    text-align: center;
+    padding: 20px;
+}
+
+.home-service .heading-title{
+    font-size: 5rem;
+    color: #a7638b;
+}
+
+
+.box-container{
+   /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;*/
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.box-container .service-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 4rem;
+    
+}
+
+.box-container .service-card:nth-child(odd){
+    flex-direction: row;
+}
+
+.box-container .service-card:nth-child(even){
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+.service-card .service-imageBx{
+    left: 25px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    border: 2px solid #a7638b;
+
+}
+
+
+
+
+
+.box-container .service-card:nth-child(even) .service-imageBx{
+    left: -25px;
+}
+
+
+
+.box-container .service-card .service-imageBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #fff;
+    
+
+}
 /*
+.service-card .service-imageBx img:hover{
+    filter: grayscale(50%);
+    opacity: 0.5;
+}*/
+
+.box-container .service-card .service-contentBx{
+    position: relative;
+    right: 25px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px 20px 100px;
+    box-shadow: .5rem .5rem 1rem rgba(0,0,0,.3);
+}
+
+.box-container .service-card:nth-child(even) .service-contentBx{
+    right: -25px;
+    padding: 20px 100px 20px 60px;
+}
+
+
+.box-container .service-card .service-contentBx:before{
+    content:'';
+    position: absolute;
+    top: -50px;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.service-contentBx .service-content-title{
+    font-size: 2rem;
+    color: #a7638b;
+    
+    
+}
+
+.service-content-text{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color:#39232f
+    
+}
+
+.service-card .service-contentBx .service-content-btn{
+    display: inline-block;
+
+
+}
+
+
+@media (max-width: 770px){
+
+    .home-service .heading-title{
+        font-size: 4rem;
+    }
+
+    .box-container .service-card{
+        flex-direction: column;
+        max-width: 350px;
+        margin: 25px 25px;
+    }
+
+    .box-container .service-card .service-imageBX{
+        width: 100%;
+        height: auto;
+        left: 0px;
+    }
+
+    .box-container .service-card .service-contentBx{
+        width: 100%;
+        height: auto;
+        right: 0;
+        padding: 30px;
+        text-align: center;
+    }
+    .box-container .service-card .service-contentBx:before{
+        top: 0;
+        bottom: 0;
+    }
+
+    .box-container .service-card:nth-child(even) .service-imageBx{
+        left: 0px;
+    }
+
+    .box-container .service-card:nth-child(even) .service-contentBx{
+        right: 0px;
+        padding: 30px;
+    }
+}
+
+
+/*Szolgáltatások kezdete
+
+
 .home-service{
     text-align: center;
     background: #f8f4f1;
@@ -188,8 +367,7 @@ html::-webkit-scrollbar-thumb{
     font-size: 5rem;
     color: #a7638b;
 }
-*/
-/*
+
 .home-service .box-container{
    
     position: relative;
@@ -264,8 +442,8 @@ html::-webkit-scrollbar-thumb{
     color: #39232f;
     text-transform: uppercase;
 }
-*/
-/*Szolgáltatások vége*/
+
+Szolgáltatások vége*/
 
 
 /*dulatréning kezdete*/
@@ -1107,13 +1285,21 @@ svg circle{
     }
     
 }
-
+/*
 @media (max-width:950px){
     .feedback-title{
-        font-size: 5.5rem;
+        font-size: 5rem;
+    }
+
+    .feedback-name{
+        font-size: 3rem;
+    }
+
+    .feedback-button{
+        font-size: 2rem;
     }
 }
-
+*/
   /* Feedback end */
 
 

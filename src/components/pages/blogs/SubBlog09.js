@@ -8,34 +8,34 @@ import Blog9Pic2 from "../../../image/blog/blog_09_apak_konnyei.jpg";
 export default function SubBlog09() {
   return (
     <div>
-      <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+      <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog9Pic1} alt="Apak konnyei"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Apak konnyei</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Apak konnyei</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2016. november 28.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog9Pic2} alt="Apak konnyei"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>Éjjel van. A szülészet folyosóján lépkedek. Várnak, így sietek az ajtó felé, amely mögött az a pár vár, akiknek a hívására érkezem.</p>
                         <p>
                             De megállít valami,  pontosabban valaki. Egy férfi ül a folyosón, arcát a kezébe temeti és sír. Nem tudok elmenni mellette. Egyedül van a neonfénnyel, és rázkódik a teste, de nem a hideg fény miatt, hanem mert fél. Semmit sem kell kérdeznem, tudom, hogy az, akiket a világon a legjobban szeret, a tőle pár méterre lévő ajtó túloldalán vannak. Szülésben, születésben. Ők ketten, ő egyedül.
@@ -78,7 +78,7 @@ export default function SubBlog09() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>

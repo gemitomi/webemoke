@@ -8,34 +8,34 @@ import Blog14Pic2 from "../../../image/blog/blog_14_dulatrening_ujra.jpg";
 export default function SubBlog14() {
   return (
     <div>
-      <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+      <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog14Pic1} alt="Dulatrening ujra"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Dúlatréning - újra</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Dúlatréning - újra</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2013. szeptember 04.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog14Pic2} alt="Dulatrening ujra"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Még tizenkét nap várakozás. Aztán két, különleges nap. A dúlatréning önismereti, motivációs hétvégéje közeledik.</b>
                         </p>
@@ -59,7 +59,7 @@ export default function SubBlog14() {
                 <p><b>Téged is várlak! 🙂</b></p>
             </div>
         </div>
-        <div class="blog-global-tags">
+        <div className="blog-global-tags">
               <p>Címkék:</p>
               <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog">Blog</Link>
