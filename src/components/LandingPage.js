@@ -163,119 +163,114 @@ export default function LandingPage() {
             </section>
 
             <section className="home-service">
-        <div className="service">
-            <h2 className="heading-title"> Szolgáltatások </h2>
-        </div>
-    
-    
-    
-        <div className="box-container">
-            <div className="service-card">
-                <div className="service-imageBx">
-                    <img src={EgyeniKonz} alt="" />
+                <div className="service">
+                    <h2 className="heading-title"> Szolgáltatások </h2>
                 </div>
-                <div className="service-contentBx" style={{'background': "#e8dee4"}}>
-                    <div className="service-content">
-                        <h3 className="service-content-title">Egyéni konzultáció</h3>
-                        <p className="service-content-text">
-                            Teljesen a ti egyéni igényeiteket követve és kérdéseitek mentén haladva kísérlek el benneteket a babavárás hónapjaiban és a családdá válás útján,
-                            akár a szülés utáni időszakban is. Biztonságos, intim környezetben beszélhettek az érzéseitekről és kérdezhetsz te is, 
-                            a párod is bármit, ami ebben az időszakban foglalkoztat benneteket.
+                <div className="box-container">
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img className="servive-image" src={EgyeniKonz} alt="" />
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#e8dee4"}}>
+                            <div className="service-content">
+                                <h3 className="service-content-title">Egyéni konzultáció</h3>
+                                <p className="service-content-text">
+                                    Teljesen a ti egyéni igényeiteket követve és kérdéseitek mentén haladva kísérlek el benneteket a babavárás hónapjaiban és a családdá válás útján,
+                                    akár a szülés utáni időszakban is. Biztonságos, intim környezetben beszélhettek az érzéseitekről és kérdezhetsz te is, 
+                                    a párod is bármit, ami ebben az időszakban foglalkoztat benneteket.
 
-                        </p>
-                        <a href="#" className="service-content-btn"><span>Bővebben</span></a>
+                                </p>
+                                <a href="#" className="service-home-btn">Bővebben</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={CsaladTer} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#cfdade"}}>
+                            <div className="service-content">
+                                <h3 className="service-content-title">Családterápia</h3>
+                                <p className="service-content-text">
+                                    Ha a családi rendszerben valahol felborul az egyensúly, akkor a rendszer tagjai reagálni fognak erre annak érdekében, hogy kialakuljon egy új egyensúlyi állapot. Ebben a folyamatban igyekszem a hozzám forduló családokat az erőforrásaikat megerősítő,
+                                    kapcsolatukra fókuszáló, ítélkezésmentes attitűddel támogatni.
+                                </p>
+                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={AnyavaVal} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#e8dee4"}}>
+                            <div className="service-content">
+                                <h3 className="service-content-title">Anyává válni anyanyelven</h3>
+                                <p className="service-content-text">
+                                    Vajon milyen nyelven vajúdnak és szülnek azok az anyák, akik nem a szülőföldjükön szülik meg a gyermekeiket? 
+                                    Az online kommunikációs csatornák ma már lehetővé teszik, hogy a határokon átívelve könnyen kapcsolódhassunk 
+                                    és anyanyelven beszélhess az anyává válás során benned megfogalmazódott kérdésekről, érzésekről.
+                                </p>
+                                <a href="#" className="service-home-btn">Bővebben</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={NevTan} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#d5e1df"}}>
+                            <div className="sevice-content">
+                                <h3 className="service-content-title">Nevelési tanácsadás</h3>
+                                <p className="service-content-text">
+                                    Rengeteg nevelési irányzat, könyvek, internetes csoportok, megannyi információ, ajánlás, 
+                                    útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
+                                    Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
+                                </p>
+                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={SzulFel} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#e8dee4"}}>
+                            <div className="service-content">
+                                <h3 className="service-content-title">Szülésfelkészítés</h3>
+                                <p className="service-content-text">
+                                    A szülésre és a szülői szerepre készülődés a konkrét információk gyűjtésén és befogadásán túl, 
+                                    rendkívül intim, mély, sok érzést is megmozgató folyamat. 
+                                    A több száz kórházban és otthoni környezetben zajló szüléskísérésem tapasztalataim és a szakmai ismereteim átadása mellett lehetőséged van arra, hogy kimondhass mindent, amit érzel, vagy amit egy csoportos szülésfelkészítésen, mások előtt nem feltétlenül kérdeznél meg. 
+                                </p>
+                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={SzulFel} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#cfdade"}}>
+                            <div className="service-content">
+                                <h3 className="service-content-title">Szülésélmény feldolgozás</h3>
+                                <p className="service-content-text">
+                                    Az anyává válás egyik legmeghatározóbb eseménye, a szülés megélése, mely nagyon egyedi, nincs két egyforma történet. 
+                                    A támogatás minősége, a szülés körülményei és folyamata, az abban megélt érzések sokszínűsége mély lenyomatot hagy a nők és az őket kísérő párjuk életében is.
+                                    Oszd meg velem, ha úgy érzed, hogy nem tud nyugvópontra kerülni benned a szülésed élménye, szeretnéd jobban érteni és/vagy erőforrásként tekinteni rá egy későbbi gyermekvállalás során.
+                                </p>
+                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
     
-            <div className="service-card">
-                <div className="service-imageBx">
-                    <img src={CsaladTer} alt=""/>
-                </div>
-                <div className="service-contentBx" style={{'background': "#cfdade"}}>
-                    <div className="service-content">
-                        <h3 className="service-content-title">Családterápia</h3>
-                        <p className="service-content-text">
-                            Ha a családi rendszerben valahol felborul az egyensúly, akkor a rendszer tagjai reagálni fognak erre annak érdekében, hogy kialakuljon egy új egyensúlyi állapot. Ebben a folyamatban igyekszem a hozzám forduló családokat az erőforrásaikat megerősítő,
-                            kapcsolatukra fókuszáló, ítélkezésmentes attitűddel támogatni.
-                        </p>
-                        <a href="#" className="service-content-btn"><span>Bővebben</span></a>
-                    </div>
-                </div>
-            </div>
-    
-            <div className="service-card">
-                <div className="service-imageBx">
-                    <img src={AnyavaVal} alt=""/>
-                </div>
-                <div className="service-contentBx" style={{'background': "#d4b8c7"}}>
-                    <div className="service-content">
-                        <h3 className="service-content-title">Anyává válni anyanyelven</h3>
-                        <p className="service-content-text">
-                            Vajon milyen nyelven vajúdnak és szülnek azok az anyák, akik nem a szülőföldjükön szülik meg a gyermekeiket? 
-                            Az online kommunikációs csatornák ma már lehetővé teszik, hogy a határokon átívelve könnyen kapcsolódhassunk 
-                            és anyanyelven beszélhess az anyává válás során benned megfogalmazódott kérdésekről, érzésekről.
-                        </p>
-                        <a href="#" className="service-content-btn"><span>Bővebben</span></a>
-                    </div>
-                </div>
-            </div>
-    
-            <div className="service-card">
-                <div className="service-imageBx">
-                    <img src={NevTan} alt=""/>
-                </div>
-                <div className="service-contentBx" style={{'background': "#d5e1df"}}>
-                    <div className="sevice-content">
-                        <h3 className="service-content-title">Nevelési tanácsadás</h3>
-                        <p className="service-content-text">
-                            Rengeteg nevelési irányzat, könyvek, internetes csoportok, megannyi információ, ajánlás, 
-                            útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
-                            Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
-                        </p>
-                        <a href="#" className="service-content-btn"><span>Bővebben</span></a>
-                    </div>
-                </div>
-            </div>
-    
-            <div className="service-card">
-                <div className="service-imageBx">
-                    <img src={SzulFel} alt=""/>
-                </div>
-                <div className="service-contentBx" style={{'background': "#e8dee4"}}>
-                    <div className="service-content">
-                        <h3 className="service-content-title">Szülésfelkészítés</h3>
-                        <p className="service-content-text">
-                            A szülésre és a szülői szerepre készülődés a konkrét információk gyűjtésén és befogadásán túl, 
-                            rendkívül intim, mély, sok érzést is megmozgató folyamat. 
-                            A több száz kórházban és otthoni környezetben zajló szüléskísérésem tapasztalataim és a szakmai ismereteim átadása mellett lehetőséged van arra, hogy kimondhass mindent, amit érzel, vagy amit egy csoportos szülésfelkészítésen, mások előtt nem feltétlenül kérdeznél meg. 
-                        </p>
-                        <a href="#" className="service-content-btn"><span>Bővebben</span></a>
-                    </div>
-                </div>
-            </div>
-    
-            <div className="service-card">
-                <div className="service-imageBx">
-                    <img src={SzulFel} alt=""/>
-                </div>
-                <div className="service-contentBx" style={{'background': "#cfdade"}}>
-                    <div className="service-content">
-                        <h3 className="service-content-title">Szülésélmény feldolgozás</h3>
-                        <p className="service-content-text">
-                            Az anyává válás egyik legmeghatározóbb eseménye, a szülés megélése, mely nagyon egyedi, nincs két egyforma történet. 
-                            A támogatás minősége, a szülés körülményei és folyamata, az abban megélt érzések sokszínűsége mély lenyomatot hagy a nők és az őket kísérő párjuk életében is.
-                            Oszd meg velem, ha úgy érzed, hogy nem tud nyugvópontra kerülni benned a szülésed élménye, szeretnéd jobban érteni és/vagy erőforrásként tekinteni rá egy későbbi gyermekvállalás során.
-                        </p>
-                        <a href="#" className="service-content-btn"><span>Bővebben</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    
-
             <section className="dulatreningek">
                 <div className="dula-education-section">
                     <div className="dula-education-container">
@@ -381,7 +376,7 @@ export default function LandingPage() {
                         <ul className="slider-container service-list" data-slider-container>
 
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post1} width="300" height="300"alt="Kia dúla és miben segít?" className="w-100"/>
@@ -402,7 +397,7 @@ export default function LandingPage() {
                                 </div>
                             </li>
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post2} alt=""/>
@@ -424,7 +419,7 @@ export default function LandingPage() {
                             </li>
 
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post7} alt=""/>
@@ -446,7 +441,7 @@ export default function LandingPage() {
                             </li>
 
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post3} alt=""/>
@@ -468,7 +463,7 @@ export default function LandingPage() {
                             </li>
 
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post4} alt=""/>
@@ -490,7 +485,7 @@ export default function LandingPage() {
                             </li>
 
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post5} alt=""/>
@@ -511,7 +506,7 @@ export default function LandingPage() {
                             </li>
 
                             <li className="slider-item" data-slider-item>
-                                <div className="service-card">
+                                <div className="slide-service-card">
 
                                     <div className="card-icon">
                                         <img src={Post6} alt=""/>

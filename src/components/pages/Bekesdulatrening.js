@@ -105,7 +105,7 @@ render(){
                       <li className="doula-trening-has-before">A tréning előadói legjobb tudásukkal, ugyanakkor távolságtartás nélkül, a női kör tagjaiként vesznek részt a képzésben.</li>
                       <li className="doula-trening-has-before">A tréning kiváló lehetőséget nyújt olyan nők számára is, akik vagy a gyermekáldásra készülnek vagy már várandósok, és hiteles információk alapján szeretnének a szülésükre és az anyaságra felkészülni.</li>
                       <li className="doula-trening-has-before">Az alaptréning a visszajelzések alapján mindig sokkal többet ad egyszerű dúlaképzésnél, és ez annak is köszönhető, hogy általában nagyon hamar kialakul a bizalom, a nyitottság és az elfogadás a csoport tagjai között.</li>
-                      <li className="doula-trening-has-before">Az alaptréninget végzetteknek nem engedem el a kezét. Lehetőségük van  <Link to="/dulakor">Békés Dúlakör</Link>esetmegbeszélő csoportjain részt venni, beiratkozhatnak a<Link to="/bekesdulamuhely">Békés Dúlaműhelybe</Link>, és a tréning végén egyéb utakat is mutatok az ismereteik bővítésére.</li>
+                      <li className="doula-trening-has-before">Az alaptréninget végzetteknek nem engedem el a kezét. Lehetőségük van<Link to="/dulakor">Békés Dúlakör</Link>esetmegbeszélő csoportjain részt venni, beiratkozhatnak a<Link to="/bekesdulamuhely">Békés Dúlaműhelybe</Link>, és a tréning végén egyéb utakat is mutatok az ismereteik bővítésére.</li>
                       <li className="doula-trening-has-before">A Békés Dúlatréninget végzett dúlák számára folyamatosan biztosítok egyéni és csoportos szupervízióra lehetőséget.</li>
                   </ul>
               </div>
