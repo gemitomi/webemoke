@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/bekesdulamuhely.css"
+import "../../CSS/bekesdulaslider.css"
 
 import BekesDulaWork from "../../image/dula_muhely.png"
 
@@ -56,7 +57,53 @@ export default function Bekesdulamuhely() {
         <div className="consultation-btn-box" >
           <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>
+        <section className="dulaslider-section dulaslider-testi" aria-labelledby="dulaslider-testi-label">
+    <div className="dulaslider-container">
+      <ul className="dulaslider-slider">
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "#e8dee4"}}>
+            <div className="dulaslider-card-content">     
+              <blockquote className="dulaslider-body-sm">
+              A műhelymunka legnagyobb hozadéka számomra az a szemléletmód, ami átitatott minden témát. Alázat, szeretet, mellé lépés és hogy abban segítsek, amiben kérik. Szelídültem és nyitottabb lettem. Egyre inkább áthat ez a megértő, elfogadó hozzáállás az élet minden területén.
+              </blockquote>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Egy mély és tartalmas önismereti utat jártam be az elmúlt másfél évben. Rengeteget tanultam, és nem csak a dúlaságról, hanem önmagamról is. Mély blokkok oldódtak bennem, és már tudom, merre tartok. Megvan a célom és élvezem, amit csinálok!
+              </blockquote>
+           </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Teljesen más ember lettem, mint amikor idejöttem. Megváltozott az embertársaimhoz való viszonyom.<br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Az itt töltött másfél évnek köszönhetően a párkapcsolatomban, a szüleimmel és a gyermekeimmel is teljesen átalakultak a kapcsolataim.<br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
       </section>
+ 
     </div>
   )
 }

@@ -31,7 +31,7 @@ return (
         <div className="faq-container">
 
           <div className="faq-card-left">
-            <h2 className="h2 section-title">Gyakori kérdések a képzésről?<br/><span>Ha kérdésed van, lépj kapcsolatba velem!</span></h2>
+            <h2 className="h2 section-title">Gyakori kérdések a képzésről<br/><span>Ha kérdésed van, lépj kapcsolatba velem!</span></h2>
             <div className="faq-btn-container">
             <center><Link to="/contact" className="latest-blog-btn">Kapcsolatfelvétel</Link></center>
             </div>  
@@ -52,17 +52,20 @@ return (
 
                 <div className="card-content">
                   <p>
-                    Nem. A dúlává válásnak nem feltétele az egészségügyi végzettség, hiszen a dúlák nem látnak el klinikai feladatokat.
-                    A dúlaképzés első hétvégéjén, a motivációs tréningen tekintenek rá a résztvevők azokra a készségekre és képességekre
-                    (pl. empátia, elfogadás, kommunikáció), amelyek szükségesek ahhoz, hogy jól tudjanak segíteni.
-                    A képzés során tanulnak a várandósság, a vajúdás és a szülés, valamint a gyermekágyas időszak anatómiai, 
-                    élettani és lelki változásairól, és magáról a folyamatról, valamint megismerik a leggyakoribb szülészeti beavatkozások előnyeit, 
-                    hátrányait, kockázatait, tehát informáltak e témákban, de nem rendelkeznek egészségügyi végzettséggel.
-                    Ugyanakkor egyre többen érdeklődnek a dúlaképzés iránt védőnők és szülésznők is, akiknek van egészségügyi végzettségük,
+                    Nem. A dúlává válásnak nem feltétele az egészségügyi végzettség, hiszen a dúlák nem látnak el klinikai feladatokat. A dúlatréning első hétvégéjén, a motivációs tréningen tekintenek rá a résztvevők azokra a készségekre és képességekre (pl. empátia, elfogadás, kommunikáció),
+                    amelyek szükségesek ahhoz, hogy jól tudjanak segíteni.
+                  </p>
+                  <p>
+                    Az alaptréning során tanulnak a várandósság, a vajúdás és a szülés, valamint a gyermekágyas
+                    időszak anatómiai, élettani és lelki változásairól, és magáról a folyamatról, valamint megismerik a
+                    leggyakoribb szülészeti beavatkozások előnyeit, hátrányait, kockázatait, tehát informáltak e
+                    témákban, de nem rendelkeznek egészségügyi végzettséggel.
+                  </p>
+                  <p>
+                    Ugyanakkor egyre többen érdeklődnek a dúlatréning iránt védőnők és szülésznők is, akiknek van egészségügyi végzettségük,
                     és akiket természetesen szívesen és örömmel látok.
                   </p>
                 </div>
-
               </div>
             </li>
 
@@ -79,7 +82,10 @@ return (
 
                 <div className="card-content">
                   <p>
-                    Nem. Természetesen a saját szülésélmény nagyon fontos alapja ennek a segítői szakmának, 
+                    Nem. 
+                  </p>
+                  <p>
+                    Természetesen a saját szülésélmény nagyon fontos alapja ennek a segítői szakmának, 
                     de nem kizárólagos feltétele. Lehet, hogy valaki még nem szült, de kiváló empatikus készséggel, 
                     remek dúlai attitűddel és alapos önismerettel bír, ezáltal jobb segítő lehet annál, aki ugyan szült már, 
                     de a fentiekkel nem, vagy csak kevéssé rendelkezik.</p>
@@ -95,28 +101,22 @@ return (
                   <h3 className="h3 card-title">
                     03. Szükséges-e a motivációs tréningen akkor is részt vennem, ha van már mögöttem önismereti munka?
                   </h3>
-
-                  
                 </button>
-
                 <div className="card-content">
                   <p>
                     Igen, mert ennek a hétvégének több, speciális célja is van.
                   </p>
-
                   <p>Egyrészt arra tekintünk rá önismereti munka során, hogy a dúlai hivatás gyakorlásához, 
                     milyen képességek, készségek szükségesek, ezekkel ki, hogyan áll, milyen élethelyzetből érkeztek,
                     hogyan fér az életetekbe az, hogy mások szülését kísérjétek, és képet adok arról is, 
                     milyen keretek között, hogyan dolgozik egy dúla, milyen nehézségei, kihívásai és örömei 
-                    vannak ennek a segítői hivatásnak a mai egészségügyi rendszerben.</p>
-
-                    <p>Másrészt a csoporttagok megismerhetnek engem és a trénertársamat, rajtunk keresztül a
-                     szemléletünket, a Békés dúlák alapelveit, és így mindenki el tudja dönteni még a dúla alaptréning előtt, 
-                     hogy szimpatikus-e számára mindaz, amit mi nyújtani tudunk és szeretnénk.
-                    </p>
-
-                    <p>Itt ismertetem azt is, hogy az alaptréning után hová lehet csatlakozni, miben és hogyan segítem a dúlává válás útján az alaptréninget végzett társaimat.
-                     (Bővebben lsd. még a Békés Dúlatréning és Békés Dúlaműhely oldalakat.)</p>
+                    vannak ennek a segítői hivatásnak a mai egészségügyi rendszerben.
+                  </p>
+                  <p>
+                    Másrészt a csoporttagok megismerhetnek engem, a szemléletemet, a Békés dúlák alapelveit, és
+                    így mindenki el tudja dönteni még a dúla alaptréning előtt, hogy szimpatikus-e számára mindaz,
+                    amit nyújtani tudok.
+                  </p>
                 </div>
 
               </div>
@@ -144,13 +144,15 @@ return (
                     annál többet tudsz majd elvinni is belőle.
                   </p>
 
-                  <p>A tréning napjai hosszúak, általában 22 óra körül zárunk egy-egy napot, 
+                  <p>A tréning napjai hosszúak, általában 20-21 óra körül zárunk egy-egy napot, 
                     éppen ezért igény szerint lehetőséget biztosítunk a tréningen az ott alvásra is. 
                     Mivel a tréning elvégzésének feltétele a teljes idejű részvétel, így nem ideális azoknak, 
-                    akik még gyakran szoptatnak, vagy a babájuk esti elalvására haza kell érniük.</p>
+                    akik még gyakran szoptatnak, vagy a babájuk esti elalvására haza kell érniük.
+                  </p>
 
-                    <p>De mivel évente általában két-három alkalommal szervezek tréninget, egyszer mindenkinek 
-                    eljön az az idő, amikor teljes figyelmével velünk tud tartani.</p>
+                  <p>De mivel évente általában két-három alkalommal szervezek tréninget, egyszer mindenkinek 
+                    eljön az az idő, amikor teljes figyelmével velünk tud tartani.
+                  </p>
 
                 </div>
 
@@ -173,10 +175,7 @@ return (
                     Igen, ha úgy érzed, hogy erre készen állsz. Ezt a motivációs, önismereti hétvége és a 
                     4 napos alaptréning után mindenki jól meg szokta tudni ítélni. Amennyiben úgy érzed, hogy a 
                     tudásodat még szívesen mélyítenéd, és szeretnél együtt dolgozni tovább a csoportod tagjaival, 
-                    örömmel várlak a Békés Dúlaműhelybe, ami egy további 150 órás közös munkát jelent. 
-                    Ez a továbbképzés írásbeli és szóbeli vizsgával zárul, melynek végén a Békés szülésfelkészítő és 
-                    szüléskísérő dúla minősítést szerezheted meg, mely több szülészeti osztály számára olyan minőséget jelent, 
-                    amely alapján szívesen látnak majd kísérőként. (Bővebben lsd. még a Békés Dúlaműhely aloldalt.)
+                    örömmel várlak a <Link to="/bekesdulamuhely">Békés Dúlaműhelybe,</Link> ami egy további 150-170 órás közös munkát jelent. 
                   </p>
 
                 </div>
@@ -202,10 +201,13 @@ return (
                     </p>
 
                     <p>
-                        Havi rendszerességgel tartok esetmegbeszélőket, ahol lehetősége van minden dúlának feldolgoznia a munkája során történteket, 
-                        választ kapni a kérdéseire és megerősítést kapni a társaitól, ha erre lenne szüksége. 
-                        A rendszeres esetmegbeszélés nagyon fontos pillére a munkánknak, rengeteget tanulunk egymás kíséréseinek történeteiből is, 
-                        amelyet a legnagyobb titoktartási szabály mellett osztunk meg egymással.
+                      Havi rendszerességgel tartok esetmegbeszélőket, ahol lehetősége van minden dúlának feldolgoznia a munkája során történteket, 
+                      választ kapni a kérdéseire és megerősítést kapni a társaitól, ha erre lenne szüksége. 
+                      A rendszeres esetmegbeszélés nagyon fontos pillére a munkánknak, rengeteget tanulunk egymás kíséréseinek történeteiből is, 
+                      amelyet a legnagyobb titoktartási szabály mellett osztunk meg egymással.
+                    </p> 
+                    <p>
+                      Emellett igény szerint egyéni szupervíziót is biztosítok minden dúla számára.
                     </p>
                     
                   </div>

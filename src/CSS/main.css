@@ -176,11 +176,13 @@ html::-webkit-scrollbar-thumb{
 .home-service{
     text-align: center;
     background: #f8f4f1;
+    padding-bottom: 50px;
 }
 
 .home-service .service{
     text-align: center;
     padding: 20px;
+    
 }
 
 .home-service .heading-title{
@@ -362,25 +364,12 @@ html::-webkit-scrollbar-thumb{
     outline-offset: 4px;
   }
 
-@media (max-width: 600px){
-    .box-container .service-card .service-contentBx{
-        position: relative;
-        
-        width: 0px;
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-width: 300px;
-        
-    }
-}
 
 
-@media (max-width: 1350px){
+@media (max-width: 1330px){
 
     .service-home-btn{
-        font-size: 3rem;
+        font-size: 2.5rem;
         justify-content: center;
     }
 
@@ -392,11 +381,15 @@ html::-webkit-scrollbar-thumb{
          
     }
 
+    .service-content-text{
+        font-size: 2.5rem;        
+    }
+
     .box-container .service-card .service-contentBx{
         position: relative;
         
        
-        height: 350px;
+        min-height: 340px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -411,7 +404,7 @@ html::-webkit-scrollbar-thumb{
 
     .box-container .service-card{
         flex-direction: row;
-        margin: 25px 25px;
+        margin: 20px 2px;
     }
 
     
@@ -419,7 +412,7 @@ html::-webkit-scrollbar-thumb{
         width: auto;
         height: auto;
         right: 0;
-        padding: 30px;
+        padding: 10px;
         text-align: center;
     }
     .box-container .service-card .service-contentBx:before{
@@ -452,107 +445,71 @@ html::-webkit-scrollbar-thumb{
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px) {
     .box-container .service-card .service-contentBx{
+        min-width: 440px;
+    }
+}
+
+
+@media (max-width: 440px){
+    .home-service .heading-title{
+        font-size: 4rem;
+    }
+
+    .box-container .service-card{
+        flex-direction: column;
+        max-width: 350px;
+        margin: 25px 25px;
+    }
+
+   
+
+    .box-container .service-card .service-contentBx{
+        position: relative;
         
+        width: 0px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 300px; 
+   
+    }
+
+    .box-container .service-card .service-contentBx:before{
+        top: 0;
+        bottom: 0;
+    }
+
+    .box-container .service-card:nth-child(even) .service-imageBx{
+        left: 0px;
+    }
+
+    .box-container .service-card:nth-child(even) .service-contentBx{
+        right: 0px;
+        padding: 30px;
+    }
+
+
+
+}
+
+
+
+/*.box-container .service-card .service-contentBx{
+        position: relative;
+        
+        width: 0px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         min-width: 300px;
         
     }
-}
-/*Szolgáltatások kezdete
-
-
-.home-service{
-    text-align: center;
-    background: #f8f4f1;
-}
-
-.home-service .service{
-    text-align: center;
-    padding: 20px;
-}
-
-.home-service .service h2{
-    font-size: 5rem;
-    color: #a7638b;
-}
-
-.home-service .box-container{
-   
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-}
-
-.home-service .box-container .box{
-    position: relative;
-    min-width: 350px;
-    min-height: 480px;
-    border-radius: 1rem;
-    box-shadow: .5rem .5rem 1rem rgba(0,0,0,.3);
-    background: #fff;
-    transition: 0.5s;
-    margin: 10px;
-}
-
-.home-service .box-container:hover .box{
-    opacity: 0.2;
-}
-
-.home-service .box-container .box:hover{
-    opacity: 1;
-}
-
-.home-service .box-container .box .image{
-    position: relative;
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-}
-
-.home-service .box-container .box .image img{
-    height: 100%;
-    width: 100%;
-    padding: 2rem 0;
-    object-fit: contain;
-    transition: .2s linear;
-}
-
-.home-service .box-container .box .content{
-    width: 100%;
-    height: 80px;
-    padding: 2rem;
-    align-items: center;
-    text-align: center;
-}
-
-.home-service .box-container .box .content h3{
-    font-size: 2rem;
-    color: #a7638b;
-    line-height: 2;
-    padding: 1rem 0;
-}
-
-.home-service .btn{
-    position: relative;
-    padding: 2rem;
-    transition: all .2s ease;
-    border: none;
-    
-}
-
-.home-service .btn span{
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 0.05rem;
-    color: #39232f;
-    text-transform: uppercase;
-}
-
-Szolgáltatások vége*/
+*/
+/*szolgáltatások vége*/
 
 
 /*dulatréning kezdete*/
@@ -1246,7 +1203,7 @@ svg circle{
 
 .feedback-card{
     position: relative;
-    width: auto;
+    width: 100%;
     border-radius: 25px;
     background-color: #fff;
     margin: 40px;
@@ -1393,6 +1350,12 @@ svg circle{
         display: block;
     }
     
+}
+
+@media (max-width: 800px) {
+    .feedback-card{
+        width: auto;
+    }
 }
 /*
 @media (max-width:950px){

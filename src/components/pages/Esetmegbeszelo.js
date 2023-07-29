@@ -23,20 +23,21 @@ export default function Esetmegbeszelo() {
                         <li className="esetmegbeszelo-has-before">Várandósokat, szüléseket kísérsz?</li>
                         <li className="esetmegbeszelo-has-before">Megérint, kérdéseket ébreszt benned egy-egy történet, amelynek szereplője vagy a munkád során?</li>
                         <li className="esetmegbeszelo-has-before">Szükségét érzed, hogy mint segítő, te is segítséget kaphass a dúlatársaidtól?</li>
-                        <li className="esetmegbeszelo-has-before">Jólesne tapasztalatokat cserélni más szülés körüli segítőkkel?</li>
                         <li className="esetmegbeszelo-has-before">Mesélnél, kérdeznél, meghallgatnál?</li>
                         
                     </ul>
                 </div>
             </div>
-            <h4>Gyere és ülj közénk!</h4>
+            
 
-            <p>Mindegy, hogy hol, dúlaként vagy más szakma képviselőjeként segítesz a várandós anyáknak, beszéljünk egymással a tapasztalatainkról!</p>
+            <p>Jelentkezz emailben és gyere - akár alkalomszerűen is - a havi rendszerességgel zajló esetmegbeszélő csoportba!</p>
+            <h4><a href="mailto:info@bekesemoke.hu"> <i className="fas fa-envelope"></i> info@bekesemoke.hu</a></h4>
         </div>
-        <div className="consultation-btn-box" >
-          <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
-        </div>
+        
       </section>
     </div>
   ) 
 }
+//<div className="consultation-btn-box" >
+         // <Link to="/contact" className="consultation-btn"><span>Kapcsolatfelvétel</span></Link>
+        //</div>

@@ -119,6 +119,11 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
+                    <div className="education-faq">
+                        <center>
+                            <Link to="/gyik-szuloktol" className="latest-blog-btn">Gyakori kérdések a szülőktől</Link>
+                        </center>
+                    </div>
                 </div>
             </section>
     <section className="consultation4">

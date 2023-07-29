@@ -65,6 +65,7 @@
   display: grid;
   gap: 20px;
   list-style: none;
+  margin-top: 20px;
 }
 
 
@@ -155,9 +156,14 @@
     font-size: 1.5rem;
     color: #960d5f;
   }
+
+  .faq-card .card-content a {
+    display: inline;
+    color: #39232f;
+  }
   
   .faq-card .card-action.active + .card-content {         
-    max-height: 500px;
+    max-height: 1200px;
     display: block;
   
   }
@@ -173,7 +179,7 @@
     }
 
     .faq-btn-primary{
-      margin-bottom: 50px;
+      
       align-items: center;
     }
   }

@@ -34,6 +34,7 @@ import NevelesiTanacsadas from "./components/pages/NevelesiTanacsadas";
 import SzulesElmenyFeldolg from "./components/pages/SzulesElmenyFeldolg";
 import SzulesFelkeszites from "./components/pages/SzulesFelkeszites";
 import Gyik from "./components/pages/Gyik"
+import GyikSzuloktol from "./components/pages/GyikSzuloktol"
 import Stories from "./components/pages/Stories";
 import Stories2 from "./components/pages/Stories2";
 import Publications from "./components/pages/Publications";
@@ -62,7 +63,9 @@ import StoryMother1 from "./components/pages/subfeedback/StoryMother1";
 import StoryMother2 from "./components/pages/subfeedback/StoryMother2";
 import StoryMother3 from "./components/pages/subfeedback/StoryMother3";
 
-import Gallery from "./components/pages/Gallery";
+import GalleryDulaTrening from "./components/pages/GalleryDulaTrening";
+import GalleryDulaKor from "./components/pages/GalleryDulaKor";
+
 import SubBlog01 from "./components/pages/blogs/SubBlog01";
 import SubBlog02 from "./components/pages/blogs/SubBlog02";
 import SubBlog03 from "./components/pages/blogs/SubBlog03";
@@ -268,7 +271,9 @@ function App() {
             <Route path="/publications2" element={<Publications2/>}/>
             <Route path="/publications3" element={<Publications3/>}/>
             <Route path="/publications4" element={<Publications4/>}/>
-            <Route path="/gallery" element={<Gallery/>}/>
+            <Route path="/dula-trening-galeria" element={<GalleryDulaTrening/>}/>
+            <Route path="/dula-kor-galeria" element={<GalleryDulaKor/>}/>
+            
             <Route path="/" element={<LandingPage/>}/>
           </Routes>
 
@@ -282,6 +287,7 @@ function App() {
             <Route path="/nevelesitanacsadas" element={<NevelesiTanacsadas/>}/>
             <Route path="/szuleselmenyfeldolg" element={<SzulesElmenyFeldolg/>}/>
             <Route path="/szulesfelkeszites" element={<SzulesFelkeszites/>}/>
+            <Route path="/gyik-szuloktol" element={<GyikSzuloktol/>}/>
             <Route path="/gyik" element={<Gyik/>}/>
           </Routes>
 

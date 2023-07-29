@@ -14,7 +14,17 @@ export default function NevelesiTanacsadas() {
             <br/>
             <span>online is!</span>
             <hr/>
-            <p>Egyéni tanácsadás keretében többek között a csecsemőkori problémákkal, a testvérféltékenységgel, a szobatisztaság kérdésével, az óvodáskori beilleszkedési nehézséggel küzdő és az iskolába készülő gyermekek szülei részére nyújtok segítséget. Célom, hogy a beszélgetések során minden szülő megtalálja a saját és a gyermeke számára legideálisabb megoldásokat.</p>
+            <p>
+            Egyéni tanácsadás keretében többek között a csecsemőkori problémákkal, a
+            testvérféltékenységgel, a szobatisztaság kérdésével, az óvodáskori beilleszkedési nehézséggel
+            küzdő és az iskolába készülő gyermekek, illetve kamaszokat nevelő szülők részére nyújtok
+            segítséget. Célom, hogy a beszélgetések során minden szülő megtalálja a saját és a gyermeke
+            számára legideálisabb megoldásokat.
+            <p>
+              Mivel rendszerszemléletben gondolkozom, így a család egészét, működését tartom fontosnak
+              megismerni, nem önmagában csak a gyermeket, aki épp valamilyen nehézséggel küzd.
+            </p>
+            </p>
           </div>
           <div className="consultation-image">
             <img  src={NevTan} alt='' />

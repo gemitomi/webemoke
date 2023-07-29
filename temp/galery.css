@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    outline: none; border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.galery{
+    text-align: center;
+    background: #f8f4f1;
+}
+
+.galery .galery-galery{
+    text-align: center;
+    padding: 50px;
+}
+
+.galery-galery .galery-title{
+    font-size: 2rem;
+    color: #a7638b;
+}
+
+
+
+.galery-container {
+    width: 1400px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 20px;
+}
+
+.galery-container .galery-box{
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+
+}
+
+.galery-container .galery-box img{
+    max-width: 100%;
+    border-radius: 15px;
+    
+}
+
+@media (max-width: 1200px){
+
+    .galery-container{
+        width: calc(100% - 40px);
+        columns: 3;
+    }
+}
+
+@media (max-width: 768px){
+
+    .galery-container{
+        
+        columns: 2;
+    }
+}
+
+@media (max-width: 480px){
+
+    .galery-container{
+        
+        columns: 1;
+    }
+}

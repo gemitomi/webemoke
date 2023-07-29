@@ -14,7 +14,7 @@ export default function Anyavavalas() {
         <div className="anya-container">
 
           <h2 className="anya-headline-md anya-section-title anya-text-center" id="anya-testi-label">Anyává válni anyanyelven</h2>
-          <p className="anya-client-title">Az elmúlt években és napjainkban is nagyon sok fiatal költözik külföldre. 
+          <p className="anya-client-title">Az elmúlt években és napjainkban is nagyon sok pár költözik külföldre. 
             Közelebbi vagy a hazájuktól távolabbi országokban élnek, tanulnak, dolgoznak és egyre többen ott alapítanak családot is.<br/>
             <br/>A várandósság minden nő életében egy olyan érzékeny időszak, amikor nagyon sok érzés, gondolat, kérdés fogalmazódik meg a szüléssel,
             szülővé válással kapcsolatban.<br/>
@@ -42,7 +42,7 @@ export default function Anyavavalas() {
 
                     <div className="anya-card-content">
 
-                    <h1 className="anya-client-name">"Oly távol vagy tőlem mégis közel..."</h1>
+                    <h1 className="anya-client-name">"Oly távol vagy tőlem mégis közel..."<br/><br/></h1>
                     
                     <blockquote className="anya-body-sm">
                         „Kisbabátok lesz? De jó! És van már dúlád?“ – kérdezte egy nap a kolléganőm. 
@@ -97,7 +97,7 @@ export default function Anyavavalas() {
                     Mása a nevem. Cipruson élek a kislányommal, és a férjemmel.
                     Mikor arról kezdtünk el beszélgetni a férjemmel, hogy most már idehívnánk magunkhoz a kisbabánkat, 
                     én már akkor tudtam, hogy a férjemen kívül szeretném, ha lenne dúlánk, aki végigkísér ezen az úton minket.
-                    Így elkezdtem olvasgatni az interneten, ki is az a dúla és mit csinál. Rátaláltam a Békés Dúlakörre,...
+                    Így elkezdtem olvasgatni az interneten, ki is az a dúla és mit csinál. Rátaláltam a Békés Dúlakörre,...<br/>
                   </blockquote><br/><br/>
                   <Link to="/anyava-valni-cipruson" className="anya-btn anya-btn-primary">Bővebben</Link>
                 </div>

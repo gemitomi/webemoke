@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 
 import "../../CSS/bekesdulatraining.css"
 import "../../CSS/form.css"
+import "../../CSS/bekesdulaslider.css"
 
 import DoulaTrain from "../../image/dula_treningek.png"
 
@@ -161,54 +162,100 @@ render(){
           <div className="doula-trening-faq">
               <Link to="/gyik" className="doula-trening-btn">Olvasd el a leggyakrabban előforduló kérdésekre adott válaszokat a tréninggel kapcsolatban!</Link>
           </div>
-          <div>
+  <div>
 
+  <section className="dulaslider-section dulaslider-testi" aria-labelledby="dulaslider-testi-label">
+    <div className="dulaslider-container">
+      <ul className="dulaslider-slider">
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "#e8dee4"}}>
+            <div className="dulaslider-card-content">     
+              <blockquote className="dulaslider-body-sm">
+              Az előzetes elképzeléseimnél jóval többet kaptam a motivációs tréningen. Rálátást az erősségeimre és a gyengébb pontjaimra, iránymutatást, hogy mivel kell foglalkoznom a jövőben. Segített hangosan kimondani olyan dolgokat, amit azelőtt nem mertem, vagy nem is tudtam, hogy fáj vagy hiányzik.
+              </blockquote>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Sok ilyet még! Ilyen intenzív élménytalajt. Ennnyire kézzelfogható történeteket, az életet a maga valójában. Énekelni lenne kedvem, amit a világon a legjobban szeretek! Hú, ezt a közeget kerestem!
+              </blockquote>
+           </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Alázatot és szeretetet érzek. Az az állapot, amikor az elveszem-odaadom, megszerzem-adakozok, adok-kapok viszony értelmét veszti. Nagyon jó volt a meghitt együttlét – ez sok praktikumot felvonultató képzésekről hiányozni tud. Nekem ez legalább olyan fontos, mint a gyakorlati ismeretek<br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Csodálatos utazás volt. Kicsit félek belegondolni, hogy mi lett volna velem, ha nem teszem meg ezt az utat, vagy ha egyedül, asszonytársak nélkül kell végigjárnom. Tökéletes volt. Minden várakozást felülmúlt.<br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+            <div className="doula-trening-faq">
+                <Link to="/dula-trening-galeria" className="doula-trening-btn">Pillants bele a Békés Dúlatréning világába! <br/> A tréningről készült képeket itt tudod megtekinteni</Link>
+            </div>
+
+            
+
+
+            <div className="doula-trening-topic">
+                <div className="doula-trening-topicBx">
+                    <h4>A dúlatréning témái ( a teljesség igénye nélkül):</h4>
+                    <ul className="doula-trening-list">
+                        <li className="doula-trening-has-before">A dúlaság alapelvei</li>
+                        <li className="doula-trening-has-before">A dúla szerepe és lehetőségei a szülésre felkészítésben</li>
+                        <li className="doula-trening-has-before">A várandósság és a gyermekágyas időszak testi és lélektani változásai, jellemzői</li>
+                        <li className="doula-trening-has-before">A vajúdás és a szülés a bába szemével</li>
+                        <li className="doula-trening-has-before">A vajúdás előrehaladásának nyomon követése külső jelek alapján</li>
+                        <li className="doula-trening-has-before">Vajúdástámogatás</li>
+                        <li className="doula-trening-has-before">Nehéz helyzetek</li>
+                        <li className="doula-trening-has-before">A dúla szerepe császármetszés esetén</li>
+                        <li className="doula-trening-has-before">Az apáknak nyújtott támogatás</li>                     
+                    </ul>
+                </div>
+
+
+                <div className="doula-trening-perform">
+                    <h4>&nbsp;</h4>
+                    
+                    <ul className="doula-trening-list">
+                      <li className="doula-trening-has-before">A gyermekágyas időszak alatti gondozás</li>
+                      <li className="doula-trening-has-before">A dokumentáció készítése</li>
+                      <li className="doula-trening-has-before">Szoptatás</li>
+                      <li className="doula-trening-has-before">Aromaterápiás és homeopátiás ismeretek a vajúdás, a szülés és a gyermekágy idejére</li>
+                      <li className="doula-trening-has-before">Kommunikációs helyzetgyakorlatok</li>
+                      <li className="doula-trening-has-before">A szuggesztív kommunikáció jelentősége és hatásai</li>
+                      <li className="doula-trening-has-before">Kompetencia-határok</li>
+                      <li className="doula-trening-has-before">Dúlapraktikák</li>
+                      <li className="doula-trening-has-before">Dúlamesék gyakorló dúláktól</li>
+                      <li className="doula-trening-has-before">Hogyan induljunk dúlaként?</li>
+                    </ul>
+                </div>
+            </div>
           </div>
 
-          <div className="doula-trening-faq">
-              <Link to="/gallery" className="doula-trening-btn">Pillants bele a Békés Dúlatréning világába! <br/> A tréningről készült képeket itt tudod megtekinteni</Link>
-          </div>
-
-          
-
-
-          <div className="doula-trening-topic">
-              <div className="doula-trening-topicBx">
-                  <h4>A dúlatréning témái ( a teljesség igénye nélkül):</h4>
-                  <ul className="doula-trening-list">
-                      <li className="doula-trening-has-before">A dúlaság alapelvei</li>
-                      <li className="doula-trening-has-before">A dúla szerepe és lehetőségei a szülésre felkészítésben</li>
-                      <li className="doula-trening-has-before">A várandósság és a gyermekágyas időszak testi és lélektani változásai, jellemzői</li>
-                      <li className="doula-trening-has-before">A vajúdás és a szülés a bába szemével</li>
-                      <li className="doula-trening-has-before">A vajúdás előrehaladásának nyomon követése külső jelek alapján</li>
-                      <li className="doula-trening-has-before">Vajúdástámogatás</li>
-                      <li className="doula-trening-has-before">Nehéz helyzetek</li>
-                      <li className="doula-trening-has-before">A dúla szerepe császármetszés esetén</li>
-                      <li className="doula-trening-has-before">Az apáknak nyújtott támogatás</li>                     
-                  </ul>
-              </div>
-
-
-              <div className="doula-trening-perform">
-                  <h4>&nbsp;</h4>
-                  
-                  <ul className="doula-trening-list">
-                    <li className="doula-trening-has-before">A gyermekágyas időszak alatti gondozás</li>
-                    <li className="doula-trening-has-before">A dokumentáció készítése</li>
-                    <li className="doula-trening-has-before">Szoptatás</li>
-                    <li className="doula-trening-has-before">Aromaterápiás és homeopátiás ismeretek a vajúdás, a szülés és a gyermekágy idejére</li>
-                    <li className="doula-trening-has-before">Kommunikációs helyzetgyakorlatok</li>
-                    <li className="doula-trening-has-before">A szuggesztív kommunikáció jelentősége és hatásai</li>
-                    <li className="doula-trening-has-before">Kompetencia-határok</li>
-                    <li className="doula-trening-has-before">Dúlapraktikák</li>
-                    <li className="doula-trening-has-before">Dúlamesék gyakorló dúláktól</li>
-                    <li className="doula-trening-has-before">Hogyan induljunk dúlaként?</li>
-                  </ul>
-              </div>
-          </div>
         </div>
-
-      </div>
 
       <section className="consultation4">
         <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>

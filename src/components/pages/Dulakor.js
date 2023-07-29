@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../CSS/dulacircle.css"
 import DulaKorCircle from "../../image/dulakor_logo.jpg";
 
@@ -158,7 +159,9 @@ export default function Dulakor() {
 
           </div>
 
-
+          <div className="doula-trening-faq">
+                <Link to="/dula-kor-galeria" className="doula-trening-btn">Pillants bele a Békés Dúlakör világába!</Link>
+            </div>
 
 
 

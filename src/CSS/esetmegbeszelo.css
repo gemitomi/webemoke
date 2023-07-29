@@ -1,31 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-/*
 
-*{
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    outline: none; border: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    text-transform: none;
-}
-
-html{
-    font-size: 62.5%;
-}
-
-a{
-    text-transform: none;
-}
-
-li{
-    list-style: none;
-}
-
-*/
 .esetmegbeszelo{
     background: #f8f4f1;
+    margin-top: 50px;
 }
 
 
@@ -43,7 +20,7 @@ li{
 }
 
 .esetmegbeszelo-head h1{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     color: #a7638b;
     letter-spacing: 1px;

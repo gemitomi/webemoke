@@ -268,6 +268,12 @@ export default function LandingPage() {
                             </div>
                         </div>
                     </div>
+                    
+                </div>
+                <div className="education-faq">
+                    <center>
+                        <Link to="/gyik-szuloktol" className="latest-blog-btn">Gyakori kérdések a szülőktől</Link>
+                    </center>
                 </div>
             </section>
     
@@ -616,7 +622,7 @@ export default function LandingPage() {
                                 </div>
 
                                 <div className="feedback-card-content">
-                                    <h2 className="feedback-name">Kezdetektől fogva</h2>
+                                    <h2 className="feedback-name">Kezdetektől <br/>fogva</h2>
                                     <p className="feedback-description">Mindig öröm olyan 
                                         nőkkel találkozni, akik elhívást éreznek arra, 
                                         hogy asszonytársaiknak segítséget nyújtsanak, 
