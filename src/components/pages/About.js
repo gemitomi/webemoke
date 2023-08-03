@@ -39,9 +39,9 @@ export default function About() {
                     Mélyen hiszek abban, hogy a társas támasz jelentősége - mely a bizalmon és a biztonságérzeten alapul - rendkívül fontos mindkét szülő számára a várandósság hónapjai alatt, a szülés óráiban és a gyermekágyas időszakban egyaránt. Éppen ezért minden esetben igyekszem nem csak az anya nyugalmát és biztonságérzetét megteremteni, hanem a megszülető család minden tagjára egyaránt figyelni. Rendkívül fontosnak tartom azt, hogy az apa is biztonságban érezze magát, és az újszülött is az őt megillető tiszteletben és bánásmódban részesüljön.
                 </p>
                 <br/>
-                <Link to="/szulesfelkeszites">Szülésfelkeszítés</Link>
+                <Link to="/szulesfelkeszites">Szülésfelkeszítés ►</Link>
                 <br/>
-                <Link to="/egyenikonzultacio">Egyéni konzultáció</Link>
+                <Link to="/egyenikonzultacio">Egyéni konzultáció ►</Link>
                 <p className="text"><br/>
                     Kísérésem igény szerint a gyermekágy időszakában vagy akár még később is tart, mivel a szülők gyakran fordulnak hozzám a családdá válás folyamán felmerült kérdésekkel. 
                     Ez a bizalom motivált arra, hogy elvégezzem a <b>rendszerszemléletű pár- és családterápiás</b> képzést, aminek hamarosan a végére érek. Jelenleg terapeuta párjaimmal, szupervízió mellett segítjük a hozzánk fordulókat.
@@ -56,7 +56,7 @@ export default function About() {
                 </p>
                 
                 <p className="text">
-                    Ha nem csak olvasnál rólam, hanem szívesen meg is hallgatnád, hogyan, miért lettem dúla és mit ad nekem ez a csodálatos hivatás, íme egy interjú velem, ami a Kossuth Rádióban, az Arcvonások c. műsorban hangzott el 2015. decemberében.
+                    Ha nem csak olvasnál rólam, hanem szívesen meg is hallgatnád, hogyan, miért lettem dúla és mit ad nekem ez a csodálatos hivatás, íme egy interjú velem, ami a <Link to="https://www.youtube.com/embed/8GuOIpMYbqE" target="_blank">Kossuth Rádióban, az Arcvonások c. műsorban</Link>  hangzott el 2015. decemberében.
                 </p>
             </div>
         </section>

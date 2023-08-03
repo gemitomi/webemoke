@@ -59,8 +59,11 @@ html::-webkit-scrollbar-thumb{
         margin-top: 70px;
         padding-top: 30px;
         padding-bottom: 30px;
-        flex-direction: column;
-        
+        flex-direction: column; 
+    }
+
+    .home-about .content p{
+        font-size: 2.8rem;
     }
 }
 
@@ -99,14 +102,14 @@ html::-webkit-scrollbar-thumb{
 }
 
 .home-about .content h1 span{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
     line-height: 1.2;
     color: #a7638b;
 }
 
 .home-about .content p{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     padding: 1rem 0;
     line-height: 1.8;
     color: #39232f;
@@ -168,6 +171,7 @@ html::-webkit-scrollbar-thumb{
 .home-about .btn:active{
     transform: scale(0.95);
 }
+
 
 /*Rólam vége*/
 
@@ -235,15 +239,9 @@ html::-webkit-scrollbar-thumb{
 
 }
 
-
-
-
-
 .box-container .service-card:nth-child(even) .service-imageBx{
     left: -25px;
 }
-
-
 
 .box-container .service-card .service-imageBx img{
     position: absolute;
@@ -298,6 +296,13 @@ html::-webkit-scrollbar-thumb{
 }
 
 .service-content-text{
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color:#39232f
+    
+}
+
+.service-content-text-4{
     margin-top: 10px;
     font-size: 1.5rem;
     color:#39232f
@@ -382,20 +387,26 @@ html::-webkit-scrollbar-thumb{
     }
 
     .service-content-text{
-        font-size: 2.5rem;        
+        font-size: 2.8rem;        
+    }
+
+    .service-content-text-4{
+        font-size: 2.5rem; 
+      
     }
 
     .box-container .service-card .service-contentBx{
         position: relative;
         
        
-        min-height: 340px;
+        min-height: 360px;
         display: flex;
         justify-content: center;
         align-items: center;
         min-width: 600px;
         padding: 20px 60px 20px 100px;
     }
+    
 
     .home-service .heading-title{
         font-size: 5rem;
@@ -685,6 +696,18 @@ html::-webkit-scrollbar-thumb{
     .dula-education-section .dula-education-card{
         margin-bottom: 40px;     
     }
+
+    
+}
+
+@media (max-width:450px){
+    .dula-education-txt-box h2{
+        font-size: 3.2rem;
+    }
+
+    .dula-education-txt-box .dula-education-btn{
+        font-size: 3rem;
+    }
 }
 
 
@@ -847,6 +870,12 @@ svg circle{
         flex-direction: column;
     }
 
+    .dula-kor-left{
+        width: 80%;
+        margin-right: 2rem;
+    
+    }
+
     .img-sec{
         width: 80%;
     }
@@ -935,7 +964,8 @@ svg circle{
 
     .dula-kor-left p{
         font-size: 2.8rem;
-        margin:10px;
+        margin:0px;
+        text-align: justify;
     }
 
     .img-sec{
@@ -1000,7 +1030,7 @@ svg circle{
   
 .blog-section { 
     overflow: hidden;
-    padding-block: 100px;
+    padding-block: 80px;
     width: 100%;
     background-color: #f8f4f1;
 }
@@ -1022,6 +1052,13 @@ svg circle{
     border: 1px solid #a7638b;
     /*padding-top: 30px;*/
   }
+
+  @media (max-width: 560px) {
+    .btn { 
+        font-size: 2.5rem;
+    }
+}
+
   
   .section-subtitle {
     text-transform: uppercase;
@@ -1158,6 +1195,33 @@ svg circle{
     background-color: #e8dee4;
     --content-color: #d5e1df;
     }
+    
+    
+    
+@media (max-width: 800px) {
+    .blog-section { 
+        padding-block: 30px;
+        
+    }
+
+    .slide-service-card .card-title {
+        font-size: 2.5rem;
+      }
+
+    .section-text{
+        font-size: 2.8rem;
+    }
+
+    
+}
+
+@media (max-width: 560px) {
+    .slide-service-card .card-text { 
+        font-size: 2.5rem;
+    }
+}
+
+/* Blog section end */
   
   /* Feedback */
 
@@ -1244,6 +1308,13 @@ svg circle{
     background-color: #a7638b;
 }
 
+@media (max-width: 405px) {
+    .feedback-overlay::before,
+    .feedback-overlay::after{
+        z-index: -1;
+    }
+}
+
 .feedback-overlay::after{
     border-radius: 0 25px 0 0;
     background-color: #fff;
@@ -1295,14 +1366,17 @@ svg circle{
     text-align: center;
 }
 
+
+
 .feedback-author{
     font-size: 1.2rem;
     color: #a7638b;
 }
 
+
 .feedback-button{
     border: 1px solid #97bcc7;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
     max-width: max-content;
@@ -1316,6 +1390,8 @@ svg circle{
     text-decoration: none;
     border-radius: 5px ;
 }
+
+
 
 .feedback-button:hover{
     background-color: #cfdade;
@@ -1331,7 +1407,7 @@ svg circle{
 .feedback-button-btn .feedback-button-btn1{
     background: #97bcc7;
     color: #39232f;
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
     font-weight: 600;
     padding: 1.5rem 3rem;
@@ -1351,10 +1427,27 @@ svg circle{
     }
     
 }
+@media (max-width: 1105px) {
+    .feedback-description{
+        font-size: 2.5rem;
+    }
 
+    .feedback-tags a{
+        padding: 0.5rem;
+        font-size: 2.5rem;
+    }
+
+    .feedback-author{
+        font-size: 2rem;
+    }
+}
 @media (max-width: 800px) {
     .feedback-card{
         width: auto;
+    }
+
+    .feedback-button{
+        font-size: 2.8rem;
     }
 }
 /*
@@ -1657,6 +1750,11 @@ svg circle{
     font-size: 1.2rem;
     color: #a7638b;
 }
+@media  (max-width: 560px){
+    .author {
+        font-size: 2.5rem;
+    }
+}
 
 .button{
     border: none;
@@ -1701,7 +1799,7 @@ svg circle{
 
 .footer .box-container .box a{
     color: #a7638b;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 1.5rem;
     display: block;
 }
@@ -1754,7 +1852,7 @@ svg circle{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:500px){
 
     html{
         font-size: 30%;

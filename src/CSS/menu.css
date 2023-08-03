@@ -38,7 +38,7 @@ section{
 }
 
 .header-menu .navbar a{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     margin-left: 0.7rem;
     text-decoration: none;
@@ -127,22 +127,22 @@ ul li:hover ul.dropdown {
     
 }
 
-@media (min-width:1350px){
+@media (max-width:1310px){
     .header-menu .navbar a{
-        font-size: 18px;
+        font-size: 15px;
     }
     .header-menu .logo{
         margin-right: 100px;
     }
 }
 
-@media (max-width:1121px){
+@media (max-width:1160px){
     .header-menu .navbar a{
-        font-size: 12px;
+        font-size: 13px;
     }
 }
 
-@media (max-width:940px){
+@media (max-width:1045px){
 
     .menu-btn{
         display: block;
@@ -156,6 +156,10 @@ ul li:hover ul.dropdown {
         margin-top: 5px;
 
         
+    }
+
+    ul {
+        margin: 0px 10px 10px;
     }
 
     .header-menu{
@@ -205,7 +209,7 @@ ul li:hover ul.dropdown {
         width: 100%;
         height: 100vh;
         position: absolute;
-        top:200px;
+        top:280px;
     }
 
 }
@@ -218,8 +222,12 @@ ul li:hover ul.dropdown {
     .mobile-menu{
         top: 65px;
     }
-    ul {
-        margin: 0px 10px;
+    
+    .mobile-menu{
+        font-size: 4rem;
+        
+
+        
     }
     
    

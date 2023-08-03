@@ -111,15 +111,17 @@ export default function LandingPage() {
     
     return (
         <div>
-             <section className="home-about">
+            <section className="home-about">
 
                 <div className="image"> 
                     <img src={ProfilePic} alt="" />
                 </div>
                 <div className="content">
                     <h1>Békés Emőke<br/><span>dúla, képzésben lévő családterapeuta</span></h1>
-                    <p>Három gyermekes édesanya, nő, szerető társ, a Békés Dúlakör szakmai vezetője vagyok.
-                    Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő, családkísérő dúla  vagyok.</p>
+                        <p>
+                            Három felnőtt lányom édesanyja és egy kislány unokám nagymamája vagyok.
+                            Boldogsággal tölt el, hogy több mint két évtizede megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúlaként egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
+                        </p>
                     <center><Link to="/about" className="latest-blog-btn"><span>Bővebben</span></Link></center>
                 </div>
             </section>
@@ -143,12 +145,8 @@ export default function LandingPage() {
 
                                 <div className="about-text-2">
                                     <div className="about-text-inner">
-
                                         <p>
-                                            Három gyermekes édesanya, nő, szerető társ, a Békés Dúlakör szakmai vezetője vagyok.
-                                Egy boldog ember, hiszen két évtizede, hogy megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő, családkísérő dúla  vagyok.
-                                            
-                                        
+                                        Három felnőtt lányom édesanyja és egy kislány unokám nagymamája vagyok. Boldogsággal tölt el, hogy több mint két évtizede megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúlaként egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
                                         </p>
                                     </div>
                                 </div>
@@ -180,7 +178,7 @@ export default function LandingPage() {
                                     a párod is bármit, ami ebben az időszakban foglalkoztat benneteket.
 
                                 </p>
-                                <a href="#" className="service-home-btn">Bővebben</a>
+                                <Link to="/egyenikonzultacio" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -196,7 +194,7 @@ export default function LandingPage() {
                                     Ha a családi rendszerben valahol felborul az egyensúly, akkor a rendszer tagjai reagálni fognak erre annak érdekében, hogy kialakuljon egy új egyensúlyi állapot. Ebben a folyamatban igyekszem a hozzám forduló családokat az erőforrásaikat megerősítő,
                                     kapcsolatukra fókuszáló, ítélkezésmentes attitűddel támogatni.
                                 </p>
-                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/csaladterapia" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -213,7 +211,7 @@ export default function LandingPage() {
                                     Az online kommunikációs csatornák ma már lehetővé teszik, hogy a határokon átívelve könnyen kapcsolódhassunk 
                                     és anyanyelven beszélhess az anyává válás során benned megfogalmazódott kérdésekről, érzésekről.
                                 </p>
-                                <a href="#" className="service-home-btn">Bővebben</a>
+                                <Link to="/anyavavalas" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -230,7 +228,7 @@ export default function LandingPage() {
                                     útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
                                     Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
                                 </p>
-                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/nevelesitanacsadas" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -247,7 +245,7 @@ export default function LandingPage() {
                                     rendkívül intim, mély, sok érzést is megmozgató folyamat. 
                                     A több száz kórházban és otthoni környezetben zajló szüléskísérésem tapasztalataim és a szakmai ismereteim átadása mellett lehetőséged van arra, hogy kimondhass mindent, amit érzel, vagy amit egy csoportos szülésfelkészítésen, mások előtt nem feltétlenül kérdeznél meg. 
                                 </p>
-                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/szulesfelkeszites" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -259,12 +257,12 @@ export default function LandingPage() {
                         <div className="service-contentBx" style={{'background': "#cfdade"}}>
                             <div className="service-content">
                                 <h3 className="service-content-title">Szülésélmény feldolgozás</h3>
-                                <p className="service-content-text">
+                                <p className="service-content-text-4">
                                     Az anyává válás egyik legmeghatározóbb eseménye, a szülés megélése, mely nagyon egyedi, nincs két egyforma történet. 
                                     A támogatás minősége, a szülés körülményei és folyamata, az abban megélt érzések sokszínűsége mély lenyomatot hagy a nők és az őket kísérő párjuk életében is.
                                     Oszd meg velem, ha úgy érzed, hogy nem tud nyugvópontra kerülni benned a szülésed élménye, szeretnéd jobban érteni és/vagy erőforrásként tekinteni rá egy későbbi gyermekvállalás során.
                                 </p>
-                                <a href="#" className="service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/szuleselmenyfeldolg" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>

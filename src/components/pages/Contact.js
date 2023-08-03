@@ -46,7 +46,7 @@ export default function Contact() {
           </div>
         </div>
             <div className="contactForm">
-              <h2 >Kapcsolatfelvétel</h2>
+              <h1 >Kapcsolatfelvétel</h1>
               <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
                 <div className="formBox">
                   

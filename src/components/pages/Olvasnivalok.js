@@ -13,7 +13,7 @@ export default function Olvasnivalok() {
       <section className="latestblog">
           <div className="latest-blog-container">
   
-            <h2 className="latestblogsection-title latestblogheadline-md latesttext-center" id="portfolio-label">Olvasnivalók</h2>
+            <h1 className="latestblogsection-title latestblogheadline-md latesttext-center" id="portfolio-label">Olvasnivalók</h1>
   
             <ul className="latest-blog-portfolio-list">
   

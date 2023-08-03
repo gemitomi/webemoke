@@ -13,7 +13,7 @@ export default function Dulatrening() {
       <section className="dulasubpage">
         <div className="dula-subpage-container">
 
-          <h2 className="subpagesection-title subpageheadline-md subpagetext-center">Dúlatréning</h2>
+          <h1 className="subpagesection-title subpageheadline-md subpagetext-center">Dúlatréning</h1>
 
           <ul className="dula-subpage-portfolio-list">
 

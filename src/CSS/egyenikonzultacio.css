@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+
 .consultation {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,25 +9,21 @@
     margin-top: 70px;
 }
 
-.consultation1{
-    width: 100%;
-}
-
 .consultation2{
-    width: 100%;
+    
     overflow: hidden;
     background-color: #d4b8c7;
 }
 
 .consultation3{
-    width: 100%;
+    
     overflow: hidden;
     background-color: #d4b8c7;
 }
 
 .consultaion-container{
     display: flex;
-    width: 100%;
+    
     /*grid-template-columns:max-content;*/
     /*grid-gap: 20px;*/
     /*max-width: 1500px;*/
@@ -51,7 +47,7 @@
 }
 
 .consultaion-container .text-container{
-    width: 100%;
+    
     padding-bottom: 80px;
 } 
 
@@ -86,10 +82,7 @@
     line-height: 1.5;
 }
 
-.consultation-listbox{
-    width: 100%;
-    /*padding: 35px 15px 15px 15px;*/
-}
+
 
 .consultation-h4 {
     text-align: center;
@@ -118,7 +111,7 @@
     border-style: solid;
     border-color:#a7638b;
     border-width: 1px;
-    width: 100%;
+    
 }
 
 .consultation-listbox .lista ul{
@@ -175,6 +168,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0px;
+}
+
+.consultation-bottom2{
+    
+    display: none;
+   
 }
 
 .consultation-bottom .consultation-dula1-box{
@@ -255,7 +254,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 50px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     
 }
 
@@ -307,6 +306,39 @@
     margin: auto;
 }
 
+@media (max-width:990px){
+
+    .consultation-h4 h4{
+        font-size: 4rem;
+    }
+    .consultation-bottom{
+        display: none;
+    }
+
+    .consultation3{
+        display: none;
+    }
+
+    .consultation-bottom2{
+        background: #d4b8c7;
+        color: #a7638b;
+        overflow: hidden;
+        display: contents;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px;
+        font-size: 3rem;
+        text-align: justify;
+    }
+
+    .consultation-citateBx .consultation-citate-text{
+        font-size: 2.8rem;
+    }
+
+    .consultation-citateBx{
+        padding: 60px 50px 20px 50px;
+    }
+}
+
 @media (max-width:700px){
     .consultation-citateBx{
         padding: 20px 20px 20px 25px;
@@ -322,7 +354,7 @@
     }
 }
 
-@media (max-width:650px){
+@media (max-width:700px){
 
     .consultaion-container{
         display: flex;
@@ -331,13 +363,44 @@
     .consultation-btn{
         font-size: 2.5rem;
     }
+    .consultation-btn-box{
+        padding-bottom: 70px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
 }
 @media (max-width:450px){
 
+    .consultaion-container h1{
+        font-size: 5rem;
+    }
+
+    .consultation-listbox .lista li{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .consultaion-container p{  
+        padding-right: 20px;
+        font-size: 3rem;
+    }
+    
     .consultation-btn{
         font-size: 3.5rem;
     }
+
+    .consultaion-container .text-container{
+        padding-left: 20px;
+    } 
     
+    .consultation-listbox p {
+        font-size: 2.8rem;
+    }
+
+    .consultation-citateBx{
+        padding: 20px 35px 20px 35px;
+    }
         
 
 }

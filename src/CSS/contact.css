@@ -82,7 +82,7 @@
     color: #fff;
     margin-left: 10px;
     font-size: 1.8rem;
-    font-weight: 300;
+    font-weight: 600;
     opacity: 0.5;
 }
 
@@ -102,10 +102,10 @@
     box-shadow: 0 50px 50px rgba(0,0,0,0.5);
 }
 
-.contact .container .contactForm h2{
+.contact .container .contactForm h1{
     color: #a7638b;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 5rem;
+    font-weight: 800;
 }
 
 .contact .container .contactForm .formBox{
@@ -127,7 +127,9 @@
 
 .contact .container .contactForm .formBox .inputBox.w100{
     width: 100%;
+     font-size: 1.8rem;
 }
+
 
 .contact .container .contactForm .formBox .inputBox input,
 .contact .container .contactForm .formBox .inputBox textarea{
@@ -215,13 +217,21 @@
         height: 550px;
         box-shadow: none;
     }
+
+    .contact .container .contactForm h1{
+        color: #a7638b;
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    
 }
 
-@media(max-width: 990px)
+@media(max-width: 1050px)
 {
     .contact
     {
         background: #a7638b;
+        margin-top: 80px;
     }
     
     .contact::before
@@ -249,11 +259,33 @@
     }
 }
 
-@media(max-width: 435px)
+@media(max-width: 900px)
 {
+    .contact .container .contactForm .formBox{
+        flex-direction: column;
+    }
+
+    .contact .container .contactForm .formBox .inputBox.w50{
+        width: 100%;
+    }
+    
+    .contact .container .contactForm .formBox .inputBox Button[type="submit"]
+    {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media(max-width: 505px)
+{
+    .contact
+    {
+        margin-top: 70px;
+    }
+    
     .contact .container .contactinfo h2{
         
-        font-size: 1.5rem;
+        font-size: 4rem;
     }
 
     .contact .container .contactinfo ul.info{
@@ -266,11 +298,11 @@
     .contact .container .contactForm .formBox .inputBox input:valid ~ span,
     .contact .container .contactForm .formBox .inputBox textarea:valid ~ span
     {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .contact .container .contactinfo .info li span:nth-child(2){
-        font-size: 1rem;
+        font-weight: 600;
     }
 
     .contact .container .contactinfo .info li span:nth-child(1) img{
@@ -289,5 +321,15 @@
     .contact .container .contactForm h2{
         font-size: 18px;
         font-weight: 400;
+    }
+
+   
+
+}
+
+@media(max-width: 450px)
+{
+    .contact .container .contactinfo .info li span:nth-child(2){
+        font-size: 2.5rem;
     }
 }

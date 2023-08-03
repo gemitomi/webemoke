@@ -31,7 +31,7 @@ export default function Services() {
                                     a párod is bármit, ami ebben az időszakban foglalkoztat benneteket.
 
                                 </p>
-                                <a href="#" className="serv-service-home-btn">Bővebben</a>
+                                <Link to="/egyenikonzultacio" className="serv-service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default function Services() {
                                     Ha a családi rendszerben valahol felborul az egyensúly, akkor a rendszer tagjai reagálni fognak erre annak érdekében, hogy kialakuljon egy új egyensúlyi állapot. Ebben a folyamatban igyekszem a hozzám forduló családokat az erőforrásaikat megerősítő,
                                     kapcsolatukra fókuszáló, ítélkezésmentes attitűddel támogatni.
                                 </p>
-                                <a href="#" className="serv-service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/csaladterapia" className="serv-service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export default function Services() {
                                     Az online kommunikációs csatornák ma már lehetővé teszik, hogy a határokon átívelve könnyen kapcsolódhassunk 
                                     és anyanyelven beszélhess az anyává válás során benned megfogalmazódott kérdésekről, érzésekről.
                                 </p>
-                                <a href="#" className="serv-service-home-btn">Bővebben</a>
+                                <Link to="/anyavavalas" className="serv-service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function Services() {
                                     útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
                                     Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
                                 </p>
-                                <a href="#" className="serv-service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/nevelesitanacsadas" className="serv-service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ export default function Services() {
                                     rendkívül intim, mély, sok érzést is megmozgató folyamat. 
                                     A több száz kórházban és otthoni környezetben zajló szüléskísérésem tapasztalataim és a szakmai ismereteim átadása mellett lehetőséged van arra, hogy kimondhass mindent, amit érzel, vagy amit egy csoportos szülésfelkészítésen, mások előtt nem feltétlenül kérdeznél meg. 
                                 </p>
-                                <a href="#" className="serv-service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/szulesfelkeszites" className="serv-service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export default function Services() {
                                     A támogatás minősége, a szülés körülményei és folyamata, az abban megélt érzések sokszínűsége mély lenyomatot hagy a nők és az őket kísérő párjuk életében is.
                                     Oszd meg velem, ha úgy érzed, hogy nem tud nyugvópontra kerülni benned a szülésed élménye, szeretnéd jobban érteni és/vagy erőforrásként tekinteni rá egy későbbi gyermekvállalás során.
                                 </p>
-                                <a href="#" className="serv-service-home-btn"><span>Bővebben</span></a>
+                                <Link to="/szuleselmenyfeldolg" className="serv-service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>

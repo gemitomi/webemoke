@@ -50,7 +50,11 @@
     letter-spacing: 3px;
   }
   
-  .subpagetext-center { text-align: center; }
+  .subpagetext-center { 
+    text-align: center; 
+    font-size: 5rem;
+    font-weight: 800;
+  }
   
   .dula-subpage-img-cover {
     width: 100%;
@@ -197,19 +201,17 @@
       width: 80%;
       margin-inline: auto;
     }
-
-    
-  
   }
 
   @media (max-width: 900px) {
     .dulasubpage{
       padding-bottom: 40px;
+      padding-top:30px
     }
   
     .dula-subpage-portfolio-card .dula-subpage-chip {
           
-          font-size: 4rem;
+          font-size: 3rem;
     }
 
     .subpagetitle-md {
@@ -222,7 +224,19 @@
     }
   }
 
+  @media (max-width: 855px) {
+    .dula-subpage-portfolio-card .dula-subpage-chip {
+          
+      font-size: 2.2rem;
+    }
+  }
 
+  @media (max-width: 768px) {
+    .dula-subpage-portfolio-card .dula-subpage-chip {
+          
+      font-size: 3rem;
+    }
+  }
 
 
   

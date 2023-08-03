@@ -120,7 +120,7 @@
 }
 
 .serv-service-contentBx .serv-service-content-title{
-    font-size: 2rem;
+    font-size: 3rem;
     color: #a7638b;
     
     
@@ -279,10 +279,16 @@
     .serv-box-container .serv-service-card .serv-service-contentBx{
         min-width: 440px;
     }
+
+    .serv-home-service{
+        margin-top:70px;
+    }
 }
 
 @media (max-width: 440px){
 
+    
+    
     .serv-home-service .serv-heading-title{
         font-size: 4rem;
     }

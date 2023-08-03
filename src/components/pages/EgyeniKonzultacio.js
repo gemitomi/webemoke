@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../CSS/EgyeniKonzultacio.css"
 
 import Egyeni from "../../image/egyeni_1.png";
 
@@ -7,6 +8,7 @@ export default function EgyeniKonzultacio() {
   return (
     
     <div >
+     
       <section className="consultation">
         <div className='consultaion-container'>
           
@@ -26,7 +28,7 @@ export default function EgyeniKonzultacio() {
       <section className="consultation1">
         <div className="consultation-listbox">
           <div className="consultation-h4">
-            <h4>Amennyiben...</h4>
+            <h4><div>Abban az esetben ha...</div></h4>
           </div>
           <div className="separator-box"><span className="separator"></span></div>
           <div className="lista">
@@ -76,6 +78,28 @@ export default function EgyeniKonzultacio() {
             ha a várandósságod idején többször leülünk beszélgetni, de legalább egyszer találkozni
             szeretnék Veled és partnereddel vagy bármilyen más személlyel, aki jelen lesz a szülésnél
             (orvos, szülésznő, bába), még a vajúdás megindulása előtt, optimális esetben a 36. hét előtt.</p>
+          </div>
+          
+        </div>
+        <div className='consultation-bottom2'>
+          <div className="consultation-dula2-box">
+            <p className="consultation-dula-text">
+              A várandósság hónapjaiban a találkozóink alkalmával beszélgetünk a várandósság testi és lelki
+              változásairól, a vajúdás és a szülés élettani és lélektani folyamatairól, a gyermekágyas
+              időszakról, az újszülöttről és bármi másról, ami téged vagy a párodat foglalkoztat. Segítelek
+              elképzeléseid megfogalmazásában, tájékoztatlak a szülésre való felkészülés lehetőségeiről és
+              legjobb tudásom szerint igyekszem megválaszolni a benned felmerült kérdéseket.
+            </p>
+            <p className="consultation-dula-text">
+            Emellett szempontokat adok ahhoz, hogy az orvosoddal vagy szülésznőddel történő egyeztetés
+            után tisztán lásd, hogy abban az intézményben, ahol szülni fogsz, milyenek a szülés körülményei,
+            milyen alternatíváid vannak, hogyan történik az újszülöttek ellátása, milyen elhelyezést
+            biztosítanak a gyermekágyas osztályon, támogatják-e az anyatejes táplálást vagy azt, hogy a
+            szülést követően együtt maradhassatok a babáddal. Általában azt tartom a legjobb megoldásnak,
+            ha a várandósságod idején többször leülünk beszélgetni, de legalább egyszer találkozni
+            szeretnék Veled és partnereddel vagy bármilyen más személlyel, aki jelen lesz a szülésnél
+            (orvos, szülésznő, bába), még a vajúdás megindulása előtt, optimális esetben a 36. hét előtt. <br/><br/>
+            A találkozások gyakorisága és időtartama a Te igényeid szerint alakul, számomra az a fontos, hogy annyi időt tudjak biztosítani a számodra, amennyi szükségesnek érzel ahhoz, hogy mire elérkezik a szülésed ideje, ne maradjanak megválaszolatlan kérdéseid.</p>
           </div>
           
         </div>
