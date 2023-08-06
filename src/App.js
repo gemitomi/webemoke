@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
+import Impressum from "./components/impressum";
 
 import {
   BrowserRouter,
@@ -271,6 +272,7 @@ function App() {
             <Route path="/publications4" element={<Publications4/>}/>
             <Route path="/dula-trening-galeria" element={<GalleryDulaTrening/>}/>
             <Route path="/dula-kor-galeria" element={<GalleryDulaKor/>}/>
+            <Route path="/felhasznalasi-feltetelek" element={<Impressum/>}/>
             
             <Route path="/" element={<LandingPage/>}/>
           </Routes>

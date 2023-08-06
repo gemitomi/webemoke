@@ -8,7 +8,7 @@ export default function Dulakor() {
     <div>
       <section className="bekesdulakor-other">
 
-      <div className="bekesdulakor-other-container">
+        <div className="bekesdulakor-other-container">
           <div className="bekesdulakor-other-head">
               <h1>Békés Dúlakör</h1>
               <h2>A Békés Dúlakör megalakulásának rövid története</h2>
@@ -157,9 +157,9 @@ export default function Dulakor() {
               <a href="mailto:titkarsag@bekesdulakor.hu" className="bekesdulakor-oldal">titkarsag@bekesdulakor.hu</a>
               <p>telefon: +36 70 948-5481</p>
 
-          </div>
+            </div>
 
-          <div className="doula-trening-faq">
+            <div className="doula-trening-faq">
                 <Link to="/dula-kor-galeria" className="doula-trening-btn">Pillants bele a Békés Dúlakör világába!</Link>
             </div>
 

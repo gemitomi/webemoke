@@ -1829,8 +1829,7 @@ svg circle{
     background-color: #e8dee4;
     background-size: cover;
     background-position: center;
-    padding: 2rem 10%;
-    
+    padding: 2rem 15%;
 }
 
 .footer .box-container{
@@ -1841,7 +1840,7 @@ svg circle{
 
 .footer .box-container .box a{
     color: #a7638b;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 1.5rem;
     display: block;
 }
@@ -1861,7 +1860,7 @@ svg circle{
     padding-top: 3rem;
     margin-top: 3rem;
     border-top: .1rem solid #777;
-    font-size: 2rem;
+    font-size: 1.2rem;
 
 }
 

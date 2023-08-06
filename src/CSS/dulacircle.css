@@ -17,6 +17,7 @@
     width: 100%;
     margin-inline: auto;
     padding-left: 10px;
+    padding-bottom: 20px;
 }
 
 .bekesdulakor-other-head{
@@ -175,7 +176,7 @@
 }
 
 .bekesdulakor-elerheto .bekesdulakor-oldal{
-    font-size: 3rem;
+    font-size: 1.8rem;
     color: #a7638b;
     font-weight: 400;
     line-height: 2;
@@ -253,6 +254,10 @@
         color: #a7638b;
         font-weight: 400;
         line-height: 2;
+    }
+
+    .bekesdulakor-elerheto .bekesdulakor-oldal{
+        font-size: 2rem;
     }
     
 }

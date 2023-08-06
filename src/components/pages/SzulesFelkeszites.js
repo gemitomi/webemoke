@@ -13,7 +13,7 @@ export default function SzulesFelkeszites() {
         <div className='szulfel-col-left'>
           <div className="szulfel-text">
             <h1>Szülésfelkészítés</h1>  
-            <span>Online lehetőség</span><hr/>
+            <span>Online is</span><hr/>
           
             <h3>Szülésre, szülői szerepre való felkészítés</h3>
             

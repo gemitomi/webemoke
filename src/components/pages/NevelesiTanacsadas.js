@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/EgyeniKonzultacio.css"
 import "../../CSS/nevelesitanacsadas.css"
@@ -28,6 +29,7 @@ export default function NevelesiTanacsadas() {
           </div>
         </div>
       </section>
+      
       <section className="nevtan-consultation-citateBx">
         <p className="nevtan-consultation-citate-text">
           ”Minél jobban megérti a szülő a gyereket, és minél jobban el tudja helyezni pillanatnyi állapotát fejlődésének menetében, annál érdekesebbnek fogja találni ezt a kis lényt. Minél érdekesebb a kicsi a szülő számára, az annál több figyelmet fog szentelni neki, és minél több figyelmet kap, ő is annál többel viszonozza majd.

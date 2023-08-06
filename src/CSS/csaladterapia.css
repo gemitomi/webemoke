@@ -1,7 +1,241 @@
-.family-therapy{
-    margin-top: 200px;
+.family-consultation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8dee4;
+    margin-top: 70px;
+    padding: 2rem 15%;
+    max-height:fit-content;
 }
 
-.family-therapy h2{
-    margin-top: 100px;
+
+.family-consultation-image{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.family-consultaion-container{
+    display: flex;
+    
+    /*grid-template-columns:max-content;*/
+    /*grid-gap: 20px;*/
+    /*max-width: 1500px;*/
+    /*padding-left: 80px;*/
+    background: #e8dee4;
+    /*padding: 35px 15px 15px 0px;*/
+    
+    align-items: center;
+    padding-top: 50px;
+}
+
+.family-consultation-image{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.family-consultaion-container img{
+    align-items: center;
+    /*width: 30%;*/
+    border-radius: 50px;
+}
+
+.family-consultaion-container .family-text-container{
+    
+    padding-bottom: 80px;
+} 
+
+.family-consultaion-container .family-text-container span{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #a7638b;
+} 
+
+.family-consultaion-container hr{
+    width: 25%;
+    margin-top: 15px;
+    border: 1px solid #a7638b; 
+    z-index: 1;  
+}
+
+.family-consultaion-container h1{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #a7638b;
+}
+
+.family-consultaion-container p{  
+    
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: left;
+    color: #a7638b;
+    line-height: 1.5;
+}
+
+
+.family-container-bottom{
+    background: #e8dee4;
+    padding: 2rem 15%;
+}
+
+.family-container-bottom p{
+    color: #a7638b;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.family-consultation-citateBx{
+    position: sticky;
+    text-align: justify;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../image/nevelesi_tanacsadas_citates.png);
+    /*height: 50vh;*/
+    display: none;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 15%;
+    /*padding: 60px 200px 20px 200px;*/
+    overflow: hidden;
+}
+
+.family-consultation-citateBx .family-consultation-citate-text{
+    font-size: 1.8rem;
+    color: #39232f;
+    line-height: 3rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.family-consultation-citateBx .family-consultation-citate-text h6{
+    color: #39232f;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: end;
+   
+}
+
+@media (max-width:1120px){
+    .family-consultaion-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .family-consultaion-container p{  
+        margin-bottom: 0px;
+        
+    }
+    .family-consultation-image{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .family-consultation-citateBx .family-consultation-citate-text{
+        
+        line-height: 4rem;
+        
+    }
+}
+
+@media (max-width:990px){
+
+    .consultation-h4 h4{
+        font-size: 4rem;
+    }
+    
+    .family-consultation-image{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .family-consultaion-container .family-text-container{
+    
+        padding-bottom: 20px;
+    } 
+
+
+    .family-consultaion-container p{  
+    
+        font-size: 2.8rem;
+    }
+
+    .family-consultation-citateBx .family-consultation-citate-text{
+        font-size: 2.8rem;
+        
+    }
+
+    .family-container-bottom p{
+        font-size: 2.8rem;
+    
+    }
+
+    .family-consultation-citateBx{
+        padding: 60px 50px 20px 30px;
+    }
+}
+
+@media (max-width:700px){
+    .family-consultation-citateBx{
+        padding: 20px 20px 20px 25px;
+    }
+    .consultation-btn{
+        font-size: 2.5rem;
+    }
+
+    .family-consultaion-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .family-container-bottom{
+        padding: 2rem 5%;
+    }
+
+    .family-consultaion-container .family-text-container{  
+        padding-right: 20px;
+        font-size: 2.8rem;
+    }
+    
+    .consultation-btn{
+        font-size: 2.5rem;
+    }
+    .consultation-btn-box{
+        padding-bottom: 70px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+}
+@media (max-width:450px){
+
+    .family-consultaion-container h1{
+        font-size: 5rem;
+    }
+
+   
+
+    
+    .consultation-btn{
+        font-size: 3.5rem;
+    }
+
+    .family-consultaion-container .family-text-container{
+        padding-left: 20px;
+    } 
+    
+    
+    .family-consultation-citateBx{
+        padding: 20px 35px 20px 35px;
+    }
+        
+
 }

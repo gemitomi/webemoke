@@ -144,9 +144,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
+.doula-trening-button-box Button{
+    font-size: 3rem;
+}
+
+
 .doula-trening-button{
     border: 1px solid #a7538b;
     font-size: 1.8rem;

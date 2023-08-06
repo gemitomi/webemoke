@@ -221,6 +221,7 @@
 .blog-global-tags{
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .blog-global-tags p{

@@ -154,6 +154,10 @@ render(){
               </ul>
           </div>
 
+          <div className="doula-trening-button-box">
+            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most is megteheted</Button>               
+          </div>
+
           <p>
               Amennyiben valamilyen okból le kell mondanod a részvételedet, tájékoztatlak, hogy a tréning hetében történő lemondás esetén a részvételi díj 50%-át tudom visszafizetni, 48 órán belüli lemondás esetén azonban már ezt sem.
           </p>
@@ -319,6 +323,14 @@ render(){
                             <label>e-mail cím (kötelező)</label>
                             <input type="text" name="email_from" id="emailFrom" required/>
                         </div>
+                        <div className="appli-inputBox">
+                            <label>Kérlek írj néhány mondatot magadról és a motivációidról! (kötelező)</label>
+                            <textarea name="motivation" id="motivation" required/>
+                        </div>
+                        <div className="appli-inputBox">
+                            <label>Egyéni kérdésed, kérésed</label>
+                            <textarea name="question" id="question" />
+                        </div>
                         <div className="appli-checkbox">
                             <label for="vehicle"></label><br/>
                             <input type="checkbox" name="vehicle" id="vehicle" value="true" required/><br/>
@@ -329,7 +341,7 @@ render(){
 
                         <div className="appli-button-container">
                             
-                            <Button type="submit">Küldés</Button>  
+                            <Button type="submit">Küldés</Button>
                         </div>
                         </div>              
                     </form>
