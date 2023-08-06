@@ -9,34 +9,34 @@ import Birth08Pic3 from "../../../image/szulestort/szules_story_08_a_hideg_ho_me
 export default function BirthStory08() {
     return (
         <div>
-          <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+          <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth08Pic1} alt="Hideg, ho, melegseg"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Hideg, hó, megegség</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Hideg, hó, megegség</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2012. augusztus 14.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                        <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth08Pic3} alt="Hideg, ho, melegseg"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Noé ma fél éves. Ragyogó napsütés, forró nyári napok. Pár napja almát kanalaz lelkesen. Megtanult forogni, kúszni, mászni, felülni és remegő lábakkal állásba húzza magát. Érzéseit arcával, hangjával kifejezi, felfigyel a nevére és ért néhány szóból és gesztusukból. Hihetetlen nagy lépéseket tett meg az elmúlt hat hónapban, amit én most csak elröppenni éreztem.
                         </p>
@@ -86,11 +86,11 @@ export default function BirthStory08() {
                     Az jó volt, hogy megtisztálkodhattam, elhelyezkedhettem. Lepihentem — már amennyire a keskeny, magas ágyakon gátsebbel, sajgó testtel pihenni lehet –, vártam a reggelit, megettem és az euforikus érzésektől fűtve még azon melegében körbe tudtam telefonálni a közeli hozzátartozókat. De aztán nem tudtam már magammal mit kezdeni, hiányzott Noé. Érte mentem, nyugodtan alvó babát kaptam. Gondoltam, sokáig nem is fogom hallani a hangját, de rám cáfolt, mert már a déli órákban felébredt, hangicsált. Alig vártam már, hogy magamhoz ölelhessem. S ahogy ott tartottam, egyszerűen éreztem, hogy ez a baba nem más, mint egy élő kis boldogság-kapszula. Már ekkor próbálkozott a szopizással, meglepően hamar ráérzett a dologra, és aztán az első éjszaka már evett is. A tej nyilván ennek köszönhetően hamar belövellt, s így elkerülve a besárgulást, a második kórházi nap után már mehettünk haza, ráadásul úgy, hogy jóformán súlyt sem vesztett kicsi Noé. Egy kis szopógép lett rövid idő alatt — olyan gyorsan, hatékonyan evett, hogy csak ámultam-bámultam. Ezt a jó szokását később is megtartotta 🙂
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth08Pic2} alt="Hideg, ho, melegseg"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Hálás vagyok ezért a második szép élményért, s azért, hogy újra mellettem lehettek, immár összekovácsolódott kis csapatban azok, akik e számomra kemény testi-lelki munkában oly sokat tudtak segíteni: Jin, Emőke és Bálint doktor. És újra átélhettük a kórházban a majdnem otthon szülés élményét, ami, azt gondolom, az adott lehetőségek között szintén nagy ajándék!
                         </p>
@@ -99,7 +99,7 @@ export default function BirthStory08() {
                 </div>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories">Szüléstörténetek</Link>

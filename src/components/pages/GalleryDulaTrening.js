@@ -31,36 +31,36 @@ import PicDulaTr24 from "../../image/gallery/dulatreniggallerykpek/dulatrening_0
 export default function GalleryDulaTrening() {
   return (
     <div>
-         <section class="galery">
-            <div class="galery-galery">
-                <h1 class="galery-title">Képek a dúlatréningekről</h1>
+         <section className="galery">
+            <div className="galery-galery">
+                <h1 className="galery-title">Képek a dúlatréningekről</h1>
             </div>
 
-            <div class="galery-container">
-                <div class="galery-box"><img src={PicDulaTr1}/></div>
-                <div class="galery-box"><img src={PicDulaTr2}/></div>
-                <div class="galery-box"><img src={PicDulaTr3}/></div>
-                <div class="galery-box"><img src={PicDulaTr4}/></div>
-                <div class="galery-box"><img src={PicDulaTr5}/></div>
-                <div class="galery-box"><img src={PicDulaTr6}/></div>
-                <div class="galery-box"><img src={PicDulaTr7}/></div>
-                <div class="galery-box"><img src={PicDulaTr8}/></div>
-                <div class="galery-box"><img src={PicDulaTr9}/></div>
-                <div class="galery-box"><img src={PicDulaTr10}/></div>
-                <div class="galery-box"><img src={PicDulaTr11}/></div>
-                <div class="galery-box"><img src={PicDulaTr12}/></div>
-                <div class="galery-box"><img src={PicDulaTr13}/></div>
-                <div class="galery-box"><img src={PicDulaTr14}/></div>
-                <div class="galery-box"><img src={PicDulaTr15}/></div>
-                <div class="galery-box"><img src={PicDulaTr16}/></div>
-                <div class="galery-box"><img src={PicDulaTr17}/></div>
-                <div class="galery-box"><img src={PicDulaTr18}/></div>
-                <div class="galery-box"><img src={PicDulaTr19}/></div>
-                <div class="galery-box"><img src={PicDulaTr20}/></div>
-                <div class="galery-box"><img src={PicDulaTr21}/></div>
-                <div class="galery-box"><img src={PicDulaTr22}/></div>
-                <div class="galery-box"><img src={PicDulaTr23}/></div>
-                <div class="galery-box"><img src={PicDulaTr24}/></div>
+            <div className="galery-container">
+                <div className="galery-box"><img src={PicDulaTr1}/></div>
+                <div className="galery-box"><img src={PicDulaTr2}/></div>
+                <div className="galery-box"><img src={PicDulaTr3}/></div>
+                <div className="galery-box"><img src={PicDulaTr4}/></div>
+                <div className="galery-box"><img src={PicDulaTr5}/></div>
+                <div className="galery-box"><img src={PicDulaTr6}/></div>
+                <div className="galery-box"><img src={PicDulaTr7}/></div>
+                <div className="galery-box"><img src={PicDulaTr8}/></div>
+                <div className="galery-box"><img src={PicDulaTr9}/></div>
+                <div className="galery-box"><img src={PicDulaTr10}/></div>
+                <div className="galery-box"><img src={PicDulaTr11}/></div>
+                <div className="galery-box"><img src={PicDulaTr12}/></div>
+                <div className="galery-box"><img src={PicDulaTr13}/></div>
+                <div className="galery-box"><img src={PicDulaTr14}/></div>
+                <div className="galery-box"><img src={PicDulaTr15}/></div>
+                <div className="galery-box"><img src={PicDulaTr16}/></div>
+                <div className="galery-box"><img src={PicDulaTr17}/></div>
+                <div className="galery-box"><img src={PicDulaTr18}/></div>
+                <div className="galery-box"><img src={PicDulaTr19}/></div>
+                <div className="galery-box"><img src={PicDulaTr20}/></div>
+                <div className="galery-box"><img src={PicDulaTr21}/></div>
+                <div className="galery-box"><img src={PicDulaTr22}/></div>
+                <div className="galery-box"><img src={PicDulaTr23}/></div>
+                <div className="galery-box"><img src={PicDulaTr24}/></div>
                 
             </div>
     </section>

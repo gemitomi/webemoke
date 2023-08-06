@@ -8,34 +8,34 @@ import Birth26Pic2 from "../../../image/szulestort/szules-story-26-ereztem-jotto
 export default function BirthStory26() {
   return (
   <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth26Pic1} alt="ereztem-bekes-jottodet"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Éreztem békés jöttödet</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Éreztem békés jöttödet</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p></p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                          <Link to="/stories2" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth26Pic2} alt="ereztem-bekes-jottodet"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Először egy ismerősömtől hallottam nagyszerű dolgokat a dúlákról és így jutottam el Emőkéhez, aki nagyon sokat segített a felkészülésben egy természetesebb szülés eléréséhez. Ő általa ismertem meg a szülésznőmet, a szülésznő által pedig az új orvosomat. Ezek az események mind a terhességem utolsó hónapjában történtek. Nem bántam meg, sőt azt hiszem ebben a dologban jobban nem is dönthettem volna. A szülés előtt egy-két héttel megbeszéltük a férjemmel, hogy lesz dúla. Kezdetben ő kételkedett abban, hogy van-e dúlára szükség, ha ő ott van velem. De csak addig, amíg nem találkoztunk, beszélgettünk Emőkével.
                         </p>
@@ -74,7 +74,7 @@ export default function BirthStory26() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to= "/stories2">Szüléstörténetek</Link>

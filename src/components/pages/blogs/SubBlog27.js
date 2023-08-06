@@ -8,34 +8,34 @@ import Blog27Pic2 from "../../../image/blog/blog-27-szuletes-hete-a bekes-dulako
 export default function SubBlog27() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog27Pic1} alt="szuletes-hete-a-bekes-dulakor-szervezeseben"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Születés Hete a Békés Dúlakör szervezésében</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Születés Hete a Békés Dúlakör szervezésében</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2012. április 23.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                         <Link to="/blog2" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog27Pic2} alt="szuletes-hete-a-bekes-dulakor-szervezeseben"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A Születés Hete az évnek az a kiemelt hete, amikor a családalapítással kapcsolatos fontos információk egy egységes arculattal rendelkező országos rendezvénysorozat keretében koncentráltan érhetők el az érdeklődők számára. A Születés Hete ahhoz kíván hozzájárulni, hogy ezek az információk feldolgozhatók legyenek, és segítsék a legmegfelelőbb egyéni döntés megszületését. 
                         </p>
@@ -168,7 +168,7 @@ export default function SubBlog27() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog2">Blog</Link>

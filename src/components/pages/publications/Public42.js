@@ -8,34 +8,34 @@ import Public42Pic2 from "../../../image/publications/public-42-csaszarmetszes-u
 export default function Public42() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public42Pic1} alt="csaszarmetszes-utan-ujra-szulni"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Császármetszés után újra szülni</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Császármetszés után újra szülni</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2009. július 15.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications3" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications3" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public42Pic2} alt="csaszarmetszes-utan-ujra-szulni"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Kedves Emőke!</b>
                         </p>
@@ -103,21 +103,21 @@ export default function Public42() {
                     <b>Javaslatunk szerint kerüljenek a relatív kontraindikációk közé az alábbiak:</b>
                 </p>
             
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">lőzetes császármetszés, ha az anyának a császármetszés óta már volt egy sikeres hüvelyi szülése.</li>
-                    <li class="blog-globale-has-before">Evidencia: ha a nőnek már volt hüvelyi szülése császármetszés után, a méhrepedés kockázata drámai mértékben csökken.</li>
-                    <li class="blog-globale-has-before">Előzetes császármetszés, ha semmilyen más komplikáció vagy relatív kontraindikáció nem áll fenn.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">lőzetes császármetszés, ha az anyának a császármetszés óta már volt egy sikeres hüvelyi szülése.</li>
+                    <li className="blog-globale-has-before">Evidencia: ha a nőnek már volt hüvelyi szülése császármetszés után, a méhrepedés kockázata drámai mértékben csökken.</li>
+                    <li className="blog-globale-has-before">Előzetes császármetszés, ha semmilyen más komplikáció vagy relatív kontraindikáció nem áll fenn.</li>
                     
                 </ul>
 
                 <p>
                     <b>A kizáró tényezők közé sorolandók:</b>
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Előzetes császármetszés, ha a méhtesten ezenkívül más műtétet is végeztek.</li>
-                    <li class="blog-globale-has-before">Előzetes császármetszés, ha a műtét nem alsó transversalis metszéssel történt.</li>
-                    <li class="blog-globale-has-before">Előzetes császármetszés és bármely olyan állapot, amely valószínűsíti az ismételt császármetszés szükségességét (például valódi téraránytalanság, fekvési rendellenesség).</li>
-                    <li class="blog-globale-has-before">Előzetes császármetszés, ha a méhlepény a hegnél tapad.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Előzetes császármetszés, ha a méhtesten ezenkívül más műtétet is végeztek.</li>
+                    <li className="blog-globale-has-before">Előzetes császármetszés, ha a műtét nem alsó transversalis metszéssel történt.</li>
+                    <li className="blog-globale-has-before">Előzetes császármetszés és bármely olyan állapot, amely valószínűsíti az ismételt császármetszés szükségességét (például valódi téraránytalanság, fekvési rendellenesség).</li>
+                    <li className="blog-globale-has-before">Előzetes császármetszés, ha a méhlepény a hegnél tapad.</li>
                     
                 </ul>
                 <p>
@@ -136,7 +136,7 @@ export default function Public42() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications3">Publikációim</Link>

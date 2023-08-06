@@ -8,34 +8,34 @@ import Blog34Pic2 from "../../../image/blog/blog-34-bucsu-a-botyitol.jpg";
 export default function SubBlog34() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog34Pic1} alt="bucsu-a-botyitol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Búcsú a Botyitól</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Búcsú a Botyitól</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2011. november 2.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                         <Link to="/blog2" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog34Pic2} alt="bucsu-a-botyitol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Pontosan másfél évig volt szívemnek kedves találkozási pont a “Botyi”. Ennek a Vak Bottyán utcai lakásnak a falai között sok-sok emberi történet bomlott ki. Szerettem ezt a helyet én is és mindazok, akik vendégként megfordultak nálam.  
                         </p>
@@ -60,7 +60,7 @@ export default function SubBlog34() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog2">Blog</Link>

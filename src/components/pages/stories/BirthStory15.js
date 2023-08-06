@@ -8,34 +8,34 @@ import Birth15Pic2 from "../../../image/szulestort/szules_story_15_az_ut.png";
 export default function BirthStory15() {
     return (
         <div>
-          <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+          <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth15Pic1} alt="Az ut"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Az út</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Az út</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2010. július 04.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                        <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth15Pic2} alt="Az út"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A legfontosabb dolog, hogy úgy szüljetek, ahogy nektek a legjobb SZERINTETEK. Senki más véleménye ne térítsen el, főleg ne a “Ha én túléltem így/úgy, te is túl fogod!”, “Nem volt kívánságműsor nekem sem!”, “A lényeg a gyerek, ne legyél önző!” mondatok és társai. Nekem nagyon sokat számított a kórházban, hogy tudtam, hogy ott van velem a férjem – aki nyugodt(!), mert tudja, hogy nem kell harcolnia és mindent tudnia sem, mert nem leszünk egyedül – és persze Emőke, és semmi baj nem ér. Olyan nyugodt voltam, és ettől annyira jól szültem! Ha újra kellene szülnünk, ugyanígy csinálnánk, csak én nem aggódnék annyit előtte.
                         </p>   
@@ -109,7 +109,7 @@ export default function BirthStory15() {
                 <p><b>Egyszóval: csodajó szülés volt!!! Mindenkinek köszönjük és nektek, akik ezt olvassátok, hasonló szép szülést kívánunk!</b></p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <a href="#">Olvasnivaló</a>
                 <a href="#">Szüléstörténetek</a>

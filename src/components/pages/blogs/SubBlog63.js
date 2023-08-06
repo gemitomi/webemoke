@@ -10,25 +10,25 @@ import Blog63Pic4 from "../../../image/blog/blog-63-melyinteju-kutyaval.jpg";
 
 export default function SubBlog63() {
   return ( <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog63Pic1} alt="melyinterju"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Mélyinterjú</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Mélyinterjú</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2022. december 14.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
@@ -37,11 +37,11 @@ export default function SubBlog63() {
                     Többet, személyesebbet rólam, a szüléskísérésekről és a hivatásomhoz fűződő viszonyomról az alábbi, Szuromi Ágnes által készített interjú részleteiből olvashatsz.
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog63Pic2} alt="melyinterju-szulok"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Milyen volt a gyerekkorod, a családod?</b>
                         </p>
@@ -124,11 +124,11 @@ export default function SubBlog63() {
                 <p>
                     <b>Időközben, 2002-ben pedig magad is újra átélhetted a szülés élményét, már dúlaként. Számomra érdekes az, hogy saját dúlád ekkor sem volt.</b>
                 </p>
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog63Pic3} alt="melyinterju-lanyokkal"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A második gyerekem születése után azt éreztem, hogy még van helye egy kistesónak. A ház építésekor is beterveztük a harmadik gyerekszobát, így aztán nagyon örültünk, amikor 2002-ben jelentkezett Eszter. Gyöngyvér ekkor tizenegy, Dorka nyolc éves volt. Mivel sokat tudtak a hivatásom miatt a szülésről, születésről, így talán nem meglepő, hogy amikor megtudták, hogy várandós vagyok, az első kérdésük az volt, hogy bent lehetnek-e majd a szülésnél. Az biztos volt, hogy kórházban fogok szülni, mert bár én hajlottam volna arra, hogy a harmadik gyerekem otthon szülessen, a párom nem érezte volna sem magát, sem bennünket biztonságban, ezért megpróbáltunk egy olyan kórházi környezetet találni, ahol mindannyian együtt lehetünk jelen.
                         </p>
@@ -249,11 +249,11 @@ export default function SubBlog63() {
                 <p>
                     <b>Hogyan tudsz feltöltődni, van-e mégis valamennyi szabad időd és azt mivel töltöd?</b>
                 </p>
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog63Pic4} alt="melyinterju-kutyaval"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Segítő foglalkozásokban elengedhetetlenül fontos a feltöltődés. Néha, rövid időkre nagyon szeretek egyedül lenni. Szeretek futni, mert ez a sport edzi a testem és a lelkem is, elcsendesít és kiszellőztet. Az ötödik-hatodik kilométer körül érzem, hogy már igazán magam vagyok, és kezdem kifutni magamból azokat az emlékeket vagy érzéseket, amiket el akarok engedni. Mivel a munkám során nagyon koncentráltan figyelek másokra, így olykor vágyom a csendre és a magányra.
                         </p>
@@ -273,7 +273,7 @@ export default function SubBlog63() {
                     <br/>Az anyák, illetve a dúlaképzésemen részt vevők egyaránt azt jelzik vissza, hogy számukra az a legfontosabb, hogy hitelesnek látnak.
                 </p>
             </div>
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/blog">Blog</Link>

@@ -9,34 +9,34 @@ export default function Public40() {
   return(
   <div>
    
-   <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+   <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public40Pic1} alt="nyugalmas-szoptatas"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Nyugalmas szoptatás</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Nyugalmas szoptatás</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2008.  augusztus 05.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications2" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications2" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public40Pic2} alt="nyugalmas-szoptatas"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Nemrégiben egy kétgyermekes anya fordult hozzám szoptatási tanácsért. Elmesélte, hogy a három hónapos kislánya nagyon nyugtalan, gyakran felsír evés közben, és időnként megfeszíti az egész testét.</b>
                         </p>
@@ -83,7 +83,7 @@ export default function Public40() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                   <p>Címkék:</p><Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications2">Publikációim</Link>
             </div>

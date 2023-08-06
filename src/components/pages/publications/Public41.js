@@ -8,34 +8,34 @@ import Public41Pic2 from "../../../image/publications/public-41-a-vilag-legismer
 export default function Public41() {
   return (
   <div>
-  <section class="section-blog-global">
-  <div class="blog-global-container">
-      <div class="blog-global-hero">
+  <section className="section-blog-global">
+  <div className="blog-global-container">
+      <div className="blog-global-hero">
           <img src={Public41Pic1} alt="Ina May Gaskin"/>
       </div>
 
-      <div class="blog-global-face">
-          <h2 class="blog-global-title">A világ legismertebb bábája: Ina May Gaskin</h2>
-          <div class="blog-global-profile-container">
-              <div class="blog-global-profile">
-                  <div class="blog-global-img-container">
+      <div className="blog-global-face">
+          <h2 className="blog-global-title">A világ legismertebb bábája: Ina May Gaskin</h2>
+          <div className="blog-global-profile-container">
+              <div className="blog-global-profile">
+                  <div className="blog-global-img-container">
                       
                   </div>
-                  <div class="blog-global-text">
+                  <div className="blog-global-text">
                       <h3>Békés Emőke</h3>
                       <p>2008.  július 22.</p>
                   </div>
               </div>
-              <div class="blog-global-button">
-                  <Link to="/publications3" class="blog-global-btn">Publikációim</Link>
+              <div className="blog-global-button">
+                  <Link to="/publications3" className="blog-global-btn">Publikációim</Link>
               </div>
           </div>
 
-          <div class="blog-globale-column">
-              <div class="blog-globale-img-container">
+          <div className="blog-globale-column">
+              <div className="blog-globale-img-container">
                   <img src={Public41Pic2} alt="Ina May Gaskin"/>
               </div>
-              <div class="blog-globale-text">
+              <div className="blog-globale-text">
                   <p>
                       <b>A várandóssággal, szüléssel kapcsolatos írásaimban többször hivatkoztam már Ina May Gaskin tapasztalataira, illetve ajánlottam az Útmutató szüléshez című, Magyarországon is megjelent könyvét.</b>
                   </p>
@@ -110,7 +110,7 @@ export default function Public41() {
           </p>
       </div>
 
-      <div class="blog-global-tags">
+      <div className="blog-global-tags">
             <p>Címkék:</p><Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications3">Publikációim</Link>
       </div>

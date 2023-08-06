@@ -7,34 +7,34 @@ import Public55Pic2 from "../../../image/publications/public-55-gyogyito-szules.
 
 export default function Public55() {
   return (
-  <div><section class="section-blog-global">
-  <div class="blog-global-container">
-      <div class="blog-global-hero">
+  <div><section className="section-blog-global">
+  <div className="blog-global-container">
+      <div className="blog-global-hero">
           <img src={Public55Pic1} alt="gyogyito-szules"/>
       </div>
 
-      <div class="blog-global-face">
-          <h2 class="blog-global-title">Gyógyító szülés</h2>
-          <div class="blog-global-profile-container">
-              <div class="blog-global-profile">
-                  <div class="blog-global-img-container">
+      <div className="blog-global-face">
+          <h2 className="blog-global-title">Gyógyító szülés</h2>
+          <div className="blog-global-profile-container">
+              <div className="blog-global-profile">
+                  <div className="blog-global-img-container">
                       
                   </div>
-                  <div class="blog-global-text">
+                  <div className="blog-global-text">
                       <h3>Békés Emőke</h3>
                       <p>2008.  január 22.</p>
                   </div>
               </div>
-              <div class="blog-global-button">
-                  <Link to="/publications3" class="blog-global-btn">Publikációim</Link>
+              <div className="blog-global-button">
+                  <Link to="/publications3" className="blog-global-btn">Publikációim</Link>
               </div>
           </div>
 
-          <div class="blog-globale-column">
-              <div class="blog-globale-img-container">
+          <div className="blog-globale-column">
+              <div className="blog-globale-img-container">
                   <img src={Public55Pic2} alt="gyogyito-szules"/>
               </div>
-              <div class="blog-globale-text">
+              <div className="blog-globale-text">
                   <p>
                       <b>A hét eleje óta várok egy kisfiú születésére. Komótosan készülõdik. Néhány napja már a méhösszehúzódások jelzik, hogy közeledik az idõ. Édesanyja rendszeresen beszámol telefonon arról, hogy mit érez.</b>
                   </p>
@@ -103,7 +103,7 @@ export default function Public55() {
           </p>
       </div>
 
-      <div class="blog-global-tags">
+      <div className="blog-global-tags">
           <p>Címkék:</p>
           <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications3">Publikációim</Link>

@@ -264,13 +264,13 @@ render(){
         </div>
       </section>
 
-      <div class="appli-box">    
+      <div className="appli-box">    
       <Modal  show={this.state.show} onHide={()=>this.handleModal()}>  
             <Modal.Header closeButton></Modal.Header>  
             <Modal.Body>
             <div >
-                <div class="appli-container">
-                    <div class="form">
+                <div className="appli-container">
+                    <div className="form">
                     <h2 >Kapcsolatfelvétel</h2>
                     <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
                         <div>
@@ -319,11 +319,11 @@ render(){
                             <label>e-mail cím (kötelező)</label>
                             <input type="text" name="email_from" id="emailFrom" required/>
                         </div>
-                        <div class="appli-checkbox">
+                        <div className="appli-checkbox">
                             <label for="vehicle"></label><br/>
                             <input type="checkbox" name="vehicle" id="vehicle" value="true" required/><br/>
                         </div>
-                        <div class="alert">
+                        <div className="alert">
                             <p> Elolvastam és elfogadom az <a href="#" >Adatvédelmi tájékoztatót</a>. A jelentkezési lapon szereplő személyes adataim kezeléséhez és megőrzéséhez hozzájárulok. Adataim továbbítását csak a képzésemben közreműködő személyek és a jogszabályban felhatalmazott szervek felé engedélyezem. Megismertem és tudomásul vettem az adatkezelési tájékoztatóban foglaltakat, így azt, hogy személyes adataim a 2013. évi LXXVII. Tv. 21.§ előírásai alapján kerülnek kezelésre. Megőrzésük a jogszabály alapján 8 év. Adataim továbbítását csak a képzésemben közreműködő személyek felé engedélyezem, a jogszabályban felhatalmazott szervek felé való továbbításról külön rendelkezem.</p>
                         </div>
 

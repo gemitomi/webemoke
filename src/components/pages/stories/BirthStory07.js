@@ -9,34 +9,34 @@ import Birth07Pic3 from "../../../image/szulestort/szules_story_07_a_nagy_utazas
 export default function BirthStory07() {
     return (
         <div>
-            <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+            <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth07Pic1} alt="Nagy utazas - ferfiszemmel"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Nagy utazás - férfiszemmel</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Nagy utazás - férfiszemmel</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2012. augusztus 16.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                        <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth07Pic2} alt="Nagy utazas - ferfiszemmel"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Tudományos munkát végző mérnök emberként a szülés számomra egy technikai feladatnak tűnt, amelyet jól szervezve kell levezényelni, hogy minden a megfelelően menjen végbe úgy, hogy a feleségem és a baba is boldog, egészséges, és a körülményekhez képest fitt legyen a kaland végén. Mélyen hittem, hogy a tudomány világában segítő rutin felvértez minden szükséges intuitív képességgel.
                         </p>
@@ -68,11 +68,11 @@ export default function BirthStory07() {
                     Számomra a kórházi légkör és hozzáállás abszolút pozitív volt, persze ez erősen köszönhető a jó csapatnak, a megfelelően nyitott és nagy szaktudású orvosnak és szülésznőnek, a fantasztikus dúlánknak és annak, hogy mindenki tette a dolgát, pont akkor és pont azt, ami előrébb vitte a folyamatot. Feszültségnek a legkisebb jelét sem lehetett érzékelni, és én ekkor végleg megértettem, hogy a szüléstől ugyan természetesen fél az ember, de a megfelelő közegben, ha mindenki megadja ennek a csodának a kellő tiszteletet, akkor egyfajta pátosz lengi körül az egészet és az ember ráébred, hogy mekkora csoda is az élet. A technika itt nem sokat ér, ha minden rendben van, hiszen a csodát pont a természet produkálja az évmilliók alatt kialakult rendjével, de az ember ezt csak akkor tudja megérteni és felfedezni, ha az orvos a szülésznő és a dúla a természetet csak alázatosan segíti, de nem próbál uralkodni rajta. A feleségem fájdalomcsillapító és gátseb nélkül szülte meg a kislányunkat egy maratoni menet megkoronázásaként. Most is csak hálával tudok gondolni a „csapatra” akiknek sokat köszönhetek, hiszen segítettek abban, hogy az életet egy másik, nemesebb nézőpontból lássam és egy meghatározó pozitív élménnyel gazdagodjak. Köszönöm.
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth07Pic3} alt="Nagy utazas - ferfiszemmel"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <i>Zárógondolatként már csak annyi tudok írni, hogy a szülést ezek után csak ilyen módon tudom elképzelni és lehetőleg ugyanezekkel a segítőkkel.</i>
                         </p>
@@ -80,7 +80,7 @@ export default function BirthStory07() {
                     </div>
                 </div>
             </div>
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories">Szüléstörténetek</Link>

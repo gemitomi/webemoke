@@ -8,34 +8,34 @@ import Blog56Pic2 from "../../../image/blog/blog-56-szeptemberben-ujra-lesz-dula
 export default function SubBlog56() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog56Pic1} alt="szeptemberben-ujra-lesz-dulakepzes"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Szeptemberben újra lesz dúlaképzés</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Szeptemberben újra lesz dúlaképzés</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2010. augusztus 26.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                     <Link to="/blog3" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog56Pic2} alt="szeptemberben-ujra-lesz-dulakepzes"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Emlékszem, milyen nagy izgalommal készültünk hat évvel ezelőtt trénertársammal az általunk meghirdetett és szervezett első dúlatréningre! A tematika összeállítása, átgondolása és az előadók meghívása mellett helyszínt kellett találnunk a vártnál nagyobb számú jelentkező elszállásolására, meg kellett szerveznünk a meleg étkezés és a tréninghez szükséges tárgyi feltételek biztosítását. Ma már ezek a szervezési feladatok jóval rutinosabban mennek, de van, ami azóta sem változott.
                         </p>
@@ -60,7 +60,7 @@ export default function SubBlog56() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                  <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog3">Blog</Link>

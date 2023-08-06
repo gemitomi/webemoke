@@ -8,34 +8,34 @@ import Public45Pic2 from "../../../image/publications/public-45-az-egyes-vajudas
 export default function Public45() {
   return (
     <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public45Pic1} alt="az egyes vajudasi poziciok elonyei"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Az egyes vajúdási pozíciók előnyei</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Az egyes vajúdási pozíciók előnyei</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2008.  június 17.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications3" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications3" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public45Pic2} alt="az egyes vajudasi poziciok elonyei"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Ha vajúdáskor szabadon megválaszthatod azt a pozíciót, amelyik a legmegfelelőbb számodra, akkor valószínűleg ösztönösen megtalálod azt a testhelyzetet, amelyik a legkényelmesebb és a baba előrehaladásához is a legoptimálisabb.</b>
                         </p>
@@ -55,11 +55,11 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Felgyorsíthatja a vajúdást, ha ezt megelőzően az anya feküdt.</li>
-                    <li class="blog-globale-has-before">Hasznosítja a gravitációt az összehúzódások alatt és között.</li>
-                    <li class="blog-globale-has-before">A kontrakciók (méhösszehúzódások) kevésbé fájdalmasak és sokkal hatékonyabbak</li>
-                    <li class="blog-globale-has-before">A második szakaszban növelheti a nyomásingert.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Felgyorsíthatja a vajúdást, ha ezt megelőzően az anya feküdt.</li>
+                    <li className="blog-globale-has-before">Hasznosítja a gravitációt az összehúzódások alatt és között.</li>
+                    <li className="blog-globale-has-before">A kontrakciók (méhösszehúzódások) kevésbé fájdalmasak és sokkal hatékonyabbak</li>
+                    <li className="blog-globale-has-before">A második szakaszban növelheti a nyomásingert.</li>
 
                 </ul>
                 <p>
@@ -68,8 +68,8 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Az álló helyzet előnyein túl a mozgás változásokat idéz elő a medence ízesüléseiben, ezért segíti a magzat forgását és leszállását.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Az álló helyzet előnyein túl a mozgás változásokat idéz elő a medence ízesüléseiben, ezért segíti a magzat forgását és leszállását.</li>
                     
                 </ul>
 
@@ -79,10 +79,10 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Megszünteti a hátfájást.</li>
-                    <li class="blog-globale-has-before">Sokkal pihentetőbb lehet, mint az állás.</li>
-                    <li class="blog-globale-has-before">Tökéletes póz a hát masszírozásához.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Megszünteti a hátfájást.</li>
+                    <li className="blog-globale-has-before">Sokkal pihentetőbb lehet, mint az állás.</li>
+                    <li className="blog-globale-has-before">Tökéletes póz a hát masszírozásához.</li>
                 </ul>
 
 
@@ -95,10 +95,10 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">A fenti előnyökön túl az anyának jobb lesz a közérzete azáltal, hogy egy szeretett személy öleli.</li>
-                    <li class="blog-globale-has-before">A zene és a ritmus növeli a komfortérzetet.</li>
-                    <li class="blog-globale-has-before">A partner, azáltal, hogy a hátát szorítja, csökkenti a hátfájást is.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">A fenti előnyökön túl az anyának jobb lesz a közérzete azáltal, hogy egy szeretett személy öleli.</li>
+                    <li className="blog-globale-has-before">A zene és a ritmus növeli a komfortérzetet.</li>
+                    <li className="blog-globale-has-before">A partner, azáltal, hogy a hátát szorítja, csökkenti a hátfájást is.</li>
                 </ul>
 
                 <p>
@@ -107,10 +107,10 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Jó pihenőpóz.</li>
-                    <li class="blog-globale-has-before">Némileg kihasználja a gravitációt.</li>
-                    <li class="blog-globale-has-before">Magzati monitorizálás (CTG) mellett is alkalmazható.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Jó pihenőpóz.</li>
+                    <li className="blog-globale-has-before">Némileg kihasználja a gravitációt.</li>
+                    <li className="blog-globale-has-before">Magzati monitorizálás (CTG) mellett is alkalmazható.</li>
                 </ul>
 
                 <p>
@@ -119,8 +119,8 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">A fentieken túl ellazítja a gátat, és ezzel segíti a magzat leszállását a szülőcsatornában.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">A fentieken túl ellazítja a gátat, és ezzel segíti a magzat leszállását a szülőcsatornában.</li>
                 </ul>
 
                 <p>
@@ -129,9 +129,9 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Megszünteti a hátfájást.</li>
-                    <li class="blog-globale-has-before">Jó póz a hát masszírozásához.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Megszünteti a hátfájást.</li>
+                    <li className="blog-globale-has-before">Jó póz a hát masszírozásához.</li>
                     
                 </ul>
 
@@ -141,11 +141,11 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Segít a hátfájás megszüntetésében.</li>
-                    <li class="blog-globale-has-before">Lehetővé teszi a medence ringatását és a test mozgatását.</li>
-                    <li class="blog-globale-has-before">Lehetővé teszi a hüvelyvizsgálatot.</li>
-                    <li class="blog-globale-has-before">Megszünteti a nyomást az aranyérben</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Segít a hátfájás megszüntetésében.</li>
+                    <li className="blog-globale-has-before">Lehetővé teszi a medence ringatását és a test mozgatását.</li>
+                    <li className="blog-globale-has-before">Lehetővé teszi a hüvelyvizsgálatot.</li>
+                    <li className="blog-globale-has-before">Megszünteti a nyomást az aranyérben</li>
                 </ul>
 
                 <p>
@@ -154,8 +154,8 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Ugyanazok, mint a négykézlábas pozíciónál, de ebben a helyzetben kevesebb feszültség nehezedik a csuklóra és a kezekre.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Ugyanazok, mint a négykézlábas pozíciónál, de ebben a helyzetben kevesebb feszültség nehezedik a csuklóra és a kezekre.</li>
                     
                 </ul>
 
@@ -165,13 +165,13 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Nagyon jó pihenőhelyzet.</li>
-                    <li class="blog-globale-has-before">Sétával váltogatva gyorsíthatja a vajúdás menetét.</li>
-                    <li class="blog-globale-has-before">Megszünteti az aranyérre gyakorolt nyomást.</li>
-                    <li class="blog-globale-has-before">Segít leszállítani a túlzottan megemelkedett vérnyomást.</li>
-                    <li class="blog-globale-has-before">Lehetővé teszi a könnyebb lazítást a kitolási erőfeszítések között.</li>
-                    <li class="blog-globale-has-before">Fájdalomcsillapítás alkalmazása esetén is biztonságos póz.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Nagyon jó pihenőhelyzet.</li>
+                    <li className="blog-globale-has-before">Sétával váltogatva gyorsíthatja a vajúdás menetét.</li>
+                    <li className="blog-globale-has-before">Megszünteti az aranyérre gyakorolt nyomást.</li>
+                    <li className="blog-globale-has-before">Segít leszállítani a túlzottan megemelkedett vérnyomást.</li>
+                    <li className="blog-globale-has-before">Lehetővé teszi a könnyebb lazítást a kitolási erőfeszítések között.</li>
+                    <li className="blog-globale-has-before">Fájdalomcsillapítás alkalmazása esetén is biztonságos póz.</li>
                 </ul>
 
                 <p>
@@ -180,12 +180,12 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Megszünteti a hátfájást.</li>
-                    <li class="blog-globale-has-before">Használja a gravitációt.</li>
-                    <li class="blog-globale-has-before">Tágítja a medencét.</li>
-                    <li class="blog-globale-has-before">Nehéz szülés esetén elősegítheti a magzat forgását és leszállását.</li>
-                    <li class="blog-globale-has-before">A póz sokat segíthet, ha az anyának nincs nyomási ingere.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Megszünteti a hátfájást.</li>
+                    <li className="blog-globale-has-before">Használja a gravitációt.</li>
+                    <li className="blog-globale-has-before">Tágítja a medencét.</li>
+                    <li className="blog-globale-has-before">Nehéz szülés esetén elősegítheti a magzat forgását és leszállását.</li>
+                    <li className="blog-globale-has-before">A póz sokat segíthet, ha az anyának nincs nyomási ingere.</li>
                 </ul>
 
                 <p>
@@ -197,10 +197,10 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">A guggolással összehasonlítva kevesebb feszültség jut a térdekre és a bokákra.</li>
-                    <li class="blog-globale-has-before">A fáradt anyának nagyobb támaszt és kisebb erőfeszítést jelent.</li>
-                    <li class="blog-globale-has-before">Elősegíti a jobb közérzetet, mivel az anyát egy szeretett hozzátartozója öleli.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">A guggolással összehasonlítva kevesebb feszültség jut a térdekre és a bokákra.</li>
+                    <li className="blog-globale-has-before">A fáradt anyának nagyobb támaszt és kisebb erőfeszítést jelent.</li>
+                    <li className="blog-globale-has-before">Elősegíti a jobb közérzetet, mivel az anyát egy szeretett hozzátartozója öleli.</li>
                 </ul>
 
                 <p>
@@ -212,10 +212,10 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Lehetővé teszi, hogy a medence „képlékenyebb” legyen, így segítve a forogva alászálló magzatot.</li>
-                    <li class="blog-globale-has-before">Kihasználja a gravitációt.</li>
-                    <li class="blog-globale-has-before">Megnyújtja az anya törzsét, nagyobb teret biztosítva a magzat számára.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Lehetővé teszi, hogy a medence „képlékenyebb” legyen, így segítve a forogva alászálló magzatot.</li>
+                    <li className="blog-globale-has-before">Kihasználja a gravitációt.</li>
+                    <li className="blog-globale-has-before">Megnyújtja az anya törzsét, nagyobb teret biztosítva a magzat számára.</li>
                 </ul>
 
                 <p>
@@ -227,8 +227,8 @@ export default function Public45() {
                 <p>
                     Előnyei:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Ez a póz sokkal kevésbé megterhelő a partner számára.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Ez a póz sokkal kevésbé megterhelő a partner számára.</li>
                     
                 </ul>
 
@@ -240,7 +240,7 @@ export default function Public45() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications3">Publikációim</Link>

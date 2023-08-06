@@ -8,34 +8,34 @@ import Birth20Pic2 from "../../../image/szulestort/szules-story-20-apa-gepe-idob
 export default function BirthStory20() {
   return (
   <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth20Pic1} alt="apa-gepe-idoben-leszallt"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Apa gépe időben leszállt</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Apa gépe időben leszállt</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p></p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                          <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth20Pic2} alt="apa-gepe-idoben-leszallt"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Ha másfél évvel ezelőtt azt mondtam/írtam, hogy szülni jó, akkor most csak azt mondhatom, szülni még jobb 🙂 Ismét életem egyik legfelemelőbb élményén vagyok túl, ha ez így megy tovább, abba sem tudom hagyni vagy 10 gyerekig 🙂
                         </p>
@@ -100,7 +100,7 @@ export default function BirthStory20() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories">Szüléstörténetek</Link>

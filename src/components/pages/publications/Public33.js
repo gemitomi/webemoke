@@ -7,34 +7,34 @@ import Public33Pic2 from "../../../image/publications/public-33-mikor vallaljuk-
 
 export default function Public33() {
   return (
-  <div><section class="section-blog-global">
-  <div class="blog-global-container">
-      <div class="blog-global-hero">
+  <div><section className="section-blog-global">
+  <div className="blog-global-container">
+      <div className="blog-global-hero">
           <img src={Public33Pic1} alt="mikor vallaljunk gyereket"/>
       </div>
 
-      <div class="blog-global-face">
-          <h2 class="blog-global-title">Mikor vállaljunk gyereket?</h2>
-          <div class="blog-global-profile-container">
-              <div class="blog-global-profile">
-                  <div class="blog-global-img-container">
+      <div className="blog-global-face">
+          <h2 className="blog-global-title">Mikor vállaljunk gyereket?</h2>
+          <div className="blog-global-profile-container">
+              <div className="blog-global-profile">
+                  <div className="blog-global-img-container">
                       
                   </div>
-                  <div class="blog-global-text">
+                  <div className="blog-global-text">
                       <h3>Békés Emőke</h3>
                       <p>2008. november 18.</p>
                   </div>
               </div>
-              <div class="blog-global-button">
-                  <Link to="/publications2" class="blog-global-btn">Publikációim</Link>
+              <div className="blog-global-button">
+                  <Link to="/publications2" className="blog-global-btn">Publikációim</Link>
               </div>
           </div>
 
-          <div class="blog-globale-column">
-              <div class="blog-globale-img-container">
+          <div className="blog-globale-column">
+              <div className="blog-globale-img-container">
                   <img src={Public33Pic2} alt="mikor vallaljunk gyereket"/>
               </div>
-              <div class="blog-globale-text">
+              <div className="blog-globale-text">
                   <p>
                       <b>Kedves Emőke!</b>
                   </p>
@@ -69,15 +69,15 @@ export default function Public33() {
               Van-e ideális időpont egy kisgyermek várására? – veted fel a kérdést a leveledben. Bizonyára vannak olyanok, akik azt mondják: igen. Megannyi szempont képezheti a mérlegelés tárgyát, hogy csak néhányat említsek:
           </p>
 
-          <ul class="blog-globale-list">
-              <li class="blog-globale-has-before">ha már felépült a házunk,</li>
-              <li class="blog-globale-has-before">ha már sokat utaztunk, szórakoztunk,</li>
-              <li class="blog-globale-has-before">ha már nem lakunk együtt a szüleinkkel,</li>
-              <li class="blog-globale-has-before">ha már nem vagyok túl fiatal, de még nem vagyok idős sem,</li>
-              <li class="blog-globale-has-before">ha már jól fizető állásom van,</li>
-              <li class="blog-globale-has-before">ha már szépen felívelt a karrierem</li>
-              <li class="blog-globale-has-before">ha szeretnék egy kicsit a taposómalomból kiszállni,</li>
-              <li class="blog-globale-has-before">ha befejeztem az aktuális egyetemet/továbbképzést/tanfolyamot.</li>
+          <ul className="blog-globale-list">
+              <li className="blog-globale-has-before">ha már felépült a házunk,</li>
+              <li className="blog-globale-has-before">ha már sokat utaztunk, szórakoztunk,</li>
+              <li className="blog-globale-has-before">ha már nem lakunk együtt a szüleinkkel,</li>
+              <li className="blog-globale-has-before">ha már nem vagyok túl fiatal, de még nem vagyok idős sem,</li>
+              <li className="blog-globale-has-before">ha már jól fizető állásom van,</li>
+              <li className="blog-globale-has-before">ha már szépen felívelt a karrierem</li>
+              <li className="blog-globale-has-before">ha szeretnék egy kicsit a taposómalomból kiszállni,</li>
+              <li className="blog-globale-has-before">ha befejeztem az aktuális egyetemet/továbbképzést/tanfolyamot.</li>
           </ul>
           <p>
               Talán olyanok is akadnak, akik számára megadatik, hogy minden optimális legyen, amikor a gyermekük megfogan. De azt hiszem, a legtöbbünk nem ilyen helyzetben van. Közülünk sokan úgy döntenek, hogy megvárják az ideális állapotot, aztán lehet, hogy azt veszik észre, az évek csak telnek, telnek, és valami még mindig hiányzik ennek eléréséhez. Az is előfordul, hogy amikor úgy tűnik, hogy már minden készen áll egy kisbaba érkezéséhez, akkor a vágyott fogantatás késik akár hosszú ideig is. Mások, mit sem törődve az ésszerű érvekkel egyetemi tanulmányaik folytatása alatt, kollégiumban élve vagy biztos jövedelem nélkül vállalnak gyermeket.<br/>
@@ -103,7 +103,7 @@ export default function Public33() {
           </p>
       </div>
 
-      <div class="blog-global-tags">
+      <div className="blog-global-tags">
             <p>Címkék:</p><Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications2">Publikációim</Link>
       </div>

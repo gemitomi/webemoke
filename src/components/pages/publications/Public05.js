@@ -8,34 +8,34 @@ import Public05Pic2 from "../../../image/publications/public-05-tamogatas-a-szul
 export default function Public05() {
     return (
         <div>
-            <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+            <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public05Pic1} alt="Tamogatas-a-szules-alatt"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Támogatás a szülés alatt</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Támogatás a szülés alatt</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2009. december 22.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                      <Link to="/publications" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                      <Link to="/publications" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public05Pic2} alt="Tamogatas-a-szules-alatt"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Néhány nappal ezelőtt hazánkban tartott egy workshopot Debra Pascali Bonaro, a világ legnagyobb dúlaszervezetének (DONA) vezetője.</b>
                         </p>
@@ -62,10 +62,10 @@ export default function Public05() {
                 <p>
                     Amellett, hogy ki a támogató személy, a tanulmányt írók azt is megfigyelték, hogy a folyamatos érzelmi és fizikai támogatás még hatásosabb volt, ha
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">már a vajúdás elején elkezdődött,</li>
-                    <li class="blog-globale-has-before">olyan környezetben zajlott, ahol nem tudtak rutinszerűen hozzáférni az epidurális érzéstelenítéshez vagy</li>
-                    <li class="blog-globale-has-before">olyan környezetben történt, ahol a nőknek megengedték, hogy ők válasszák meg a szüléstámogató személyt (dúla, partner, barát, családtag).</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">már a vajúdás elején elkezdődött,</li>
+                    <li className="blog-globale-has-before">olyan környezetben zajlott, ahol nem tudtak rutinszerűen hozzáférni az epidurális érzéstelenítéshez vagy</li>
+                    <li className="blog-globale-has-before">olyan környezetben történt, ahol a nőknek megengedték, hogy ők válasszák meg a szüléstámogató személyt (dúla, partner, barát, családtag).</li>
                 </ul>
                 <p>
                     A tanulmány szerzői mindezek alapján arra a következtetésre jutottak, hogy minden nőnek jár a támogatás a vajúdása és a szülése alatt.
@@ -81,7 +81,7 @@ export default function Public05() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications">Publikációim</Link>

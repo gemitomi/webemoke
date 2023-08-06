@@ -8,34 +8,34 @@ import Public62Pic2 from "../../../image/publications/public-62-a-szulesi-tervro
 export default function Public62() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public62Pic1} alt="a-szulesi-tervrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A szülési tervről</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A szülési tervről</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2007. október 30.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications4" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public62Pic2} alt="a-szulesi-tervrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Korábban Áginak írott válaszom kapcsán már említettem, hogy mennyire fontos, hogy végiggondoljuk, összegyűjtsük és leírjuk, majd az orvosunkkal megbeszéljük a szülés körülményeivel kapcsolatos elképzeléseinket.</b>
                         </p>
@@ -56,10 +56,10 @@ export default function Public62() {
                     Ajánlott tartalmaznia egy rövid bevezető részt, melyben írhatsz magadról, arról, hogy miért ezt a helyszínt választottad, és hogy miért fontos neked a szülési terv.<br/>
                     Például:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Voltak-e nehézségeid ezen vagy a korábbi várandósságaid alkalmával (meddőség, vetélés, fizikai vagy érzelmi problémák)?</li>
-                    <li class="blog-globale-has-before">Vannak-e félelmeid?</li>
-                    <li class="blog-globale-has-before">Vannak-e különleges kívánságaid, vallási vagy kulturális elvárásaid?</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Voltak-e nehézségeid ezen vagy a korábbi várandósságaid alkalmával (meddőség, vetélés, fizikai vagy érzelmi problémák)?</li>
+                    <li className="blog-globale-has-before">Vannak-e félelmeid?</li>
+                    <li className="blog-globale-has-before">Vannak-e különleges kívánságaid, vallási vagy kulturális elvárásaid?</li>
                 </ul>
                 <p>
                     Adj felvilágosítást arról, hogy kik lesznek a kísérőid (apa, dúla, más családtag), és hogy a természetes vagy a medikalizált szülést tekinted-e fontosabbnak.
@@ -75,19 +75,19 @@ export default function Public62() {
                     Ezt követhetik a vajúdásra, majd a szülésre vonatkozó kéréseid, kívánságaid.<br/>
                      Például:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">A férjem végig velem lehessen a vajúdás és a szülés alatt, illetve a szülést követő 24-72 órában.</li>
-                    <li class="blog-globale-has-before">Ha szükségem van rá, a férjemen kívül még egy hozzátartozóm és egy segítő velem lehessen a vajúdásnál, a szülésnél és a szülés utáni órákban. A választott orvosomon és az általam megválasztott hozzátartozókon kívül más ne legyen jelen a vajúdásnál, szülésnél és a baba fogadásánál.</li>
-                    <li class="blog-globale-has-before">Olyan testhelyzetben szülhessek, amit én választok (guggolva, félig ülve, ülve, négykézláb a padlón, hozott matracon, állva, feküdve).</li>
-                    <li class="blog-globale-has-before">Az adott fizikai körülmények keretein belül megválaszthassam a teret, ha a zuhany alatt esne jól vajúdni, akkor ez megtörténhessen. Vajúdás alatt szabadon mozoghassak, járkálhassak, ihassak, gyümölcsöt, szőlőcukrot fogyaszthassak, esetleg ehessek.</li>
-                    <li class="blog-globale-has-before">Ha egyedül esne jól vajúdni, erre is lehetőség legyen. Ha sötétre vagy félhomályra van szükségem, besötétíthessük a helyiséget.</li>
-                    <li class="blog-globale-has-before">Kérem, hogy a szülést ne gyorsítsák komplikációmentes helyzetben. Ezen a magzatburok megrepesztését, oxitocin alkalmazását, különböző gyógyszerek, fájdalomcsillapítók adását, a méhszáj ujjal való tágítását, hasra gyakorolt nyomást, rutinszerű infúzió adását értem.</li>
-                    <li class="blog-globale-has-before">Kérem, hogy ne alkalmazzanak folyamatosan CTG-t, csak időszakosan ellenőrizzék CTG-vel a szívhangot.</li>
-                    <li class="blog-globale-has-before">A saját ruhámban lehessek a vajúdás, szülés és a kórházi tartózkodás alatt.</li>
-                    <li class="blog-globale-has-before">Lássanak el információval, amennyiben igénylem, és ha komplikációnak még csak a gyanúja is felmerül, úgy mondják el mind a komplikációmentes esetre, mind a komplikációra vonatkozó alternatívákat.</li>
-                    <li class="blog-globale-has-before">Gátvédelem alkalmazását kérem a gátmetszés elkerülésére.</li>
-                    <li class="blog-globale-has-before">A köldökzsinórt csak akkor vágják el, amikor megszűnt a pulzálás benne mind a baba, mind a lepény felőli oldalon.</li>
-                    <li class="blog-globale-has-before">Adjanak legalább egy órát a lepény spontán megszületésére. Várják meg, míg magától megszületik a szoptatással elősegítve. Oxitocinnal se befolyásolják a folyamatot.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">A férjem végig velem lehessen a vajúdás és a szülés alatt, illetve a szülést követő 24-72 órában.</li>
+                    <li className="blog-globale-has-before">Ha szükségem van rá, a férjemen kívül még egy hozzátartozóm és egy segítő velem lehessen a vajúdásnál, a szülésnél és a szülés utáni órákban. A választott orvosomon és az általam megválasztott hozzátartozókon kívül más ne legyen jelen a vajúdásnál, szülésnél és a baba fogadásánál.</li>
+                    <li className="blog-globale-has-before">Olyan testhelyzetben szülhessek, amit én választok (guggolva, félig ülve, ülve, négykézláb a padlón, hozott matracon, állva, feküdve).</li>
+                    <li className="blog-globale-has-before">Az adott fizikai körülmények keretein belül megválaszthassam a teret, ha a zuhany alatt esne jól vajúdni, akkor ez megtörténhessen. Vajúdás alatt szabadon mozoghassak, járkálhassak, ihassak, gyümölcsöt, szőlőcukrot fogyaszthassak, esetleg ehessek.</li>
+                    <li className="blog-globale-has-before">Ha egyedül esne jól vajúdni, erre is lehetőség legyen. Ha sötétre vagy félhomályra van szükségem, besötétíthessük a helyiséget.</li>
+                    <li className="blog-globale-has-before">Kérem, hogy a szülést ne gyorsítsák komplikációmentes helyzetben. Ezen a magzatburok megrepesztését, oxitocin alkalmazását, különböző gyógyszerek, fájdalomcsillapítók adását, a méhszáj ujjal való tágítását, hasra gyakorolt nyomást, rutinszerű infúzió adását értem.</li>
+                    <li className="blog-globale-has-before">Kérem, hogy ne alkalmazzanak folyamatosan CTG-t, csak időszakosan ellenőrizzék CTG-vel a szívhangot.</li>
+                    <li className="blog-globale-has-before">A saját ruhámban lehessek a vajúdás, szülés és a kórházi tartózkodás alatt.</li>
+                    <li className="blog-globale-has-before">Lássanak el információval, amennyiben igénylem, és ha komplikációnak még csak a gyanúja is felmerül, úgy mondják el mind a komplikációmentes esetre, mind a komplikációra vonatkozó alternatívákat.</li>
+                    <li className="blog-globale-has-before">Gátvédelem alkalmazását kérem a gátmetszés elkerülésére.</li>
+                    <li className="blog-globale-has-before">A köldökzsinórt csak akkor vágják el, amikor megszűnt a pulzálás benne mind a baba, mind a lepény felőli oldalon.</li>
+                    <li className="blog-globale-has-before">Adjanak legalább egy órát a lepény spontán megszületésére. Várják meg, míg magától megszületik a szoptatással elősegítve. Oxitocinnal se befolyásolják a folyamatot.</li>
                 
                 </ul>
                 <p>
@@ -100,10 +100,10 @@ export default function Public62() {
                     Ezt érdemes külön lapra írni abban az esetben, ha az újszülött ellátását a szülészeten nem a szülésznő, hanem a csecsemőgondozók végzik, hiszen akkor ezekről a kívánságaidról őket kell tájékoztatni.
                 </p>
                 <p>Például:</p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">A baba megszületése utáni közvetlen percekben és órában hagyják őt mellettem és a testemen, időt hagyva az ismerkedésre, a mell megtalálására és a szopásra. Csak egy óra múlva vigyék el mérni. Problémamentes esetben csak a legszükségesebb vizsgálatokra kerüljön ekkor sor a látóterünkön belül, édesapja karjaiban.</li>
-                    <li class="blog-globale-has-before">Kérem, hogy a babát ne fürdessék meg.</li>
-                    <li class="blog-globale-has-before">Szeretném, hogy a baba velem maradhasson nappal és éjszaka egyaránt.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">A baba megszületése utáni közvetlen percekben és órában hagyják őt mellettem és a testemen, időt hagyva az ismerkedésre, a mell megtalálására és a szopásra. Csak egy óra múlva vigyék el mérni. Problémamentes esetben csak a legszükségesebb vizsgálatokra kerüljön ekkor sor a látóterünkön belül, édesapja karjaiban.</li>
+                    <li className="blog-globale-has-before">Kérem, hogy a babát ne fürdessék meg.</li>
+                    <li className="blog-globale-has-before">Szeretném, hogy a baba velem maradhasson nappal és éjszaka egyaránt.</li>
                 </ul>
                 <p>
                     <b>Felkészülni a váratlanra!</b>
@@ -133,7 +133,7 @@ Valószínűleg nem lesz szükség a váratlan eseményekre vonatkozó tervedre,
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications4">Publikációim</Link>

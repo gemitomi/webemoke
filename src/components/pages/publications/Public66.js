@@ -8,34 +8,34 @@ import Public66Pic2 from "../../../image/publications/public-66-a-kesoi-gyermekv
 export default function Public66() {
   return (
     <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public66Pic1} alt="a-kesoi-gyermekvallalasrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A késői gyerekvállalásról</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A késői gyerekvállalásról</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2007. szeptember 18.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications4" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public66Pic2} alt="a-kesoi-gyermekvallalasrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Kedves Emőke!</b>
                         </p>
@@ -62,14 +62,14 @@ export default function Public66() {
                     A gyermekvállalás minden esetben nagy felelősséggel járó döntés. Nem hiszem, hogy megfelelő átgondolás után könnyelműségnek lehetne nevezni azt, ha úgy döntesz, életet adsz még egy gyermeknek.
                     <br/>Azt írod, pontosan te sem tudod, hogy mit vársz tőlem, tanácsot vagy véleményt. Talán akkor segítek a legtöbbet, ha leírom, hogy én miket gondolnék végig.
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Mennyire szilárd alapon áll a kapcsolatom?</li>
-                    <li class="blog-globale-has-before">A társam vágyik-e a közös gyermekre?</li>
-                    <li class="blog-globale-has-before">Beszéltünk-e erről eleget közösen?</li>
-                    <li class="blog-globale-has-before">Hogy képzelem el a jövőt?</li>
-                    <li class="blog-globale-has-before">Számolok-e azzal, hogy a gyermekem felnevelése mintegy húsz évbe telik?</li>
-                    <li class="blog-globale-has-before">Ismerem-e az egészségügyi kockázatait egy késői gyermekvállalásnak?</li>
-                    <li class="blog-globale-has-before">Hogyan döntenék a magzatom sorsáról, ha esetleg nem egészségesen fejlődne?</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Mennyire szilárd alapon áll a kapcsolatom?</li>
+                    <li className="blog-globale-has-before">A társam vágyik-e a közös gyermekre?</li>
+                    <li className="blog-globale-has-before">Beszéltünk-e erről eleget közösen?</li>
+                    <li className="blog-globale-has-before">Hogy képzelem el a jövőt?</li>
+                    <li className="blog-globale-has-before">Számolok-e azzal, hogy a gyermekem felnevelése mintegy húsz évbe telik?</li>
+                    <li className="blog-globale-has-before">Ismerem-e az egészségügyi kockázatait egy késői gyermekvállalásnak?</li>
+                    <li className="blog-globale-has-before">Hogyan döntenék a magzatom sorsáról, ha esetleg nem egészségesen fejlődne?</li>
                 </ul>
                 <p>
                     Ha mindezekre a kérdésekre átgondolt és számomra megnyugtató válaszokat kapnék, akkor elmennék még egy alapos nőgyógyászati és belgyógyászati kivizsgálásra is, hogy úgy érezhessem, minden készen áll egy új élet fogadására.
@@ -83,10 +83,10 @@ export default function Public66() {
                 <p>
                     Néhány, a témához kapcsolódó adat:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">A Földön a legidősebbnek vélt nő, akinek gyermeke született, 66 éves és Romániában él.</li>
-                    <li class="blog-globale-has-before">Egy amerikai tanulmány szerint azok az anyák, akik ötven év felett szülnek, épp annyira képesek az anyaságot mentálisan és fizikailag elviselni, mint a fiatalok.</li>
-                    <li class="blog-globale-has-before">Czeizel Endre praxisában a legidősebb kismama egy 51 esztendős pedagógus volt, aki egészséges kisfiúnak adott életet.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">A Földön a legidősebbnek vélt nő, akinek gyermeke született, 66 éves és Romániában él.</li>
+                    <li className="blog-globale-has-before">Egy amerikai tanulmány szerint azok az anyák, akik ötven év felett szülnek, épp annyira képesek az anyaságot mentálisan és fizikailag elviselni, mint a fiatalok.</li>
+                    <li className="blog-globale-has-before">Czeizel Endre praxisában a legidősebb kismama egy 51 esztendős pedagógus volt, aki egészséges kisfiúnak adott életet.</li>
                 </ul>
                 <p>Emőke</p>
 
@@ -95,7 +95,7 @@ export default function Public66() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications4">Publikációim</Link>

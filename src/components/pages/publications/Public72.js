@@ -7,34 +7,34 @@ import Public72Pic2 from "../../../image/publications/public-72-a-kisbabasirasro
 
 export default function Public72() {
   return <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public72Pic1} alt="a-kisbabasirasrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A kisbabasírásról</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A kisbabasírásról</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2007. július 24.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications4" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public72Pic2} alt="a-kisbabasirasrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Kedves Emőke!</b>
                         </p>
@@ -104,11 +104,11 @@ export default function Public72() {
                     Mit lehet még tenni a baba megnyugtatása érdekében?
                 </p>
 
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Sok kisbaba szereti a mozgást, mert az az anyaméhben eltöltött időre emlékezteti őt. A ringatás egyik legkényelmesebb módja, ha beültök egy hintaszékbe. Ez mindkettőtök számára megnyugtató lehet.</li>
-                    <li class="blog-globale-has-before">Kipróbálhatod az ún. hasfájós tartást is, melynél a babát az alkarra kell fektetni (az apa erős karja különösen kényelmes lehet), a mellkasát megtámasztva. Ebben a helyzetben a baba a padlót nézi, és a keze, lába lecsüng.</li>
-                    <li class="blog-globale-has-before">A hordozókendő használata is nagy segítség lehet. A hordozás a csecsemő alapvető lelki szükségleteit is kielégíti és biztosítja a testi kontaktust. Érdemes egy több mint 4 méter hosszú kendőt venni, mellyel minden megkötési mód alkalmazható a kisbaba korától függően.</li>
-                    <li class="blog-globale-has-before">Ellazíthat és pihentethet, ha beültök egy kád meleg vízbe. Ha a kádban ülve teszed a mellkasodra, és így locsolgatod, könnyen lehet, egészen más élmény lesz neki a fürdés. A kiskádban való fürdetésről amúgy is azt gondolom, hogy teljesen szükségtelen naponta végezni, különösen, ha a baba tiltakozik ez ellen. Ennek a tiltakozásnak az is lehet az oka, hogy nem szeret meztelenül lenni. Nem azért, mert fázik, hanem mert hiányzik neki, hogy a bőre és a levegő között legyen valami.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Sok kisbaba szereti a mozgást, mert az az anyaméhben eltöltött időre emlékezteti őt. A ringatás egyik legkényelmesebb módja, ha beültök egy hintaszékbe. Ez mindkettőtök számára megnyugtató lehet.</li>
+                    <li className="blog-globale-has-before">Kipróbálhatod az ún. hasfájós tartást is, melynél a babát az alkarra kell fektetni (az apa erős karja különösen kényelmes lehet), a mellkasát megtámasztva. Ebben a helyzetben a baba a padlót nézi, és a keze, lába lecsüng.</li>
+                    <li className="blog-globale-has-before">A hordozókendő használata is nagy segítség lehet. A hordozás a csecsemő alapvető lelki szükségleteit is kielégíti és biztosítja a testi kontaktust. Érdemes egy több mint 4 méter hosszú kendőt venni, mellyel minden megkötési mód alkalmazható a kisbaba korától függően.</li>
+                    <li className="blog-globale-has-before">Ellazíthat és pihentethet, ha beültök egy kád meleg vízbe. Ha a kádban ülve teszed a mellkasodra, és így locsolgatod, könnyen lehet, egészen más élmény lesz neki a fürdés. A kiskádban való fürdetésről amúgy is azt gondolom, hogy teljesen szükségtelen naponta végezni, különösen, ha a baba tiltakozik ez ellen. Ennek a tiltakozásnak az is lehet az oka, hogy nem szeret meztelenül lenni. Nem azért, mert fázik, hanem mert hiányzik neki, hogy a bőre és a levegő között legyen valami.</li>
                 </ul>
                 <p>
                     Mindezek ellenére az is előfordulhat, hogy éppen semmi sem használ. Ha már mindent kipróbáltál, ami csak eszedbe jutott, és a kisbabád még mindig sír, az bizony nagyon embert próbáló lehet.
@@ -122,7 +122,7 @@ export default function Public72() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications4">Publikációim</Link>

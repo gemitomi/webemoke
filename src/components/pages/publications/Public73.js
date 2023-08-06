@@ -8,34 +8,34 @@ import Public73Pic2 from "../../../image/publications/public-73-a csaszarmetszes
 export default function Public73() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public73Pic1} alt="a-csaszarmetszesrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A császármetszésről</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A császármetszésről</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2007. július 17.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications4" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public73Pic2} alt="a-csaszarmetszesrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Kedves Emőke!</b>
                         </p>
@@ -80,11 +80,11 @@ export default function Public73() {
                 <p>
                     Ebben a füzetben többek között olyan kérdésekre találhatsz választ, hogy:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Mely kulcstényezők befolyásolhatják, hogy hüvelyi szülésre vagy császármetszésre kerül sor?</li>
-                    <li class="blog-globale-has-before">Mit kell mérlegelni az informált döntéshez?</li>
-                    <li class="blog-globale-has-before">Milyen problémák merülhetnek fel császármetszésnél a hüvelyi szüléssel szemben?</li>
-                    <li class="blog-globale-has-before">Milyen kérdéseket érdemes feltenni a szakember és a szülési környezet kiválasztásakor?</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Mely kulcstényezők befolyásolhatják, hogy hüvelyi szülésre vagy császármetszésre kerül sor?</li>
+                    <li className="blog-globale-has-before">Mit kell mérlegelni az informált döntéshez?</li>
+                    <li className="blog-globale-has-before">Milyen problémák merülhetnek fel császármetszésnél a hüvelyi szüléssel szemben?</li>
+                    <li className="blog-globale-has-before">Milyen kérdéseket érdemes feltenni a szakember és a szülési környezet kiválasztásakor?</li>
 
                 </ul>
                 <p>
@@ -101,7 +101,7 @@ export default function Public73() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications4">Publikációim</Link>

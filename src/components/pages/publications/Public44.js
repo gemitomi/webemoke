@@ -8,34 +8,34 @@ import Public44Pic2 from "../../../image/publications/public-44-a-vajudolabda.jp
 export default function Public44() {
   return (
   <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public44Pic1} alt="a-vajudolabda"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A vajúdólabda</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A vajúdólabda</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2008.  július 01.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications3" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications3" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public44Pic2} alt="a-vajudolabda"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Ma már egyre több szülészeten megtalálható a nagyméretű, felfújható vajúdólabda.</b>
                         </p>
@@ -53,33 +53,33 @@ export default function Public44() {
                 <p>
                     <b>Mindhárom pozícióban számos előnye van:</b>
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">segíti a csípőringatást és más mozdulatokat,</li>
-                    <li class="blog-globale-has-before">könnyen végezhető rajta ritmikus mozgás,</li>
-                    <li class="blog-globale-has-before">lehetővé teszi a kényelmes súlypontáthelyezést,</li>
-                    <li class="blog-globale-has-before">kihasználja a gravitációt a kontrakciók alatt és között,</li>
-                    <li class="blog-globale-has-before">elősegíti a legelőnyösebb testhelyzetek felvételét a vajúdás alatt,</li>
-                    <li class="blog-globale-has-before">segíti a legjobb pihenési helyzet megtalálását,</li>
-                    <li class="blog-globale-has-before">felgyorsíthatja a vajúdást,</li>
-                    <li class="blog-globale-has-before">segít abban, hogy a kontrakciók kevésbé fájdalmasak és sokkal hatékonyabbak legyenek.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">segíti a csípőringatást és más mozdulatokat,</li>
+                    <li className="blog-globale-has-before">könnyen végezhető rajta ritmikus mozgás,</li>
+                    <li className="blog-globale-has-before">lehetővé teszi a kényelmes súlypontáthelyezést,</li>
+                    <li className="blog-globale-has-before">kihasználja a gravitációt a kontrakciók alatt és között,</li>
+                    <li className="blog-globale-has-before">elősegíti a legelőnyösebb testhelyzetek felvételét a vajúdás alatt,</li>
+                    <li className="blog-globale-has-before">segíti a legjobb pihenési helyzet megtalálását,</li>
+                    <li className="blog-globale-has-before">felgyorsíthatja a vajúdást,</li>
+                    <li className="blog-globale-has-before">segít abban, hogy a kontrakciók kevésbé fájdalmasak és sokkal hatékonyabbak legyenek.</li>
                 </ul>
                 <p>
                     <b>A labdán ülés jótékony hatásai:</b>
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">segíti a medencealap ellazulását,</li>
-                    <li class="blog-globale-has-before">támogatja a gátat, mindenféle egyéb nyomás nélkül.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">segíti a medencealap ellazulását,</li>
+                    <li className="blog-globale-has-before">támogatja a gátat, mindenféle egyéb nyomás nélkül.</li>
                 </ul>
                 <p>
                     <b>Ha az anya térdel vagy áll, és így hajol előre a labdára, akkor ezzel a pozícióval a labda használata:</b>
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">segíti a hátfájás megszüntetését,</li>
-                    <li class="blog-globale-has-before">lehetővé teszi a hátmasszázst,</li>
-                    <li class="blog-globale-has-before">megszünteti az aranyérre ható nyomást,</li>
-                    <li class="blog-globale-has-before">segíti a magzat leszállását,</li>
-                    <li class="blog-globale-has-before">nehéz szülés esetén segítheti a magzat megfordulását,</li>
-                    <li class="blog-globale-has-before">kiküszöböli a csuklóra és a kezekre nehezedő feszültséget, amelyet a négykézlábra állás okoz.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">segíti a hátfájás megszüntetését,</li>
+                    <li className="blog-globale-has-before">lehetővé teszi a hátmasszázst,</li>
+                    <li className="blog-globale-has-before">megszünteti az aranyérre ható nyomást,</li>
+                    <li className="blog-globale-has-before">segíti a magzat leszállását,</li>
+                    <li className="blog-globale-has-before">nehéz szülés esetén segítheti a magzat megfordulását,</li>
+                    <li className="blog-globale-has-before">kiküszöböli a csuklóra és a kezekre nehezedő feszültséget, amelyet a négykézlábra állás okoz.</li>
                 </ul>
                 <p>
                     Érdemes tehát már a várandósság előtt érdeklődni arról, hogy található-e a szülőszobán vajúdólabda. Ha esetleg nem, megéri vásárolni is, mert a szülés után is használható. A labdán ugrálva például megnyugtathatjuk a nyűgös babánkat, és az erőnlétünk, a rugalmasságunk helyreállításában is segítségünkre lehet.
@@ -94,7 +94,7 @@ export default function Public44() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications3">Publikációim</Link>

@@ -8,34 +8,34 @@ import Public65Pic2 from "../../../image/publications/public-65-a-dulasagrol.jpg
 export default function Public65() {
   return  (
     <div>
-     <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+     <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public65Pic1} alt="a-dulasagrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A dúlaságról</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A dúlaságról</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2007.  szeptember 25.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications4" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications4" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public65Pic2} alt="a-dulasagrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             A gyermeket váró nők jelentős része már a várandósság korai vagy középső szakaszában kiválasztja azt a társat, akit szeretne a szüléséhez is maga mellé hívni. De az utóbbi időben az is többször előfordul, hogy olyanok kértek tőlem találkozási lehetőséget, akik még csak a fogantatásra készülnek.
                             A dúla a várandós nővel, illetve a párjával a várandósság időszakában többször találkozik. Ezeknek a találkozásoknak a gyakorisága mindig az anya igényei szerint alakul. Egy-egy ilyen beszélgetés nem kötött időben zajlik, gyakorisága más és más, de a szülés kíséréséig a kapcsolatuk rendszerint nagyon elmélyültté és bizalmassá válik. 
@@ -91,7 +91,7 @@ export default function Public65() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications4">Publikációim</Link>

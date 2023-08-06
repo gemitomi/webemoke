@@ -3,6 +3,7 @@
     text-align: center;
     background: #f8f4f1;
     margin-top: 80px;
+    padding: 2rem;
 }
 
 .galery .galery-galery{
@@ -38,7 +39,7 @@
     
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1500px){
 
     .galery-container{
         width: calc(100% - 40px);

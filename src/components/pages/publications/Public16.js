@@ -8,34 +8,34 @@ import Public16Pic2 from "../../../image/publications/public-16-varandosan-nehez
 export default function Public16() {
   return (
     <div>
-        <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+        <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public16Pic1} alt="varandosan nehez az alvas"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Várandósan nehéz az alvás</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Várandósan nehéz az alvás</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2009. augusztus 04.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public16Pic2} alt="varandosan nehez az alvas"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <blockquote>
                             <b><i>Kedves Emőke!</i></b>
                         </blockquote>
@@ -78,19 +78,19 @@ export default function Public16() {
                 <p>
                     <b>Mit érdemes megpróbálni?</b>
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Kerüld a késői vacsorát!</li>
-                    <li class="blog-globale-has-before">Minden étkezésnél kövesd azt az elvet, hogy inkább többször keveset!</li>
-                    <li class="blog-globale-has-before">Gondoskodj napközben a megfelelő folyadékbevitelről, és ne este igyál sokat!</li>
-                    <li class="blog-globale-has-before">Tévézés helyett inkább olvass, relaxálj!</li>
-                    <li class="blog-globale-has-before">Elalvás előtt szellőztesd ki alaposan a hálószobát!</li>
-                    <li class="blog-globale-has-before">Ha éjjel felébredsz, és rövid időn belül nem tudsz visszaaludni, akkor kelj fel és sétálj, ugyanis nem szerencsés, ha a „nem alvás” és a „nem tudok aludni” jelensége a tudatodban összekapcsolódik!</li>
-                    <li class="blog-globale-has-before">Próbáld ki, hogy mikor érzed kipihentebbnek magad, ha napközben is többször el-elszunyókálsz, vagy esetleg mélyebb éjjel az álmod, ha napközben nem alszol!</li>
-                    <li class="blog-globale-has-before">Előbbi esetben kapcsold ki a telefonod, és biztosíts magadnak nyugodt körülményeket a napközbeni pihenéshez egy nap akár többször is!</li>
-                    <li class="blog-globale-has-before">Ha úgy érzed, hogy vannak megválaszolatlan kérdéseid a szüléssel kapcsolatban, keress olyan embert (pl. dúlát, a párodat, barátnőt vagy a szülésznődet), akivel jó ezekről beszélgetni!</li>
-                    <li class="blog-globale-has-before">Készíts nyugtató fürdőt, amely mézben vagy tejszínben elkevert muskátli, levendula, mandarin, rózsa, szantálfa és cédrus illóolajából!</li>
-                    <li class="blog-globale-has-before">Kérj a párodtól egy kellemes, lazító masszázst lefekvés előtt!</li>
-                    <li class="blog-globale-has-before">Mivel igen sokféle homeopátiás szer létezik az alvászavarok enyhítésére, ezért érdemes lenne egy jó homeopata orvossal is konzultálnod, hogy a Te panaszaidnak leginkább megfelelő szert tudja ajánlani.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Kerüld a késői vacsorát!</li>
+                    <li className="blog-globale-has-before">Minden étkezésnél kövesd azt az elvet, hogy inkább többször keveset!</li>
+                    <li className="blog-globale-has-before">Gondoskodj napközben a megfelelő folyadékbevitelről, és ne este igyál sokat!</li>
+                    <li className="blog-globale-has-before">Tévézés helyett inkább olvass, relaxálj!</li>
+                    <li className="blog-globale-has-before">Elalvás előtt szellőztesd ki alaposan a hálószobát!</li>
+                    <li className="blog-globale-has-before">Ha éjjel felébredsz, és rövid időn belül nem tudsz visszaaludni, akkor kelj fel és sétálj, ugyanis nem szerencsés, ha a „nem alvás” és a „nem tudok aludni” jelensége a tudatodban összekapcsolódik!</li>
+                    <li className="blog-globale-has-before">Próbáld ki, hogy mikor érzed kipihentebbnek magad, ha napközben is többször el-elszunyókálsz, vagy esetleg mélyebb éjjel az álmod, ha napközben nem alszol!</li>
+                    <li className="blog-globale-has-before">Előbbi esetben kapcsold ki a telefonod, és biztosíts magadnak nyugodt körülményeket a napközbeni pihenéshez egy nap akár többször is!</li>
+                    <li className="blog-globale-has-before">Ha úgy érzed, hogy vannak megválaszolatlan kérdéseid a szüléssel kapcsolatban, keress olyan embert (pl. dúlát, a párodat, barátnőt vagy a szülésznődet), akivel jó ezekről beszélgetni!</li>
+                    <li className="blog-globale-has-before">Készíts nyugtató fürdőt, amely mézben vagy tejszínben elkevert muskátli, levendula, mandarin, rózsa, szantálfa és cédrus illóolajából!</li>
+                    <li className="blog-globale-has-before">Kérj a párodtól egy kellemes, lazító masszázst lefekvés előtt!</li>
+                    <li className="blog-globale-has-before">Mivel igen sokféle homeopátiás szer létezik az alvászavarok enyhítésére, ezért érdemes lenne egy jó homeopata orvossal is konzultálnod, hogy a Te panaszaidnak leginkább megfelelő szert tudja ajánlani.</li>
                     
                 </ul>
                 <p>Bízom benne, hogy tudtam segíteni, pihentetőbb napokat és éjszakákat kívánok a gyermekvárás utolsó heteire!</p>
@@ -101,7 +101,7 @@ export default function Public16() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications">Publikációim</Link>

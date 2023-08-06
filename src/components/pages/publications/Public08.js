@@ -8,34 +8,34 @@ import Public08Pic2 from "../../../image/publications/public-08-kicsi-es-nagy-sz
 export default function Public08() {
     return (
         <div>
-             <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+             <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public08Pic1} alt="A kicsi es a nagy „szulesbatyuk”"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">A kicsi és a nagy „szülésbatyuk”</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">A kicsi és a nagy „szülésbatyuk”</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2009. november 24.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                    <Link to="/publications" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                    <Link to="/publications" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public08Pic2} alt="A kicsi es a nagy „szulesbatyuk”"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <blockquote>
                             <b><i>Kedves Emőke!</i></b>
                         </blockquote>
@@ -57,33 +57,33 @@ export default function Public08() {
                 <p>
                     A szülőszobára készített csomagban legyenek:
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">az iratok (személyi igazolvány, TAJ-kártya, házassági anyakönyvi kivonat vagy apasági nyilatkozat) várandósgondozási kiskönyv, leletek</li>
-                    <li class="blog-globale-has-before">kényelmes ruha a vajúdáshoz (nem feltétlenül hálóing, lehet póló vagy ing, top is)</li>
-                    <li class="blog-globale-has-before">papucs (jó, ha olyan, amiben a zuhany alá is lehet állni)</li>
-                    <li class="blog-globale-has-before">meleg zokni (vajúdás alatt, de főként szülés után gyakran fázik az anyák lába)</li>
-                    <li class="blog-globale-has-before">vastag betétek (legjobb a TENA inkontinencia betét)</li>
-                    <li class="blog-globale-has-before">bugyi ( a betéthez kapható (Tenafix) hálós vagy valamilyen eldobhatós bugyi)</li>
-                    <li class="blog-globale-has-before">kényelmes melltartó,</li>
-                    <li class="blog-globale-has-before">köntös,</li>
-                    <li class="blog-globale-has-before">puha wc papír,</li>
-                    <li class="blog-globale-has-before">wc-ülőkére helyezhető papírülőke,</li>
-                    <li class="blog-globale-has-before">zsebkendő,</li>
-                    <li class="blog-globale-has-before">tusfürdő,</li>
-                    <li class="blog-globale-has-before">törölközők (zuhanyozás utánra és egy kicsi a homlokborogatáshoz),</li>
-                    <li class="blog-globale-has-before">ajakápoló (nagyon hasznos a vajúdás vége felé a kiszáradt ajkakra),</li>
-                    <li class="blog-globale-has-before">legyező,</li>
-                    <li class="blog-globale-has-before">fényképezőgép (tartalék elemmel),</li>
-                    <li class="blog-globale-has-before">szőlőcukor,</li>
-                    <li class="blog-globale-has-before">csokoládé,</li>
-                    <li class="blog-globale-has-before">banán,</li>
-                    <li class="blog-globale-has-before">műzliszelet,</li>
-                    <li class="blog-globale-has-before">szendvics (apának is),</li>
-                    <li class="blog-globale-has-before">innivaló (2-3 nagy palack ásványvíz),</li>
-                    <li class="blog-globale-has-before">pohár, szívószál vagy egy kisebb flakon víz (hogy ne a nagyot kelljen emelgetni),</li>
-                    <li class="blog-globale-has-before">cd-k zenehallgatáshoz (a kedved szerint),</li>
-                    <li class="blog-globale-has-before">cd lejátszó vagy MP3 abban az esetben, ha nem lenne a szülőszobán zene lejátszására alkalmas eszköz,</li>
-                    <li class="blog-globale-has-before">nagy, puha fürdőlepedő és kis pamutsapka a babának (kérheted, hogy ebbe bugyolálják be a babát a születése után, a sapka pedig azért kell, hogy a nedves fejecskéje meg ne fázzon)</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">az iratok (személyi igazolvány, TAJ-kártya, házassági anyakönyvi kivonat vagy apasági nyilatkozat) várandósgondozási kiskönyv, leletek</li>
+                    <li className="blog-globale-has-before">kényelmes ruha a vajúdáshoz (nem feltétlenül hálóing, lehet póló vagy ing, top is)</li>
+                    <li className="blog-globale-has-before">papucs (jó, ha olyan, amiben a zuhany alá is lehet állni)</li>
+                    <li className="blog-globale-has-before">meleg zokni (vajúdás alatt, de főként szülés után gyakran fázik az anyák lába)</li>
+                    <li className="blog-globale-has-before">vastag betétek (legjobb a TENA inkontinencia betét)</li>
+                    <li className="blog-globale-has-before">bugyi ( a betéthez kapható (Tenafix) hálós vagy valamilyen eldobhatós bugyi)</li>
+                    <li className="blog-globale-has-before">kényelmes melltartó,</li>
+                    <li className="blog-globale-has-before">köntös,</li>
+                    <li className="blog-globale-has-before">puha wc papír,</li>
+                    <li className="blog-globale-has-before">wc-ülőkére helyezhető papírülőke,</li>
+                    <li className="blog-globale-has-before">zsebkendő,</li>
+                    <li className="blog-globale-has-before">tusfürdő,</li>
+                    <li className="blog-globale-has-before">törölközők (zuhanyozás utánra és egy kicsi a homlokborogatáshoz),</li>
+                    <li className="blog-globale-has-before">ajakápoló (nagyon hasznos a vajúdás vége felé a kiszáradt ajkakra),</li>
+                    <li className="blog-globale-has-before">legyező,</li>
+                    <li className="blog-globale-has-before">fényképezőgép (tartalék elemmel),</li>
+                    <li className="blog-globale-has-before">szőlőcukor,</li>
+                    <li className="blog-globale-has-before">csokoládé,</li>
+                    <li className="blog-globale-has-before">banán,</li>
+                    <li className="blog-globale-has-before">műzliszelet,</li>
+                    <li className="blog-globale-has-before">szendvics (apának is),</li>
+                    <li className="blog-globale-has-before">innivaló (2-3 nagy palack ásványvíz),</li>
+                    <li className="blog-globale-has-before">pohár, szívószál vagy egy kisebb flakon víz (hogy ne a nagyot kelljen emelgetni),</li>
+                    <li className="blog-globale-has-before">cd-k zenehallgatáshoz (a kedved szerint),</li>
+                    <li className="blog-globale-has-before">cd lejátszó vagy MP3 abban az esetben, ha nem lenne a szülőszobán zene lejátszására alkalmas eszköz,</li>
+                    <li className="blog-globale-has-before">nagy, puha fürdőlepedő és kis pamutsapka a babának (kérheted, hogy ebbe bugyolálják be a babát a születése után, a sapka pedig azért kell, hogy a nedves fejecskéje meg ne fázzon)</li>
                 </ul>
                 <p>
                     E mellé jó szívvel ajánlom, hogy készíts össze egy másik „szülésbatyut” is. Ebbe teheted mindazt, ami a szívednek, lelkednek kedves és amiről azt gondolod, hogy segíthet a vajúdásban. Ez lehet egy gyertya, amit kifejezetten erre az alkalomra választasz, egy szép kendő, amit a pocakodra köthetsz vagy más, számodra kedves kép vagy tárgy. Ezeket anélkül, hogy az bárkit zavarna, el lehet helyezni a szülőszobán, talán jó lesz majd ránézned és erőt merítened belőle a vajúdás folyamán.
@@ -92,23 +92,23 @@ export default function Public08() {
                     <b>A kórházban töltött napok alatt szükséges</b>
                 </p>
 
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">néhány elől gombolható hálóing vagy pizsama</li>
-                    <li class="blog-globale-has-before">egy másik papucs is (ha a fürdős papucs vizes lenne)</li>
-                    <li class="blog-globale-has-before">intim betétek</li>
-                    <li class="blog-globale-has-before">bugyik (nagyon praktikus az eldobhatós)</li>
-                    <li class="blog-globale-has-before">szoptatós melltartó, melltartó betét</li>
-                    <li class="blog-globale-has-before">tisztálkodó szerek (lehetőleg ne legyen erős illatú, hogy a baba minél inkább a bőröd természetes illatát érezze)</li>
-                    <li class="blog-globale-has-before">törölközők</li>
-                    <li class="blog-globale-has-before">zoknik</li>
-                    <li class="blog-globale-has-before">köntös</li>
-                    <li class="blog-globale-has-before">puha wc papír</li>
-                    <li class="blog-globale-has-before">wc-ülőkére helyezhető papírülőke</li>
-                    <li class="blog-globale-has-before">papír zsebkendő</li>
-                    <li class="blog-globale-has-before">evőeszközök, pohár</li>
-                    <li class="blog-globale-has-before">fényképezőgép</li>
-                    <li class="blog-globale-has-before">telefon, töltő</li>
-                    <li class="blog-globale-has-before">jegyzetfüzet, toll</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">néhány elől gombolható hálóing vagy pizsama</li>
+                    <li className="blog-globale-has-before">egy másik papucs is (ha a fürdős papucs vizes lenne)</li>
+                    <li className="blog-globale-has-before">intim betétek</li>
+                    <li className="blog-globale-has-before">bugyik (nagyon praktikus az eldobhatós)</li>
+                    <li className="blog-globale-has-before">szoptatós melltartó, melltartó betét</li>
+                    <li className="blog-globale-has-before">tisztálkodó szerek (lehetőleg ne legyen erős illatú, hogy a baba minél inkább a bőröd természetes illatát érezze)</li>
+                    <li className="blog-globale-has-before">törölközők</li>
+                    <li className="blog-globale-has-before">zoknik</li>
+                    <li className="blog-globale-has-before">köntös</li>
+                    <li className="blog-globale-has-before">puha wc papír</li>
+                    <li className="blog-globale-has-before">wc-ülőkére helyezhető papírülőke</li>
+                    <li className="blog-globale-has-before">papír zsebkendő</li>
+                    <li className="blog-globale-has-before">evőeszközök, pohár</li>
+                    <li className="blog-globale-has-before">fényképezőgép</li>
+                    <li className="blog-globale-has-before">telefon, töltő</li>
+                    <li className="blog-globale-has-before">jegyzetfüzet, toll</li>
                 </ul>
                 <p>
                     Érdemes előzetesen érdeklődni a kórházban arról, hogy kell-e a babának is összekészíteni valamit. Van olyan kórház, ahol mindent biztosítanak a kisbaba számára, de az is lehet, hogy pelenkát esetleg ruhákat is vinni kell.
@@ -123,7 +123,7 @@ export default function Public08() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications">Publikációim</Link>

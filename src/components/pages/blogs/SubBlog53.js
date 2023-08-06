@@ -8,34 +8,34 @@ import Blog53Pic2 from "../../../image/blog/blog-53-hol-segit-a-dula.jpg";
 export default function SubBlog53() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Blog53Pic1} alt="hol-segit-a-dula"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Hol segít a dúla?</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Hol segít a dúla?</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2010. október 19.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                         <Link to="/blog3" className="blog-global-btn">Blog</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Blog53Pic2} alt="hol-segit-a-dula"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Magyarországon az első dúlák otthonszüléseknél segédkeztek a 90-es évek második felében. Külön képzést kezdetben nem terveztek a számukra, mert spontán választódtak ki azok közül az anyák közül, akik átélték a háborítatlan szülés különleges élményét, és segíteni szerettek volna másoknak is a vajúdás és a szülés óráiban.
                         </p>
@@ -73,7 +73,7 @@ export default function SubBlog53() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                  <Link to="/olvasnivalok">Olvasnivalók</Link> 
               <Link to="/blog3">Blog</Link>

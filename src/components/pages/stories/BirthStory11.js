@@ -8,34 +8,34 @@ import Birth11Pic2 from "../../../image/szulestort/szules_story_11_szules_kozben
 export default function BirthStory11() {
     return (
         <div>
-          <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+          <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth11Pic1} alt="Szules kozben ceget alapitok"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Szülés közben céget alapítok</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Szülés közben céget alapítok</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2011. október 20.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                        <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth11Pic2} alt="Szules kozben ceget alapitok"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Első lányom, Hédi úgy 3 hónapos lehetett, amikor egy esti fürdetés utáni szoptatás közben egy pillanatra elbóbiskoltam. „Álmomban” Hédi így szólt hozzám:  “Hamarosan testvért kell szülnöd Nekem.” Élénken emlékszem, ahogy felriadtam a tudatomban dübörgő kedves, ám határozott felszólítástól, majd megpillantva a karjaimban békésen szunyókáló csöppséget teljesen eltöltött a bizonyosság, hogy ez így lesz.
                         </p>
@@ -118,7 +118,7 @@ export default function BirthStory11() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories">Szüléstörténetek</Link>

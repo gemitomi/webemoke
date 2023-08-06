@@ -6,34 +6,34 @@ import Public39Pic1 from "../../../image/publications/public-39-hero-ujra-lesz-d
 import Public39Pic2 from "../../../image/publications/public-39-ujra-lesz-dulatrening.jpg";
 
 export default function Public39() {
-  return (<div> <section class="section-blog-global">
-  <div class="blog-global-container">
-      <div class="blog-global-hero">
+  return (<div> <section className="section-blog-global">
+  <div className="blog-global-container">
+      <div className="blog-global-hero">
           <img src={Public39Pic1} alt="ujra lesz dulatrening"/>
       </div>
 
-      <div class="blog-global-face">
-          <h2 class="blog-global-title">Újra lesz dúlatréning!</h2>
-          <div class="blog-global-profile-container">
-              <div class="blog-global-profile">
-                  <div class="blog-global-img-container">
+      <div className="blog-global-face">
+          <h2 className="blog-global-title">Újra lesz dúlatréning!</h2>
+          <div className="blog-global-profile-container">
+              <div className="blog-global-profile">
+                  <div className="blog-global-img-container">
                       
                   </div>
-                  <div class="blog-global-text">
+                  <div className="blog-global-text">
                       <h3>Békés Emőke</h3>
                       <p>2008.  október 23.</p>
                   </div>
               </div>
-              <div class="blog-global-button">
-                  <Link to="/publications2" class="blog-global-btn">Publikációim</Link>
+              <div className="blog-global-button">
+                  <Link to="/publications2" className="blog-global-btn">Publikációim</Link>
               </div>
           </div>
 
-          <div class="blog-globale-column">
-              <div class="blog-globale-img-container">
+          <div className="blog-globale-column">
+              <div className="blog-globale-img-container">
                   <img src={Public39Pic2} alt="ujra lesz dulatrening"/>
               </div>
-              <div class="blog-globale-text">
+              <div className="blog-globale-text">
                   <p>
                       <b>Az elmúlt hetekben többen is érdeklődtetek arról, hogy mikor szervezek újra dúlatréninget. Gyakori kérdés az is, hogy mi a feltétele annak, hogy valaki dúlává váljon, és hogy kell-e bármilyen egészségügyi alapismeret a tréning elvégzéséhez.</b>
                   </p>
@@ -99,7 +99,7 @@ export default function Public39() {
           </p>
       </div>
 
-      <div class="blog-global-tags">
+      <div className="blog-global-tags">
             <p>Címkék:</p><Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications2">Publikációim</Link>
       </div>

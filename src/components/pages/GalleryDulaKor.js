@@ -19,24 +19,24 @@ import PicDulaKor12 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulak
 export default function GalleryDulaKor() {
   return (
     <div>
-         <section class="galery">
-            <div class="galery-galery">
-                <h1 class="galery-title">Képek a Békés dúlakör életéből</h1>
+         <section className="galery">
+            <div className="galery-galery">
+                <h1 className="galery-title">Képek a Békés dúlakör életéből</h1>
             </div>
 
-            <div class="galery-container">
-                <div class="galery-box"><img src={PicDulaKor1}/></div>
-                <div class="galery-box"><img src={PicDulaKor2}/></div>
-                <div class="galery-box"><img src={PicDulaKor3}/></div>
-                <div class="galery-box"><img src={PicDulaKor4}/></div>
-                <div class="galery-box"><img src={PicDulaKor5}/></div>
-                <div class="galery-box"><img src={PicDulaKor6}/></div>
-                <div class="galery-box"><img src={PicDulaKor7}/></div>
-                <div class="galery-box"><img src={PicDulaKor8}/></div>
-                <div class="galery-box"><img src={PicDulaKor9}/></div>
-                <div class="galery-box"><img src={PicDulaKor10}/></div>
-                <div class="galery-box"><img src={PicDulaKor11}/></div>
-                <div class="galery-box"><img src={PicDulaKor12}/></div>
+            <div className="galery-container">
+                <div className="galery-box"><img src={PicDulaKor1}/></div>
+                <div className="galery-box"><img src={PicDulaKor2}/></div>
+                <div className="galery-box"><img src={PicDulaKor3}/></div>
+                <div className="galery-box"><img src={PicDulaKor4}/></div>
+                <div className="galery-box"><img src={PicDulaKor5}/></div>
+                <div className="galery-box"><img src={PicDulaKor6}/></div>
+                <div className="galery-box"><img src={PicDulaKor7}/></div>
+                <div className="galery-box"><img src={PicDulaKor8}/></div>
+                <div className="galery-box"><img src={PicDulaKor9}/></div>
+                <div className="galery-box"><img src={PicDulaKor10}/></div>
+                <div className="galery-box"><img src={PicDulaKor11}/></div>
+                <div className="galery-box"><img src={PicDulaKor12}/></div>
                 
             </div>
     </section>

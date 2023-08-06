@@ -8,34 +8,34 @@ import Birth30Pic2 from "../../../image/szulestort/szules-story-30-kettos-szulet
 export default function BirthStory30() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth30Pic1} alt="kettos-szuletes"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Kettős születés</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Kettős születés</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p></p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                          <Link to="/stories2" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth30Pic2} alt="kettos-szuletes"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             2008. augusztus 5-én nem csak Te születtél meg, hanem Veled együtt újra megszülettem én is.
                             <br/>Már nagyon vártunk Rád. Akartuk, hogy legyél és szerettünk az első pillanattól kezdve, Kilenc hónapon keresztül, ami csodálatos volt, végig izgatottan vártuk a percet, hogy megpillantsunk végre.
@@ -122,7 +122,7 @@ export default function BirthStory30() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to= "/stories2">Szüléstörténetek</Link>

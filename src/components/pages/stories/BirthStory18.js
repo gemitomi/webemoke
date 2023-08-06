@@ -8,34 +8,34 @@ import Birth18Pic2 from "../../../image/szulestort/szules-story-18-barnus-szulet
 export default function BirthStory18() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth18Pic1} alt="barnus-szuletese"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Barnus születése</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Barnus születése</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p></p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                          <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth18Pic2} alt="barnus-szuletese"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Barnabás 2008. október 18-án jött a világra, születésének története mégis 2006 őszén kezdődött. Ekkor vártuk ugyanis a nővérét, és ekkor derült ki, hogy Blanka, aki addig ügyesen fejjel lefelé fordulva feküdt, egyszer csak visszafordult. Innentől kezdve a szülésig hátra lévő három hétben non-stop csak azzal foglalkoztam, hogy hogyan tudnánk megfordítani Blankát. Mindent, de mindent megpróbáltunk, amiről csak akkor hallottam (homeopátia, fénnyel és hanggal való vezetgetés, relaxált állapotban való beszélgetések vele, négykézláb mászkálás, jóga gyakorlatok, kórházi fordítás, stb.).
                         </p>
@@ -177,7 +177,7 @@ export default function BirthStory18() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories">Szüléstörténetek</Link>

@@ -9,34 +9,34 @@ import Birth14Pic3 from "../../../image/szulestort/szules_story_14_a_talaltam_er
 export default function BirthStory14() {
     return (
         <div>
-           <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+           <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth14Pic1} alt="Talaltam erot, valahogy mindig akadt"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">“Találtam erőt, valahogy mindig akadt”</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">“Találtam erőt, valahogy mindig akadt”</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2010. július 22.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                        <Link to="/stories" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth14Pic2} alt="Talaltam erot, valahogy mindig akadt"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Az első kisfiam, Iván császármetszéssel jött a világra. Egy agyi rendellenesség miatt ezt ajánlották az orvosok abban a kórházban, ahol végül a 36. héten megszültem őt. Nem ott, nem úgy terveztem a szülésemet, természetes körülményeket, háborítatlan szülést szerettem volna, de nem sikerült. Azt azonban elhatároztam, hogy ha valaha újra várandós leszek, másképp történik minden.
                         </p>   
@@ -75,11 +75,11 @@ export default function BirthStory14() {
                     A fáradtság az utolsó órában lepett meg drámai módon, ekkor a fájások is ritkulni kezdtek, aminek valahogy örültem is, van egy ilyen vihar előtti csend feeling a végső visszaszámlálás előtt, amit a szakirodalom is leír. Egyesek ilyenkor még aludni is tudnak pár percet. De ebből nekem nem jutott semmi. Az előzetes császár miatt ezen ponton, tudva a gyerek brutális méreteit, nem lehetett már ráérősen várakozni. Gyors konzultáció után bekötötték az oxitocint, ami aztán este 9 óra 36 perckor kirobbantotta belőlem a 3980 grammos, 60 centis, 36 centi fejkörfogatú fiamat. Gátvédelemre nem volt esély. Elfogadtam, mert tudtam, hogy a szülésznőm vérprofi gátvédő, ha nem próbálkozik, annak valódi oka van.
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth14Pic3} alt="Talaltam erot, valahogy mindig akadt"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Amikor megláttam a fiam fejét a lábam között, fel sem tudtam fogni, hogy az ott lent is én vagyok, és belőlem jön ki egy gyerek. Őszintén szólva nem is úgy nézett ki, mint egy gyerek, hanem mint egy mini alien. De aztán már ott is volt a mellemen, piros, bolyhos törölközőben, tökéletesen. Én pedig örültem, örültem, nem érdekelt semmi, szinte kiabálva örvendeztem, hogy megérkezett A Zsiga. A fotók tanúsága szerint – csak piros és még pirosabb foltok látszanak rajtuk – de ezt akkor egyáltalán nem érzékeltem. 
                         </p>   
@@ -97,7 +97,7 @@ export default function BirthStory14() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories">Szüléstörténetek</Link>

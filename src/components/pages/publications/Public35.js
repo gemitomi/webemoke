@@ -7,34 +7,34 @@ import Public35Pic2 from "../../../image/publications/public-35-terhes-vagyok-ho
 
 export default function Public35() {
   return (
-  <div><section class="section-blog-global">
-  <div class="blog-global-container">
-      <div class="blog-global-hero">
+  <div><section className="section-blog-global">
+  <div className="blog-global-container">
+      <div className="blog-global-hero">
           <img src={Public35Pic1} alt="terhes vagyok, hogyan tovabb"/>
       </div>
 
-      <div class="blog-global-face">
-          <h2 class="blog-global-title">Terhes vagyok, hogyan tovább?</h2>
-          <div class="blog-global-profile-container">
-              <div class="blog-global-profile">
-                  <div class="blog-global-img-container">
+      <div className="blog-global-face">
+          <h2 className="blog-global-title">Terhes vagyok, hogyan tovább?</h2>
+          <div className="blog-global-profile-container">
+              <div className="blog-global-profile">
+                  <div className="blog-global-img-container">
                       
                   </div>
-                  <div class="blog-global-text">
+                  <div className="blog-global-text">
                       <h3>Békés Emőke</h3>
                       <p>2008. november 04.</p>
                   </div>
               </div>
-              <div class="blog-global-button">
-                  <Link to="/publications2" class="blog-global-btn">Publikációim</Link>
+              <div className="blog-global-button">
+                  <Link to="/publications2" className="blog-global-btn">Publikációim</Link>
               </div>
           </div>
 
-          <div class="blog-globale-column">
-              <div class="blog-globale-img-container">
+          <div className="blog-globale-column">
+              <div className="blog-globale-img-container">
                   <img src={Public35Pic2} alt="terhes vagyok, hogyan tovabb"/>
               </div>
-              <div class="blog-globale-text">
+              <div className="blog-globale-text">
                   <p>
                       <b>Kedves Emőke!</b>
                   </p>
@@ -97,13 +97,13 @@ export default function Public35() {
               Azok az alapvizsgálatok, amelyeket a védőnő végez a védőnői tanácsadás keretében minden alkalommal, az alábbiak:
           </p>
           
-          <ul class="blog-globale-list">
-              <li class="blog-globale-has-before">testsúlymérés,</li>
-              <li class="blog-globale-has-before">vérnyomásmérés,</li>
-              <li class="blog-globale-has-before">pulzusszámmérés,</li>
-              <li class="blog-globale-has-before">haskörfogat mérése,</li>
-              <li class="blog-globale-has-before">symphisis-fundus távolság (SF) mérése a 20. héttől</li>
-              <li class="blog-globale-has-before">és a magzati szívhang észlelése (babydoppal már a 12-14. héttől észlelhető).</li>
+          <ul className="blog-globale-list">
+              <li className="blog-globale-has-before">testsúlymérés,</li>
+              <li className="blog-globale-has-before">vérnyomásmérés,</li>
+              <li className="blog-globale-has-before">pulzusszámmérés,</li>
+              <li className="blog-globale-has-before">haskörfogat mérése,</li>
+              <li className="blog-globale-has-before">symphisis-fundus távolság (SF) mérése a 20. héttől</li>
+              <li className="blog-globale-has-before">és a magzati szívhang észlelése (babydoppal már a 12-14. héttől észlelhető).</li>
       
           </ul>
           <p>
@@ -117,7 +117,7 @@ export default function Public35() {
           </p>
       </div>
 
-      <div class="blog-global-tags">
+      <div className="blog-global-tags">
             <p>Címkék:</p><Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications2">Publikációim</Link>
       </div>

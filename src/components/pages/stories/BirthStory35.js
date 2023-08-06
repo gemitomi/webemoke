@@ -8,34 +8,34 @@ import Birth35Pic2 from "../../../image/szulestort/szules-story-35-madarka.jpg";
 export default function BirthStory35() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth35Pic1} alt="madarka"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Madárka</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Madárka</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p></p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                          <Link to="/stories2" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth35Pic2} alt="madarka"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Azokban a napokban, amikor Teodor kisfiunk születése már igencsak esedékes volt, mind többet olvastam a Rumi Mester verseit. [Mevlana Rumi, 12. századi perzsa költő.] Bölcs nyugalmat vártam tőle, s szerettem volna türelmet, kitartást, hitet meríteni belőle. Mondják, hogy már a korai időkben használták Rumi műveit, s kölünösen a nagyszabású Masnavit jóslásra, tanácsadásra, csakúgy, mint a Bibliát. Ha egy probléma felmerült, vagy egy kérdésre választ vártak, felcsapták a könyvet, s ahol nyílt, azt a verset alkalmazták a kérdéses ügy elrendezésére. Ebben az időben én is mind gyakrabban nyúltam Rumi versei után – megváltó jelre várva. Mert bár igyekeztem magam csendes türelemre inteni, az igazság az, hogy nagyon-nagyon vártam már a szülés megindulását.
                         </p>
@@ -82,11 +82,11 @@ export default function BirthStory35() {
                     Édesapának kiáltottam, hogy hozzon gyorsan törülközőt. Szalad át a másik szobából. Rengeteg víz volt, átitatott jópár törülközőt. Én aggódva vizsgálgattam: nem zöld-e, s kérdezgettem: ugye nem zöld?! Féltem bármitől, ami módosíthatja a szülés szép, rendes menetét. De nem tűnt zöldnek, szín tisztának tűnt. Ebben megnyugodtam, s örvendtem, hogy már ennyire haladtunk. Izgalommal, s örömmel töltött el a bizonyosság, hogy semmi kétség: akkor most már tényleg megyünk szülni! Édesapával viccelődtünk, nekem legalábbis fölöttébb jó kedvem kerekedett. Újra felhívtam Emőkét, s mondtam, hogy így állunk s akkor mi lassan tényleg indulnánk. Ekkor már fél kettő felé járt. Megegyeztünk, hogy a kórháznál találkozunk, s együtt megyünk föl. Kicsit még húztuk az időt itthon, hogy ne érjünk oda sokkal hamarabb Emőkénél. Lassan bepakolt Édesapa az autóba, s indultunk. Neki még gondja volt rá, hogy a hátsó ülésre párnákat, takarót készítsen. A magzatvíz továbbra is csordogált. Jó volt a hátsó ülésen ledőlni, ülve már nehéz lett volna a kocsiút. Kumát [jap. ’medve’, kedvenc jegesmedve plüssállatunk] öleltem, s ott volt Nezü [másik plüssállat] is. Ekkor már nagy meleg volt, Édesapa izzadt. Szép óvatosan vezetett, én az egészből alig észleletm valamit, s csodálkoztam, hogy milyen hamar a kórháznál voltunk. A parkolóban Emőkét vártuk. Ittam vizet, ettem szőlőcukrot. Az ebéd kimaradt, kicsit éhesnek is éreztem magamat, de nem kívántam enni semmit. Eszembe jutott, hogy reggel elmaradt a szokásos széklet. Elterveztem, hogy ha megkérdezik a kórházban, hogy akarok-e beöntést, majd azt füllentem, hogy hasmenésem volt délelőtt, minden kijött. Nem kívántam semmi macerálást. Csak hagyjanak nyugodtan vajúdni. Édesapa zenét tett be, míg vártunk, az ecseri lakodalmast. Dúdolgattuk együtt az ismerős dalokat. Majd megérkezett Emőke, s elindultunk fölfelé. Átvett néhány csomagot. Nehezemre esett felkelni és menni – a rövid út alatt, míg elértük a bejáratot, talán két fájás is volt.
                 </p>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src="../image/szzules-story-35-a-madarka.jpg" alt="madarka"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Édesapát és Emőkét egyelőre nem engedték be a szülőszobára, csak bekísértek engem, hogy adminisztráljanak és megvizsgáljanak. A magzatvíz színe rendben volt, a méhszáj két újjnyira nyitva. Kicsit elkedvetlenedtem, hogy „még csak annyira?” (Akkor abban a tévedésben voltam, hogy tíz újjnyinak kell lenni. Később Emőke mondta, hogy nem-nem, 10 cm, az négy újjnyi, tehát már elértük a felét. Hurrá! Ez jó hír volt, már akkor bent voltunk hármasban a szülőszobán.)
                         </p>
@@ -149,7 +149,7 @@ export default function BirthStory35() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories2">Szüléstörténetek</Link>

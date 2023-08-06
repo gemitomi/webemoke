@@ -8,34 +8,34 @@ import Public47Pic2 from "../../../image/publications/public-47-miert-sir-a-baba
 export default function Public47() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Public47Pic1} alt="miert-sir-a baba"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Miért sír a baba?</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Miért sír a baba?</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p>2008. június 03.</p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
-                        <Link to="/publications3" class="blog-global-btn">Publikációim</Link>
+                    <div className="blog-global-button">
+                        <Link to="/publications3" className="blog-global-btn">Publikációim</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Public47Pic2} alt="miert-sir-a baba"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             <b>Kedves Emőke!</b>
                         </p>
@@ -102,12 +102,12 @@ export default function Public47() {
                 <p>
                     <b>Hogyan lehet megnyugtatni a síró kisbabát?</b>
                 </p>
-                <ul class="blog-globale-list">
-                    <li class="blog-globale-has-before">Ha már jóllakott, akkor sem kell rögtön letenni, hiszen a babák igénylik a cumizást is az anya mellén. Hogy ez mennyi ideig tartson, az az anya türelmétől és a baba igényétől is függhet.</li>
-                    <li class="blog-globale-has-before">Az egyik leghatásosabb módszer a ringatás.</li>
-                    <li class="blog-globale-has-before">Lehet, hogy a dúdolás vagy valamilyen kellemes zene nyugtatja meg.</li>
-                    <li class="blog-globale-has-before">Jó hatású a babamasszázs. Meleg helyiségben, olajos kézzel simítsuk végig a kisbaba testrészeit, és közben halkan, kedvesen beszéljünk hozzá.</li>
-                    <li class="blog-globale-has-before">Érdemes kipróbálni, hogy megnyugtatja-e a csönd. Lehet, hogy kimerült, és épp a sok inger zavarja.</li>
+                <ul className="blog-globale-list">
+                    <li className="blog-globale-has-before">Ha már jóllakott, akkor sem kell rögtön letenni, hiszen a babák igénylik a cumizást is az anya mellén. Hogy ez mennyi ideig tartson, az az anya türelmétől és a baba igényétől is függhet.</li>
+                    <li className="blog-globale-has-before">Az egyik leghatásosabb módszer a ringatás.</li>
+                    <li className="blog-globale-has-before">Lehet, hogy a dúdolás vagy valamilyen kellemes zene nyugtatja meg.</li>
+                    <li className="blog-globale-has-before">Jó hatású a babamasszázs. Meleg helyiségben, olajos kézzel simítsuk végig a kisbaba testrészeit, és közben halkan, kedvesen beszéljünk hozzá.</li>
+                    <li className="blog-globale-has-before">Érdemes kipróbálni, hogy megnyugtatja-e a csönd. Lehet, hogy kimerült, és épp a sok inger zavarja.</li>
                 </ul>
                 <p>
                     Dr. Sears amerikai gyermekgyógyász professzor szerint azonban a legfontosabb az, hogy az anya hallgasson bátran a megérzéseire és cselekedjen ösztönösen. Azt vallja, hogy az anyának nem megértenie kell a babáját, hanem együtt kell éreznie vele. Minél több időt tölt a kisbabája közvetlen közelében, annál valószínűbb, hogy még azelőtt észreveszi a kicsi jelzéseit, mielőtt ő hangosan üvölteni kezdene. Ha túl sok idő telik el azután, hogy a gyerek sírni kezd, előfordulhat, hogy annyira felhergeli magát, hogy csak hosszas kísérletezés után lehet megnyugtatni.
@@ -129,7 +129,7 @@ export default function Public47() {
                 </p>
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
                 <Link to="/publications3">Publikációim</Link>

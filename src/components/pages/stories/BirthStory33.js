@@ -8,34 +8,34 @@ import Birth33Pic2 from "../../../image/szulestort/szules-story-33-igaz-mese-a-h
 export default function BirthStory33() {
   return (
   <div>
-    <section class="section-blog-global">
-        <div class="blog-global-container">
-            <div class="blog-global-hero">
+    <section className="section-blog-global">
+        <div className="blog-global-container">
+            <div className="blog-global-hero">
                 <img src={Birth33Pic1} alt="igaz-mese-a-harom-lanyrol"/>
             </div>
 
-            <div class="blog-global-face">
-                <h2 class="blog-global-title">Igaz mese a három leányról</h2>
-                <div class="blog-global-profile-container">
-                    <div class="blog-global-profile">
-                        <div class="blog-global-img-container">
+            <div className="blog-global-face">
+                <h2 className="blog-global-title">Igaz mese a három leányról</h2>
+                <div className="blog-global-profile-container">
+                    <div className="blog-global-profile">
+                        <div className="blog-global-img-container">
                             
                         </div>
-                        <div class="blog-global-text">
+                        <div className="blog-global-text">
                             <h3>Békés Emőke</h3>
                             <p></p>
                         </div>
                     </div>
-                    <div class="blog-global-button">
+                    <div className="blog-global-button">
                          <Link to="/stories2" className="blog-global-btn">Szüléstörténetek</Link>
                     </div>
                 </div>
 
-                <div class="blog-globale-column">
-                    <div class="blog-globale-img-container">
+                <div className="blog-globale-column">
+                    <div className="blog-globale-img-container">
                         <img src={Birth33Pic2} alt="igaz-mese-a-harom-lanyrol"/>
                     </div>
-                    <div class="blog-globale-text">
+                    <div className="blog-globale-text">
                         <p>
                             Egyszer voltunk, hol nem voltunk egy négytagú család, aztán egy tavaszi vasárnap reggelen mind a négyen izgatottan figyeltük a tesztcsíkokat, s mikor kiderült, hogy most már öten vagyunk, az ujjongás pillanatai után 11 éves lányom, Gyöngyvér első kérdése ez volt: „Anya, lehetünk majd mi a dúláid?”
                         </p>
@@ -80,7 +80,7 @@ export default function BirthStory33() {
 
             </div>
 
-            <div class="blog-global-tags">
+            <div className="blog-global-tags">
                 <p>Címkék:</p>
                 <Link to="/olvasnivalok">Olvasnivalók</Link> 
             <Link to="/stories2">Szüléstörténetek</Link>
