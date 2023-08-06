@@ -26,6 +26,7 @@ export default function FeedBack6DV() {
             
         </div>
     </div>
+    <div className="feedback-parent-text">
     <p>Részemről az a tudat, hogy Téged bármikor hívhattalak vagy írhattam Neked a 
         terhesség alatt, még ha apróságokról is volt szó, nyugalommal töltött el. 
         Ha nem lettél volna, valószínűleg nem mertem volna megkérdezni senkitől sem, 
@@ -63,7 +64,7 @@ export default function FeedBack6DV() {
     <p>Azt a fajta lelki támaszt és nyugalmat kaptam tőled, amitől sokkal könnyebb lett a szülés folyamata, sokkal könnyebb volt az “elengedés”, nem feszengtem, csak a feladatra koncentráltam. 
        Úgy éreztem magam, mint egy háborítatlan burokban, amit Te és a férjem őriztek.
     </p>
-    
+    </div>
 
 
     <div className="feedback-parent-tags">

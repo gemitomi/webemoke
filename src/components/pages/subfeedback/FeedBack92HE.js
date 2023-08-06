@@ -40,7 +40,7 @@ export default function FeedBack92HE() {
     </div>
 
     <div className="feedback-parent-pag">
-        <Link to="/letrejon-egy-spiritualis-kötelek" className="feedback-parent-pag1">Előző</Link> 
+        <Link to="/letrejon-egy-spiritualis-kotelek" className="feedback-parent-pag1">Előző</Link> 
         
     </div>
     

@@ -41,7 +41,7 @@
 }
 
 .bekesdulamuhely-img-container{
-    width: 50%;
+    width: 100%;
     align-self: center;
 }
 
@@ -113,6 +113,9 @@
 
 @media(max-width: 850px)
 {
+    .bekesdulamuhely-head h1{
+        font-size: 5rem;
+    }
     .bekesdulamuhely-container .bekesdulamuhely-column{
         display:grid; 
     }
@@ -129,6 +132,29 @@
     .bekesdulamuhely-img-container{
         justify-content:center;
         align-items: center;
+        text-align: center;
+    }
+
+    .bekesdulamuhely-img-container img {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .bekesdulamuhely-container p {
+        line-height: 1.5;
+        font-size: 2.8rem;
+    }
+    .bekesdulamuhely-column2{
+        text-align: left;
+        padding-left: 3rem;
+    }
+
+    .bekesdulamuhely-list .bekesdulamuhely-has-before {
+        font-size: 2.8rem;
+    }
+    
+    .bekesdulamuhely-container h4 {
+        font-size: 3rem;
     }
     
 }

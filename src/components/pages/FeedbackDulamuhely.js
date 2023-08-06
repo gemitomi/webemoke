@@ -63,7 +63,22 @@ export default function FeedbackDulamuhely() {
                     </div>
                 </div>
 
-                <div className="feedback-card">
+                
+            </div>
+        </div>  
+    </div>
+        
+</section>
+
+
+<section className="feedback">
+
+    <div className="feedback-slide-container">
+        <div className="feedback-slide-content">
+            <div className="feedback-card-wrapper">
+
+
+            <div className="feedback-card">
                     <div className="feedback-image-content">
                         <span className="feedback-overlay"></span>
 
@@ -89,18 +104,7 @@ export default function FeedbackDulamuhely() {
                         
                     </div>
                 </div>
-            </div>
-        </div>  
-    </div>
-        
-</section>
 
-
-<section className="feedback">
-
-    <div className="feedback-slide-container">
-        <div className="feedback-slide-content">
-            <div className="feedback-card-wrapper">
                 <div className="feedback-card">
                     <div className="feedback-image-content">
                         <span className="feedback-overlay"></span>

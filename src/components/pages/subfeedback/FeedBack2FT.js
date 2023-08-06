@@ -36,6 +36,7 @@ export default function FeedBack2FT() {
             </p>
         </div>
     </div>
+    <div className="feedback-parent-text">
     <p>Így felvettem Emőkével a kapcsolatot, két órát beszélgettünk, majd abban maradtunk, 
         hogy ismét jelentkezem, ha úgy érzem szükség van további beszélgetésre. 
         Emőke meglepően más szemszögből világított rá az átélt élményre, választ adott számtalan kérdésemre 
@@ -74,7 +75,7 @@ export default function FeedBack2FT() {
             akár segítséggel. Már tudom, hogy amint több időre el tudok szakadni a kisfiamtól, ismét felkeresem Emőkét, hiszen a jó szülés ellenére nyilván újra van mit feldolgoznom.
         </p>
         <p>Kislányom, Flóra 2012. áprilisában lesz hároméves, kisfiam, Dénes 2012. januárjában volt hat hónapos.</p>
-
+</div>
 
         <div className="feedback-parent-tags">
                 <p>Címkék:</p>

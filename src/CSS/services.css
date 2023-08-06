@@ -195,6 +195,11 @@
     outline-offset: 4px;
   }
 
+  .serv-faq-button-box{
+    background: #f8f4f1;
+    padding: 10px;
+  }
+
 @media (max-width: 1330px){
 
 

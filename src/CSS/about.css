@@ -14,6 +14,7 @@
     align-items: center;
     background: #e8dee4;
     margin-top: 90px;
+    padding: 2rem 10%;
 }
 
 
@@ -32,7 +33,6 @@
     color: #a7638b;
     font-size: 2em;
     font-weight: 400;
-    text-align: justify;
     padding: 20px;
 }
 
@@ -40,6 +40,7 @@
 .about1{
     width: 100%;
     position: relative;
+    padding: 2rem 15%;
 }
 
 .about1 .image{
@@ -90,7 +91,7 @@
     font-size: 2em;
     line-height: 1.5em;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -100,9 +101,10 @@
     text-align: left;
     font-size: 2em;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5em;
     margin-bottom: 20px;
+    padding: 2rem 15%;
  
 }
 
@@ -139,6 +141,7 @@
     justify-content: center;
     align-items: center;
     background: #f8f4f1;
+    text-align: center;
    
 }
 
@@ -157,11 +160,6 @@
 
 .about-exp-column{
     display: flex;
-}
-
-.about-exp-column{
-    display: flex;
-       
 }
 
 .about-exp-img-container{
@@ -189,15 +187,24 @@
 /*Motivációim*/
 
 
-@media (max-width:1200px){
-
-    section{
-        padding: 3rem 5%;
+@media (max-width:1500px){
+    .about1{
+        padding: 2rem 10%;
     }
-
-
-
+    
+    .content1{
+        padding: 2rem 10%;
+    }
 }
+    
+
+   /*section{
+        padding: 3rem 5%;
+    }*/
+
+
+
+
 
 @media (max-width:991px){
     

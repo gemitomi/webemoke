@@ -28,6 +28,7 @@ export default function FeedBack8TP() {
             </p>
         </div>
     </div>
+    <div className="feedback-parent-text">
     <p>Úgy gondolom, hogy a dúla egyáltalán nem veszi el a szülésznő munkáját, 
         hisz egy szülésznő teszi a dolgát, ami nem feladata dúlának, viszont a szülésznő munkája kiegészül azzal a plusszal, amit a dúla tesz hozzá, és nagy segítség abban, hogy a kismama tudatában van a dolgoknak, a fejében helyre van téve minden, nagyjából tudja, mi miért történik, a dúla által teremtett biztonságban (pl: egy zavaró műszer letakarása, kedvenc zene, illat, vagy egy masszázs, vagy egy borogatás, legyezés….) sokkal jobban haladhat a folyamat, és ezáltal kevesebb a komplikáció!
     </p>
@@ -39,7 +40,7 @@ export default function FeedBack8TP() {
     <p>A dúlával a kapcsolat nem úgy alakul, mint a szülésznővel! Nem a kórházban gyorsan két szülés között hadarja el a kérdéseket a válaszomra. A dúla bármikor bármivel megkereshető, én nem éreztem, hogy a szülésznőt felhívhatnám mindenféle ügyes-bajos dolgommal, annál sokkal leterheltebb volt! Abban sem voltam biztos, hogy tudná-e ki vagyok, ha telefonon bemutatkozom… Az odafigyelés pedig nagyon fontos, és ezt a dúla sokkal inkább meg tudja adni, mint egy szülésznő!
         
     </p>
-
+    </div>
     <div className="feedback-parent-tags">
         <p>Címkék:</p>
         <i className="far fa-calendar"> 2016.09.18.</i>

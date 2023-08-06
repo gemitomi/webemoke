@@ -34,6 +34,7 @@ export default function FeedBack3NZS() {
             </p>
         </div>
     </div>
+    <div className="feedback-parent-text">
     <p>  
          
         Mindenkinek megvolt a maga szerepe a szülésem körül, a szülésznő CTG-zett, 
@@ -43,7 +44,7 @@ export default function FeedBack3NZS() {
 
     <p>A dúlai figyelem és törődés egy nehezen megfogalmazható gondoskodás, sokszor csak egy apró mozdulat, egy-egy szó, mondat, ami azonban a szülőszobán hatalmas erőt tud adni.  
         A következő szülésemet is dúlás kíséréssel tervezem, és remélem, hogy olyan háborítatlan és szép élmény lesz mint a második.</p>
-
+    </div>
         <div className="feedback-parent-tags">
             <p>Címkék:</p>
             <i className="far fa-calendar"> 2016.09.18.</i>

@@ -40,7 +40,7 @@ export default function FeedBack90KK() {
 
     <div className="feedback-parent-pag">
         <Link to="/annyi-mindent-javasoltál-es-csinaltal" className="feedback-parent-pag1">Előző</Link>
-        <Link to="/letrejon-egy-spiritualis-kötelek" className="feedback-parent-pag2">Következő</Link>
+        <Link to="/letrejon-egy-spiritualis-kotelek" className="feedback-parent-pag2">Következő</Link>
     </div>
     
 </div>

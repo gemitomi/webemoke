@@ -15,7 +15,7 @@ export default function Dulakor() {
           </div>
           <div className="bekesdulakor-other-column">
               <div className="bekesdulakor-other-img-container">
-                  <img src={DulaKorCircle} alt=""/>
+                  <center><img src={DulaKorCircle} alt=""/></center>
               </div>
               <div className="bekesdulakor-other-text">
                   <p>

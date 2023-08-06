@@ -53,7 +53,6 @@ html::-webkit-scrollbar-thumb{
     .home-about{
         display: flex;
         align-items: center;
-        
         padding: 0px;
         background-color: #d4d1d2;
         margin-top: 70px;
@@ -205,6 +204,7 @@ html::-webkit-scrollbar-thumb{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 15px;
     
 }
 
@@ -716,6 +716,7 @@ html::-webkit-scrollbar-thumb{
 /* dulakör start */
 .dula-circle{
     background: #97bcc7;
+    padding: 2rem 10%;
 }
 
 
@@ -1033,6 +1034,7 @@ svg circle{
     padding-block: 80px;
     width: 100%;
     background-color: #f8f4f1;
+    padding: 2rem 15%;
 }
 
 .blog-container {
@@ -1201,6 +1203,8 @@ svg circle{
 @media (max-width: 800px) {
     .blog-section { 
         padding-block: 30px;
+        padding: 2rem 10%;
+       
         
     }
 
@@ -1225,12 +1229,15 @@ svg circle{
   
   /* Feedback */
 
+
+
 .feedback{
     
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #cfdade;
+    padding: 2rem 15%;
 }
 
 .feedback-hero{
@@ -1244,6 +1251,7 @@ svg circle{
     font-weight: 700;
     color: #a7638b;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 .feedback-slide-container{
@@ -1263,6 +1271,7 @@ svg circle{
 .feedback-card-wrapper{
     display: flex;
     margin: 1px;
+    
 }
 
 .feedback-card{
@@ -1271,6 +1280,16 @@ svg circle{
     border-radius: 25px;
     background-color: #fff;
     margin: 40px;
+    max-width: 400px;
+}
+.feedback-card-hidden{
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #fff;
+    margin: 40px;
+    max-width: 400px;
+    z-index: -1;
 }
 
 .feedback-image-content,
@@ -1308,11 +1327,13 @@ svg circle{
     background-color: #a7638b;
 }
 
-@media (max-width: 405px) {
+@media (max-width: 460px) {
     .feedback-overlay::before,
     .feedback-overlay::after{
         z-index: -1;
     }
+
+   
 }
 
 .feedback-overlay::after{
@@ -1420,11 +1441,21 @@ svg circle{
     color: #a7638b;
     box-shadow: 6px 6px 0 -1px #868485;
 }
+@media (max-width: 1500px) {
+    .feedback{
+        padding: 1rem 5%;
+    }
+}
 
 @media (max-width: 1122px) { 
+    
     .feedback-card-wrapper{
         display: block;
     }
+    .feedback-card-hidden{
+        display: none;
+    }
+
     
 }
 @media (max-width: 1105px) {
@@ -1442,8 +1473,14 @@ svg circle{
     }
 }
 @media (max-width: 800px) {
+    
+
     .feedback-card{
         width: auto;
+    }
+
+    .feedback-description{
+        font-size: 3rem;
     }
 
     .feedback-button{
@@ -1632,6 +1669,10 @@ svg circle{
     html{
         font-size: 50%;
     }
+
+    .feedback{
+        padding: 1rem 1%;
+    }
    
 
 }
@@ -1788,6 +1829,7 @@ svg circle{
     background-color: #e8dee4;
     background-size: cover;
     background-position: center;
+    padding: 2rem 10%;
     
 }
 

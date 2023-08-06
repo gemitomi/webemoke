@@ -8,24 +8,44 @@ export default function SzulesFelkeszites() {
   return (
     <div>
       <section className="szulfel">
+      <div className="szulfel-noresp">
       <div className='szulfel-container'>
-        
         <div className='szulfel-col-left'>
           <div className="szulfel-text">
             <h1>Szülésfelkészítés</h1>  
-            <span>Online is!</span><hr/>
+            <span>Online lehetőség</span><hr/>
+          
+            <h3>Szülésre, szülői szerepre való felkészítés</h3>
+            
+            <p>Gyermeket vállalni, szülőnek lenni az egyik legnagyobb életfeladat. Hatalmas kaland és óriási felelősség, kiapadhatatlan örömforrás és állandó készültség. Örök tanulás magunkról, a világ újrafelfedezése a gyermekeink szemével, találkozás a múltunkkal és a hozott mintáinkkal, ezek továbbörökítése vagy éppen új minták mutatása.</p>
+          </div>
+        </div>
+        <div className="szulfel-col-right">
+          <div className="szulfel-imgBx">
+            <img  src={SzulesFelk} alt='' />
+          </div>
+        </div>
+      </div>
+      </div>
+      <div className="szulfel-resp">
+      <div className='szulfel-container'>
+        <div className='szulfel-col-left'>
+          <div className="szulfel-text">
+            <h1>Szülésfelkészítés</h1>  
+            <span>Online is</span><hr/>
           
             <h3>Szülésre, szülői szerepre való felkészítés</h3>
             
             <p>Gyermeket vállalni, szülőnek lenni az egyik legnagyobb életfeladat. Hatalmas kaland és óriási felelősség, kiapadhatatlan örömforrás és állandó készültség. Örök tanulás magunkról, a világ újrafelfedezése a gyermekeink szemével, találkozás a múltunkkal és a hozott mintáinkkal, ezek továbbörökítése vagy éppen új minták mutatása.</p>
 
-            
+            <div className="szulfel-imgBx-resp">
+            <img  src={SzulesFelk} alt='' />
+          </div>
             </div>
         </div>
-        <div className="szulfel-col-right">
-        <div className="szulfel-imgBx">
-          <img  src={SzulesFelk} alt='' />
-        </div>
+        
+          
+       
       </div>
       </div>
       </section>

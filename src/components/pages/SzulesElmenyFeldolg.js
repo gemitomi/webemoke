@@ -35,7 +35,7 @@ export default function SzulesElmenyFeldolg() {
           <div className="experience-lista">
           <ul>
             <li>
-              Dúlaként ennek egyik módját, a segítő beszélgetést tudom nektek biztosítani. Ennek keretében lehetőséged van (neked és a párodnak is) arra, hogy időkorlát nélkül, az érzéseidnek és az élményeidnek szabad folyást engedve elmondd, ami Veled történt, és hogy a benned megfogalmazódott kérdésekre megkeressük a válaszokat. Ez nem csak abban segít, hogy megértsd, hogy mi miért történt Veled, hanem abban is, hogy egy későbbi szülésednél el tudd kerülni azt, amit nem szeretnél még egyszer átélni. Abban az esetben, ha úgy látom, hogy az élmény feldolgozásához ennél több segítségre van szükséged, általam is ismert és elismert szakembereket és terápiás lehetőségeket ajánlok.
+              Dúlaként ennek egyik módját, a segítő beszélgetést tudom nektek biztosítani. Ennek keretében lehetőséged van (neked és a párodnak is) arra, hogy időkorlát nélkül, az érzéseidnek és az élményeidnek szabad folyást engedve elmondd, ami Veled történt, és hogy a benned megfogalmazódott kérdésekre keressük meg a válaszokat. Ez nem csak abban segít, hogy megértsd, hogy mi miért történt Veled, hanem abban is, hogy egy későbbi szülésednél el tudd kerülni azt, amit nem szeretnél még egyszer átélni. Abban az esetben, ha úgy látom, hogy az élmény feldolgozásához ennél több segítségre van szükséged, általam is ismert és elismert szakembereket és terápiás lehetőségeket ajánlok.
             </li>
           </ul>
           </div>

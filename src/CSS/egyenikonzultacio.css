@@ -7,22 +7,26 @@
     align-items: center;
     background: #e8dee4;
     margin-top: 70px;
+    padding: 2rem 10%;
 }
 
 .consultation2{
     
     overflow: hidden;
     background-color: #d4b8c7;
+    padding: 2rem 10%;
 }
 
 .consultation3{
     
     overflow: hidden;
     background-color: #d4b8c7;
+    padding: 2rem 10%;
 }
 
 .consultaion-container{
     display: flex;
+    padding: 2rem 10%;
     
     /*grid-template-columns:max-content;*/
     /*grid-gap: 20px;*/
@@ -36,12 +40,12 @@
 }
 
 .consultation-image{
-    margin-right: 10px;
+    
     margin-left: 40px;
 }
 
 .consultaion-container img{
-    align-items: center;
+    
     /*width: 30%;*/
     border-radius: 50px;
 }
@@ -77,7 +81,6 @@
     margin-bottom: 20px;
     font-size: 1.8rem;
     font-weight: 400;
-    text-align: justify;
     color: #a7638b;
     line-height: 1.5;
 }
@@ -112,6 +115,10 @@
     border-color:#a7638b;
     border-width: 1px;
     
+}
+
+.consultation-listbox{
+    padding: 2rem 15%;
 }
 
 .consultation-listbox .lista ul{
@@ -325,9 +332,8 @@
         overflow: hidden;
         display: contents;
         grid-template-columns: 1fr 1fr;
-        padding: 0px;
+        padding: 10px;
         font-size: 3rem;
-        text-align: justify;
     }
 
     .consultation-citateBx .consultation-citate-text{
@@ -336,6 +342,10 @@
 
     .consultation-citateBx{
         padding: 60px 50px 20px 50px;
+    }
+
+    .consultation-listbox{
+        padding: 2rem 10%;
     }
 }
 
@@ -359,6 +369,7 @@
     .consultaion-container{
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
     .consultation-btn{
         font-size: 2.5rem;
@@ -368,6 +379,11 @@
         margin-top: 1px;
         margin-bottom: 1px;
     }
+
+    .consultation-image{
+        margin-left: 0px;
+    }
+
 
 }
 @media (max-width:450px){

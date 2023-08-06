@@ -1,5 +1,6 @@
 .blog{
-    margin-top: 90px;
+    margin-top: 70px;
+    padding: 2rem 10%;
    
 }
 
@@ -169,7 +170,15 @@
 
 }
 
+@media (max-width:1500px){
+    .blog{
+        padding: 2rem 5%;
+       
+    }
+}
+
 @media (max-width:1199px){
+
     .blog-racs-container{
         grid-template-columns: 1fr;
         max-width: 1200px;
@@ -298,4 +307,10 @@
     .blog-racs-description{
         font-size: 3rem;
     }
+
+    .blog-step-button{
+        font-size: 3rem;
+        margin: 12px;
+    }
 }
+

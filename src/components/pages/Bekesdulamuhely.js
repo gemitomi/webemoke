@@ -15,7 +15,7 @@ export default function Bekesdulamuhely() {
                 <h1>Békés Dúlaműhely</h1>
                 <h2>továbbképzés</h2>
             </div>
-            <div className="bekesdulamuhely-column">
+              <div className="bekesdulamuhely-column">
                 <div className="bekesdulamuhely-img-container">
                     <img src={BekesDulaWork} alt=""/>
                 </div>
@@ -30,13 +30,13 @@ export default function Bekesdulamuhely() {
                       keretében dolgozzuk ki, melyek helyzetgyakorlatokkal és az aktuális esetek feldolgozásával egészülnek ki.
                     </p>
                 </div>
+              </div>
+            <div className="bekesdulamuhely-column2">
+              <p>A műhely 2009 tavaszán alakult. A csoport tagjai a 15          alkalmas továbbképzés után sikeres írásbeli és szóbeli záróvizsgát 
+                  tettek és ezzel Békés szülésfelkészítő és szüléskísérő dúlává váltak, valamint tajaivá válhatnak a Békés Dúlakörnek. 
+                  Azóta további hat csoport végzett a műhelyben, három csoport pedig most végzi a továbbképzést.
+              </p>
             </div>
-
-            <p>A műhely 2009 tavaszán alakult. A csoport tagjai a 15 alkalmas továbbképzés után sikeres írásbeli és szóbeli záróvizsgát 
-                tettek és ezzel Békés szülésfelkészítő és szüléskísérő dúlává váltak, valamint tajaivá válhatnak a Békés Dúlakörnek. 
-                Azóta további hat csoport végzett a műhelyben, három csoport pedig most végzi a továbbképzést.
-            </p>
-
             <div className="bekesdulamuhely-details">
                 <div className="bekesdulamuhelyBx">
                     <ul className="bekesdulamuhely-list">

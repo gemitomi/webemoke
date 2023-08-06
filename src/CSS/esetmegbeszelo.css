@@ -103,3 +103,37 @@
     border-radius: 50%;
     background-color: #a7638b
 }
+
+@media (max-width: 650px) {
+    .esetmegbeszelo-container .esetmegbeszelo-column{
+        flex-direction: column;   
+    }
+
+    .esetmegbeszelo-img-container{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    .esetmegbeszelo-img-container img{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .esetmegbeszelo-list .esetmegbeszelo-has-before {
+        position: relative;
+        font-size: 3rem;
+        line-height: 1.5;
+        width: 130%;
+        margin-top: 10px;
+    }
+
+    .esetmegbeszelo-container{
+
+    }
+
+    .esetmegbeszelo-container p{
+        font-size: 2.8rem;
+    }
+    
+}

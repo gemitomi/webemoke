@@ -21,7 +21,7 @@ export default function GalleryDulaKor() {
     <div>
          <section class="galery">
             <div class="galery-galery">
-                <h1 class="galery-title">Dúlakör galéria</h1>
+                <h1 class="galery-title">Képek a Békés dúlakör életéből</h1>
             </div>
 
             <div class="galery-container">

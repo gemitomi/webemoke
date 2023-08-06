@@ -31,7 +31,7 @@ export default function Publications2() {
         1500: 4,
         1150: 3,
         800: 2,
-        550: 1
+        690: 1
     }
 
     return (

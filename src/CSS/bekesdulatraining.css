@@ -45,12 +45,13 @@
 
 .doula-trening-container .doula-trening-column{
     display: flex;
-    padding: 2em;   
+    padding: 2em;
 }
 
 .doula-trening-img-container{
     width: 50%;
     align-self: center;
+    text-align: center;
 }
 
 .doula-trening-img-container img{
@@ -193,7 +194,7 @@
     color: #39232f;
     padding: 10px 10px;
     background-color: #97bcc7;
-    margin: 14px;
+    margin: 5px;
     cursor: pointer;
     transition: all 0.5s ease;
     text-decoration: none;
@@ -209,7 +210,7 @@
 
 
 
-/*Támák és előadók rész formázása*/
+/*Témák és előadók rész formázása*/
 
 .doula-trening-topic{
     display: flex;
@@ -273,4 +274,78 @@
     align-items: center;
 
     
+}
+
+@media(max-width:850px) {
+    
+    .doula-trening-container .doula-trening-column{
+        flex-direction: column;
+    }
+
+    .doula-trening-text {
+        width: 100%;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .doula-trening-container .doula-trening-column {
+        padding: 0px;
+    }
+
+    .doula-trening-img-container{
+        width: 40rem;
+        height: 40rem;
+    }
+    .doula-trening-img-container img{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .doula-trening-container p{
+        font-size: 2.8rem;
+    }
+
+    .doula-trening-container h5{
+        font-size: 3rem;
+    }
+
+    .doula-trening-details h6{
+        font-size: 3rem;
+    }
+
+    .doula-trening-container h4 {
+        font-size: 3rem;
+    }
+    
+    .doula-trening-list .doula-trening-has-before {
+        font-size: 2.8rem;
+    }
+
+    .doula-trening-faq .doula-trening-btn {
+        font-size: 2.8rem;
+    }
+
+    .dulaslider-card .dulaslider-body-sm{
+        font-size: 1.2rem;
+    }
+
+    .doula-trening-topic{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .doula-trening-topic .doula-trening-topicBx{
+        width: 100%;
+    }
+    
+    .doula-trening-topic .doula-trening-perform{
+        width: 100%;
+    }
+    
+    
+}
+@media(max-width:500px) {
+    .dulaslider-card .dulaslider-body-sm{
+        font-size: 2.5rem;
+    }
 }

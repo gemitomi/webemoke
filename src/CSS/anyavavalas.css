@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-
+.anya-container{
+  padding: 2rem 10%;
+}
 
 .anya-card-container { 
     list-style: none;
@@ -267,7 +269,7 @@
     margin-top: 50px;
   }
   .anya-headline-md { 
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 

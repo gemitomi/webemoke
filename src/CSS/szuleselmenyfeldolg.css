@@ -7,10 +7,13 @@
     align-items: center;
     background: #e8dee4;
     margin-top: 70px;
+    padding: 2rem 15%;
+    
 }
 
 .experience-consultation1{
     width: 100%;
+    padding: 2rem 15%;
 }
 
 .experience-consultation2{
@@ -53,6 +56,7 @@
 .experience-consultaion-container .experience-text-container{
     width: 100%;
     padding-bottom: 10px;
+    
 } 
 
 .experience-consultaion-container .experience-text-container span{
@@ -80,7 +84,7 @@
 .experience-consultaion-container p{  
     font-size: 1.8rem;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
     color: #a7638b;
     line-height: 1.5;
 }
@@ -95,6 +99,7 @@
 
 .experience-szulfel-container-bottom{
     background: #e8dee4;
+    padding: 2rem 15%;
 }
 
 .experience-szulfel-container-bottom p{
@@ -242,7 +247,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 200px 20px 200px;
+    padding: 2rem 15%;
     overflow: hidden;
 }
 
@@ -320,9 +325,22 @@
     margin: auto;
 }
 
-@media (max-width:700px){
+@media (max-width:900px){
+
+    .experience-consultation {
+        padding: 2rem 10%;
+    }
+
+    .experience-consultation1 {
+        padding: 2rem 10%;
+    }
+
+    .experience-szulfel-container-bottom {
+        padding: 2rem 10%;
+    }
+
     .experience-consultation-citateBx{
-        padding: 20px 20px 20px 25px;
+        padding: 2rem 10%;
     }
     .experience-consultation-bottom .experience-consultation-dula1-box{
         padding-inline: 10px;
@@ -333,24 +351,49 @@
     .experience-consultation-btn{
         font-size: 2.5rem;
     }
-}
-
-@media (max-width:650px){
-
     .experience-consultaion-container{
         display: flex;
         flex-direction: column;
     }
-    .experience-consultation-btn{
-        font-size: 2.5rem;
-    }
 }
-@media (max-width:450px){
 
+@media (max-width:650px){
+
+    .experience-consultation {
+        margin-top: 60px;
+    }
+
+    .experience-consultaion-container p {
+        font-size: 2.8rem;
+        text-align: left;
+    }
+
+    .experience-szulfel-container-bottom p {
+        font-size: 2.8rem;
+    }
+
+    .experience-consultation-h4 h4 {
+        font-size: 3.5em;
+    }
+
+    .experience-consultation-listbox .experience-lista li {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+        
+    }
+
+    .experience-consultation-listbox p {
+        font-size: 3rem;
+    }
+    .experience-consultation-citateBx .experience-consultation-citate-text {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+    }
+    .experience-consultation-btn-h2 h2 span {
+        font-size: 3rem;
+    }
     .experience-consultation-btn{
         font-size: 3.5rem;
     }
     
-        
-
 }

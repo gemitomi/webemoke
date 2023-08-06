@@ -1,9 +1,14 @@
+.feedback-section{
+    margin-top: 60px;
+}
+
 .subfeedback-sub{
     
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #cfdade;
+    
 }
 
 
@@ -11,6 +16,7 @@
     margin-top: 90px;
     background-color: #cfdade;
     padding-top: 30px;
+    padding: 2rem 10%;
 }
 
 .subfeedback-title{
@@ -54,6 +60,8 @@
     border-radius: 25px;
     background-color: #fff;
     margin: 40px;
+    max-width:400px;
+    min-height:350px;
 }
 
 .subfeedback-image-content,
@@ -61,7 +69,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 14px;
+    padding: 40px 14px;
 }
 
 .subfeedback-image-content{
@@ -89,13 +97,6 @@
     height: 40px;
     width: 40px;
     background-color: #a7638b;
-}
-
-@media (max-width: 405px) {
-    .subfeedback-overlay::before,
-    .subfeedback-overlay::after{
-        z-index: -1;
-    }
 }
 
 .subfeedback-overlay::after{
@@ -158,18 +159,25 @@
 }
 
 
-@media (max-width: 1122px) { 
+@media (max-width: 1080px) { 
     .subfeedback-card-wrapper{
-        display: block;
+       display: block;
         min-width: 500px;
+       
     }
     
 }
 
-@media (max-width: 455px) { 
+@media (max-width: 975px) { 
+    .subfeedback-section{
+        margin-top: 70px;
+    }
+
+@media (max-width: 552px) { 
     .subfeedback-card-wrapper{
         display: block;
         min-width: 320px;
+        columns: 1;
     }
     
 }
@@ -184,10 +192,7 @@
     }
 }
 
-@media (max-width: 975px) { 
-    .subfeedback-section{
-        margin-top: 70px;
-    }
+
 
     
 

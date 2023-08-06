@@ -1,3 +1,12 @@
+.nevtan-consultation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8dee4;
+    margin-top: 70px;
+    padding: 2rem 15%;
+}
+
 .nevtan-consultation-citateBx{
     position: sticky;
     text-align: justify;
@@ -10,7 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 200px 20px 200px;
+    padding: 2rem 15%;
+    /*padding: 60px 200px 20px 200px;*/
     overflow: hidden;
 }
 
@@ -29,4 +39,169 @@
     padding-top: 20px;
     text-align: end;
    
+}
+
+.nevtan-consultation-image{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.nevtan-consultaion-container{
+    display: flex;
+    
+    /*grid-template-columns:max-content;*/
+    /*grid-gap: 20px;*/
+    /*max-width: 1500px;*/
+    /*padding-left: 80px;*/
+    background: #e8dee4;
+    /*padding: 35px 15px 15px 0px;*/
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nevtan-consultation-image{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.nevtan-consultaion-container img{
+    align-items: center;
+    /*width: 30%;*/
+    border-radius: 50px;
+}
+
+.nevtan-consultaion-container .nevtan-text-container{
+    
+    padding-bottom: 80px;
+} 
+
+.nevtan-consultaion-container .nevtan-text-container span{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #a7638b;
+} 
+
+.nevtan-consultaion-container hr{
+    width: 25%;
+    margin-top: 15px;
+    border: 1px solid #a7638b; 
+    z-index: 1;  
+}
+
+.nevtan-consultaion-container h1{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #a7638b;
+}
+
+.nevtan-consultaion-container p{  
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: justify;
+    color: #a7638b;
+    line-height: 1.5;
+}
+
+@media (max-width:1120px){
+    .nevtan-consultaion-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nevtan-consultaion-container p{  
+        margin-bottom: 0px;
+        
+    }
+    .nevtan-consultation-image{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .nevtan-consultation-citateBx .nevtan-consultation-citate-text{
+        
+        line-height: 4rem;
+        
+    }
+}
+
+@media (max-width:990px){
+
+    .consultation-h4 h4{
+        font-size: 4rem;
+    }
+    
+    .nevtan-consultation-image{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    
+
+    .nevtan-consultation-citateBx .nevtan-consultation-citate-text{
+        font-size: 2.8rem;
+        
+    }
+
+    .nevtan-consultation-citateBx{
+        padding: 60px 50px 20px 30px;
+    }
+}
+
+@media (max-width:700px){
+    .nevtan-consultation-citateBx{
+        padding: 20px 20px 20px 25px;
+    }
+    .consultation-btn{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:700px){
+
+    .nevtan-consultaion-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .consultation-btn{
+        font-size: 2.5rem;
+    }
+    .consultation-btn-box{
+        padding-bottom: 70px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+}
+@media (max-width:450px){
+
+    .nevtan-consultaion-container h1{
+        font-size: 5rem;
+    }
+
+   
+
+    .nevtan-consultaion-container p{  
+        padding-right: 20px;
+        font-size: 3rem;
+    }
+    
+    .consultation-btn{
+        font-size: 3.5rem;
+    }
+
+    .nevtan-consultaion-container .nevtan-text-container{
+        padding-left: 20px;
+    } 
+    
+    
+    .nevtan-consultation-citateBx{
+        padding: 20px 35px 20px 35px;
+    }
+        
+
 }

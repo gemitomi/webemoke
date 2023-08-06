@@ -239,6 +239,29 @@ export default function FeedbackDulatrening() {
                     </div>
                 </div>
 
+                <div className="feedback-card-hidden">
+                    <div className="feedback-image-content">
+                        <span className="feedback-overlay"></span>
+
+                        <div className="feedback-card-image">
+                            <img src={TrainingVissza} alt="#" className="feedback-card-img"/>
+                        </div>
+                    </div>
+
+                    <div className="feedback-tags">
+                        <img src={Citates} width="100" height="100" loading="lazy" alt="Visszajelzés szülőktől"
+                        className="img-feed-cover"/>
+                        
+                    </div>
+
+                    <div className="feedback-card-content">
+                        
+                        <p className="feedback-description">"Csodálatos utazás volt. Kicsit félek belegondolni, hogy mi lett volna velem, ha nem teszem meg ezt az utat, vagy ha egyedül, asszonytársak nélkül kell végigjárnom. 
+                            Tökéletes volt. Minden várakozást felülmúlt."</p>
+                        
+                    </div>
+                </div>
+
                 
             </div>
         </div>

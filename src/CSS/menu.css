@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
-section{
+/*section{
     padding: 2rem 10%;
-}
+}*/
 
 
 .header-menu{
@@ -14,8 +14,7 @@ section{
     z-index: 1000;
     background-color: #f8f4f1;
     display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 10%;
     border-bottom: .1rem solid #777;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     align-items: center;

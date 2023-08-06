@@ -6,6 +6,7 @@
 .bekesdulakor-other{
     background: #f8f4f1;
     margin-top: 50px;
+    
 }
 
 
@@ -15,6 +16,7 @@
     max-width: 1240px;
     width: 100%;
     margin-inline: auto;
+    padding-left: 10px;
 }
 
 .bekesdulakor-other-head{
@@ -88,7 +90,7 @@
 .bekesdulakor-other-text{
     width: 80%;
     padding: 2rem;
-    text-align: justify;
+    
 }
 
 .bekesdulakor-other-container p{
@@ -97,7 +99,6 @@
     font-weight: 400;
     color: #39232f;
     margin: 1rem 0;
-    text-align: justify;
 }
 
 .bekesdulakor-other-container h3{
@@ -186,17 +187,21 @@
         padding: 2em;   
     }
 
-    .bekesdulakor-other-img-container img{
-        width: 50rem;
-        height: 50rem;
-        margin-top: 20px;
-    }
-
+   
     .bekesdulakor-other-img-container{
         align-items: center;
         justify-content: center;
         text-align: center;
+        width: 100%;
 
+    }
+    .bekesdulakor-other-img-container img{
+        width: 50rem;
+        height: 50rem;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        /*margin-left: 50px;*/
     }
 
     .bekesdulakor-other-container{
@@ -206,6 +211,7 @@
     .bekesdulakor-other-container p{
         font-size: 3rem;
         font-weight: 500;
+        padding: 10px;
        
     }
 
@@ -234,6 +240,19 @@
     
     .bekesdulakor-otherBx-resp .bekesdulakor-other-list li{
         font-size: 3rem;
+    }
+
+    .bekesdulakor-other-container h4 {
+        font-size: 3.5rem;
+        margin: 2rem 0;
+        padding: 2rem 0;
+    }
+
+    .bekesdulakor-elerheto .bekesdulakor-oldal {
+        font-size: 3.2rem;
+        color: #a7638b;
+        font-weight: 400;
+        line-height: 2;
     }
     
 }

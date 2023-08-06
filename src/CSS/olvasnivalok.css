@@ -11,6 +11,45 @@ ion-icon {
 
 
 
+.latest-blog-container {
+  max-width: 1240px;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 90px;
+}
+
+
+
+
+
+.latestblogsection-title {
+  margin-block-end: 60px;
+  letter-spacing: 3px;
+}
+
+.latesttext-center { 
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.latest-blog-img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.latest-blog-img-holder {
+  aspect-ratio: var(--width) / var(--height);
+  overflow: hidden;
+}
+
+
+
+
+
 .latestblogtitle-md { 
   font-size: 2.6rem;
   font-weight: 600;
@@ -44,45 +83,6 @@ ion-icon {
 
 .latest-blog-container { padding-inline: 16px; }
 
-.latest-blog-container {
-  max-width: 1240px;
-  width: 100%;
-  margin-inline: auto;
-  margin-top: 90px;
-}
-
-
-
-
-
-.latestblogsection-title {
-  margin-block-end: 60px;
-  letter-spacing: 3px;
-}
-
-.latesttext-center { 
-  text-align: center;
-  font-size: 5rem;
-  font-weight: 800;
-}
-
-.latest-blog-img-cover {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-
-
-
-.latest-blog-img-holder {
-  aspect-ratio: var(--width) / var(--height);
-  overflow: hidden;
-}
-
-
-
 
 
 
@@ -96,6 +96,7 @@ ion-icon {
   background-color: #f8f4f1;
   padding-block-start: calc 60px + 60px;
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .latest-blog-portfolio-list,

@@ -17,7 +17,6 @@ import Blog2 from "./components/pages/Blog2";
 import Blog3 from "./components/pages/Blog3";
 import Feedback from "./components/pages/Feedback";
 import FeedbackParents1 from "./components/pages/FeedbackParents1";
-import FeedbackParents2 from "./components/pages/FeedbackParents2";
 import FeedbackPartners from "./components/pages/FeedbackPartners";
 import FeedbackDulatrening from "./components/pages/FeedbackDulatrening";
 import FeedbackDulamuhely from "./components/pages/FeedbackDulamuhely";
@@ -259,7 +258,6 @@ function App() {
             <Route path="/blog3" element={<Blog3/>}/>
             <Route path="/feedback" element={<Feedback/>}/>
             <Route path="/szuloi-visszajelzesek-1" element={<FeedbackParents1/>}/>
-            <Route path="/szuloi-visszajelzesek-2" element={<FeedbackParents2/>}/>
             <Route path="/partneri-visszajelzesek" element={<FeedbackPartners/>}/>
             <Route path="/dulatrening-visszajelzesek" element={<FeedbackDulatrening/>}/>
             <Route path="/dulamuhely-visszajelzesek" element={<FeedbackDulamuhely/>}/>
@@ -302,12 +300,12 @@ function App() {
             <Route path="/a-dula-nem-veszi-el-a-szuleszno-munkajat" element={<FeedBack8TP/>}/>
             <Route path="/annyi-mindent-javasoltál-es-csinaltal" element={<FeedBack9MG/>}/>
             <Route path="/olyan-mint-egy-baratno-csak-hozzaerto" element={<FeedBack90KK/>}/>
-            <Route path="/letrejon-egy-spiritualis-kötelek" element={<FeedBack91OH/>}/>
+            <Route path="/letrejon-egy-spiritualis-kotelek" element={<FeedBack91OH/>}/>
             <Route path="/felkeszitett-benunnket-a-szulesre" element={<FeedBack92HE/>}/>
             <Route path="/nyitott-fulekre-es-szivekre-talalok" element={<PfeedBack1rzs/>}/>
             <Route path="/kezdetektol-fogva" element={<PfeedBack2hb/>}/>
             <Route path="/egyutt-gondolkodni" element={<PfeedBack3aa/>}/>
-            <Route path="/aki-tudja-szakmáját-tudja-kompetenciait" element={<PfeedBack4kg/>}/>
+            <Route path="/aki-tudja-szakmajat-tudja-kompetenciait" element={<PfeedBack4kg/>}/>
             <Route path="/a-szulesnel-teljes-legyen-a-tamogatoi-kor" element={<PfeedBack5kr/>}/>
             <Route path="/oly-tavol-vagy-tolem-megis-kozel" element={<StoryMother1/>}/>
             <Route path="/szulni-a-szulofoldon-szardinia" element={<StoryMother2/>}/>

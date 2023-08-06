@@ -6,27 +6,24 @@ import NevTan from "../../image/nevelesi_tanacsadas_title.png";
 export default function NevelesiTanacsadas() {
   return (
     <div>
-      <section className="consultation">
-        <div className='consultaion-container'>
+      <section className="nevtan-consultation">
+        <div className='nevtan-consultaion-container'>
           
-          <div className='text-container'>
+          <div className='nevtan-text-container'>
             <h1>Nevelési tanácsadás</h1>
             <br/>
-            <span>online is!</span>
+            <span>online is</span>
             <hr/>
             <p>
             Egyéni tanácsadás keretében többek között a csecsemőkori problémákkal, a
             testvérféltékenységgel, a szobatisztaság kérdésével, az óvodáskori beilleszkedési nehézséggel
             küzdő és az iskolába készülő gyermekek, illetve kamaszokat nevelő szülők részére nyújtok
             segítséget. Célom, hogy a beszélgetések során minden szülő megtalálja a saját és a gyermeke
-            számára legideálisabb megoldásokat.
-            <p>
-              Mivel rendszerszemléletben gondolkozom, így a család egészét, működését tartom fontosnak
-              megismerni, nem önmagában csak a gyermeket, aki épp valamilyen nehézséggel küzd.
-            </p>
+            számára legideálisabb megoldásokat. <br/>Mivel rendszerszemléletben gondolkozom, így a család egészét, működését tartom fontosnak
+            megismerni, nem önmagában csak a gyermeket, aki épp valamilyen nehézséggel küzd.
             </p>
           </div>
-          <div className="consultation-image">
+          <div className="nevtan-consultation-image">
             <img  src={NevTan} alt='' />
           </div>
         </div>
