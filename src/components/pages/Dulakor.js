@@ -42,7 +42,7 @@ export default function Dulakor() {
               </div>
           </div>
           <p>
-              Így született meg a Békés Dúlaműhely, ahol 15 alkalommal, teljes napokat szenteltünk a dúlai hivatás során 
+              Így született meg a Békés Dúlaműhely, ahol 15 alkalommal, teljes napokat szánunk a dúlai hivatás során 
               felmerülő témáknak, kérdéseknek, valamint megbeszéltük, feldolgoztuk az aktuális eseteket. 
               Ezek a találkozók nagyon meghitt hangulatban teltek, hiszen minden alkalommal időt szenteltünk az egymásra való ráhangolódásnak, 
               és a közös tanulás során sok sajátélmény megosztására is sor került.
@@ -121,7 +121,7 @@ export default function Dulakor() {
                       <li className="bekesdulakor-has-before"> az élettani szülés fizikai és lelki folyamatait,</li>
                       <li className="bekesdulakor-has-before">a korszerű szoptatási irányelveket,</li>
                       <li className="bekesdulakor-has-before">a nem gyógyszeres fájdalomcsillapítás eszköztárát,</li>
-                      <li className="bekesdulakor-has-before">a különböző vajúdástámogatási módszereket (pl. masszázstechnikák, vajúdási pozíciók ajánlása,aromaterápia)</li>
+                      <li className="bekesdulakor-has-before">a különböző vajúdástámogatási módszereket (pl. masszázstechnikák, vajúdási pozíciók ajánlása, aromaterápia)</li>
                       <li className="bekesdulakor-has-before">és azokat a szuggesztív kommunikációs technikákat, amelyek a szülés folyamatát támogatják.</li>
                       
                   </ul>

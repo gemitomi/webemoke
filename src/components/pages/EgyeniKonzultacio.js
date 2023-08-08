@@ -28,7 +28,7 @@ export default function EgyeniKonzultacio() {
       <section className="consultation1">
         <div className="consultation-listbox">
           <div className="consultation-h4">
-            <h4><div>Abban az esetben ha...</div></h4>
+            <h4><div>Amennyiben</div></h4>
           </div>
           <div className="separator-box"><span className="separator"></span></div>
           <div className="lista">
@@ -44,7 +44,7 @@ export default function EgyeniKonzultacio() {
               ha szeretnéd megismerni a lehetőségeidet, és minden információt megkapni ahhoz, hogy felelősen dönthess majd arról, hogy hogyan, milyen körülmények között hozod világra a gyermekedet,
             </li>
             <li>
-              ha szeretnéd, hogy a vajúdás és szülés óráiban melletted (és a párod mellett) legyen egy olyan kísérő, aki érzelmileg és fizikailag is támogat,
+              ha szeretnéd, hogy a gyermekágyas időszakban melletted legyen egy olyan kísérő, aki érzelmileg és fizikailag is támogat,
             </li>
             <li>
               ha kérdéseid vannak a gyermekneveléssel, a szülői szerepekkel vagy a szülővé válással kapcsolatosan.
@@ -58,30 +58,8 @@ export default function EgyeniKonzultacio() {
         <div className="consultation-dula-title">
           <h2>Hogyan néz ki a személyes támogatás?</h2>
         </div>
+        
         <div className='consultation-bottom'>
-          <div className="consultation-dula1-box">
-            <p className="consultation-dula-text">
-              A várandósság hónapjaiban a találkozóink alkalmával beszélgetünk a várandósság testi és lelki
-              változásairól, a vajúdás és a szülés élettani és lélektani folyamatairól, a gyermekágyas
-              időszakról, az újszülöttről és bármi másról, ami téged vagy a párodat foglalkoztat. Segítelek
-              elképzeléseid megfogalmazásában, tájékoztatlak a szülésre való felkészülés lehetőségeiről és
-              legjobb tudásom szerint igyekszem megválaszolni a benned felmerült kérdéseket.
-            </p>
-          </div>
-          <div className="consultation-dula2-box">
-            <p className="consultation-dula-text">
-            Emellett szempontokat adok ahhoz, hogy az orvosoddal vagy szülésznőddel történő egyeztetés
-            után tisztán lásd, hogy abban az intézményben, ahol szülni fogsz, milyenek a szülés körülményei,
-            milyen alternatíváid vannak, hogyan történik az újszülöttek ellátása, milyen elhelyezést
-            biztosítanak a gyermekágyas osztályon, támogatják-e az anyatejes táplálást vagy azt, hogy a
-            szülést követően együtt maradhassatok a babáddal. Általában azt tartom a legjobb megoldásnak,
-            ha a várandósságod idején többször leülünk beszélgetni, de legalább egyszer találkozni
-            szeretnék Veled és partnereddel vagy bármilyen más személlyel, aki jelen lesz a szülésnél
-            (orvos, szülésznő, bába), még a vajúdás megindulása előtt, optimális esetben a 36. hét előtt.</p>
-          </div>
-          
-        </div>
-        <div className='consultation-bottom2'>
           <div className="consultation-dula2-box">
             <p className="consultation-dula-text">
               A várandósság hónapjaiban a találkozóink alkalmával beszélgetünk a várandósság testi és lelki
@@ -98,17 +76,14 @@ export default function EgyeniKonzultacio() {
             szülést követően együtt maradhassatok a babáddal. Általában azt tartom a legjobb megoldásnak,
             ha a várandósságod idején többször leülünk beszélgetni, de legalább egyszer találkozni
             szeretnék Veled és partnereddel vagy bármilyen más személlyel, aki jelen lesz a szülésnél
-            (orvos, szülésznő, bába), még a vajúdás megindulása előtt, optimális esetben a 36. hét előtt. <br/><br/>
+            (orvos, szülésznő, bába), még a vajúdás megindulása előtt, optimális esetben a 36. hét előtt. </p>
+            <p className="consultation-dula-text">
             A találkozások gyakorisága és időtartama a Te igényeid szerint alakul, számomra az a fontos, hogy annyi időt tudjak biztosítani a számodra, amennyi szükségesnek érzel ahhoz, hogy mire elérkezik a szülésed ideje, ne maradjanak megválaszolatlan kérdéseid.</p>
           </div>
           
         </div>
       </section>
-      <section className="consultation3">
-        <div className="consultation-dula-title-bottom">
-          <p className="consultation-dula-title-text">A találkozások gyakorisága és időtartama a Te igényeid szerint alakul, számomra az a fontos, hogy annyi időt tudjak biztosítani a számodra, amennyi szükségesnek érzel ahhoz, hogy mire elérkezik a szülésed ideje, ne maradjanak megválaszolatlan kérdéseid.</p>
-        </div>
-      </section>
+    
       
       <section className="consultation-citateBx">
         <p className="consultation-citate-text">
@@ -124,7 +99,7 @@ export default function EgyeniKonzultacio() {
         </p>
       </section>
       <section className="consultation4">
-        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
+        <div className="consultation-btn-h2"><h2>Neked is segíthetek?<br/><br/><span>Szeretettel várom jelentkezésedet!</span></h2></div>
         <div className="consultation-btn-box" >
           <Link to="/contact" className="latest-blog-btn"><span>Kapcsolatfelvétel</span></Link>
         </div>

@@ -29,15 +29,15 @@ export default function Contact() {
           <div>
               <h2>Kapcsolat</h2>
               <ul className="info">
-                  <li>
+              <a href="http://maps.google.com/?q=Budaörs+napsugar+setany+4" target="_blank"><li>
                       <span><img src={Location1}/></span>
                       <span>2040 Budaörs<br/>
                           Napsugár sétány 4. II/13</span>
-                  </li>
-                  <li>
+                  </li></a>
+                  <a href="mailto:bekes.emoke@gmail.com"><li>
                       <span><img src={Mail1}/></span>
                       <span>bekes.emoke@gmail.com</span>
-                  </li>
+                  </li></a>
                   <li>
                       <span><img src={Call1}/></span>
                       <span>+36-70-948-5481</span>

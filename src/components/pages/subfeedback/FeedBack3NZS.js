@@ -26,10 +26,10 @@ export default function FeedBack3NZS() {
                 idegen arcokat magam körül. Gátvédelemben szerettem volna szülni, 
                 ez volt a legfontosabb dolog, amit a szülésznőtől vártam. 
                 Mellette  azonban szükségem volt valakire, aki nem tagja az egészségügyi 
-                személyzetnek, hanem “civil” – mint én, mégis érti és érzi azt, amin átmegyek 
+                személyzetnek, hanem “civil” mint én, mégis érti és érzi azt, amin átmegyek 
                 vajúdás közben. Lehet akármilyen jó egy szülésznő, ő is a kórházi személyzet 
-                része, és bizonyos fokú kiszolgáltatottság érzésem volt vele is.Nem volt tehát kérdés számomra, 
-                hogy dúlát fogok választani.Utóbb kiderült, ez azért is jó ötlet volt,mert a páromat is támogatni tudta abban, hogy ő hogyan segíthet nekem.
+                része, és bizonyos fokú kiszolgáltatottság érzésem volt vele is. Nem volt tehát kérdés számomra, 
+                hogy dúlát fogok választani. Utóbb kiderült, ez azért is jó ötlet volt,mert a páromat is támogatni tudta abban, hogy ő hogyan segíthet nekem.
                 
             </p>
         </div>
@@ -44,10 +44,13 @@ export default function FeedBack3NZS() {
 
     <p>A dúlai figyelem és törődés egy nehezen megfogalmazható gondoskodás, sokszor csak egy apró mozdulat, egy-egy szó, mondat, ami azonban a szülőszobán hatalmas erőt tud adni.  
         A következő szülésemet is dúlás kíséréssel tervezem, és remélem, hogy olyan háborítatlan és szép élmény lesz mint a második.</p>
+        
+        <i className="far fa-calendar"> 2016.09.18.</i>
+        <p>Címkék:</p>
     </div>
         <div className="feedback-parent-tags">
-            <p>Címkék:</p>
-            <i className="far fa-calendar"> 2016.09.18.</i>
+            
+            
             <Link to="/feedback">Visszajelzések</Link> 
             <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
         </div>

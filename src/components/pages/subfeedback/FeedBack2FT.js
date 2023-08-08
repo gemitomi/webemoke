@@ -55,7 +55,7 @@ export default function FeedBack2FT() {
         <p>Majd egészségesen világra jött a kisfiam.</p>
 
         <p>Az Emőkével való beszélgetés segített. Jobban bíztam a választott orvosomban, és szülésznőmben, mint előtte. 
-            Nem volt szülési tervem, csak egy kérésem:mindena lehető legtermészetesebb módon történhessen a körülményekhez képest. 
+            Nem volt szülési tervem, csak egy kérésem: minden a lehető legtermészetesebb módon történhessen a körülményekhez képest. 
             Nem terveztem meg előre a vajúdás, szülés módját. Ágyon vajúdás, és szülés helyett végül labdán vajúdtam, majd vízben szültem. 
             Nem foglalkoztatott az, hogy mit gondol bárki is, ha sírnom kell, vagy épp kiabálnom a fájdalomtól, így nem tartottam vissza 
             ezeket az ösztönös dolgokat. Nem hagytam magam passzívan sodortatni a fájdalommal, hanem azt felhasználtam arra, hogy minél többet 
@@ -75,11 +75,14 @@ export default function FeedBack2FT() {
             akár segítséggel. Már tudom, hogy amint több időre el tudok szakadni a kisfiamtól, ismét felkeresem Emőkét, hiszen a jó szülés ellenére nyilván újra van mit feldolgoznom.
         </p>
         <p>Kislányom, Flóra 2012. áprilisában lesz hároméves, kisfiam, Dénes 2012. januárjában volt hat hónapos.</p>
+        
+        <i className="far fa-calendar"> 2016.09.18.</i>
+        <p>Címkék:</p>
 </div>
 
         <div className="feedback-parent-tags">
-                <p>Címkék:</p>
-                <i className="far fa-calendar"> 2016.09.18.</i>
+                
+                
                 <Link to="/feedback">Visszajelzések</Link> 
                 <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
             </div>

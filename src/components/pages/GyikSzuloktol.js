@@ -51,7 +51,7 @@ export default function GyikSzuloktol() {
                       <p>
                         A dúla és a szülésznő lehetőségei és feladatai nem ugyanazok, épp ezért jól kiegészítik egymást.
                         </p><p>
-                        A <b>szülésznő</b> az, aki szakmai szempontból kíséri a szülés folyamatát, tehát ő az, aki szívhangot hallgat, belső, hüvelyi vizsgálatot végez, ha szükséges gyógyszert ad vagy infúziót köt be. Ő áll kapcsolatban a szülészorvossal, és amíg az orvos nincs jelen, ő referál rendszeresen az anya állapotáról. A szülésznő védi a gátat és ő (vagy az orvos) kezébe érkezik a kisbaba. A szülésznővel az anyák általában kevesebb alkalommal találkoznak, mint a dúlával, hiszen sok setben csak a várandósság vége felé veszik fel velük a kapcsolatot.
+                        A <b>szülésznő</b> az, aki szakmai szempontból kíséri a szülés folyamatát, tehát ő az, aki szívhangot hallgat, belső, hüvelyi vizsgálatot végez, ha szükséges gyógyszert ad vagy infúziót köt be. Ő áll kapcsolatban a szülészorvossal, és amíg az orvos nincs jelen, ő referál rendszeresen az anya állapotáról. A szülésznő védi a gátat és ő (vagy az orvos) kezébe érkezik a kisbaba. A szülésznővel az anyák általában kevesebb alkalommal találkoznak, mint a dúlával, hiszen sok esetben csak a várandósság vége felé veszik fel velük a kapcsolatot.
                         </p><p>
                          A jelenlegi törvényi szabályozás értelmében az állami kórházakban nem választható szülésznő. Ez azt jelenti, hogy egy adott műszakban egy szülésznő egyszerre több anya vajúdását is nyomon követi, emellett számos adminisztrációs és egyéb teendő is hárul rá. Emiatt szinte lehetetlen, hogy megszakítások nélkül tudja támogatni a szülő nőt. A magánintézmények nagyobb részében lehet szülésznőt is választani, de itt is előfordulhat, hogy egy időben több szülést is kísérnek.
                         </p><p>
@@ -81,7 +81,7 @@ export default function GyikSzuloktol() {
                       <p>
                         A tapasztalataim és a szülői visszajelzések egyértelműen azt mutatják, hogy a dúla jelenléte mindkettőjüknek nagyon sokat jelent, mert azt segíti, hogy mindketten biztonságban érezhessék magukat. <b>Az apa ugyanis nem kísérő, hanem az egyik, érzelmileg bevonódó szülő. A dúla tehát a pár kísérője.</b>
                         </p><p>
-                        Jelenléte egy nagyon érzékeny, állandó figyelmet és jó helyzetfelismerést igénylő szolgálat. Ez azt jelenti, hogy mindig tudnia, éreznie kell, hogy a párnak mire van szüksége. Ha ők ketten szeretnének együtt lenni, ha az anya a párjától kéri a támogatást, akkor hátrébb lép és szinte észrevétlenné válik. Ha az anyának a dúlai támogatásra van szüksége, akkor ezt úgy teszi, hogy az apa se veszítse el a kompetencia érzését, hiszen attól, hogy a vajúdó nő a dúlától kéri mondjuk a masszírozást, attól számára a párja jelenléte érzelmileg még nagyon fontos.
+                        Jelenléte egy nagyon érzékeny, állandó figyelmet és jó helyzetfelismerést igénylő szolgálat. Ez azt jelenti, hogy mindig tudnia, éreznie kell, hogy a párnak mire van szüksége. Ha ők ketten szeretnének együtt lenni, ha az anya a párjától kéri a támogatást, akkor hátrébb lép és szinte észrevétlenné válik. Ha az anyának a dúlai támogatásra van szüksége, akkor ezt úgy teszi, hogy az apa se veszítse el a kompetenciaérzését, hiszen attól, hogy a vajúdó nő a dúlától kéri mondjuk a masszírozást, attól számára a párja jelenléte érzelmileg még nagyon fontos.
                         </p><p>
                         A vajúdás és a szülés óráiban az apák általában igénylik, hogy folyamatosan kapjanak
                         információt, megerősítést arról, hogy a folyamat hol tart és hogyan halad. Az, hogy van mellettük valaki, aki megszakítás nélküli jelenlétével és figyelmével követi a folyamatot, akitől lehet kérdezni, illetve aki akkor is a párjuk mellett marad, ha ők valamiért egy kis időre kilépnének a szülőszobából, nagyon megnyugtató számukra. A dúla tehát az apa jóllétére is figyel.
@@ -131,7 +131,7 @@ export default function GyikSzuloktol() {
                         A találkozások gyakorisága és egy-egy találkozó időtartama mindig a te/ti igénye(ite)k szerint alakul. Számomra az a fontos, hogy ne maradjanak benned ki nem mondott gondolatok vagy fel nem tett kérdések.
                         </p><p>
                         Lehetőséget biztosítok arra, hogy a várandósság, a szülés és a gyermekágyas időszakkal
-                        kapcsolatos információkon túl kívül minden olyan témát megbeszéljünk, ami oglalkoztat ebben az életszakaszban.
+                        kapcsolatos információkon túl kívül minden olyan témát megbeszéljünk, ami foglalkoztat ebben az életszakaszban.
                         </p><p>
                         A szülővé válás időszaka sok olyan kérdést, gondolatot érlel a leendő anyában és apában, amiről
                         szívesen beszélnek, ha arra figyelmet szentelünk. Ilyen pl. az otthonról hozott szülői minták, az anyaság vagy karrier kérdése, a különböző gyermeknevelési elvek, a szexualitás témaköre, de hosszan sorolhatnám még.
@@ -170,7 +170,7 @@ export default function GyikSzuloktol() {
                         tapasztalati tényeken alapulnak.
                     </p>
                     <p>
-                        A Békés Dúlakör szakmai vezetőjeként rendszeresen részt veszek szakmai fórumokon,
+                        A <Link to="/dulakor">Békés Dúlakör</Link> szakmai vezetőjeként rendszeresen részt veszek szakmai fórumokon,
                         konferenciákon, ahol pontosan informálhatom az egészségügyben dolgozókat a dúlahatásról és
                         a kompetenciáinkról. (Bővebben lsd. még a <Link to="/dulahatas-kutatasok-eredmenyek">Dúlahatás – kutatások, eredmények</Link> c. aloldalt.) 
                     </p>
@@ -196,11 +196,7 @@ export default function GyikSzuloktol() {
       
                       <div className="card-content">
                         <p>
-                            Szüléseket már nem kísérek az unokám megérkezése óta. A lányom szülésének kísérése olyan
-                            katartikus élmény volt számomra, ami felgyorsította azt a folyamatot, amire a kiégés megelőzése
-                            érdekében amúgy is készültem. De teljes szívemmel és minden igyekezetemmel segítem azóta
-                            is a hozzám fordulókat a várandósság hónapjaiban, a gyermekágyas időszakban illetve a későbbi
-                            életszakaszokban dúlaként, illetve hamarosan már végzett pár- és családterapeutaként is.
+                            Szüléseket már nem kísérek az unokám megérkezése óta. A lányom szülésének kísérése olyan katartikus élmény volt számomra, ami felgyorsította azt a folyamatot, amire a kiégés megelőzése érdekében amúgy is készültem. De teljes szívemmel és minden igyekezetemmel segítem azóta                     is a hozzám fordulókat a várandósság hónapjaiban, a gyermekágyas időszakban vagy a későbbi életszakaszokban dúlaként, illetve hamarosan már végzett pár- és családterapeutaként is.
                         </p>
                         
                       </div>

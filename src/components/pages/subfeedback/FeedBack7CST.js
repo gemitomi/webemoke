@@ -26,7 +26,7 @@ export default function FeedBack7CST() {
                 egyértelművé vált, hogy szeretném, ha te is ott lennél mellettünk szüléskor.
             </p>
             <p>És lám milyen jó, hogy így alakult! A hosszúra elhúzódott vajúdás és a hirtelen 
-                komoly műtétté vált szülést nem tudom, hogy bírtuk volna nélküled. A férjemnek nyugtatás volt, hogy ott vagy, és kimehet levegőzni, szusszanni bármikor, hogy tudsz válaszolni a hirtelen jött kérdésekre, hogy  mi miért történik vajon. És segíteni tudtad, amikor az első pillanatokat-órát a pici vele töltötte, míg én a műtőben voltam.
+                komoly műtétté vált szülést nem tudom, hogy bírtuk volna nélküled. A férjemnek nyugtatás volt, hogy ott vagy, és kimehet levegőzni, szusszanni bármikor, hogy tudsz válaszolni a hirtelen jött kérdésekre, hogy  mi miért történik vajon. És segíteni tudtad, amikor az első pillanatokat, órát a pici vele töltötte, míg én a műtőben voltam.
             </p>
             <p>Nekem is jó volt, hogy ott vagy, teljesen ki tudtam kapcsolni, nem zökkentett ki semmi a nyugodtságból, még a fájdalom sem.</p>
         </div>

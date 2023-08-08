@@ -38,13 +38,15 @@ export default function FeedBack4SGY() {
                 neki bármilyen kérdést fel lehet tenni, olyat is, amit  lehet senki mástól nem tudna, vagy nem merne az anya megkérdezni. Így kialakul egy mély bizalmi kapcsolat, és a szülés idejére már teljes biztonságban érezheti magát az anyuka, sőt az apuka is.
                 
             </p>
+            <i className="far fa-calendar"> 2016.09.18.</i>
+            <p>Címkék:</p>
         </div>
     </div>
     <p></p>
 
     <div className="feedback-parent-tags">
-        <p>Címkék:</p>
-        <i className="far fa-calendar"> 2016.09.18.</i>
+        
+        
         <Link to="/feedback">Visszajelzések</Link> 
         <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
     </div>

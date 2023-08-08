@@ -21,7 +21,7 @@ export default function FeedBack91OH() {
         <div className="feedback-parent-text">
             <p>
                 Amikor a kislányom megszületett, azt gondoltam, hogy ezt a csodát 
-                belülről átélve egyszerűen nem lehet felfogni,  hogy ő egyszer csak itt van velünk, pár perce pedig még nem volt….én ehhez, a teremtő energiához képest oly kicsiny vagyok… Akkor éreztem át először életemben a saját halandóságomat és egyben az élet legteljesebb csodáját, amihez Te is kellettél. A dúla és az anya, baba között ekkor meggyőződésem, hogy létrejön egy olyan sprilituális kötelék, ami életünk végéig elkísér, még ha soha többé nem találkozunk, ez akkor is ott van létezőként. Te akaratlanul is ezeket a sprilituális köteléket gyűjtöd, és nem hiszem, hogy ennél van nemesebb, felemelőbb hivatás.
+                belülről átélve egyszerűen nem lehet felfogni,  hogy ő egyszer csak itt van velünk, pár perce pedig még nem volt, én ehhez, a teremtő energiához képest oly kicsiny vagyok… Akkor éreztem át először életemben a saját halandóságomat és egyben az élet legteljesebb csodáját, amihez Te is kellettél. A dúla és az anya, baba között ekkor meggyőződésem, hogy létrejön egy olyan sprilituális kötelék, ami életünk végéig elkísér, még ha soha többé nem találkozunk, ez akkor is ott van létezőként. Te akaratlanul is ezeket a sprilituális köteléket gyűjtöd, és nem hiszem, hogy ennél van nemesebb, felemelőbb hivatás.
                 
             </p>
         </div>

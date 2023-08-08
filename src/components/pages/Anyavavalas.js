@@ -67,7 +67,7 @@ export default function Anyavavalas() {
 
                 <div className="anya-card-content">
                   
-                  <h1 className="anya-client-name">Szülni a szülőföldön - a szardiniai élménybeszámoló</h1>
+                  <h1 className="anya-client-name">Szülni a szülőföldön - a szardíniai élménybeszámoló</h1>
                   <blockquote className="anya-body-sm">
                     A férjem osztrák állampolgár, és van egy panziónk Szardínián. 
                     Első látásra beleszerettünk a szigetbe, és elhatároztuk, hogy ott fogunk letelepedni, családot alapítani.

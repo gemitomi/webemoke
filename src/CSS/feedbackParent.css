@@ -244,4 +244,13 @@ a{text-decoration: none;}
     .feedback-parent-tags a{
         font-size: 2rem;
     }
+
+    .feedback-parent-text i{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+    
+    .feedback-parent-text span{
+        font-size: 2rem;
+    }
 }

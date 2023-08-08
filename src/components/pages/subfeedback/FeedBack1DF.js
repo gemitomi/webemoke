@@ -39,19 +39,21 @@ export default function FeedBack1DF() {
                         
                     </p>
                 </div>
+            
+                <div className="feedback-parent-text">
+                <p>Emőke tudása nagy mértékben hozzájárult ahhoz, hogy kisfiammal 
+                    egy szép és hosszú szoptatási élményben lehet részünk, a 
+                    csecsemőgondozással és gyermekneveléssel kapcsolatos tanácsai pedig, 
+                    melyekért bármikor fordulhatok hozzá, mindig megerősítenek anyai ösztöneimben, 
+                    vagy éppenséggel egy új nézőpontra világítanak rá, mindenesetre több mint 
+                    2 év távlatában maximálisan beigazolódni látszanak.<br/><b>Köszönöm, Emőke!</b></p>
+                    
+                    <i className="far fa-calendar"> 2017.01.11.</i><br/>
+                    <p>Címkék:</p>
+                </div>
             </div>
-            <div className="feedback-parent-text">
-            <p>Emőke tudása nagy mértékben hozzájárult ahhoz, hogy kisfiammal 
-                egy szép és hosszú szoptatási élményben lehet részünk, a 
-                csecsemőgondozással és gyermekneveléssel kapcsolatos tanácsai pedig, 
-                melyekért bármikor fordulhatok hozzá, mindig megerősítenek anyai ösztöneimben, 
-                vagy éppenséggel egy új nézőpontra világítanak rá, mindenesetre több mint 
-                2 év távlatában maximálisan beigazolódni látszanak.<br/><b>Köszönöm, Emőke!</b></p>
-            </div>
-
             <div className="feedback-parent-tags">
-                <p>Címkék:</p>
-                <i className="far fa-calendar"> 2017.01.11.</i>
+                
                 <Link to="/feedback">Visszajelzések</Link> 
                 <Link to="/szuloi-visszajelzesek-1">Visszajelzések szülőktől</Link>
             </div>

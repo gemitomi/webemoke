@@ -8,6 +8,7 @@ export default function Csaladterapia() {
   return (
   <div>
      <section className="family-consultation">
+      
         <div className='family-consultaion-container'>
           
           <div className='family-text-container'>
@@ -19,7 +20,7 @@ export default function Csaladterapia() {
               A rendszerszemléletű pár- és családterápiás képzés elvégzésére a hozzám forduló családok
               inspiráltak.
               <br/>
-              Azokkal a párokkal ugyanis, akiket a várandósság és a szülés időszakában dúlaként kísértem, legtöbbször olyan intim, mély bizalmi kapcsolat alakult ki, hogy a későbbiekben is hozzám fordultak, ha valamilyen elakadásuk támadt a családi életük folyamán. Párkapcsolati, nevelési kérdésekkel vagy a tágabb családjukban kialakult nehezebb helyzetekkel kerestek meg, akár évekkel a gyermekük születése után. Azt mondták, hogy hiába nem vagyok családterapeuta, a bizalmuk irányomban olyan           erős, hogy velem szeretnék megosztani a történetüket.
+              Azokkal a párokkal ugyanis, akiket a várandósság és a szülés időszakában dúlaként kísértem, legtöbbször olyan intim, mély bizalmi kapcsolat alakult ki, hogy a későbbiekben is hozzám fordultak, ha valamilyen elakadásuk támadt a családi életük folyamán. Párkapcsolati, nevelési kérdésekkel vagy a tágabb családjukban kialakult nehezebb helyzetekkel kerestek meg, akár évekkel a gyermekük születése után. Azt mondták, hogy hiába nem vagyok családterapeuta, a bizalmuk irányomban olyan erős, hogy velem szeretnék megosztani a történetüket.
             </p>
           </div>
           <div className="family-consultation-image">
@@ -31,10 +32,10 @@ export default function Csaladterapia() {
       <section className="family-container-bottom">
         <p>
           Ez számomra egyszerre jelentett óriási felelősséget és megtiszteltetést. Úgy éreztem, hogy   ha egy terápiás kapcsolat legfőbb alapja, a bizalom megvan irányomba, akkor a szakmai ismereteket is kötelességem elsajátítani.
-          <br/>
+          </p><p>
           Jelenleg már a több éves képzési folyamatom végén járok, a vizsgadolgozatom megírása és
-          megvédése van még előttem. Szupervíziós támogatással, kíséréssel és terapeuta társsal együtt már vállalhatok és vállalok is párokat, családokat és ez nagy biztonságot jelent. Természetesen nem csak azokat várom, akik a családdá válás időszakában vannak, hanem bárki mást is, aki megtisztel a bizalmával.
-          <br/>
+          megvédése van még előttem. Szupervíziós támogatással, kíséréssel és terapeutatárssal együtt már vállalhatok és vállalok is párokat, családokat és ez nagy biztonságot jelent. Természetesen nem csak azokat várom, akik a családdá válás időszakában vannak, hanem bárki mást is, aki megtisztel a bizalmával.
+          </p><p>
           Szemléletem legfontosabb alapelvei az emberekhez való ítélkezésmentes, empatikus kapcsolódás, az erőforrásközpontú megközelítés és annak a szem előtt tartása, hogy a klienseim vannak otthon a saját életükben és nem én. Szakmai tudásommal és emberi hozzáállásommal tehát abban szeretném segíteni őket a terápiás folyamatban, hogy a számukra legjobb megoldásokat tudják megtalálni az aktuális élethelyzetükre.
         </p>
       </section>

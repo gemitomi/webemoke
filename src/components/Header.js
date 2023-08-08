@@ -21,9 +21,9 @@ function MenuItems() {
             <li><a href="/egyenikonzultacio">Egyéni konzultáció</a></li>
             <li><a href="/csaladterapia">Családterápia</a></li>
             <li><a href="/anyavavalas">Anyává válni anyanyelven</a></li>
+            <li><a href="/szulesfelkeszites">Szülésfelkészítés</a></li>
+            <li><a href="/szuleselmenyfeldolg">Szülésélmény-feldolgozás</a></li>
             <li><a href="/nevelesitanacsadas">Nevelési tanácsadás</a></li>
-            <li><a href="/szulesfelkeszites">Szülés felkészítés</a></li>
-            <li><a href="/szuleselmenyfeldolg">Szülésélmény feldolgozás</a></li>
             <li><a href="/gyik-szuloktol">Gyakori kérdések a szülőktől</a></li>
           </ul></div>
         </li> 

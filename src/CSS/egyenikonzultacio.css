@@ -171,17 +171,10 @@
 .consultation-bottom{
     background: #d4b8c7;
     color: #a7638b;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 0px;
 }
 
-.consultation-bottom2{
-    
-    display: none;
-   
-}
+
 
 .consultation-bottom .consultation-dula1-box{
     padding-inline: 5em;
@@ -321,26 +314,10 @@
     .consultation-h4 h4{
         font-size: 4rem;
     }
-    .consultation-bottom{
-        display: none;
-    }
-
-    .consultation3{
-        display: none;
-    }
-
-    .consultation-bottom2{
-        background: #d4b8c7;
-        color: #a7638b;
-        overflow: hidden;
-        display: contents;
-        grid-template-columns: 1fr 1fr;
-        padding: 10px;
-        font-size: 3rem;
-    }
+    
 
     .consultation-citateBx .consultation-citate-text{
-        font-size: 2.8rem;
+        font-size: 2.2rem;
         line-height: 3.5rem;
     }
 
@@ -404,6 +381,15 @@
         padding-right: 20px;
         font-size: 3rem;
     }
+
+    .consultation-bottom .consultation-dula2-box .consultation-dula-text{
+        font-size: 2.8rem;
+        line-height: 1.5;
+    }
+
+    .consultation-citateBx .consultation-citate-text{
+        font-size: 2.8rem;
+    }
     
     .consultation-btn{
         font-size: 3.5rem;
@@ -419,6 +405,9 @@
 
     .consultation-citateBx{
         padding: 20px 35px 20px 35px;
+    }
+    .consultation-btn-h2 h2 span {
+        font-size: 3.5rem;
     }
         
 

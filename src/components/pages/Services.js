@@ -71,26 +71,9 @@ export default function Services() {
             
                     <div className="serv-service-card">
                         <div className="serv-service-imageBx">
-                            <img src={NevTan} alt=""/>
-                        </div>
-                        <div className="serv-service-contentBx" style={{'background': "#d5e1df"}}>
-                            <div className="serv-sevice-content">
-                                <h3 className="serv-service-content-title">Nevelési tanácsadás</h3>
-                                <p className="serv-service-content-text">
-                                    Rengeteg nevelési irányzat, könyvek, internetes csoportok, megannyi információ, ajánlás, 
-                                    útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
-                                    Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
-                                </p>
-                                <Link to="/nevelesitanacsadas" className="serv-service-home-btn">Bővebben</Link>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div className="serv-service-card">
-                        <div className="serv-service-imageBx">
                             <img src={SzulFel} alt=""/>
                         </div>
-                        <div className="serv-service-contentBx" style={{'background': "#e8dee4"}}>
+                        <div className="serv-service-contentBx" style={{'background': "#cfdade#e8dee4"}}>
                             <div className="serv-service-content">
                                 <h3 className="serv-service-content-title">Szülésfelkészítés</h3>
                                 <p className="serv-service-content-text">
@@ -107,7 +90,7 @@ export default function Services() {
                         <div className="serv-service-imageBx">
                             <img src={SzulFel} alt=""/>
                         </div>
-                        <div className="serv-service-contentBx" style={{'background': "#cfdade"}}>
+                        <div className="serv-service-contentBx" style={{'background': "#e8dee4"}}>
                             <div className="serv-service-content">
                                 <h3 className="serv-service-content-title">Szülésélmény feldolgozás</h3>
                                 <p className="serv-service-content-text">
@@ -120,6 +103,23 @@ export default function Services() {
                         </div>
                     </div>
                     
+                    <div className="serv-service-card">
+                        <div className="serv-service-imageBx">
+                            <img src={NevTan} alt=""/>
+                        </div>
+                        <div className="serv-service-contentBx" style={{'background': "#d5e1df"}}>
+                            <div className="serv-sevice-content">
+                                <h3 className="serv-service-content-title">Nevelési tanácsadás</h3>
+                                <p className="serv-service-content-text">
+                                    Rengeteg nevelési irányzat, könyvek, internetes csoportok, megannyi információ, ajánlás, 
+                                    útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
+                                    Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
+                                </p>
+                                <Link to="/nevelesitanacsadas" className="serv-service-home-btn">Bővebben</Link>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             <section className="serv-faq-button-box">

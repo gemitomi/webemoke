@@ -23,7 +23,7 @@ export default function FeedBack8TP() {
                 A dúlámtól mindkét szülésnél maximálisan megkaptam, 
                 amit elvártam! Az elérhetőséget, a jelenlétet mindvégig, 
                 az informálást, a támogatást, a bizalmat, a jó szavakat, bíztatást, 
-                dícséretet, tanácsokat, a döntéshez az alternatívákat, a férj támogatását! És várandósság alatt is a sok infót, ami alapján másodszor már a megfelelő szülésznőt megtalálhattam…a sok tévhit eloszlatását, a baba méltó fogadásához az ötleteket…a szülés után tanácsokat a szoptatáshoz, később a mellgyulladás kezeléséhez tanácsokat, majd az altatás kialakításához javaslatokat (ez utóbbiak már nem elvárások voltak, ezeket “ráadásnak” kaptam, és nagyon hálás vagyok érte).
+                dícséretet, tanácsokat, a döntéshez az alternatívákat, a férj támogatását! És várandósság alatt is a sok infót, ami alapján másodszor már a megfelelő szülésznőt megtalálhattam, a sok tévhit eloszlatását, a baba méltó fogadásához az ötleteket, a szülés után tanácsokat a szoptatáshoz, később a mellgyulladás kezeléséhez tanácsokat, majd az altatás kialakításához javaslatokat (ez utóbbiak már nem elvárások voltak, ezeket “ráadásnak” kaptam, és nagyon hálás vagyok érte).
                 
             </p>
         </div>
@@ -34,7 +34,7 @@ export default function FeedBack8TP() {
     </p>
 
     <p>
-        A dúla nem fog infúziót bekötni, gátat metszeni, ctg-t feltenni, vérnyomást mérni, burkot repeszteni! Viszont a szülésznő se fog a wc-n a lábaim közt térdelni, és támogatni a fájások alatt! és nem fog a férjemnek szenvicset adni, zoknit húzni a lábamra, ha fázik, vagy épp borogatást készíteni a pocakomra….
+        A dúla nem fog infúziót bekötni, gátat metszeni, ctg-t feltenni, vérnyomást mérni, burkot repeszteni! Viszont a szülésznő se fog a wc-n a lábaim közt térdelni, és támogatni a fájások alatt és nem fog a férjemnek szenvicset adni, zoknit húzni a lábamra, ha fázik, vagy épp borogatást készíteni a pocakomra….
     </p>
 
     <p>A dúlával a kapcsolat nem úgy alakul, mint a szülésznővel! Nem a kórházban gyorsan két szülés között hadarja el a kérdéseket a válaszomra. A dúla bármikor bármivel megkereshető, én nem éreztem, hogy a szülésznőt felhívhatnám mindenféle ügyes-bajos dolgommal, annál sokkal leterheltebb volt! Abban sem voltam biztos, hogy tudná-e ki vagyok, ha telefonon bemutatkozom… Az odafigyelés pedig nagyon fontos, és ezt a dúla sokkal inkább meg tudja adni, mint egy szülésznő!

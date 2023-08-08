@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/main.css";
 import "../../CSS/dulagallery.css"
@@ -29,6 +29,10 @@ import PicDulaTr23 from "../../image/gallery/dulatreniggallerykpek/dulatrening_0
 import PicDulaTr24 from "../../image/gallery/dulatreniggallerykpek/dulatrening_024.jpg";
 
 export default function GalleryDulaTrening() {
+  const [current_image, set_current_image] = useState(null)
+
+  
+
   return (
     <div>
          <section className="galery">
@@ -37,30 +41,33 @@ export default function GalleryDulaTrening() {
             </div>
 
             <div className="galery-container">
-                <div className="galery-box"><img src={PicDulaTr1}/></div>
-                <div className="galery-box"><img src={PicDulaTr2}/></div>
-                <div className="galery-box"><img src={PicDulaTr3}/></div>
-                <div className="galery-box"><img src={PicDulaTr4}/></div>
-                <div className="galery-box"><img src={PicDulaTr5}/></div>
-                <div className="galery-box"><img src={PicDulaTr6}/></div>
-                <div className="galery-box"><img src={PicDulaTr7}/></div>
-                <div className="galery-box"><img src={PicDulaTr8}/></div>
-                <div className="galery-box"><img src={PicDulaTr9}/></div>
-                <div className="galery-box"><img src={PicDulaTr10}/></div>
-                <div className="galery-box"><img src={PicDulaTr11}/></div>
-                <div className="galery-box"><img src={PicDulaTr12}/></div>
-                <div className="galery-box"><img src={PicDulaTr13}/></div>
-                <div className="galery-box"><img src={PicDulaTr14}/></div>
-                <div className="galery-box"><img src={PicDulaTr15}/></div>
-                <div className="galery-box"><img src={PicDulaTr16}/></div>
-                <div className="galery-box"><img src={PicDulaTr17}/></div>
-                <div className="galery-box"><img src={PicDulaTr18}/></div>
-                <div className="galery-box"><img src={PicDulaTr19}/></div>
-                <div className="galery-box"><img src={PicDulaTr20}/></div>
-                <div className="galery-box"><img src={PicDulaTr21}/></div>
-                <div className="galery-box"><img src={PicDulaTr22}/></div>
-                <div className="galery-box"><img src={PicDulaTr23}/></div>
-                <div className="galery-box"><img src={PicDulaTr24}/></div>
+              {
+                current_image&& <div className="galery-img-viewer" onClick={e => set_current_image(null)}><img src={current_image} alt="" /></div>
+              }
+                <div className="galery-box"><img src={PicDulaTr1} onClick={e => set_current_image(PicDulaTr1)}/></div>
+                <div className="galery-box"><img src={PicDulaTr2} onClick={e => set_current_image(PicDulaTr2)}/></div>
+                <div className="galery-box"><img src={PicDulaTr3} onClick={e => set_current_image(PicDulaTr3)}/></div>
+                <div className="galery-box"><img src={PicDulaTr4} onClick={e => set_current_image(PicDulaTr4)}/></div>
+                <div className="galery-box"><img src={PicDulaTr5} onClick={e => set_current_image(PicDulaTr5)}/></div>
+                <div className="galery-box"><img src={PicDulaTr6} onClick={e => set_current_image(PicDulaTr6)}/></div>
+                <div className="galery-box"><img src={PicDulaTr7} onClick={e => set_current_image(PicDulaTr7)}/></div>
+                <div className="galery-box"><img src={PicDulaTr8} onClick={e => set_current_image(PicDulaTr8)}/></div>
+                <div className="galery-box"><img src={PicDulaTr9} onClick={e => set_current_image(PicDulaTr9)}/></div>
+                <div className="galery-box"><img src={PicDulaTr10} onClick={e => set_current_image(PicDulaTr10)}/></div>
+                <div className="galery-box"><img src={PicDulaTr11} onClick={e => set_current_image(PicDulaTr11)}/></div>
+                <div className="galery-box"><img src={PicDulaTr12} onClick={e => set_current_image(PicDulaTr12)}/></div>
+                <div className="galery-box"><img src={PicDulaTr13} onClick={e => set_current_image(PicDulaTr13)}/></div>
+                <div className="galery-box"><img src={PicDulaTr14} onClick={e => set_current_image(PicDulaTr14)}/></div>
+                <div className="galery-box"><img src={PicDulaTr15} onClick={e => set_current_image(PicDulaTr15)}/></div>
+                <div className="galery-box"><img src={PicDulaTr16} onClick={e => set_current_image(PicDulaTr16)}/></div>
+                <div className="galery-box"><img src={PicDulaTr17} onClick={e => set_current_image(PicDulaTr17)}/></div>
+                <div className="galery-box"><img src={PicDulaTr18} onClick={e => set_current_image(PicDulaTr18)}/></div>
+                <div className="galery-box"><img src={PicDulaTr19} onClick={e => set_current_image(PicDulaTr19)}/></div>
+                <div className="galery-box"><img src={PicDulaTr20} onClick={e => set_current_image(PicDulaTr20)}/></div>
+                <div className="galery-box"><img src={PicDulaTr21} onClick={e => set_current_image(PicDulaTr21)}/></div>
+                <div className="galery-box"><img src={PicDulaTr22} onClick={e => set_current_image(PicDulaTr22)}/></div>
+                <div className="galery-box"><img src={PicDulaTr23} onClick={e => set_current_image(PicDulaTr23)}/></div>
+                <div className="galery-box"><img src={PicDulaTr24} onClick={e => set_current_image(PicDulaTr24)}/></div>
                 
             </div>
     </section>

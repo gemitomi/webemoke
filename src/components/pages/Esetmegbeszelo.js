@@ -31,7 +31,7 @@ export default function Esetmegbeszelo() {
             
 
             <p>Jelentkezz emailben és gyere - akár alkalomszerűen is - a havi rendszerességgel zajló esetmegbeszélő csoportba!</p>
-            <h4><a href="mailto:info@bekesemoke.hu"> <i className="fas fa-envelope"></i> info@bekesemoke.hu</a></h4>
+            <h4><a href="mailto:bekesemoke@gmail.com"> <i className="fas fa-envelope"></i> bekesemoke@gmail.com</a></h4>
         </div>
         
       </section>

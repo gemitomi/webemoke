@@ -11,7 +11,7 @@ export default function SzulesElmenyFeldolg() {
         <div className='experience-consultaion-container'>
           
           <div className='experience-text-container'>
-            <h1>Szülésélmény feldolgozás – apáknak is</h1>
+            <h1>Szülésélmény-feldolgozás, apáknak is</h1>
             <br/>
             <span>online is!</span>
             <hr/>
@@ -24,8 +24,9 @@ export default function SzulesElmenyFeldolg() {
       </section>
       <section className="experience-szulfel-container-bottom">
         <p>Ma a legtöbb esetben az apa is jelen van a szülésnél. Az, hogy ő hogyan éli meg gyermeke(i) világra jövetelének óráit, hogyan érzi magát, milyen hatások érik őt, legalább olyan fontos, mint az anya élményei. Mindkettőjüknek megvan tehát a saját története – s bár egyazon szülésre emlékeznek –  az élményük mégis más és más lehet.</p>
-        <p>A férfiak élménye tapasztalataim szerint erősen befolyásolhatja a későbbi szüléseknél való jelenlétét, biztonságérzetét, és kihathat a párkapcsolat alakulására is. Éppen ezért – amennyiben szükséges – jó szívvel ajánlom az apáknak is a párjuk szülésénél átélt élményeik feldolgozását.</p>
+        <p>A férfiak élménye tapasztalataim szerint erősen befolyásolhatja a későbbi szüléseknél való jelenlétüket, biztonságérzetüket, és kihathat a párkapcsolatuk alakulására is. Éppen ezért – amennyiben szükséges – jó szívvel ajánlom az apáknak is a párjuk szülésénél átélt élményeik feldolgozását.</p>
       </section>
+      
       <section className="experience-consultation1">
         <div className="experience-consultation-listbox">
           <div className="experience-consultation-h4">

@@ -8,10 +8,6 @@ import CsaladTer from "../image/csaladterapia.png"
 import AnyavaVal from "../image/anyavavalas.png"
 import NevTan from "../image/nevelesitanacsadas.png"
 import SzulFel from "../image/szulesfelkeszites.png"
-import SzulEsemeny from "../image/szuleselmenyfeldolgozas.png"
-import DulaTraining from "../image/dula_treningek.png" 
-import DulaWorkshop from "../image/dula_muhely.png" 
-import EventConsulting from "../image/eset_csop.png" 
 
 import Post1 from "../image/blog/blog_01_hero_ki a dula.png"
 import Post2 from "../image/blog/blog_02_hero_dulahatas.png"
@@ -32,12 +28,6 @@ import DlkrLogo from "../image/dulakor_logo.jpg"
 import DulaTrainig from "../image/dula_trening_subpage.png"
 import DulaMuhely from "../image/dula_muhely_subpage.png"
 import EsetBesz from "../image/dula_esetmegbeszelo_subpage.png"
-
-import Location1 from "../image/location_1.png"
-import Mail1 from "../image/mail_1.png"
-import Call1 from "../image/call_1.png"
-
-
 
 export default function LandingPage() {
     
@@ -117,7 +107,7 @@ export default function LandingPage() {
                     <img src={ProfilePic} alt="" />
                 </div>
                 <div className="content">
-                    <h1>Békés Emőke<br/><span>dúla, képzésben lévő családterapeuta</span></h1>
+                    <h1>Békés Emőke<br/><span>szülésfelkészítő és családkísérő dúla,<br/> képzésben lévő családterapeuta</span></h1>
                         <p>
                             Három felnőtt lányom édesanyja és egy kislány unokám nagymamája vagyok.
                             Boldogsággal tölt el, hogy több mint két évtizede megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúlaként egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
@@ -139,7 +129,7 @@ export default function LandingPage() {
                             <div className="about-column-2">
                                 <div className="about-text-1">
                                     <div className="about-text-inner">
-                                        <h1>Békés Emőke</h1><br/><span>dúla, képzésben lévő családterapeuta</span>
+                                        <h1>Békés Emőke</h1><br/><span>szülésfelkészítő és családkísérő dúla, képzésben lévő családterapeuta</span>
                                     </div>
                                 </div>
 
@@ -218,26 +208,9 @@ export default function LandingPage() {
             
                     <div className="service-card">
                         <div className="service-imageBx">
-                            <img src={NevTan} alt=""/>
-                        </div>
-                        <div className="service-contentBx" style={{'background': "#d5e1df"}}>
-                            <div className="sevice-content">
-                                <h3 className="service-content-title">Nevelési tanácsadás</h3>
-                                <p className="service-content-text">
-                                    Rengeteg nevelési irányzat, könyvek, internetes csoportok, megannyi információ, ajánlás, 
-                                    útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
-                                    Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
-                                </p>
-                                <Link to="/nevelesitanacsadas" className="service-home-btn">Bővebben</Link>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div className="service-card">
-                        <div className="service-imageBx">
                             <img src={SzulFel} alt=""/>
                         </div>
-                        <div className="service-contentBx" style={{'background': "#e8dee4"}}>
+                        <div className="service-contentBx" style={{'background': "#cfdade"}}>
                             <div className="service-content">
                                 <h3 className="service-content-title">Szülésfelkészítés</h3>
                                 <p className="service-content-text">
@@ -254,7 +227,7 @@ export default function LandingPage() {
                         <div className="service-imageBx">
                             <img src={SzulFel} alt=""/>
                         </div>
-                        <div className="service-contentBx" style={{'background': "#cfdade"}}>
+                        <div className="service-contentBx" style={{'background': "#e8dee4"}}>
                             <div className="service-content">
                                 <h3 className="service-content-title">Szülésélmény feldolgozás</h3>
                                 <p className="service-content-text-4">
@@ -263,6 +236,23 @@ export default function LandingPage() {
                                     Oszd meg velem, ha úgy érzed, hogy nem tud nyugvópontra kerülni benned a szülésed élménye, szeretnéd jobban érteni és/vagy erőforrásként tekinteni rá egy későbbi gyermekvállalás során.
                                 </p>
                                 <Link to="/szuleselmenyfeldolg" className="service-home-btn">Bővebben</Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={NevTan} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#d5e1df"}}>
+                            <div className="sevice-content">
+                                <h3 className="service-content-title">Nevelési tanácsadás</h3>
+                                <p className="service-content-text">
+                                    Rengeteg nevelési irányzat, könyvek, internetes csoportok, megannyi információ, ajánlás, 
+                                    útmutatás elérhető ma már. De mi lesz jó a mi családunknak, a mi gyermekünknek? 
+                                    Ha elbizonytalanodtál vagy elakadtál a gyermeknevelés során valamiben, keress bátran, hogy megismerve a ti családi rendszereteket, egyénre szabottan segíthessek!
+                                </p>
+                                <Link to="/nevelesitanacsadas" className="service-home-btn">Bővebben</Link>
                             </div>
                         </div>
                     </div>
@@ -524,7 +514,7 @@ export default function LandingPage() {
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <a href="#" className="btn">Bővebben</a>
+                                    <Link to="/szules-es-szuletes-napja-a-bekes-dulakorrel" className="btn">Bővebben</Link>
 
                                 </div>
                             </li>
@@ -620,7 +610,7 @@ export default function LandingPage() {
                                 </div>
 
                                 <div className="feedback-card-content">
-                                    <h2 className="feedback-name">Kezdetektől <br/>fogva</h2>
+                                    <h2 className="feedback-name">Kezdetektől fogva</h2>
                                     <p className="feedback-description">Mindig öröm olyan 
                                         nőkkel találkozni, akik elhívást éreznek arra, 
                                         hogy asszonytársaiknak segítséget nyújtsanak, 

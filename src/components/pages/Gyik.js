@@ -52,7 +52,10 @@ return (
 
                 <div className="card-content">
                   <p>
-                    Nem. A dúlává válásnak nem feltétele az egészségügyi végzettség, hiszen a dúlák nem látnak el klinikai feladatokat. A dúlatréning első hétvégéjén, a motivációs tréningen tekintenek rá a résztvevők azokra a készségekre és képességekre (pl. empátia, elfogadás, kommunikáció),
+                    Nem. 
+                  </p>
+                  <p>
+                    A dúlává válásnak nem feltétele az egészségügyi végzettség, hiszen a dúlák nem látnak el klinikai feladatokat. A dúlatréning első hétvégéjén, a motivációs tréningen tekintenek rá a résztvevők azokra a készségekre és képességekre (pl. empátia, elfogadás, kommunikáció),
                     amelyek szükségesek ahhoz, hogy jól tudjanak segíteni.
                   </p>
                   <p>
@@ -104,7 +107,10 @@ return (
                 </button>
                 <div className="card-content">
                   <p>
-                    Igen, mert ennek a hétvégének több, speciális célja is van.
+                    Igen
+                  </p>
+                  <p>
+                    Mert ennek a hétvégének több, speciális célja is van.
                   </p>
                   <p>Egyrészt arra tekintünk rá önismereti munka során, hogy a dúlai hivatás gyakorlásához, 
                     milyen képességek, készségek szükségesek, ezekkel ki, hogyan áll, milyen élethelyzetből érkeztek,
@@ -201,7 +207,7 @@ return (
                     </p>
 
                     <p>
-                      Havi rendszerességgel tartok esetmegbeszélőket, ahol lehetősége van minden dúlának feldolgoznia a munkája során történteket, 
+                      Havi rendszerességgel tartok  <Link to="/esetmegbeszelo">esetmegbeszélőket,</Link> ahol lehetősége van minden dúlának feldolgoznia a munkája során történteket, 
                       választ kapni a kérdéseire és megerősítést kapni a társaitól, ha erre lenne szüksége. 
                       A rendszeres esetmegbeszélés nagyon fontos pillére a munkánknak, rengeteget tanulunk egymás kíséréseinek történeteiből is, 
                       amelyet a legnagyobb titoktartási szabály mellett osztunk meg egymással.

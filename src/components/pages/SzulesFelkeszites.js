@@ -52,13 +52,13 @@ export default function SzulesFelkeszites() {
       <section className="szulfel-container-bottom">
         <p>Szülő mindenkiből lehet. Nem kell hozzá végzettség, nem egy szakma, amit iskolában tanítanak. Egyre többen készülnek azonban tudatosan erre a szerepre.</p>
         <p>A várandósság egy olyan életszakasz, amelyben igen jelentős változások zajlanak testi és lelki szinten egyaránt. Nem véletlenül nevezzük “más-állapot”-nak is. A kilenc hónap alatt számtalan kérdés, érzés fogalmazódik meg a leendő szülőkben, amelyekre a legkülönbözőbb módon és forrásokból (pl. internet, könyvek, barátok, családtagok tapasztalatai) kereshetik a válaszokat.</p>
-        <p>Ahogy megfogalmazódnak a kérdések és megszületnek a válaszok, általában úgy erősödik a szülőkben az a felismerés, hogy az sem mindegy, hogyan és milyen körülmények között születik meg majd a gyermekük. Felelős, informált döntést azonban csak az tud hozni, aki ismeri a lehetőségeit. Ezek ismeretét különösen fontosnak tartom azért is, mert a magyarországi szülészeteken a lehetőségek nagyon különbözőek lehetnek.</p>
+        <p>Ahogy megfogalmazódnak a kérdések és megszületnek a válaszok, általában úgy erősödik a szülőkben az a felismerés, hogy az sem mindegy, hogyan és milyen körülmények között születik meg majd a gyermekük. Felelős, informált döntést azonban csak az tud hozni, aki ismeri a lehetőségeit. Ezek ismeretét különösen fontosnak tartom azért is, mert a magyarországi szülészeteken a lehetőségek nagyon különbözőek.</p>
       </section>
       <section className="szulfel-help">
         <div>
           <h3>Hogyan és miként tudlak segíteni én ezen az úton?</h3>
           <p>Szülésre és a szülői szerepre felkészítő beszélgetésekre invitállak. Ennek formája lehet <b>egyéni,</b> melyek személyre szabott témákkal, a neked leginkább megfelelő időpontban és általad választott gyakorisággal zajlanak.
-          De ha jobban vonz az, hogy nagyobb körben, tapasztalatokat cserélve más párokkal készülődj, akkor válaszd a <b>csoportos</b> szülésfelkészítőt! Bizonyos témákra vendéget is hívok, így a szülés, születés területén dolgozó szakemberek vagy gyakorló szülőtársak is megosztják a tudásukat a csoporttagokkal.</p>
+          De ha jobban vonz az, hogy nagyobb körben, tapasztalatokat cserélve más párokkal készülődj, akkor válaszd a <b>csoportos</b> szülésfelkészítőt! Ez utóbbit csak megfelelő számú érdeklődő esetén hírdetek meg.</p>
         </div>
       </section>
       <section className="szulfel-list">

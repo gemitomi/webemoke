@@ -47,7 +47,7 @@ render(){
               </div>
               <div className="doula-trening-text">
                   <p>
-                  2004 óta folyamatosan szervezek dúla alap- és továbbképzéseket. A több, mint 50 alaptréningen végzett közel 500 résztvevő száma alapján elmondhatom, hogy Magyarországon a legrégebb óta rendelkezem a kórházi szülések kísérésére (is) felkészítő tréningek szervezésében és vezetésében. A képzéseket a tréning előadóival, a tapasztalataink és a résztvevők visszajelzései alapján folyamatosan alakítjuk, fejlesztjük.
+                  2004 óta folyamatosan szervezek dúla alap- és továbbképzéseket. A több, mint 50 alaptréningen végzett közel 500 résztvevő száma alapján elmondhatom, hogy Magyarországon a legrégebb óta rendelkezem a kórházi szülések kísérésére (is) felkészítő tréningek szervezésével és vezetésével. A képzéseket a tréning előadóival, a tapasztalataink és a résztvevők visszajelzései alapján folyamatosan alakítjuk, fejlesztjük.
                   </p>
                   <p>A felnőttképzési törvény szabályainak eleget téve a tréning a B/2022/001218 számmal van nyilvántartásba véve.
                   </p>
@@ -75,12 +75,12 @@ render(){
             Az alapképzés két, egymásra épülő tréningből áll. 
           </p>
           <p>
-            Az első az önismereti, motivációs tréning lehetőséget nyújt a résztvevőknek arra, hogy rátekinthessenek a segítői hivatás iránti érdeklődésük motivációira és mindazokra az alapvető készségekre, amelyek a dúlai támogatáshoz szükségesek. 
+            Az első az <b>önismereti, motivációs tréning</b> lehetőséget nyújt a résztvevőknek arra, hogy rátekinthessenek a segítői hivatás iránti érdeklődésük motivációira és mindazokra az alapvető készségekre, amelyek a dúlai támogatáshoz szükségesek. 
 
           </p>
 
           <p>
-            A kb. egy hónappal későbbi 4 napos dúlatréning pedig a dúlai hivatással kapcsolatos attitűd, ismeretek, támogatási formák, praktikák és számos más információ megismerésére és feldolgozására szolgál.
+            A kb. egy hónappal későbbi <b>4 napos dúlatréning</b> pedig a dúlai hivatással kapcsolatos attitűd, ismeretek, támogatási formák, praktikák és számos más információ megismerésére és feldolgozására szolgál.
           </p>
 
           <p>
@@ -113,7 +113,7 @@ render(){
           </div>
 
           <div className="doula-trening-button-box">
-            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most is megteheted</Button>               
+            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most megteheted</Button>               
           </div>
 
           
@@ -125,17 +125,23 @@ render(){
                   <li className="doula-trening-has-before">A tréning részvételi díja: 70. 000 Ft</li>
               </ul>
           </div>
-
+          <div>
           <p>
               Ha esetleg kérdéseid vannak a tréninggel kapcsolatban vagy fizetési könnyítést szeretnél, írj a bekes.emoke@gmail.com címre vagy hívj a 70/948-5481-es számon.
           </p>
-
+          <br/>
           <p>
-              A tréninget minimum 8 fő jelentkezése esetén tartom meg. Az önismereti, motivációs tréningen érintjük a születés, a nővé válás, szülés, anyaság és a társas kapcsolatok témáját, valamint különböző gyakorlatok során elmélyítjük a segítő kapcsolathoz nélkülözhetetlen képességeinket, készségeinket (pl. értő figyelem, empátia, elfogadás). Ez a tréning az alapja az erre épülő 4 napos dúlatréningnek, ahol a szülés, születés területén dolgozó szakemberek adják át az ismereteiket, tapasztalataikat a leendő dúláknak. Mindkét tréning bejárással zajlik, de a vidékről érkező résztvevőknek, valamint – a késő estig (általában 22 óráig) tartó tréningnapok miatt – a budapestieknek is igény esetén szálláslehetőséget biztosítok a helyszínen.
+              A tréninget minimum 6-8 fő jelentkezése esetén tartom meg. 
+          </p>
+          <p>
+            Az önismereti, motivációs tréningen érintjük a születés, a nővé válás, szülés, anyaság és a társas kapcsolatok témáját, valamint különböző gyakorlatok során elmélyítjük a segítő kapcsolathoz nélkülözhetetlen képességeinket, készségeinket (pl. értő figyelem, empátia, elfogadás). 
+          </p>
+          <p>
+            Ez a tréning az alapja az erre épülő 4 napos dúlatréningnek, ahol a szülés, születés területén dolgozó szakemberek adják át az ismereteiket, tapasztalataikat a leendő dúláknak. Mindkét tréning bejárással zajlik, de a vidékről érkező résztvevőknek, valamint – a késő estig (általában 22 óráig) tartó tréningnapok miatt – a budapestieknek is igény esetén szálláslehetőséget biztosítok a helyszínen.
           </p>
 
           <p>
-              A jelentkezéseket a befizetések sorrendjében fogadom, a résztvevőknek részletes tájékoztatót küldök. Részletfizetési lehetőséget biztosítok, erről személyesen (telefonon vagy email-en keresztül) lehet velem egyeztetni.
+              A jelentkezéseket a befizetések sorrendjében fogadom, a résztvevőknek részletes tájékoztatót küldök. Indokolt esetben részletfizetési lehetőséget biztosítok, erről személyesen (telefonon vagy e-mailen keresztül) lehet velem egyeztetni.
           </p>
 
           <p>
@@ -145,6 +151,68 @@ render(){
           <p>
               <i>Bankszámla szám: Békés Emőke<br/>CIB: 10702332-66569772-51100005</i>
           </p>
+          </div>
+
+          <section className="dulaslider-section dulaslider-testi" aria-labelledby="dulaslider-testi-label">
+    <div className="dulaslider-container">
+      <ul className="dulaslider-slider">
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "#e8dee4"}}>
+            <div className="dulaslider-card-content">     
+              <blockquote className="dulaslider-body-sm">
+              Az előzetes elképzeléseimnél jóval többet kaptam a motivációs tréningen. Rálátást az erősségeimre és a gyengébb pontjaimra, iránymutatást, hogy mivel kell foglalkoznom a jövőben. Segített hangosan kimondani olyan dolgokat, amit azelőtt nem mertem, vagy nem is tudtam, hogy fáj vagy hiányzik.
+              </blockquote>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Ebben a két napban az érzelmek teljes skáláján mozogtam. Örültem, szomorkodtam, féltem, feloldódtam, békét találtam.
+
+              </blockquote>
+           </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              A tréningen megszűnt a külvilág. Megszűntek a kinti gondok. Jól esett befelé figyelni. <br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+             Segített hangosan kimondani olyan dolgokat, amit azelőtt nem mertem, vagy nem is tudtam, 
+              hogy fáj vagy hiányzik.
+              <br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              A csoport ereje segített megfogalmazni és kimondani, amit érzek, és ez határtalan megkönnyebbülést adott.
+              <br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
 
           <div className="doula-trening-details">
               <h6>Dúlatréning</h6>
@@ -155,9 +223,12 @@ render(){
           </div>
 
           <div className="doula-trening-button-box">
-            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most is megteheted</Button>               
+            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most megteheted</Button>               
           </div>
 
+          <p>
+            A tréning minimum 8 fő jelentkezése esetén indul!
+          </p>
           <p>
               Amennyiben valamilyen okból le kell mondanod a részvételedet, tájékoztatlak, hogy a tréning hetében történő lemondás esetén a részvételi díj 50%-át tudom visszafizetni, 48 órán belüli lemondás esetén azonban már ezt sem.
           </p>
@@ -175,7 +246,7 @@ render(){
           <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "#e8dee4"}}>
             <div className="dulaslider-card-content">     
               <blockquote className="dulaslider-body-sm">
-              Az előzetes elképzeléseimnél jóval többet kaptam a motivációs tréningen. Rálátást az erősségeimre és a gyengébb pontjaimra, iránymutatást, hogy mivel kell foglalkoznom a jövőben. Segített hangosan kimondani olyan dolgokat, amit azelőtt nem mertem, vagy nem is tudtam, hogy fáj vagy hiányzik.
+              Köszönöm azt a szeretetet és alázatot, ahogy a csoportot kíséritek! A kedves, bátorító, közvetlen hozzáállást, ami segítette a megnyílásunkat.
               </blockquote>
             </div>
           </div>
@@ -185,7 +256,7 @@ render(){
           <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
             <div className="dulaslider-card-content">
               <blockquote className="dulaslider-body-sm">
-              Sok ilyet még! Ilyen intenzív élménytalajt. Ennnyire kézzelfogható történeteket, az életet a maga valójában. Énekelni lenne kedvem, amit a világon a legjobban szeretek! Hú, ezt a közeget kerestem!
+              Szerintem ezen a tréningen minden nőnek részt kellene vennie. Valahol ez nekem a felnőtt létbe való belépés egyik mérföldkövét is jelentette. A magunkkal, nőieségünkkel, más nőkkel, a születésünkkel, szülésünkkel való kapcsolatunkat alapjaiban változtatja meg. Kiérzékenyít, magabiztossá tesz a társas kapcsolatainkban. Az életről tanít. Egy olyan világ, amiben szívesen létezem.
               </blockquote>
            </div>
           </div>
@@ -210,6 +281,17 @@ render(){
             </div>
           </div>
         </li>
+
+        <li className="dulaslider-slider-item dulaslider-card-container">
+          <div className="dulaslider-card dulaslider-card-lg" style={{"background-color": "hsl(324, 18%, 89% )"}}>
+            <div className="dulaslider-card-content">
+              <blockquote className="dulaslider-body-sm">
+              Örülök, hogy minden csoporttag kedves és elfogadó személyiség volt. Nagyon jó volt látni, hogy mindenki meg tudott nyílni, ahogy egy-egy téma megérintette az embereket. Fantasztikus előadókat ismerhettem meg, alapos tudással, szemléletes, magas színvonalú előadással. Jól illeszkedtek egymáshoz a témák. Gratulálok a szervezéshez, a tréningvezetéshez és köszönöm az odaadó figyelmet.<br/>
+              </blockquote><br/><br/>
+            </div>
+          </div>
+        </li>
+
       </ul>
     </div>
   </section>
@@ -336,7 +418,7 @@ render(){
                             <input type="checkbox" name="vehicle" id="vehicle" value="true" required/><br/>
                         </div>
                         <div className="alert">
-                            <p> Elolvastam és elfogadom az <a href="#" >Adatvédelmi tájékoztatót</a>. A jelentkezési lapon szereplő személyes adataim kezeléséhez és megőrzéséhez hozzájárulok. Adataim továbbítását csak a képzésemben közreműködő személyek és a jogszabályban felhatalmazott szervek felé engedélyezem. Megismertem és tudomásul vettem az adatkezelési tájékoztatóban foglaltakat, így azt, hogy személyes adataim a 2013. évi LXXVII. Tv. 21.§ előírásai alapján kerülnek kezelésre. Megőrzésük a jogszabály alapján 8 év. Adataim továbbítását csak a képzésemben közreműködő személyek felé engedélyezem, a jogszabályban felhatalmazott szervek felé való továbbításról külön rendelkezem.</p>
+                            <p> Elolvastam és elfogadom az <a href="#" >Adatvédelmi tájékoztatót</a>. A jelentkezési lapon szereplő személyes adataim kezeléséhez és megőrzéséhez hozzájárulok. Adataim továbbítását csak a képzésemben közreműködő személyek és a jogszabályban felhatalmazott szervek felé engedélyezem. Megismertem és tudomásul vettem az adatkezelési tájékoztatóban foglaltakat, így azt, hogy személyes adataim a 2013. évi LXXVII. Tv. 21.§ előírásai alapján kerülnek kezelésre. Megőrzésük a jogszabály alapján 8 év. Adataim továbbítását csak a képzésemben közreműködő személyek és a jogszabályban felhatalmazott szervek (pl. Felnőttoktatási Adatszolgáltató Rendszer) felé engedélyezem.</p>
                         </div>
 
                         <div className="appli-button-container">

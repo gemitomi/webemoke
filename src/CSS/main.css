@@ -375,7 +375,18 @@ html::-webkit-scrollbar-thumb{
 
     .service-home-btn{
         font-size: 2.5rem;
-        justify-content: center;
+        padding-top: 10px;
+       
+        margin-top:30px;
+        display:inline;
+    }
+
+    .service-content-text {
+        margin-bottom: 20px;
+    }
+
+    .service-content-text-4 {
+        margin-bottom: 20px;
     }
 
     .box-container{
@@ -502,8 +513,7 @@ html::-webkit-scrollbar-thumb{
         padding: 30px;
     }
 
-
-
+    
 }
 
 
@@ -1487,37 +1497,8 @@ svg circle{
         font-size: 2.8rem;
     }
 }
-/*
-@media (max-width:950px){
-    .feedback-title{
-        font-size: 5rem;
-    }
 
-    .feedback-name{
-        font-size: 3rem;
-    }
-
-    .feedback-button{
-        font-size: 2rem;
-    }
-}
-*/
-  /* Feedback end */
-
-
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for large than 575px screen
-   */
-  
   @media (min-width: 575px) {
-  
-    /**
-     * REUSED STYLE
-     */
   
     .container { 
       max-width: 570px;
@@ -1528,20 +1509,8 @@ svg circle{
     .slider { --slider-items: 2; }
   
 }
-  
-  
-  /**
-   * responsive for large than 768px screen
-   */
-  
-  @media (min-width: 768px) {
-  
 
-  
-  
-    /**
-     * REUSED STYLE
-     */
+  @media (min-width: 768px) {
   
     .container { max-width: 720px; }
   
@@ -1557,91 +1526,33 @@ svg circle{
     
   }
   
-  
-  /**
-   * responsive for large than 992px screen
-   */
-  
   @media (min-width: 992px) {
-  
-    /**
-     * CUSTOM PROPERTY
-     */
-  
     :root {
-  
-      /**
-       * typography
-       */
-  
       --fs-3: 7rem;
-  
     }
-  
-  
-  
-    /**
-     * REUSED STYLE
-     */
-  
+
     .container { max-width: 960px; }
   
     .title-wrapper { gap: 15%; }
   
     .slider { --slider-items: 3; }
-
-  
-  
-  }
-  
-  
-  
-  
-  
-  /**
-   * responsive for large than 1200px screen
-   */
-  
-  @media (min-width: 1200px) {
-  
-    /**
-     * CUSTOM PROPERTY
-     */
-  
-    :root {
-  
-      /**
-       * spacing
-       */
-  
-      --section-padding: 140px;
-  
     }
   
-  
-  
-    /**
-     * REUSED STYLE
-     */
-  
+  @media (min-width: 1200px) {
+      :root {
+      --section-padding: 140px;
+    }
+
     .container { max-width: 1140px; }
-  
-  
 }
 
-
-/*media queries*/
-
 @media (max-width:1200px){
-
     section{
         padding: 3rem 5%;
     }
-
 }
 
 @media (max-width:991px){
-
     html{
         font-size: 55%;
     }
@@ -1664,7 +1575,7 @@ svg circle{
     }
 }
 
-@media (max-width:450px){
+@media (max-width:500px){
 
     html{
         font-size: 50%;
@@ -1673,8 +1584,18 @@ svg circle{
     .feedback{
         padding: 1rem 1%;
     }
-   
 
+    .feedback-tags a{
+        padding: 0.5rem;
+        font-size: 3rem;
+    }
+    .feedback-name {
+        font-size: 2.8rem;
+    }
+   
+    .feedback-button-btn .feedback-button-btn1 {
+        font-size: 3rem;
+    }
 }
 
 /*blog vége*/
@@ -1899,12 +1820,9 @@ svg circle{
         font-size: 30%;
     }
 
+    .footer .credit {
+        font-size: 1.8rem;
+    }
+    
+    
 }
-
-/*.facebook{
-    font-size: 40px;
-    text-align: center;
-}*/
-
-/*media queries*/
-/*only screen and opció lehetséges*/

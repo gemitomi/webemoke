@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/main.css";
 import "../../CSS/dulagallery.css"
@@ -15,8 +15,24 @@ import PicDulaKor9 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulako
 import PicDulaKor10 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-010.jpg";
 import PicDulaKor11 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-011.jpg";
 import PicDulaKor12 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-012.jpg";
+import PicDulaKor13 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-013.jpg";
+import PicDulaKor14 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-014.jpg";
+import PicDulaKor15 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-015.jpg";
+import PicDulaKor16 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-016.jpg";
+
+
 
 export default function GalleryDulaKor() {
+  const [current_image, set_current_image] = useState(null)
+
+ //useEffect(() => {
+   // if (current_image){
+    //  document.body.style.overflowY = "hidden"
+  //  }else{
+    //  document.body.style.overflowY = "auto"
+   //  }
+ // }, [current_image])
+
   return (
     <div>
          <section className="galery">
@@ -25,18 +41,25 @@ export default function GalleryDulaKor() {
             </div>
 
             <div className="galery-container">
-                <div className="galery-box"><img src={PicDulaKor1}/></div>
-                <div className="galery-box"><img src={PicDulaKor2}/></div>
-                <div className="galery-box"><img src={PicDulaKor3}/></div>
-                <div className="galery-box"><img src={PicDulaKor4}/></div>
-                <div className="galery-box"><img src={PicDulaKor5}/></div>
-                <div className="galery-box"><img src={PicDulaKor6}/></div>
-                <div className="galery-box"><img src={PicDulaKor7}/></div>
-                <div className="galery-box"><img src={PicDulaKor8}/></div>
-                <div className="galery-box"><img src={PicDulaKor9}/></div>
-                <div className="galery-box"><img src={PicDulaKor10}/></div>
-                <div className="galery-box"><img src={PicDulaKor11}/></div>
-                <div className="galery-box"><img src={PicDulaKor12}/></div>
+              {
+                current_image&& <div className="galery-img-viewer" onClick={e => set_current_image(null)}><img src={current_image} alt="" /></div>
+              }
+                <div className="galery-box"><img src={PicDulaKor1} onClick={e => set_current_image(PicDulaKor1)}/></div>
+                <div className="galery-box"><img src={PicDulaKor2} onClick={e => set_current_image(PicDulaKor2)}/></div>
+                <div className="galery-box"><img src={PicDulaKor3} onClick={e => set_current_image(PicDulaKor3)}/></div>
+                <div className="galery-box"><img src={PicDulaKor4} onClick={e => set_current_image(PicDulaKor4)}/></div>
+                <div className="galery-box"><img src={PicDulaKor5} onClick={e => set_current_image(PicDulaKor5)}/></div>
+                <div className="galery-box"><img src={PicDulaKor6} onClick={e => set_current_image(PicDulaKor6)}/></div>
+                <div className="galery-box"><img src={PicDulaKor7} onClick={e => set_current_image(PicDulaKor7)}/></div>
+                <div className="galery-box"><img src={PicDulaKor8} onClick={e => set_current_image(PicDulaKor8)}/></div>
+                <div className="galery-box"><img src={PicDulaKor9} onClick={e => set_current_image(PicDulaKor9)}/></div>
+                <div className="galery-box"><img src={PicDulaKor10} onClick={e => set_current_image(PicDulaKor10)}/></div>
+                <div className="galery-box"><img src={PicDulaKor11} onClick={e => set_current_image(PicDulaKor11)}/></div>
+                <div className="galery-box"><img src={PicDulaKor12} onClick={e => set_current_image(PicDulaKor12)}/></div>
+                <div className="galery-box"><img src={PicDulaKor13} onClick={e => set_current_image(PicDulaKor13)}/></div>
+                <div className="galery-box"><img src={PicDulaKor14} onClick={e => set_current_image(PicDulaKor14)}/></div>
+                <div className="galery-box"><img src={PicDulaKor15} onClick={e => set_current_image(PicDulaKor15)}/></div>
+                <div className="galery-box"><img src={PicDulaKor16} onClick={e => set_current_image(PicDulaKor16)}/></div>
                 
             </div>
     </section>

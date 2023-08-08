@@ -39,20 +39,20 @@ export default function About() {
                     Mélyen hiszek abban, hogy a társas támasz jelentősége - mely a bizalmon és a biztonságérzeten alapul - rendkívül fontos mindkét szülő számára a várandósság hónapjai alatt, a szülés óráiban és a gyermekágyas időszakban egyaránt. Éppen ezért minden esetben igyekszem nem csak az anya nyugalmát és biztonságérzetét megteremteni, hanem a megszülető család minden tagjára egyaránt figyelni. Rendkívül fontosnak tartom azt, hogy az apa is biztonságban érezze magát, és az újszülött is az őt megillető tiszteletben és bánásmódban részesüljön.
                 </p>
                 <br/>
-                <Link to="/szulesfelkeszites">Szülésfelkeszítés ►</Link>
+                <Link to="/szulesfelkeszites">Szülésfelkészítés ►</Link>
                 <br/>
                 <Link to="/egyenikonzultacio">Egyéni konzultáció ►</Link>
                 <p className="text"><br/>
                     Kísérésem igény szerint a gyermekágy időszakában vagy akár még később is tart, mivel a szülők gyakran fordulnak hozzám a családdá válás folyamán felmerült kérdésekkel. 
-                    Ez a bizalom motivált arra, hogy elvégezzem a <b>rendszerszemléletű pár- és családterápiás</b> képzést, aminek hamarosan a végére érek. Jelenleg terapeuta párjaimmal, szupervízió mellett segítjük a hozzánk fordulókat.
+                    Ez a bizalom motivált arra, hogy elvégezzem a <Link to="/csaladterapia"><b>rendszerszemléletű pár- és családterápiás</b> </Link>képzést, aminek hamarosan a végére érek. Jelenleg terapeuta párjaimmal, szupervízió mellett segítjük a hozzánk fordulókat.
                 </p>
 
                 <p className="text">
-                    <b>A Békés Dúlakör szakmai vezetője</b>ként mindent megteszek annak érdekében, hogy az egészségügyi ellátórendszer is elfogadja a dúlai hivatásnak a létjogosultságát, mely a jelenlegi szülészeti helyzetben különösen hiánypótló.
+                <Link to="/dulakor"><b>A Békés Dúlakör szakmai vezetője</b></Link>ként mindent megteszek annak érdekében, hogy az egészségügyi ellátórendszer is elfogadja a dúlai hivatásnak a létjogosultságát, mely a jelenlegi szülészeti helyzetben különösen hiánypótló.
                 </p>
 
                 <p className="text">
-                    Tudásom, tapasztalataim és rendszerszemléletű gondolkodásmódom átadásával <b>képzem a dúlai hivatás iránt érdeklődőket,</b> folyamatos egyéni- és csoportos szupervíziós támogatást nyújtva számukra.
+                    Tudásom, tapasztalataim és rendszerszemléletű gondolkodásmódom átadásával <Link to="/bekesdulatrening"><b>képzem a dúlai hivatás iránt érdeklődőket,</b></Link> folyamatos egyéni- és csoportos szupervíziós támogatást nyújtva számukra.
                 </p>
                 
                 <p className="text">
@@ -87,7 +87,7 @@ export default function About() {
                 </div>
                 <div className="about-exp-text">
                 <p className="text">
-                    A 2001. tavaszán megalakult <Link to="http://www.module.hu" target="_blank">Magyarországi Dúlák Egyesületének</Link> alapító tagja és hat évig az elnöke voltam.
+                    A 2001. tavaszán megalakult Magyarországi Dúlák Egyesületének alapító tagja és hat évig az elnöke voltam.
                 </p> 
                 <p className="text">
                     E szervezet, majd a <Link to="/dulakor">Békés Dúlakör</Link> szakmai vezetőjeként a legfontosabbnak azt tartom, hogy mind a leendő anyákkal, mind pedig az egészségügyi ellátórendszerben dolgozó szakszemélyzettel (védőnők, szülésznők, orvosok) megismertessem az általunk nyújtott támogatás lényegét és rövid- és hosszútávú előnyeit. 
@@ -104,7 +104,7 @@ export default function About() {
                     2004. óta szervezek <Link to="/bekesdulatrening">dúla alaptréningeket</Link> illetve erre épülő <Link to="/bekesdulamuhely">továbbképzéseket,</Link >melyben trénerként dolgozom, valamint rendszeresen tartok <Link to="/esetmegbeszelo">esetmegbeszéléseket</Link> gyakorló dúláknak.
                 </p> 
                 <p className="text">
-                    2007. júliusától 2010. februárjáig a <Link to="http://www.nlcafe.hu/csalad/20070628/a_dula_valaszol/" target="_blank">Nők Lapja Café</Link> internetes portálon rovatot vezettem A dúla válaszol címmel. (A cikkek itt az oldalon, a Publikációim rovat alatt is olvashatóak.)
+                    2007. júliusától 2010. februárjáig a Nők Lapja Café internetes portálon rovatot vezettem A dúla válaszol címmel. (A cikkek itt az oldalon, a <Link to="/publications">Publikációim </Link>rovat alatt is olvashatóak.)
                     Évekig részt vettem a Születés Hete országos rendezvénysorozat szervezésében.
                 </p> 
                 <p className="text">
