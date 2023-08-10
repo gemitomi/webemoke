@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/EgyeniKonzultacio.css"
 import "../../CSS/nevelesitanacsadas.css"
 import NevTan from "../../image/nevelesi_tanacsadas_title.png";
 
 export default function NevelesiTanacsadas() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <section className="nevtan-consultation">

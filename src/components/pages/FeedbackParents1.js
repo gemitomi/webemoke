@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import Masonry from 'react-masonry-css';
 import "../../CSS/feedback.css";
@@ -26,6 +26,11 @@ export default function FeedbackParents1() {
         1080: 2,
         710: 1
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
     return (
     <div>
           <div className="feedback-partner-div">

@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/feedbackParent.css"
 
 import FszSzulo12 from "../../../image/feedback_szulo_12.png";
 
 export default function FeedBack92HE() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
             <section className="feedback-parent">

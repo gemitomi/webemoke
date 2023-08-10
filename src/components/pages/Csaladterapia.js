@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/EgyeniKonzultacio.css"
 import "../../CSS/csaladterapia.css"
 import CsalTeraphy from "../../image/csaladterapia-img.png";
 
 export default function Csaladterapia() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
   <div>
      <section className="family-consultation">

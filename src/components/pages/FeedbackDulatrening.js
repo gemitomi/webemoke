@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 
 import { Link } from "react-router-dom";
 import "../../CSS/feedback.css";
@@ -7,6 +7,9 @@ import TrainingVissza from "../../image/trening_vissza.png"
 import Citates from "../../image/citates.png";
 
 export default function FeedbackDulatrening() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div className="feedback-section">
       <section className="feedback">

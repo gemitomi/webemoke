@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/szulesfelkeszites.css"
 import SzulesFelk from "../../image/szulesfelkeszites_2.png";
 import SzulfelLista from "../../image/szulesfelkeszites_1.png"
 
 export default function SzulesFelkeszites() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
       <section className="szulfel">

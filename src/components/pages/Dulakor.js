@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect }  from "react";
+
 import { Link } from "react-router-dom";
 import "../../CSS/dulacircle.css"
 import DulaKorCircle from "../../image/dulakor_logo.jpg";
 
 export default function Dulakor() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
   return (
     <div>
       <section className="bekesdulakor-other">

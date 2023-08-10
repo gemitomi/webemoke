@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import "../../CSS/main.css";
 import "../../CSS/dulagallery.css"
 
@@ -24,6 +23,10 @@ import PicDulaKor16 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulak
 
 export default function GalleryDulaKor() {
   const [current_image, set_current_image] = useState(null)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
  //useEffect(() => {
    // if (current_image){

@@ -1,4 +1,4 @@
-import React, {CSSProperties} from "react";
+import React, {CSSProperties, useEffect} from "react";
 import "../../CSS/services.css"
 import { Link } from "react-router-dom";
 
@@ -11,6 +11,9 @@ import SzulFel from "../../image/szulesfelkeszites.png"
 import SzulEsemeny from "../../image/szuleselmenyfeldolgozas.png"
 
 export default function Services() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div>      
   <section className="serv-home-service">
@@ -88,7 +91,7 @@ export default function Services() {
             
                     <div className="serv-service-card">
                         <div className="serv-service-imageBx">
-                            <img src={SzulFel} alt=""/>
+                            <img src={SzulEsemeny} alt=""/>
                         </div>
                         <div className="serv-service-contentBx" style={{'background': "#e8dee4"}}>
                             <div className="serv-service-content">

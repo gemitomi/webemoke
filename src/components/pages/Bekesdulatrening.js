@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect} from "react";
 import { Link } from "react-router-dom";
 import { Button, Modal} from 'react-bootstrap'; 
 import emailjs from '@emailjs/browser';
@@ -20,6 +20,8 @@ const sendEmail = (e) => {
 
 }
 
+
+
 class Bekesdulatrening extends React.Component {  
 constructor(){  
   super();  
@@ -32,6 +34,7 @@ handleModal(){
   this.setState({show:!this.state.show})  
 }  
 render(){
+ 
   return (
     <div className="doula">
       <div className="doula-trening">
@@ -437,5 +440,7 @@ render(){
     </div>
   )
 }
-}  
+} 
+
+
 export default Bekesdulatrening;

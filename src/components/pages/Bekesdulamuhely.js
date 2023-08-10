@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/bekesdulamuhely.css"
 import "../../CSS/bekesdulaslider.css"
@@ -6,6 +6,9 @@ import "../../CSS/bekesdulaslider.css"
 import BekesDulaWork from "../../image/dula_muhely.png"
 
 export default function Bekesdulamuhely() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <section className="bekesdulamuhely">

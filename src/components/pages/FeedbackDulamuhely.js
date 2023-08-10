@@ -1,11 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect }  from "react";
 import "../../CSS/feedback.css";
 
 import MuhelyVissza from "../../image/muhely_vissza.png";
 import Citates from "../../image/citates.png";
 
 export default function FeedbackDulamuhely() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div className="feedback-section">
        <section className="feedback">

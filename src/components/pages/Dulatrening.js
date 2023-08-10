@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/dulatrening.css"
 
@@ -8,6 +8,9 @@ import BekesDulaEset from "../../image/dula_esetmegbeszelo_subpage.png";
 import BekesDulaGyik from "../../image/gyik_subpage.png";
 
 export default function Dulatrening() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <section className="dulasubpage">

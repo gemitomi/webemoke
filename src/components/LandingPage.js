@@ -8,6 +8,7 @@ import CsaladTer from "../image/csaladterapia.png"
 import AnyavaVal from "../image/anyavavalas.png"
 import NevTan from "../image/nevelesitanacsadas.png"
 import SzulFel from "../image/szulesfelkeszites.png"
+import SzulEsemeny from "../image/szuleselmenyfeldolgozas.png"
 
 import Post1 from "../image/blog/blog_01_hero_ki a dula.png"
 import Post2 from "../image/blog/blog_02_hero_dulahatas.png"
@@ -30,6 +31,10 @@ import DulaMuhely from "../image/dula_muhely_subpage.png"
 import EsetBesz from "../image/dula_esetmegbeszelo_subpage.png"
 
 export default function LandingPage() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
     const SliderComponent = () => {
         useEffect(() => {
@@ -225,7 +230,7 @@ export default function LandingPage() {
             
                     <div className="service-card">
                         <div className="service-imageBx">
-                            <img src={SzulFel} alt=""/>
+                            <img src={SzulEsemeny} alt=""/>
                         </div>
                         <div className="service-contentBx" style={{'background': "#e8dee4"}}>
                             <div className="service-content">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/feedbackpartners.css"
 
@@ -6,6 +6,9 @@ import FpPartner2 from "../../../image/feedback_partner_2.png";
 
 
 export default function PfeedBack2hb() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div>
         <section className="feedback-partner">

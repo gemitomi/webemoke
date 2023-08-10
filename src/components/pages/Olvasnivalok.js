@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/olvasnivalok.css"
 
@@ -8,6 +8,10 @@ import Olvas3 from "../../image/publik_01.png";
 
 
 export default function Olvasnivalok() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div>
       <section className="latestblog">

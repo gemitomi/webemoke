@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/storymother3.css"
 
 export default function StoryMother3() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
             <section className="section-anyavalas">

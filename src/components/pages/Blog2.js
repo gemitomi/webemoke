@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import Masonry from 'react-masonry-css';
 import { Link } from "react-router-dom";
 import "../../CSS/blog.css"
@@ -33,6 +33,10 @@ export default function Blog2() {
     800: 2,
     690: 1
 }
+
+useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="blog">

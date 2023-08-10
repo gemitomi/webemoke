@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import "../../CSS/test.css"
 
 import ProfilePic from "../image/bekes_emoke_1.png"
 
 export default function Test() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
   <div>
   <section className="test-home-about">

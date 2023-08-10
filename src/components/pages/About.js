@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/about.css";
 import ProfilePic from "../../image/bekes_emoke.png"
@@ -6,6 +6,9 @@ import PicWay from "../../image/rolam-motivacio.jpg"
 import PicMot from "../../image/rolam-palyaiv.jpg"
 
 export default function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div>
         <section className="about">

@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/EgyeniKonzultacio.css"
 
 import Egyeni from "../../image/egyeni_1.png";
 
 export default function EgyeniKonzultacio() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     
     <div >

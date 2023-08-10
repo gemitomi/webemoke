@@ -10,7 +10,6 @@ import Mail1 from "../../image/mail_1.png"
 import Call1 from "../../image/call_1.png"
 
 export default function Contact() {
-  
 
   const sendEmail = (e) => {
     e.preventDefault();

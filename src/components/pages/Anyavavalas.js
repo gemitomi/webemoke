@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/anyavavalas.css"
 
@@ -8,6 +8,9 @@ import Sardinia from "../../image/szardinia-szandra.jpg"
 
 
 export default function Anyavavalas() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div>
       <section className="anya-section anya-testi" aria-labelledby="anya-testi-label">

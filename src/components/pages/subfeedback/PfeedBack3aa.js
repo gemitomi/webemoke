@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/feedbackpartners.css"
 
 import FpPartner3 from "../../../image/feedback_partner_3.png";
 
 export default function PfeedBack3aa() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
              <section className="feedback-partner">

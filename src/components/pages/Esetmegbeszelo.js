@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import '../../CSS/esetmegbeszelo.css'; 
 import EsetMeg from "../../image/eset_csop.png"
 
 export default function Esetmegbeszelo() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <div>
       <section className="esetmegbeszelo">

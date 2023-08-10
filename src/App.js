@@ -242,6 +242,7 @@ import Public72 from "./components/pages/publications/Public72"
 import Public73 from "./components/pages/publications/Public73"
 
 function App() {
+
   return (
     <BrowserRouter>
       <div className="App">

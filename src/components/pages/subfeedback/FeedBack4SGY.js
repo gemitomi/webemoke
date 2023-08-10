@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/feedbackParent.css"
 
 import FszSzulo4 from "../../../image/feedback_szulo_4.png";
 
 export default function FeedBack4SGY() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
             <section className="feedback-parent">

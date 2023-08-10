@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/feedback.css"
 
@@ -9,6 +9,9 @@ import TrainingVissza from "../../image/trening_vissza.png"
 import MuhelyVissza from "../../image/muhely_vissza.png"
 
 export default function Feedback() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="subfeedback-section">
       <section className="subfeedback-sub">

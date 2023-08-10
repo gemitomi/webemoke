@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/szuleselmenyfeldolg.css"
 import SzulesExp from "../../image/szuleselmeny_apa.png";
 
 export default function SzulesElmenyFeldolg() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     
     <div>
