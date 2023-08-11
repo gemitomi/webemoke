@@ -12,7 +12,7 @@ import DoulaTrain from "../../image/dula_treningek.png"
 const sendEmail = (e) => {
   e.preventDefault();
   
-  emailjs.sendForm('service_nclcu9j', 'template_f8fh6j8', e.target, 'dvGDZxVnl8xRc5665');
+  emailjs.sendForm('service_ypmq9fn', 'template_odjt9jc', e.target, 'TH5PXQILsu0-BX7d-');
   alert('Jelentkezését továbbítottuk!');
   document.getElementById("sendbox").reset();
   
@@ -406,7 +406,7 @@ render(){
 
                         <div className="appli-inputBox">
                             <label>e-mail cím (kötelező)</label>
-                            <input type="text" name="email_from" id="emailFrom" required/>
+                            <input type="text" name="email_from" id="email_from" required/>
                         </div>
                         <div className="appli-inputBox">
                             <label>Kérlek írj néhány mondatot magadról és a motivációidról! (kötelező)</label>

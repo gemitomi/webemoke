@@ -30,7 +30,7 @@ export default function Dulakor() {
                   </p>
                       
                   <p>
-                      A <a href="https://www.bekesemoke.hu/dulatrening/">dúlatréningek</a> célja eleinte főként a „szakmai” információk átadása volt. 
+                      A <Link to="https://www.bekesemoke.hu/dulatrening/">dúlatréningek</Link> célja eleinte főként a „szakmai” információk átadása volt. 
                       Emellett nagy hangsúlyt kaptak önismereti, motivációkat feltáró elemek is, 
                       mivel a csoportokkal végzett munkám illetve a hivatásom gyakorlása során 
                       összegyűlt tapasztalataim alapján egyre inkább azt éreztem, hogy a segítői 
@@ -65,7 +65,7 @@ export default function Dulakor() {
           <h3>A Békés Dúlakör jelene</h3>
 
           <p>
-              A Békés Dúlakörnek jelenleg 56 tagja van. (Az aktív tagok, jelenleg választható dúlák bemutatkozását és fényképét itt láthatod: <a href="http://www.bekesdulakor.hu">https://bekesdulakor.hu)</a>
+              A Békés Dúlakörnek jelenleg 56 tagja van. (Az aktív tagok, jelenleg választható dúlák bemutatkozását és fényképét itt láthatod: <Link to="http://www.bekesdulakor.hu">https://bekesdulakor.hu)</Link>
           </p>
 
           <p>
@@ -153,13 +153,13 @@ export default function Dulakor() {
           <h4>A Békés Dúlakör elérhetőségei:</h4>
 
           <div className="bekesdulakor-elerheto">
-              <a href="https://bekesdulakor.hu" className="bekesdulakor-oldal">www.bekesdulakor.hu</a>
+              <Link to="https://bekesdulakor.hu" className="bekesdulakor-oldal">www.bekesdulakor.hu</Link>
               <p>Facebook: Békés Dúlakör<br/>e-mail:</p>
-              <a href="mailto:gyermekaldas@bekesemoke.hu" className="bekesdulakor-oldal">gyermekaldas@bekesemoke.hu</a>
+              
               <br/>
-              <a href="mailto:elnokseg@bekesdulakor.hu" className="bekesdulakor-oldal">elnokseg@bekesdulakor.hu</a>
+              <Link to="mailto:elnokseg@bekesdulakor.hu" className="bekesdulakor-oldal">elnokseg@bekesdulakor.hu</Link>
               <br/>
-              <a href="mailto:titkarsag@bekesdulakor.hu" className="bekesdulakor-oldal">titkarsag@bekesdulakor.hu</a>
+              <Link to="mailto:titkarsag@bekesdulakor.hu" className="bekesdulakor-oldal">titkarsag@bekesdulakor.hu</Link>
               <p>telefon: +36 70 948-5481</p>
 
             </div>

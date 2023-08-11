@@ -1,4 +1,5 @@
 import React, {useRef} from 'react'
+import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import { Button } from '@mui/material';
 import "../../CSS/contact.css"
@@ -14,7 +15,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('service_nclcu9j', 'template_f8fh6j8', e.target, 'dvGDZxVnl8xRc5665');
+    emailjs.sendForm('service_ypmq9fn', 'template_odjt9jc', e.target, 'TH5PXQILsu0-BX7d-');
     alert('Kérdését továbbítottuk!');
     document.getElementById("sendbox").reset();
 
@@ -28,15 +29,15 @@ export default function Contact() {
           <div>
               <h2>Kapcsolat</h2>
               <ul className="info">
-              <a href="http://maps.google.com/?q=Budaörs+napsugar+setany+4" target="_blank"><li>
+              <Link to="http://maps.google.com/?q=Budaörs+napsugar+setany+4" target="_blank"><li>
                       <span><img src={Location1}/></span>
                       <span>2040 Budaörs<br/>
                           Napsugár sétány 4. II/13</span>
-                  </li></a>
-                  <a href="mailto:bekes.emoke@gmail.com"><li>
+                  </li></Link>
+                  <Link to="mailto:bekes.emoke@gmail.com"><li>
                       <span><img src={Mail1}/></span>
                       <span>bekes.emoke@gmail.com</span>
-                  </li></a>
+                  </li></Link>
                   <li>
                       <span><img src={Call1}/></span>
                       <span>+36-70-948-5481</span>
@@ -60,7 +61,7 @@ export default function Contact() {
                   </div>
                   
                   <div className="inputBox w50">
-                      <input type="text" name="email_from" id="emailFrom" required/>
+                      <input type="text" name="email_from" id="email_from" required/>
                       <span>e-mail cím</span>
                   </div>
 
