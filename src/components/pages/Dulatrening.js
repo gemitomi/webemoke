@@ -108,7 +108,7 @@ export default function Dulatrening() {
                     <img src={BekesDulaGyik} width="800" height="540" loading="lazy"
                       alt="gyakori kerdesek" className="dula-subpage-img-cover"/>
   
-                    <Link to="/gyik" className="dula-subpage-btn-icon">
+                    <Link to="/gyakori-kerdesek-a-kepzesekrol" className="dula-subpage-btn-icon">
                       <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
                     </Link>
                   </div>
@@ -121,7 +121,7 @@ export default function Dulatrening() {
   
                     
   
-                    <Link to="/gyik" className="dula-subpage-btn">Tovább</Link>
+                    <Link to="/gyakori-kerdesek-a-kepzesekrol" className="dula-subpage-btn">Tovább</Link>
   
                   </div>
   

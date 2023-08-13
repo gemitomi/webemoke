@@ -117,7 +117,7 @@ export default function LandingPage() {
                             Három felnőtt lányom édesanyja és egy kislány unokám nagymamája vagyok.
                             Boldogsággal tölt el, hogy több mint két évtizede megtaláltam azt a hivatást, amelyet nagyon szeretek. Szülésfelkészítő és családkísérő dúlaként egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.
                         </p>
-                    <center><Link to="/about" className="latest-blog-btn"><span>Bővebben</span></Link></center>
+                    <center><Link to="/bekes-emoke" className="latest-blog-btn"><span>Bővebben</span></Link></center>
                 </div>
             </section>
 
@@ -147,7 +147,7 @@ export default function LandingPage() {
                                 </div>
 
                                 <div className="content">
-                                    <Link to="/about" className="btn"><span>Bővebben</span></Link>
+                                    <Link to="/bekes-emoke" className="btn"><span>Bővebben</span></Link>
                                 </div>
                             </div>
                         </div>
@@ -284,7 +284,7 @@ export default function LandingPage() {
                                 <img src={DulaTrainig} alt="Bekes Dulatrening"/>
                                     <div className="dula-education-txt-box">
                                         <h2 className="dula-education-title">Békés Dúlatréning<br/><span>alaptréning</span></h2>
-                                        <Link to="/bekesdulatrening" className="dula-education-btn">Bővebben</Link>
+                                        <Link to="/bekes-dulatrening-alapkepzes" className="dula-education-btn">Bővebben</Link>
                                     </div>
                             </div>
 
@@ -308,7 +308,7 @@ export default function LandingPage() {
                 </div>
                 <div className="dula-education">
                     <div className="education-faq">
-                        <Link to="/gyik" className="latest-blog-btn">Gyakori kérdések a képzésekről</Link>
+                        <Link to="/gyakori-kerdesek-a-kepzesekrol" className="latest-blog-btn">Gyakori kérdések a képzésekről</Link>
                     </div>
                 </div>
 

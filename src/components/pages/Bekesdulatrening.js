@@ -238,7 +238,7 @@ render(){
 
           
           <div className="doula-trening-faq">
-              <Link to="/gyik" className="doula-trening-btn">Olvasd el a leggyakrabban előforduló kérdésekre adott válaszokat a tréninggel kapcsolatban!</Link>
+              <Link to="/gyakori-kerdesek-a-kepzesekrol" className="doula-trening-btn">Olvasd el a leggyakrabban előforduló kérdésekre adott válaszokat a tréninggel kapcsolatban!</Link>
           </div>
   <div>
 

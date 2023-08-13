@@ -55,7 +55,7 @@ export default function About() {
                 </p>
 
                 <p className="text">
-                    Tudásom, tapasztalataim és rendszerszemléletű gondolkodásmódom átadásával <Link to="/bekesdulatrening"><b>képzem a dúlai hivatás iránt érdeklődőket,</b></Link> folyamatos egyéni- és csoportos szupervíziós támogatást nyújtva számukra.
+                    Tudásom, tapasztalataim és rendszerszemléletű gondolkodásmódom átadásával <Link to="/bekes-dulatrening-alapkepzes"><b>képzem a dúlai hivatás iránt érdeklődőket,</b></Link> folyamatos egyéni- és csoportos szupervíziós támogatást nyújtva számukra.
                 </p>
                 
                 <p className="text">
@@ -104,7 +104,7 @@ export default function About() {
             </div>
 
                 <p className="text">
-                    2004. óta szervezek <Link to="/bekesdulatrening">dúla alaptréningeket</Link> illetve erre épülő <Link to="/bekesdulamuhely">továbbképzéseket,</Link >melyben trénerként dolgozom, valamint rendszeresen tartok <Link to="/esetmegbeszelo">esetmegbeszéléseket</Link> gyakorló dúláknak.
+                    2004. óta szervezek <Link to="/bekes-dulatrening-alapkepzes">dúla alaptréningeket</Link> illetve erre épülő <Link to="/bekesdulamuhely">továbbképzéseket,</Link >melyben trénerként dolgozom, valamint rendszeresen tartok <Link to="/esetmegbeszelo">esetmegbeszéléseket</Link> gyakorló dúláknak.
                 </p> 
                 <p className="text">
                     2007. júliusától 2010. februárjáig a Nők Lapja Café internetes portálon rovatot vezettem A dúla válaszol címmel. (A cikkek itt az oldalon, a <Link to="/publications">Publikációim </Link>rovat alatt is olvashatóak.)

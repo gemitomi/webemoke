@@ -8,7 +8,7 @@ export default function Footer() {
       <section className="footer">
         <div className="box-container">
           <div className="box">
-              <Link to="/gyik"> <i className="fas fa-angle-right"></i> GYIK</Link>
+              <Link to="/gyakori-kerdesek-a-kepzesekrol"> <i className="fas fa-angle-right"></i> GYIK</Link>
               <Link to="https://bekesemoke.hu/Adatkezelesi_tajekoztato.pdf"> <i className="fas fa-angle-right"></i> Adatkezelési Tájékoztató</Link>
               <Link to="/felhasznalasi-feltetelek"> <i className="fas fa-angle-right"></i> Felhasználási feltételek</Link>
           </div>

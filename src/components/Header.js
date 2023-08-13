@@ -12,7 +12,7 @@ function MenuItems() {
           <div><Link to="/">Főoldal</Link></div>
         </li>
         <li>
-          <div><Link to="/about">Rólam</Link></div>
+          <div><Link to="/bekes-emoke">Rólam</Link></div>
         </li>
       
         <li>  
@@ -30,10 +30,10 @@ function MenuItems() {
         <li>     
           <div><Link to="/dulatrening">Dúlatréning</Link>
           <ul className="dropdown">
-            <li><a href="/bekesdulatrening">Békés Dúlatréning - alaptréning</a></li>
+            <li><a href="/bekes-dulatrening-alapkepzes">Békés Dúlatréning - alaptréning</a></li>
             <li><a href="/bekesdulamuhely">Békés Dúlaműhely - továbbképzés</a></li>
             <li><a href="/esetmegbeszelo">Esetmegbeszélő csoport</a></li>
-            <li><a href="/gyik">Gyakori kérdések a képzésekről</a></li>
+            <li><a href="/gyakori-kerdesek-a-kepzesekrol">Gyakori kérdések a képzésekről</a></li>
           </ul>
           </div>
         </li>   

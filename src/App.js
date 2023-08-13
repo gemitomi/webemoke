@@ -250,7 +250,7 @@ function App() {
           <Header/>
 
           <Routes>
-            <Route path="/about" element={<About/>}/>
+            <Route path="/bekes-emoke" element={<About/>}/>
             <Route path="/services" element={<Services/>}/>
             <Route path="/dulatrening" element={<Dulatrening/>}/>
             <Route path="/dulakor" element={<Dulakor/>}/>
@@ -282,14 +282,14 @@ function App() {
             <Route path="/anyavavalas" element={<Anyavavalas/>}/>
             <Route path="/csaladterapia" element={<Csaladterapia/>}/>
             <Route path="/bekesdulamuhely" element={<Bekesdulamuhely/>}/>
-            <Route path="/bekesdulatrening" element={<Bekesdulatrening/>}/>
+            <Route path="/bekes-dulatrening-alapkepzes" element={<Bekesdulatrening/>}/>
             <Route path="/egyenikonzultacio" element={<EgyeniKonzultacio/>}/>
             <Route path="/esetmegbeszelo" element={<Esetmegbeszelo/>}/>
             <Route path="/nevelesitanacsadas" element={<NevelesiTanacsadas/>}/>
             <Route path="/szuleselmenyfeldolg" element={<SzulesElmenyFeldolg/>}/>
             <Route path="/szulesfelkeszites" element={<SzulesFelkeszites/>}/>
             <Route path="/gyik-szuloktol" element={<GyikSzuloktol/>}/>
-            <Route path="/gyik" element={<Gyik/>}/>
+            <Route path="/gyakori-kerdesek-a-kepzesekrol" element={<Gyik/>}/>
           </Routes>
 
           <Routes>
