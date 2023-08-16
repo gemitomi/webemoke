@@ -6,7 +6,8 @@ import Impressum from "./components/impressum";
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  Navigate
 } from "react-router-dom"
 import About from "./components/pages/About";
 import Services from "./components/pages/Services";
@@ -276,9 +277,8 @@ function App() {
             <Route path="/felhasznalasi-feltetelek" element={<Impressum/>}/>
             
             <Route path="/" element={<LandingPage/>}/>
-          </Routes>
-
-          <Routes>
+            
+          
             <Route path="/anyavavalas" element={<Anyavavalas/>}/>
             <Route path="/csaladterapia" element={<Csaladterapia/>}/>
             <Route path="/bekesdulamuhely" element={<Bekesdulamuhely/>}/>
@@ -290,9 +290,7 @@ function App() {
             <Route path="/szulesfelkeszites" element={<SzulesFelkeszites/>}/>
             <Route path="/gyik-szuloktol" element={<GyikSzuloktol/>}/>
             <Route path="/gyakori-kerdesek-a-kepzesekrol" element={<Gyik/>}/>
-          </Routes>
-
-          <Routes>
+          
             <Route path="/anyava-valasom-soran-volt-a-biztos-pont" element={<FeedBack1DF/>}/>
             <Route path="/egeszsegesenmegszuletett-a-kislanyom" element={<FeedBack2FT/>}/>
             <Route path="/nem-volt-kerdes-a-dulavalasztas" element={<FeedBack3NZS/>}/>
@@ -313,9 +311,7 @@ function App() {
             <Route path="/oly-tavol-vagy-tolem-megis-kozel" element={<StoryMother1/>}/>
             <Route path="/szulni-a-szulofoldon-szardinia" element={<StoryMother2/>}/>
             <Route path="/anyava-valni-cipruson" element={<StoryMother3/>}/>
-          </Routes>
-
-          <Routes>
+          
             <Route path="/ki-a-dula-es-miben-segit" element={<SubBlog01/>}/>
             <Route path="/dulahatas-kutatasok-eredmenyek" element={<SubBlog02/>}/>
             <Route path="/dulatreningre-menni-jo" element={<SubBlog03/>}/>
@@ -379,9 +375,7 @@ function App() {
             <Route path="/konyvheti-pszichofesztival-a-radayban" element={<SubBlog61/>}/>
             <Route path="/utitars" element={<SubBlog62/>}/>
             <Route path="/melyinterju" element={<SubBlog63/>}/>
-          </Routes>
-
-          <Routes>
+          
             <Route path="/kortars-kontosbe-bujt-javasasszony" element={<BirthStory01/>}/>
             <Route path="/csodak-marpedig-vannak" element={<BirthStory02/>}/>
             <Route path="/fele-lettem-a-gyermeknek" element={<BirthStory03/>}/>
@@ -418,9 +412,7 @@ function App() {
             <Route path="/megszuletett-a-kistesom" element={<BirthStory34/>}/>
             <Route path="/madarka" element={<BirthStory35/>}/>
             <Route path="/tango-egy-gyermekert" element={<BirthStory36/>}/>
-          </Routes>
-
-          <Routes>
+          
             <Route path="/otthonszules-vagy-korhazi-szules" element={<Public01/>}/>
             <Route path="/indulas-erkezes" element={<Public02/>}/>
             <Route path="/csaszarmetszes-utan" element={<Public03/>}/>
@@ -495,6 +487,7 @@ function App() {
             <Route path="/az-elvalasrol" element={<Public71/>}/>
             <Route path="/a-kisbabasirasrol" element={<Public72/>}/>
             <Route path="/a-csaszarmetszesrol" element={<Public73/>}/>
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           
         </div>

@@ -200,7 +200,7 @@
     padding: 10px;
   }
 
-@media (max-width: 1330px){
+@media (max-width: 1180px){
 
 
     .serv-service-home-btn{
@@ -221,7 +221,7 @@
     }
 
     .serv-service-content-text{
-        font-size: 2.6rem; 
+        font-size: 2.4rem; 
         margin-bottom: 20px;       
     }
 

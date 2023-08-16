@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import "../CSS/impressum.css"
 
-export default function impressum() {
+export default function Impressum() {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   
   return (
     <div>

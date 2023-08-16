@@ -410,7 +410,7 @@ export default function LandingPage() {
 
                                     <span className="text-lg author">Békés Emőke</span>
 
-                                    <Link to="/dulahatas" className="btn">Bővebben</Link>
+                                    <Link to="/dulahatas-kutatasok-eredmenyek" className="btn">Bővebben</Link>
 
                                     
 
