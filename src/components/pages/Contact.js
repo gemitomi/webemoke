@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, {useRef, useEffect} from 'react'
 import { Link } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import { Button } from '@mui/material';
@@ -20,7 +20,9 @@ export default function Contact() {
     document.getElementById("sendbox").reset();
 
   }
-   
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []) 
   return (
     <div>
     <section className="contact">

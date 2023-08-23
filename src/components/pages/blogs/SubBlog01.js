@@ -8,6 +8,9 @@ import Pic1 from "../../../image/blog/blog_01_ki a dula.png";
 import Pic2 from "../../../image/blog/blog_01_a_ki a dula.png";
 
 export default function SubBlog01() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     
   return (
   <div>

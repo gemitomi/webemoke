@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/blog_global.css"
 
@@ -7,6 +7,9 @@ import Blog3Pic1 from "../../../image/blog/blog_03_hero_dulatrening.png";
 import Blog3Pic2 from "../../../image/blog/blog_03_dulatrening_menni.png";
 
 export default function SubBlog03() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div>
        <section className="section-blog-global">

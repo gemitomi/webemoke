@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/blog_global.css"
 
@@ -6,6 +6,9 @@ import Public01Pic1 from "../../../image/publications/public-01-hero-otthon szul
 import Public01Pic2 from "../../../image/publications/public-01-otthon szules-vagy-korhazi-szules.png";
 
 export default function Public01() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
              <section className="section-blog-global">

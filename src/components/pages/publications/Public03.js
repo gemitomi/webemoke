@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/blog_global.css"
 
@@ -6,6 +6,9 @@ import Public03Pic1 from "../../../image/publications/public-03-hero-csaszarmets
 import Public03Pic2 from "../../../image/publications/public-03-csaszarmetszes-utan.jpg";
 
 export default function Public03() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
            <section className="section-blog-global">

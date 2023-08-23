@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../../../CSS/blog_global.css"
 
@@ -6,6 +6,9 @@ import Birth36Pic1 from "../../../image/szulestort/szules-story-36-hero-tango-eg
 import Birth36Pic2 from "../../../image/szulestort/szules-story-36-hero-tango-egy-gyermekert.png";
 
 export default function BirthStory36() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return <div>
     <section className="section-blog-global">
         <div className="blog-global-container">
