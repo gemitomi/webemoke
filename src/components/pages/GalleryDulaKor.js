@@ -10,7 +10,6 @@ import PicDulaKor5 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulako
 import PicDulaKor6 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-06.jpg";
 import PicDulaKor7 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-07.jpg";
 import PicDulaKor8 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-08.jpg";
-import PicDulaKor9 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-09.png";
 import PicDulaKor10 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-010.jpg";
 import PicDulaKor11 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-011.jpg";
 import PicDulaKor12 from "../../image/gallery/bekesdulakrgallerykpek/bekes-dulakor-012.jpg";
@@ -40,7 +39,7 @@ export default function GalleryDulaKor() {
     <div>
          <section className="galery">
             <div className="galery-galery">
-                <h1 className="galery-title">Képek a Békés dúlakör életéből</h1>
+                <h1 className="galery-title">Képek a Békés Dúlakör életéből</h1>
             </div>
 
             <div className="galery-container">
@@ -55,7 +54,6 @@ export default function GalleryDulaKor() {
                 <div className="galery-box"><img src={PicDulaKor6} onClick={e => set_current_image(PicDulaKor6)}/></div>
                 <div className="galery-box"><img src={PicDulaKor7} onClick={e => set_current_image(PicDulaKor7)}/></div>
                 <div className="galery-box"><img src={PicDulaKor8} onClick={e => set_current_image(PicDulaKor8)}/></div>
-                <div className="galery-box"><img src={PicDulaKor9} onClick={e => set_current_image(PicDulaKor9)}/></div>
                 <div className="galery-box"><img src={PicDulaKor10} onClick={e => set_current_image(PicDulaKor10)}/></div>
                 <div className="galery-box"><img src={PicDulaKor11} onClick={e => set_current_image(PicDulaKor11)}/></div>
                 <div className="galery-box"><img src={PicDulaKor12} onClick={e => set_current_image(PicDulaKor12)}/></div>

@@ -116,7 +116,7 @@ render(){
           </div>
 
           <div className="doula-trening-button-box">
-            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most megteheted</Button>               
+            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni,<br/>itt és most megteheted!</Button>               
           </div>
 
           
@@ -226,7 +226,7 @@ render(){
           </div>
 
           <div className="doula-trening-button-box">
-            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni<br/>itt és most megteheted</Button>               
+            <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni,<br/>itt és most megteheted!</Button>               
           </div>
 
           <p>

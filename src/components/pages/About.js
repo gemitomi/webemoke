@@ -2,8 +2,8 @@ import React, { useEffect }  from "react";
 import { Link } from "react-router-dom";
 import "../../CSS/about.css";
 import ProfilePic from "../../image/bekes_emoke.png"
-import PicWay from "../../image/rolam-motivacio.jpg"
-import PicMot from "../../image/rolam-palyaiv.jpg"
+import PicWay from "../../image/palyaiv.jpg"
+import PicMot from "../../image/motivacioim.jpg"
 
 export default function About() {
     useEffect(() => {

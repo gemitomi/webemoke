@@ -76,7 +76,7 @@ export default function Services() {
                         <div className="serv-service-imageBx">
                             <img src={SzulFel} alt=""/>
                         </div>
-                        <div className="serv-service-contentBx" style={{'background': "#cfdade#e8dee4"}}>
+                        <div className="serv-service-contentBx" style={{'background': "#cfdade"}}>
                             <div className="serv-service-content">
                                 <h3 className="serv-service-content-title">Szülésfelkészítés</h3>
                                 <p className="serv-service-content-text">

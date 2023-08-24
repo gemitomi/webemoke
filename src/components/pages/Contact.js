@@ -36,9 +36,9 @@ export default function Contact() {
                       <span>2040 Budaörs<br/>
                           Napsugár sétány 4. II/13</span>
                   </li></Link>
-                  <Link to="mailto:bekes.emoke@gmail.com"><li>
+                  <Link to="mailto:figyelekrad@bekesemoke.hu"><li>
                       <span><img src={Mail1}/></span>
-                      <span>bekes.emoke@gmail.com</span>
+                      <span>figyelekrad@bekesemoke.hu</span>
                   </li></Link>
                   <li>
                       <span><img src={Call1}/></span>

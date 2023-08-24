@@ -27,7 +27,7 @@ export default function Dulatrening() {
                   <img src={BekesDulaTr} width="800" height="540" loading="lazy"
                     alt="bekes dulatrening" className="dula-subpage-img-cover"/>
 
-                  <Link to="/bekesdulatrening" className="dula-subpage-btn-icon">
+                  <Link to="/bekes-dulatrening-alapkepzes" className="dula-subpage-btn-icon">
                     <ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
                   </Link>
                 </div>
@@ -40,7 +40,7 @@ export default function Dulatrening() {
 
                   
 
-                  <Link to="/bekesdulatrening" className="dula-subpage-btn">Tovább</Link>
+                  <Link to="/bekes-dulatrening-alapkepzes" className="dula-subpage-btn">Tovább</Link>
 
                 </div>
 
