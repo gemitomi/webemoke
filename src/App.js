@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
 import Impressum from "./components/impressum";
+import ScrollToTop from "./components/ScrollToTop";
 
 import {
   BrowserRouter,
@@ -249,7 +250,7 @@ function App() {
       <div className="App">
         <div>
           <Header/>
-
+          <ScrollToTop>
           <Routes>
             <Route path="/bekes-emoke" element={<About/>}/>
             <Route path="/services" element={<Services/>}/>
@@ -489,6 +490,7 @@ function App() {
             <Route path="/a-csaszarmetszesrol" element={<Public73/>}/>
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
+          </ScrollToTop>
           
         </div>
         <Footer/>
