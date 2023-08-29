@@ -29,7 +29,9 @@ export default function About() {
                 </div>
                 <div className="col-right">
                     <h2 className="titleText">Békés Emőke vagyok.</h2>
-                    <p className="text">Három felnőtt lányom édesanyja és egy kislány unokám nagymamája vagyok.</p>
+                    <p className="text">Nomen est omen – „Nevében a sorsa.” – tartja a latin mondás.<br/>
+                    Alighanem ez így is van, hiszen a vezeték- és a keresztnevem jelentése összeolvasva: békés, anyatejjel táplált újszülött, csecsemő.<br/>
+                    És valóban: nemcsak a hozzám forduló szülők, hanem az ő kisbabáik jólléte is nagyon fontos nekem.</p>
                     <p className="text">Boldogsággal tölt el, hogy több mint két évtizede megtaláltam azt a hivatást, amelyet nagyon szeretek. <b>Szülésfelkészítő és családkísérő dúla</b>ként egyéni konzultációk, segítő beszélgetések és csoportos szülésfelkészítés keretében kísérem a leendő anyákat és apákat a szülővé válás folyamatában.</p>
                     <p className="text">Hivatásom gyakorlása során arra törekszem, hogy a várandós nőknek és párjaiknak a számukra legmegfelelőbb érzelmi, fizikai és informatív támaszt nyújtva segítsek abban, hogy olyan szülésélményük legyen, amilyet szeretnének. </p>
                 </div>
