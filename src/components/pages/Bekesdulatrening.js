@@ -15,12 +15,7 @@ const sendEmail = (e) => {
   emailjs.sendForm('service_ypmq9fn', 'template_odjt9jc', e.target, 'TH5PXQILsu0-BX7d-');
   alert('Jelentkezését továbbítottuk!');
   document.getElementById("sendbox").reset();
-  
-
-
 }
-
-
 
 class Bekesdulatrening extends React.Component {  
 constructor(){  
@@ -61,7 +56,6 @@ render(){
               az esetmegbeszélő csoportokon és a műhelymunka <Link to="/bekesdulamuhely">Békés Dúlaműhely</Link> keretein belül biztosítok lehetőséget.
           </p>
 
-
           <p>
               Nagy örömömre a tréningre egyre többször jelentkeznek szülésznők, védőnők vagy más szülés körüli segítők, de nagy érdeklődésre tart számot a korábban teljesen más foglalkozást végzők között is. Sokan jönnek a tréningre olyanok is, akik a saját anyaságukra készülnek vagy a nőiségük, anyaságuk önismereti kérdéseiben szeretnének elmélyülni. 
           </p>
@@ -70,9 +64,7 @@ render(){
             A tréning valamennyi, kiváló előadójával mindent megteszek azért, hogy magas minőségű, pontos és hiteles információkon alapuló képzésben részesüljenek a Békés Dúlatréningre jelentkezők. 
           </p>
 
-          
-
-          <h5>2023 őszén a nagy érdeklődésre való tekintettel újra indul csoport!</h5>
+          <h5>A nagy érdeklődésre való tekintettel 2024 év nyarán két csoport is indul!</h5>
 
           <p>
             Az alapképzés két, egymásra épülő tréningből áll. 
@@ -119,12 +111,10 @@ render(){
             <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni,<br/>itt és most megteheted!</Button>               
           </div>
 
-          
-
           <div className="doula-trening-details">
               <h6>Motivációs tréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">A következő motivációs tréning <b>2023. szeptember 30. – október 1.</b> (szombat-vasárnap) indul.</li>
+                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2024. augusztus 3-4. </b>(Ez a csoport időközben már megtelt!), illetve <b>augusztus 24-25. </b>(Ide még lehet jelentkezni!).</li>
                   <li className="doula-trening-has-before">A tréning részvételi díja: 70. 000 Ft</li>
               </ul>
           </div>
@@ -152,11 +142,11 @@ render(){
           </p>
 
           <p>
-              <i>Bankszámla szám: Békés Emőke<br/>CIB: 10702332-66569772-51100005</i>
+              <i>Bankszámlaszám: Békés Emőke<br/>CIB: 10702332-66569772-51100005</i>
           </p>
           </div>
 
-          <section className="dulaslider-section dulaslider-testi" aria-labelledby="dulaslider-testi-label">
+  <section className="dulaslider-section dulaslider-testi" aria-labelledby="dulaslider-testi-label">
     <div className="dulaslider-container">
       <ul className="dulaslider-slider">
         <li className="dulaslider-slider-item dulaslider-card-container">
@@ -220,7 +210,7 @@ render(){
           <div className="doula-trening-details">
               <h6>Dúlatréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">A következő dúlatréning, amely a motiváció tréningre épül, <b>2023. november 9-12-én</b> (csütörtök reggeltől - vasárnap délutánig) indul.</li>
+                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b>2024. szeptember 12-15. </b>(Ez a csoport időközben már megtelt!), illetve <b>szeptember 26-29. </b>(Ide még lehet jelentkezni!).</li>
                   <li className="doula-trening-has-before">A tréning részvételi díja: 110. 000 Ft</li>
               </ul>
           </div>
@@ -304,9 +294,6 @@ render(){
             <div className="doula-trening-faq">
                 <Link to="/dula-trening-galeria" className="doula-trening-btn">Pillants bele a Békés Dúlatréning világába! <br/> A tréningről készült képeket itt tudod megtekinteni</Link>
             </div>
-
-            
-
 
             <div className="doula-trening-topic">
                 <div className="doula-trening-topicBx">
