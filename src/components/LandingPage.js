@@ -100,9 +100,7 @@ export default function LandingPage() {
           for (let i = 0, len = sliders.length; i < len; i++) {
             initSlider(sliders[i]);
           }
-        }, []);
-    
-    
+        }, []);   
     
     return (
         <div>

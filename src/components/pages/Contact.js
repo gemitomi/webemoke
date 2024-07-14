@@ -78,7 +78,7 @@ export default function Contact() {
                   </div>
 
                   <div className="inputBox w50">
-                      <Button type="submit">Küldés</Button>
+                      <Button name="send" id="send" type="submit">Küldés</Button>
                   </div>
                 </div>
               </form>
