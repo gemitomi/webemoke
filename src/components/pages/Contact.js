@@ -49,7 +49,8 @@ export default function Contact() {
         </div>
             <div className="contactForm">
               <h1 >Kapcsolatfelvétel</h1>
-              <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
+              {/*<form id='sendbox' name='sendbox' onSubmit={sendEmail}>*/}
+              <form id='sendbox' name='sendbox' action="mail.php" method="POST">
                 <div className="formBox">
                   
                   <div className="inputBox w50">
@@ -75,9 +76,17 @@ export default function Contact() {
                   <div className="inputBox w100">
                       <textarea name="message" id="message" required></textarea>
                       <label htmlFor='message'>Kérem küldjön nekem üzenetet itt...</label>
+                  </div> 
+                  
+                  <div className="contact-check-box">
+                    
+                    <input type="checkbox" name="vehicle" id="vehicle" value="true" required="required"/>
+                    
+                    <p> Elolvastam és elfogadom az <Link to="https://bekesemoke.hu/static/media/Adatkezelesi_tajekoztato.dbba1550e721a89700a0.pdf">Adatvédelmi tájékoztatót.</Link></p>
+                
+                      
                   </div>
-
-                  <div className="inputBox w50">
+                  <div className="inputBox">
                       <Button name="send" id="send" type="submit">Küldés</Button>
                   </div>
                 </div>

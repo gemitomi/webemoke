@@ -23,25 +23,48 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
     // Ellenőrzés, hogy minden szükséges mező ki van-e töltve
     if (!empty($surname) && !empty($firstname) && !empty($mobil)  && !empty($email) &&  !empty($message)) {
         // Email törzs összeállítása
-        $body = "Név: " . $name . " " . $firstname . "\r\n<br/>";
+        $body = "Név: " . $surname . " " . $firstname . "\r\n<br/>";
         $body .= "Telefonszám: " . $mobil . "\r\n<br/>";
         $body .= "Üzenet: " . $message . "\r\n<br/>";
 
         // Email fejléc összeállítása
         $mailheader = 'MIME-Version: 1.0' . "\r\n";
         $mailheader .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $mailheader .= "From: " . $name . " <" . $email . ">\r\n";
+        $mailheader .= "From: " . $surname . " " . $firstname . " <" . $email . ">\r\n";
 
-        $recipient = "info@bekesemoke.hu";
+        $recipient = "figyelekrad@bekesemoke.hu, bekes.emoke@gmail.com";
+        //$recipient = "info@webrabbit.hu";
 
         // Email küldése
         if (mail($recipient, $subject, $body, $mailheader)) {
-            $messageBox = "Email sikeresen elküldve!";
+
+            $confirmationSubject = "Visszaigazolás";
+            $confirmationBody = "
+            <html>
+                <head>
+                <title>Visszaigazolás</title>
+                </head>
+                <body>
+                    <p>Köszönöm az érdeklődését!</p>
+                    <p>Hamarosan felveszem a kapcsolatot Önnel.</p> <br>
+                    <p>Kérem erre az üzenetre ne válaszoljon.</p> <br>
+                   
+                    <p>Üdvözlettel: <br><br>
+                    <img src='https://bekesemoke.hu/static/media/signature.JPG' alt='Aláírás'></p>
+                </body>
+            </html>
+            ";
+            $confirmationHeaders = "From: no-reply@bekesemoke.hu\r\n";
+            $confirmationHeaders .= "MIME-Version: 1.0\r\n";
+            $confirmationHeaders .= "Content-type: text/html; charset=UTF-8\r\n";
+            if (mail($email, $confirmationSubject, $confirmationBody, $confirmationHeaders)) {
+                $messageBox = "Email sikeresen elküldve!";
+            } else {
+                $messageBox = "Hiba történt az email küldése során.";
+            }
         } else {
-            $messageBox = "Hiba történt az email küldése során.";
+            $messageBox = "Kérjük, töltse ki az összes mezőt!";
         }
-    } else {
-        $messageBox = "Kérjük, töltse ki az összes mezőt!";
     }
 }
 ?>
@@ -59,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
             var message = "<?php echo $messageBox; ?>";
             if (message) {
                 alert(message);
-                window.location.href = "https://www.gemeterzsuzsa.hu";
+                window.location.href = "https://www.bekesemoke.hu";
             }
         }
     </script>

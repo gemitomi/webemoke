@@ -9,13 +9,13 @@ import "../../CSS/bekesdulaslider.css"
 
 import DoulaTrain from "../../image/dula_treningek.png"
 
-const sendEmail = (e) => {
+{/*const sendEmail = (e) => {
   e.preventDefault();
   
   emailjs.sendForm('service_ypmq9fn', 'template_odjt9jc', e.target, 'TH5PXQILsu0-BX7d-');
   alert('Jelentkezését továbbítottuk!');
   document.getElementById("sendbox").reset();
-}
+}*/}
 
 class Bekesdulatrening extends React.Component {  
 constructor(){  
@@ -63,8 +63,6 @@ render(){
           <p>
             A tréning valamennyi, kiváló előadójával mindent megteszek azért, hogy magas minőségű, pontos és hiteles információkon alapuló képzésben részesüljenek a Békés Dúlatréningre jelentkezők. 
           </p>
-
-          <h5>A nagy érdeklődésre való tekintettel 2024 év nyarán két csoport is indul!</h5>
 
           <p>
             Az alapképzés két, egymásra épülő tréningből áll. 
@@ -114,8 +112,8 @@ render(){
           <div className="doula-trening-details">
               <h6>Motivációs tréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2024. augusztus 3-4. </b>(Ez a csoport időközben már megtelt!), illetve <b>augusztus 24-25. </b>(Ide még lehet jelentkezni!).</li>
-                  <li className="doula-trening-has-before">A tréning részvételi díja: 70. 000 Ft</li>
+                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2024. október 12-13. </b></li>
+                  <li className="doula-trening-has-before">A tréning részvételi díja: 80.000 Ft</li>
               </ul>
           </div>
           <div>
@@ -210,8 +208,8 @@ render(){
           <div className="doula-trening-details">
               <h6>Dúlatréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b>2024. szeptember 12-15. </b>(Ez a csoport időközben már megtelt!), illetve <b>szeptember 26-29. </b>(Ide még lehet jelentkezni!).</li>
-                  <li className="doula-trening-has-before">A tréning részvételi díja: 110. 000 Ft</li>
+                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b>2024. november 14-17. </b></li>
+                  <li className="doula-trening-has-before">A tréning részvételi díja: 120.000 Ft</li>
               </ul>
           </div>
 
@@ -341,14 +339,15 @@ render(){
       </section>
 
       <div className="appli-box">    
-      <Modal  show={this.state.show} onHide={()=>this.handleModal()}>  
+      <Modal  show={this.state.show} >  
             <Modal.Header closeButton></Modal.Header>  
             <Modal.Body>
             <div >
                 <div className="appli-container">
                     <div className="form">
                     <h2 >Kapcsolatfelvétel</h2>
-                    <form id='sendbox' name='sendbox' onSubmit={sendEmail}>
+                    {/*<form id='sendbox' name='sendbox' onSubmit={sendEmail}>*/}
+                    <form id='sendbox' name='sendbox' action="form.php" method="POST">
                         <div>
                         
                         <div className="appli-inputBox">
@@ -413,7 +412,7 @@ render(){
 
                         <div className="appli-button-container">
                             
-                            <Button type="submit">Küldés</Button>
+                            <Button name="send" id="send" type="submit">Küldés</Button>
                         </div>
                         </div>              
                     </form>

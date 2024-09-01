@@ -21,13 +21,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
     $school = clean_input($_POST['school'] ?? '');
     $addres = clean_input($_POST['addres'] ?? '');
     $phone = clean_input($_POST['phone'] ?? '');
-    $email = clean_input($_POST['email'] ?? '');
+    $email_from = clean_input($_POST['email_from'] ?? '');
     $motivation = clean_input($_POST['motivation'] ?? '');
     $question = clean_input($_POST['question'] ?? '');
     $subject = "Jelentkezés az önismereti tréningre";
 
     // Ellenőrzés, hogy minden szükséges mező ki van-e töltve
-    if (!empty($name) && !empty($birthname) && !empty($birthday) && !empty($birthplace) && !empty($mother)  &&!empty($school)  && !empty($addres)  && !empty($phone) && !empty($email) &&  !empty($motivation) &&  $question) {
+    if (!empty($name) && !empty($birthname) && !empty($birthday) && !empty($birthplace) && !empty($mother)  &&!empty($school)  && !empty($addres)  && !empty($phone) && !empty($email_from) &&  !empty($motivation) &&  $question) {
 
         // Email törzs összeállítása
         $body = "Név: " . $name . "\r\n<br/>";
@@ -38,25 +38,48 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
         $body .= "Iskolai végzettség: " . $school . "\r\n<br/>";
         $body .= "Számlázási cím: " . $addres . "\r\n<br/>";
         $body .= "Telefonszám: " . $phone . "\r\n<br/>";
-        $body .= "E-mail: " . $email . "\r\n<br/>";
+        $body .= "E-mail: " . $email_from . "\r\n<br/>";
         $body .= "Motiváció: " . $motivation . "\r\n<br/>";
         $body .= "Kérdés: " . $question . "\r\n<br/>";
 
         // Email fejléc összeállítása
         $mailheader = 'MIME-Version: 1.0' . "\r\n";
         $mailheader .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-        $mailheader .= "From: " . $name . " <" . $email . ">\r\n";
+        $mailheader .= "From: " . $name . " <" . $email_from . ">\r\n";
 
-        $recipient = "info@gemeterzsuzsa.hu";
+        $recipient = "figyelekrad@bekesemoke.hu, bekes.emoke@gmail.com";
+        //$recipient = "info@webrabbit.hu";
 
         // Email küldése
         if (mail($recipient, $subject, $body, $mailheader)) {
-            $messageBox = "Email sikeresen elküldve!";
+
+            $confirmationSubject = "Visszaigazolás";
+            $confirmationBody = "
+            <html>
+                <head>
+                <title>Visszaigazolás</title>
+                </head>
+                <body>
+                    <p>Köszönöm az érdeklődését!</p>
+                    <p>Hamarosan felveszem a kapcsolatot Önnel.</p> <br>
+                    <p>Kérem erre az üzenetre ne válaszoljon.</p> <br>
+                   
+                    <p>Üdvözlettel: <br><br>
+                    <img src='https://bekesemoke.hu/static/media/signature.JPG' alt='Aláírás'></p>
+                </body>
+            </html>
+            ";
+            $confirmationHeaders = "From: no-reply@bekesemoke.hu\r\n";
+            $confirmationHeaders .= "MIME-Version: 1.0\r\n";
+            $confirmationHeaders .= "Content-type: text/html; charset=UTF-8\r\n";
+            if (mail($email_from, $confirmationSubject, $confirmationBody, $confirmationHeaders)) {
+                $messageBox = "Email sikeresen elküldve!";
+            } else {
+                $messageBox = "Hiba történt az email küldése során.";
+            }
         } else {
-            $messageBox = "Hiba történt az email küldése során.";
+            $messageBox = "Kérjük, töltse ki az összes mezőt!";
         }
-    } else {
-        $messageBox = "Kérjük, töltse ki az összes mezőt!";
     }
 }
 ?>
@@ -74,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
             var message = "<?php echo $messageBox; ?>";
             if (message) {
                 alert(message);
-                window.location.href = "https://www.gemeterzsuzsa.hu";
+                window.location.href = "https://www.bekesemoke.hu";
             }
         }
     </script>
