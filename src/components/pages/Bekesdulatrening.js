@@ -1,7 +1,7 @@
-import React, {useRef, useEffect} from "react";
+import React /*{useRef, useEffect}*/ from "react";
 import { Link } from "react-router-dom";
 import { Button, Modal} from 'react-bootstrap'; 
-import emailjs from '@emailjs/browser';
+/*import emailjs from '@emailjs/browser';*/
 
 import "../../CSS/bekesdulatraining.css"
 import "../../CSS/form.css"
@@ -9,13 +9,13 @@ import "../../CSS/bekesdulaslider.css"
 
 import DoulaTrain from "../../image/dula_treningek.png"
 
-{/*const sendEmail = (e) => {
+/*const sendEmail = (e) => {
   e.preventDefault();
   
   emailjs.sendForm('service_ypmq9fn', 'template_odjt9jc', e.target, 'TH5PXQILsu0-BX7d-');
   alert('Jelentkezését továbbítottuk!');
   document.getElementById("sendbox").reset();
-}*/}
+}*/
 
 class Bekesdulatrening extends React.Component {  
 constructor(){  
@@ -28,6 +28,11 @@ constructor(){
 handleModal(){  
   this.setState({show:!this.state.show})  
 }  
+
+handleClose = () => {
+  this.setState({ show: false });
+}
+
 render(){
  
   return (
@@ -112,7 +117,7 @@ render(){
           <div className="doula-trening-details">
               <h6>Motivációs tréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2024. október 12-13. </b></li>
+                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2025. január 25-26. </b></li>
                   <li className="doula-trening-has-before">A tréning részvételi díja: 80.000 Ft</li>
               </ul>
           </div>
@@ -208,7 +213,7 @@ render(){
           <div className="doula-trening-details">
               <h6>Dúlatréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b>2024. november 14-17. </b></li>
+                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b> 2025. február 27. - március 2. </b></li>
                   <li className="doula-trening-has-before">A tréning részvételi díja: 120.000 Ft</li>
               </ul>
           </div>
@@ -340,7 +345,7 @@ render(){
 
       <div className="appli-box">    
       <Modal  show={this.state.show} >  
-            <Modal.Header closeButton></Modal.Header>  
+            <Modal.Header closeButton onClick={this.handleClose}></Modal.Header>  
             <Modal.Body>
             <div >
                 <div className="appli-container">
