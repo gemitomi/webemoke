@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
     $subject = "Jelentkezés az önismereti tréningre";
 
     // Ellenőrzés, hogy minden szükséges mező ki van-e töltve
-    if (!empty($name) && !empty($birthname) && !empty($birthday) && !empty($birthplace) && !empty($mother)  &&!empty($school)  && !empty($addres)  && !empty($phone) && !empty($email_from) &&  !empty($motivation) &&  $question) {
+    if (!empty($name) && !empty($birthname) && !empty($birthday) && !empty($birthplace) && !empty($mother)  &&!empty($school)  && !empty($addres)  && !empty($phone) && !empty($email_from) &&  !empty($motivation) &&  isset($question)) {
 
         // Email törzs összeállítása
         $body = "Név: " . $name . "\r\n<br/>";
@@ -96,7 +96,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
         function showMessage() {
             var message = "<?php echo $messageBox; ?>";
             if (message) {
-                alert(message);
                 window.location.href = "https://www.bekesemoke.hu";
             }
         }

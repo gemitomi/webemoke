@@ -81,7 +81,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send'])) {
         function showMessage() {
             var message = "<?php echo $messageBox; ?>";
             if (message) {
-                alert(message);
                 window.location.href = "https://www.bekesemoke.hu";
             }
         }

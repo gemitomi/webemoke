@@ -40,10 +40,10 @@ export default function Contact() {
                       <span><img src={Mail1}/></span>
                       <span>figyelekrad@bekesemoke.hu</span>
                   </li></Link>
-                  <li>
+                  <Link to="tel:+36-70-948-5481"><li>
                       <span><img src={Call1}/></span>
                       <span>+36-70-948-5481</span>
-                  </li>
+                  </li></Link>
               </ul>
           </div>
         </div>
