@@ -117,7 +117,7 @@ render(){
           <div className="doula-trening-details">
               <h6>Motivációs tréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2025. március 29-30. </b></li>
+                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2025. augusztus 23-24. </b></li>
                   <li className="doula-trening-has-before">A tréning részvételi díja: 80.000 Ft</li>
               </ul>
           </div>
@@ -213,8 +213,8 @@ render(){
           <div className="doula-trening-details">
               <h6>Dúlatréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b> 2025. április 24-27. </b></li>
-                  <li className="doula-trening-has-before">A tréning részvételi díja: 120.000 Ft</li>
+                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b> 2025. szeptember 18-21. </b></li>
+                  <li className="doula-trening-has-before">A tréning részvételi díja: 140.000 Ft</li>
               </ul>
           </div>
 
