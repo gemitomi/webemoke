@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../CSS/test.css"
 
 import ProfilePic from "../image/bekes_emoke_1.png"
+import SzulVal from "../image/szulosegre_felkeszites.png"
 import EgyeniKonz from "../image/egyenikonzultacio.png"
 import CsaladTer from "../image/csaladterapia.png"
 import AnyavaVal from "../image/anyavavalas.png"
@@ -157,7 +158,23 @@ export default function LandingPage() {
                 <div className="service">
                     <h2 className="heading-title"> Szolgáltatások </h2>
                 </div>
+
                 <div className="box-container">
+                    <div className="service-card">
+                        <div className="service-imageBx">
+                            <img src={SzulVal} alt=""/>
+                        </div>
+                        <div className="service-contentBx" style={{'background': "#cfdade"}}>
+                            <div className="service-content">
+                                <h3 className="service-content-title">Szülőségre és a családi életre felkészítés</h3>
+                                <p className="service-content-text">
+                                    Családkísérő dúlaként tapasztalom és anyaként is megéltem, hogy amikor egy nő gyermeket vár, nagyon sokat informálódik, olvas, kérdez. Az internet hihetetlen mennyiségű – sokszor egymásnak ellentmondó – információt, tanácsot kínál, emellett számos szülésfelkészítő, szülőknek szóló önsegítő könyv elérhető, a barátnők, nőrokonok hasznos vagy olykor kéretlen tanácsairól nem is beszélve.
+                                </p>
+                                <Link to="/csaladdavalas" className="service-home-btn">Bővebben</Link>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="service-card">
                         <div className="service-imageBx">
                             <img className="servive-image" src={EgyeniKonz} alt="" />

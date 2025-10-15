@@ -45,9 +45,6 @@ export default function Csaladterapia() {
 
       <section className="family-consultation-citateBx">
         <p className="family-consultation-citate-text">
-          
-        
-        blablabla
         
         
         <h6>Penelope Leach – Picik és kicsik (Park Könyvkiadó 1991)</h6>

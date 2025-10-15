@@ -27,6 +27,7 @@ import FeedbackDulamuhely from "./components/pages/FeedbackDulamuhely";
 import Contact from "./components/pages/Contact";
 
 import Anyavavalas from "./components/pages/Anyavavalas";
+import Csaladdavalas from "./components/pages/Csaladdavalas";
 import Csaladterapia from "./components/pages/Csaladterapia";
 import Bekesdulamuhely from "./components/pages/Bekesdulamuhely";
 import Bekesdulatrening from "./components/pages/Bekesdulatrening";
@@ -281,6 +282,7 @@ function App() {
             
           
             <Route path="/anyavavalas" element={<Anyavavalas/>}/>
+            <Route path="/csaladdavalas" element={<Csaladdavalas/>}/>
             <Route path="/csaladterapia" element={<Csaladterapia/>}/>
             <Route path="/bekesdulamuhely" element={<Bekesdulamuhely/>}/>
             <Route path="/bekes-dulatrening-alapkepzes" element={<Bekesdulatrening/>}/>

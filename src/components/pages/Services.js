@@ -2,7 +2,7 @@ import React, {CSSProperties, useEffect} from "react";
 import "../../CSS/services.css"
 import { Link } from "react-router-dom";
 
-
+import SzulVal from "../../image/szulosegre_felkeszites.png"
 import EgyeniKonz from "../../image/egyenikonzultacio.png"
 import CsaladTer from "../../image/csaladterapia.png"
 import AnyavaVal from "../../image/anyavavalas.png"
@@ -21,6 +21,22 @@ export default function Services() {
                     <h2 className="serv-heading-title"> Szolgáltatások </h2>
                 </div>
                 <div className="serv-box-container">
+                    
+                     <div className="serv-service-card">
+                        <div className="serv-service-imageBx">
+                            <img src={SzulVal} alt=""/>
+                        </div>
+                        <div className="serv-service-contentBx" style={{'background': "#cfdade"}}>
+                            <div className="serv-service-content">
+                                <h3 className="serv-service-content-title">Szülőségre és a családi életre felkészítés</h3>
+                                <p className="serv-service-content-text">
+                                    Családkísérő dúlaként tapasztalom és anyaként is megéltem, hogy amikor egy nő gyermeket vár, nagyon sokat informálódik, olvas, kérdez. Az internet hihetetlen mennyiségű – sokszor egymásnak ellentmondó – információt, tanácsot kínál, emellett számos szülésfelkészítő, szülőknek szóló önsegítő könyv elérhető, a barátnők, nőrokonok hasznos vagy olykor kéretlen tanácsairól nem is beszélve.
+                                </p>
+                                <Link to="/csaladdavalas" className="serv-service-home-btn">Bővebben</Link>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div className="serv-service-card">
                         <div className="serv-service-imageBx">
                             <img className="servive-image" src={EgyeniKonz} alt="" />
