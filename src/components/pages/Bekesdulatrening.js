@@ -18,12 +18,39 @@ import DoulaTrain from "../../image/dula_treningek.png"
 }*/
 
 class Bekesdulatrening extends React.Component {  
-constructor(){  
-  super();  
-  this.state={  
-    show:false  
+  constructor() {  
+    super();  
+    this.state = {  
+      show: false,
+      // Kezdőértékek (akár üres szöveg vagy betöltés jelzés)
+      motivaciosIdopont: "2026. szeptember 19-20.",
+      motivaciosAr: "80.000 Ft",
+      alapIdopont: "2026. október 8-11.",
+      alapAr: "140.000 Ft"
+    };  
   }  
-}  
+
+  componentDidMount() {
+    // Betöltjük a JSON fájlt a public mappából
+    fetch('/treningData.json')
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error('Nem sikerült betölteni az adatokat');
+        }
+        return res.json();
+      })
+      .then((data) => {
+        this.setState({
+          motivaciosIdopont: data.motivaciosIdopont || this.state.motivaciosIdopont,
+          motivaciosAr: data.motivaciosAr || this.state.motivaciosAr,
+          alapIdopont: data.alapIdopont || this.state.alapIdopont,
+          alapAr: data.alapAr || this.state.alapAr
+        });
+      })
+      .catch((err) => console.error("Hiba a JSON betöltésekor:", err));
+  }
+
+
 
 handleModal(){  
   this.setState({show:!this.state.show})  
@@ -62,7 +89,7 @@ render(){
           </p>
 
           <p>
-              Nagy örömömre a tréningre egyre többször jelentkeznek szülésznők, védőnők vagy más szülés körüli segítők, de nagy érdeklődésre tart számot a korábban teljesen más foglalkozást végzők között is. Sokan jönnek a tréningre olyanok is, akik a saját anyaságukra készülnek vagy a nőiségük, anyaságuk önismereti kérdéseiben szeretnének elmélyülni. 
+              Nagy örömömre a tréningre egyre többször jelentkeznek szülésznők, védőnők vagy más szülés körüli segítők, de nagy érdekl-20ődésre tart számot a korábban teljesen más foglalkozást végzők között is. Sokan jönnek a tréningre olyanok is, akik a saját anyaságukra készülnek vagy a nőiségük, anyaságuk önismereti kérdéseiben szeretnének elmélyülni. 
           </p>
 
           <p>
@@ -114,13 +141,18 @@ render(){
             <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni,<br/>itt és most megteheted!</Button>               
           </div>
 
-          <div className="doula-trening-details">
+          {/* MOTIVÁCIÓS TRÉNING ADATAI */}
+            <div className="doula-trening-details">
               <h6>Motivációs tréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az önismereti, motivációs tréning kezdete:  <b>2026. február 14-15. </b></li>
-                  <li className="doula-trening-has-before">A tréning részvételi díja: 80.000 Ft</li>
+                <li className="doula-trening-has-before">
+                  Az önismereti, motivációs tréning kezdete: <b>{this.state.motivaciosIdopont}</b>
+                </li>
+                <li className="doula-trening-has-before">
+                  A tréning részvételi díja: {this.state.motivaciosAr}
+                </li>
               </ul>
-          </div>
+            </div>
           <div>
           <p>
               Ha esetleg kérdéseid vannak a tréninggel kapcsolatban vagy fizetési könnyítést szeretnél, írj a bekes.emoke@gmail.com címre vagy hívj a 70/948-5481-es számon.
@@ -210,13 +242,18 @@ render(){
     </div>
   </section>
 
-          <div className="doula-trening-details">
+          {/* DÚLATRÉNING ADATAI */}
+            <div className="doula-trening-details">
               <h6>Dúlatréning</h6>
               <ul className="doula-trening-list">
-                  <li className="doula-trening-has-before">Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b> 2026. március 12-15. </b></li>
-                  <li className="doula-trening-has-before">A tréning részvételi díja: 140.000 Ft</li>
+                <li className="doula-trening-has-before">
+                  Az erre épülő 4 napos, dúla alaptréning tervezett időpontja: <b>{this.state.alapIdopont}</b>
+                </li>
+                <li className="doula-trening-has-before">
+                  A tréning részvételi díja: {this.state.alapAr}
+                </li>
               </ul>
-          </div>
+            </div>
 
           <div className="doula-trening-button-box">
             <Button className="doula-trening-button" onClick={()=>this.handleModal()}>Ha szeretnél jelentkezni,<br/>itt és most megteheted!</Button>               
